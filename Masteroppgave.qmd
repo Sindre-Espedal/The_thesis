@@ -36,9 +36,19 @@ Basisnæring er ifølge McCann (2013) en næring som har spesialisert seg og pro
 
 ### Capello/Hoyts
 
+Den økonomiske eksport baseteori er utviklet for å bestemme rollen til etterspørselen når det gjelder vekst og utvikling til en region [@capello2015].
+
+Eksport base modellen ble utviklet av Homer Hoyt på 1930-tallet, og teorien baserer seg på at regioner og byer ikke kan stole utelukkende på endogene kapasiteter for å oppnå utvikling: deres økonomiske vekst er sterkt knyttet til faktorer eksternt fra det lokale systemet [@capello2015].
+
+Hoyt [@hoyt1954] forklarer at base-arbeiderne trenger tjenestene til detaljhandel, lokale offentlige arbeidere, lokal transport og utstyr, byggere, doktorer, tannleger og andre profesjonelle tjenester; disse arbeiderene som jobber for behovet til base-arbeiderne, kalles for lokal-arbeidere. Hoyt sier videre at en by eller region må produsere eksport for å kunne betale for importen av andre varer, og at disse basisnæringene i regionen eller byen er den primære årsaken til vekst [@hoyt1954].
+
+[@capello2015] formulerer videre Hoyt sin eskport base modell som følgende:
+
 $$
 P = aE_T
-$$ {#eq-1} $$
+$$ {#eq-1} 
+
+$$
 E_T = E_b + E_s
 $$ {#eq-2}
 
@@ -51,5 +61,9 @@ E_b = \bar{E}_b
 $$ {#eq-4}
 
 Ovenfor ser vi @eq-1.
+
+Hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-, base-sektor- og lokalsektor-sysselsetting (lokal tjenester).
+
+
 
 ## References
