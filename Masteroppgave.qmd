@@ -42,6 +42,33 @@ Eksport base modellen ble utviklet av Homer Hoyt på 1930-tallet, og teorien bas
 
 Hoyt [@hoyt1954] forklarer at base-arbeiderne trenger tjenestene til detaljhandel, lokale offentlige arbeidere, lokal transport og utstyr, byggere, doktorer, tannleger og andre profesjonelle tjenester; disse arbeiderene som jobber for behovet til base-arbeiderne, kalles for lokal-arbeidere. Hoyt sier videre at en by eller region må produsere eksport for å kunne betale for importen av andre varer, og at disse basisnæringene i regionen eller byen er den primære årsaken til vekst [@hoyt1954].
 
+
+Sysselsetting i basesektoren er eksogen for det økonomiske systemet, mens sysselsettingen for lokalsektoren er en andel $a$ av total sysselsetting. Ved enkel matematikk kan vi få frem:
+
+$$
+E_T = \frac{1}{1-a}E_b
+$$ {#eq-5.2} 
+
+Og på vekstrate betingelser, for én enkel periode:
+
+$$
+\Delta E_T = \frac{1}{1-a} \Delta E_b
+$$ {#eq-5.3} 
+
+@eq-5.3 sier at når sysselsetting øker i basissektoren, så undergår total sysselsetting mer enn en proporsjonal økning, hvis beløpet er definert av basemultiplikatoren () som per definisjon antar verdier større enn én. Hvis man antar en enkel andel, $b$, mellom total sysselsetting og befolkningen som er bosatt i området, kan vi skrive:
+
+$$
+P = bE_T, b >1
+$$ {#eq-5.4} 
+
+Ved å kombinere ligningene ovenfor, kan befolkningsveksten (og derfor den fysiske veksten i området) enkelt beregnes som:
+
+$$
+\Delta P = b \Delta E_T = \frac{b}{1-a} \Delta E_b
+$$ {#eq-5.5} 
+
+## Kapittel 10
+
 [@capello2015] formulerer videre Hoyt sin eskport base modell som følgende:
 
 $$
