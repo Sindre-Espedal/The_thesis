@@ -3,6 +3,8 @@ title: "Masteroppgave"
 author: "Morten Knutsen og Sindre M. Espedal"
 format: pdf
 editor: visual
+language: 
+  crossref-eq-prefix: "Ligning"
 bibliography: referanser_msb210/referanser_msb210.bib
 ---
 
@@ -16,15 +18,25 @@ library(tidyr)
 
 ### Capello/Hoyts
 
-$$P = aE_T$$ $$E_T = E_b + E_s$$ $$E_s = bP$$ $$E_b = \bar{E}_b$$
+$$
+P = aE_T
+$$ {#eq-1} 
 
-\[E_b = \bar{E}\_b\]
 
-```{=tex}
-\begin{equation*}
-   a^2 + b^2 = c^2
- \end{equation*}
-```
+$$
+E_T = E_b + E_s
+$$ {#eq-2}
+
+$$
+E_s = bP
+$$ {#eq-3}
+
+$$
+E_b = \bar{E}_b
+$$ {#eq-4} 
+
+Ovenfor ser vi @eq-1. 
+
 ### McCann
 
 ## References
