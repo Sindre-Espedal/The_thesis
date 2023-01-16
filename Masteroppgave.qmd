@@ -60,9 +60,35 @@ $$
 E_b = \bar{E}_b
 $$ {#eq-4}
 
-Ovenfor ser vi @eq-1.
-
 Hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-, base-sektor- og lokalsektor-sysselsetting (lokal tjenester).
+
+@eq-1 viser at befolkningen er proporsjonal med totalt antall sysselsatte.
+
+@eq-2 viser ar total sysselsetting er summen av base-sysselsetting og lokal-sysselsetting.
+
+@eq-3 viser lokalsysselsettingen er proporsjonal med bed befolkningen. 
+
+@eq-4 viser aktivitetsnivået i basisnæringene er eksogent gitt.
+
+[@capello2015] introduserer så et tidsetterslep i @eq-3 og ikke-lineariteter i @eq-1 og @eq-3, som vil si de subsidieres med:
+
+$$
+P = \alpha E_T, \alpha' > 0 
+$$ {#eq-5}
+
+$$
+E_s = \beta P, \beta' > 0 
+$$ {#eq-6}
+
+@eq-5 og @eq-6 viser at effekten av økt sysselsetting på befolkning er sterkere for høye sysselsettingsnivåer, og effekten av økt befolkning på sysselsettingen i lokal sektor er sterkere for høye befolkningsnivåer [@capello2015].
+
+Capello setter så inn fra ligning 2 og 6 i @eq-5, og får:
+
+$$
+P(t) = \beta\{E_b + \alpha [P(t-1)]\}
+$$ {#eq-7}
+
+
 
 
 
