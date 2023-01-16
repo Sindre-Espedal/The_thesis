@@ -14,7 +14,53 @@ library(tidyr)
 
 ## Beskrivelse
 
+Beyonder er en batteribedrift som virkelig mener alvor når det gjelder etableringen av
+en gigafabrikk på Haugaland næringspark i Gismarvik. Den kommersielle
+distribusjonen fra fabrikken er planlagt fra 2026 (Beyonder, 2022). I første
+omgang ser Beyonder for seg å ansette mellom 800-1000 arbeidstakere for å
+drifte de fem første produksjonshallene. De ser for seg i senere tid å etablere
+fem ekstra haller og med det sitte med 10 haller og da trenger cirka 2000
+ansatte hvorav 70-75% vil være fagarbeidere, 25-30% vil være ingeniører og i
+tillegg en administrasjon bestående av ledelse, økonomi, HR, HMS, supply chain
+osv. De ser for seg at de trenger cirka 50 ansatte i administrasjonen per 1000
+ansatte. Administrasjon kan ende opp i 100 ansatte. 
+
+​​Beyonder var første produsent av batteri-celler i Norge og ble etablert i slutten av
+første kvartal i 2016 (Brønnøysundregistrene, 2022). Beyonder har stadig
+utviklet seg og har i dag 59 ansatte (Proff, 2022).
+
+Beyonder produserer såkalte «høyeffektsbatterier», som er batterier med mye kraft.
+Batteriene er en hybrid mellom en kondensator og ett Lithiumion batteri hvor en
+ønsker å ta vare på de to ulike teknologienes fordeler og samtidig redusere de
+negative egenskapene i størst mulig grad, som løser utfordringen som ikke er
+adressert i dagens batterier i høy-kraft applikasjoner. Batteriene er også
+øko-vennlige, og produksjonen består av bruk av fornybar energi og sagspon
+(Beyonder, 2022).
+
+Beyonder sin teknologi gjør det mulig for industrier å elektrifisere produksjonen sin på
+en balansert og mer effektive måte (Beyonder, 2022). Denne løsningen, i tråd
+med FNs bærekrafts mål, vil gjøre at etterspørselen etter batterier vil
+overstige dagens globale tilbud. Beyonder planlegger dermed å etablere en
+gigafactory på Haugaland Næringspark, lokalisert i Gismarvik. Valg av
+destinasjon er en nøye vurdering av lokalsamfunn, naturomgivelser, tilgang på personell
+og ren kraft (Beyonder, 2022). Gigafactorien er planlagt å være ferdig innen
+2026.
+
+ 
+
+Haugaland næringspark er Norges største regulerte nøringspark og gir bedrifter gode
+muligheter til å utforme tomt etter ønske, området er spesielt lagt til rette for areal- og energikrevende industri, noe Beyonder er. Det er også god tilgang til kraft i form av el-kraft, naturgasser og fornybar kraft. Næringsparken har også lett tilkomst med bilvei og sjøveien. I tillegg er det ikke langt fra Haugesund flyplass, Karmøy, noe som gjør beliggenheten veldig tilgjengelig. Gismarvik Havn som er en del av Haugesund næringspark har en kai på 110 meter og minste dybde på 16,5 meter, noe som betyr at tilkomst med båt ikke er noe problem og kan være med på å øke attraktiviteten til å etablere seg her. Det er også et lagerareal på 80 dekar, dette gjør at bedrifter som er etablert i næringsparken kan lagre ferdigprodukt på kaien og ligger der klar til henting av båter. En slik næringspark passer veldig godt inn i etableringen til Beyonder. Næringsparken vil bidra med gode forbindelser til både vann, land og luft som
+gjør at produktene enkelt kan distribueres rundt.
+
 # Baseteori
+
+### McCann
+
+Den økonomiske basemodellen er utviklet til brukt på by- og regionsnivå og aggregerte analyser. I stedet for å analysere virkgninger av industriell endring på mikroøkonomisk nivå, fokuserer denne modellen på koblingene mellom aggregerte sektorer ved å karakterisere en region som består av to industrisektorer. Disse to er lokalnæringer og basenæringer (McCann, 2013, s.156).
+
+McCann (2013) sier at lokalsektoren består av bedrifter som produserer tjenester og produkter som serves lokalt, kan også kalles servicenæringer. Lokalnæringer blir neste utelukkende brukt av lokalbedrifter og husholdningene. Dette betyr at lokalnæringer styres av interne (endogene) forhold. Noen eksempler på lokalnæring kan være skole, helse, dagligvarebutikk og lignende.
+
+Basisnæring er ifølge McCann (2013) en næring som har spesialisert seg og produserer tjenester eller goder som blir eksportert til andre regioner eller land. Eksempler på basisnæringer kan være bilindustrien i Toriono og Detroit, flyindustrien i Seattle og Toulouse (McCann, 2013, S.156). Hvis vi vil ser her lokalt så vi kan sammenligne med hvordan Beyonder vil ha det så kan vi nevne Aibel i Haugesund, Hydro på Karmøy og Autostore i Tysvær. Vi vet at basisnæring styres av eksport, da kan vi også si at sysselsettingen i basisnæringene er eksogent gitt, noe som betyr at forholdene er bestemt utenfor regionen næringen er etablert. Videre vil vi snakke mer om Hoyt og hvordan eksportelementet i basisnæringer grunnen til at Hoyts basemodell blir ansett som en eksport-basemodell.
 
 ### Capello/Hoyts
 
@@ -23,6 +69,7 @@ P = aE_T
 $$ {#eq-1} 
 
 
+<<<<<<< HEAD
 $$
 E_T = E_b + E_s
 $$ {#eq-2}
@@ -38,5 +85,16 @@ $$ {#eq-4}
 Ovenfor ser vi @eq-1. 
 
 ### McCann
+=======
+```{=tex}
+\begin{equation*}
+   a^2 + b^2 = c^2
+ \end{equation*}
+```
+
+
+
+
+>>>>>>> 214e15e16331e698b74d1d59a71a467009d5b088
 
 ## References
