@@ -1,0 +1,30 @@
+---
+title: "Masteroppgave"
+author: "Morten Knutsen og Sindre M. Espedal"
+format: pdf
+editor: visual
+bibliography: referanser_msb210/referanser_msb210.bib
+---
+
+```{r libraries}
+library(tidyr)
+```
+
+## Beskrivelse
+
+# Baseteori
+
+### Capello/Hoyts
+
+$$P = aE_T$$ $$E_T = E_b + E_s$$ $$E_s = bP$$ $$E_b = \bar{E}_b$$
+
+\[E_b = \bar{E}\_b\]
+
+```{=tex}
+\begin{equation*}
+   a^2 + b^2 = c^2
+ \end{equation*}
+```
+### McCann
+
+## References
