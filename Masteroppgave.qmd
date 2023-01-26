@@ -1,15 +1,22 @@
 ---
 title: "Masteroppgave"
 author: "Morten Knutsen og Sindre M. Espedal"
-format: pdf
+format: pdf 
 editor: visual
 language: 
   crossref-eq-prefix: "Ligning"
 bibliography: referanser_msb210/referanser_msb210.bib
 ---
 
-```{r libraries}
-library(tidyr)
+```{r setup, message = FALSE, echo = FALSE}
+library(tidyverse)
+library(lubridate)
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(readxl)
+library(data.table)
+knitr::opts_chunk$set(echo=FALSE)
 ```
 
 ## Beskrivelse
@@ -114,6 +121,93 @@ Capello setter så inn fra ligning 2 og 6 i @eq-5, og får:
 $$
 P(t) = \beta\{E_b + \alpha [P(t-1)]\}
 $$ {#eq-7}
+
+
+## Arbeidsstrukturen på Haugalandet
+
+### Andelen sysselsatte i ulike næringer
+
+```{r}
+Tab_13470_andeler_naering <- read_excel("Data_R_MSB_210/Tab_13470_andeler_naering.xlsx")
+```
+
+```{r}
+Tab_13470_andeler_naering <- Tab_13470_andeler_naering %>% 
+  mutate(ar = make_date(Aar))
+```
+
+
+```{r}
+Tab_13470_andeler_naering %>%
+  select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Sjøfart")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom')+
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Næring") %>% 
+  ggtitle("Andel sysselsatte i Sjøfart, 2008 - 2021")
+```
+
+```{r}
+Tab_13470_andeler_naering %>%
+  select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Metallindustri")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom')+
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Næring") %>% 
+  ggtitle("Andel sysselsatte i Metallindustri, 2008 - 2021")
+```
+
+### Arbeidsledigheten
+
+```{r}
+Tab_10539_13470_Nov <- read_excel("Data_R_MSB_210/Tab_10539_13470_Nov.xlsx")
+```
+
+```{r}
+Tab_10539_13470_Nov <- Tab_10539_13470_Nov %>% 
+  mutate(ar = make_date(Aar))
+```
+
+
+```{r}
+Tab_10539_13470_Nov %>%
+  select(ar, Region, Andel) %>%
+  filter(Region %in% c("Haugalandet", "Hele landet")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom')+
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Arbeidsledighet") %>% 
+  ggtitle("For november måned, 2008-2020")
+```
+
+
+
+
+```{r}
+Tab_13470_andeler_naering %>%
+  select(aar, b_knavn_new, Ut_pendlere) %>%
+  filter(b_knavn_new %in% c("Tysvær", "Karmøy", "Haugesund", "Bokn", "Utsira", "Vindafjord", "Etne", "Sveio", "Bømlo", "Stord", "Fitjar", "Tysnes")
+    ) %>%
+  ggplot(mapping = aes(x = aar, y = Ut_pendlere, colour = b_knavn_new)) +
+  geom_line(aes(group = b_knavn_new), lwd = 0.6) +
+  theme(legend.position = 'bottom')+
+  xlab("År") +
+  ylab("Utpendling %") +
+  labs(colour = "Kommune")
+```
+
+
 
 
 
