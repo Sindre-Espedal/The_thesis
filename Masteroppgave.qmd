@@ -13,6 +13,7 @@ library(tidyverse)
 library(lubridate)
 library(readr)
 library(ggplot2)
+library(ggpubr)
 library(dplyr)
 library(readxl)
 library(data.table)
@@ -152,7 +153,7 @@ Tab_13470_andeler_naering %>%
 ```
 
 ```{r}
-Tab_13470_andeler_naering %>%
+Tabell_Metallindustri <- Tab_13470_andeler_naering %>%
   select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Metallindustri")
     ) %>%
@@ -161,9 +162,38 @@ Tab_13470_andeler_naering %>%
   theme(legend.position = 'bottom')+
   xlab("År") +
   ylab("Andel %") +
-  labs(colour = "Næring") %>% 
-  ggtitle("Andel sysselsatte i Metallindustri, 2008 - 2021")
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Metallindustri, 2008 - 2021")
+
+Tabell_Metallvareindustri <- Tab_13470_andeler_naering %>%
+  select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Metallvareindustri")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom')+
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Metallvareindustri, 2008 - 2021")
+ggarrange(Tabell_Metallindustri, Tabell_Metallvareindustri)
 ```
+
+```{r}
+Tab_13470_andeler_naering %>%
+  select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Utvinning av råolje og naturgass")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom')+
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Næring") %>% 
+  ggtitle("Andel sysselsatte i Utvinning av råolje og naturgass, 2008 - 2021")
+```
+
+
 
 ### Arbeidsledigheten
 
@@ -189,22 +219,6 @@ Tab_10539_13470_Nov %>%
   ylab("Andel %") +
   labs(colour = "Arbeidsledighet") %>% 
   ggtitle("For november måned, 2008-2020")
-```
-
-
-
-
-```{r}
-Tab_13470_andeler_naering %>%
-  select(aar, b_knavn_new, Ut_pendlere) %>%
-  filter(b_knavn_new %in% c("Tysvær", "Karmøy", "Haugesund", "Bokn", "Utsira", "Vindafjord", "Etne", "Sveio", "Bømlo", "Stord", "Fitjar", "Tysnes")
-    ) %>%
-  ggplot(mapping = aes(x = aar, y = Ut_pendlere, colour = b_knavn_new)) +
-  geom_line(aes(group = b_knavn_new), lwd = 0.6) +
-  theme(legend.position = 'bottom')+
-  xlab("År") +
-  ylab("Utpendling %") +
-  labs(colour = "Kommune")
 ```
 
 
