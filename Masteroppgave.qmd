@@ -233,7 +233,19 @@ Tab_13470_andeler_naering$Region <- replace(Tab_13470_andeler_naering$Region,Tab
 
 
 ```{r}
-Tab_13470_andeler_naering %>%
+Tabell_Fiske_fangst_og_akvakultur <- Tab_13470_andeler_naering %>%
+  select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Fiske, fangst og akvakultur")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Fiske, fangst og akvakultur, 2008 - 2021")
+
+Tabell_Sjøfart <- Tab_13470_andeler_naering %>%
   select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Sjøfart")
     ) %>%
@@ -242,8 +254,10 @@ Tab_13470_andeler_naering %>%
   theme(legend.position = 'bottom')+
   xlab("År") +
   ylab("Andel %") +
-  labs(colour = "Næring") %>% 
-  ggtitle("Andel sysselsatte i Sjøfart, 2008 - 2021")
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Sjøfart, 2008 - 2021")
+
+ggarrange(Tabell_Fiske_fangst_og_akvakultur, Tabell_Sjøfart)
 ```
 
 ```{r}
@@ -270,12 +284,13 @@ Tabell_Metallvareindustri <- Tab_13470_andeler_naering %>%
   ylab("Andel %") +
   labs(colour = "Andel sysselsatte") %>% 
   ggtitle("Metallvareindustri, 2008 - 2021")
+
 ggarrange(Tabell_Metallindustri, Tabell_Metallvareindustri)
 ```
 
 ```{r}
 Tab_13470_andeler_naering %>%
-  select(ar, Region, Andel, Naering) %>%
+ select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Utvinning av råolje og naturgass")
     ) %>%
   ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
@@ -283,9 +298,143 @@ Tab_13470_andeler_naering %>%
   theme(legend.position = 'bottom') +
   xlab("År") +
   ylab("Andel %") +
-  labs(colour = "Næring") %>% 
-  ggtitle("Andel sysselsatte i Utvinning av råolje og naturgass, 2008 - 2021")
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Utvinning av råolje og naturgass, 2008 - 2021")
 ```
+
+```{r}
+Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Transportmiddelindustri ellers")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Transportmiddelindustri ellers, 2008 - 2021")
+```
+
+```{r}
+Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Spesialisert bygge- og anleggsvirksomhet")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Spesialisert bygge- og anleggsvirksomhet, 2008 - 2021")
+```
+
+```{r}
+Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Detaljhandel, unntatt med motorvogner")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Detaljhandel, unntatt med motorvogner, 2008 - 2021")
+```
+
+```{r}
+Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Pleie og omsorg i institusjon")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Pleie og omsorg i institusjon, 2008 - 2021")
+```
+
+
+### Norg er større Haugalandet
+
+```{r}
+Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Agentur- og engroshandel, unntatt med motorvogner")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Agentur- og engroshandel, unntatt med motorvogner, 2008 - 2021")
+```
+
+```{r}
+Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Forlagsvirksomhet")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Forlagsvirksomhet, 2008 - 2021")
+```
+
+```{r}
+Tab_FoU <- Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Forskning og utviklingsarbeid")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Forskning og utviklingsarbeid, 2008 - 2021")
+
+Tab_Off._For_Sos <- Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Off.adm., forsvar, sosialforsikring")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Off.adm., forsvar, sosialforsikring, 2008 - 2021")
+
+ggarrange(Tab_FoU, Tab_Off._For_Sos)
+```
+
+
+```{r}
+Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Finansieringsvirksomhet")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
+  geom_line(aes(group = Region), lwd = 0.6) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Andel %") +
+  labs(colour = "Andel sysselsatte") %>% 
+  ggtitle("Finansieringsvirksomhet, 2008 - 2021")
+```
+
+## Næringsfordelingen internt på Haugalandet
+
+
 
 ### Arbeidsledigheten
 
