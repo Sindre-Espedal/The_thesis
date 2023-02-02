@@ -243,7 +243,7 @@ Tabell_Fiske_fangst_og_akvakultur <- Tab_13470_andeler_naering %>%
   xlab("År") +
   ylab("Andel %") +
   labs(colour = "Andel sysselsatte") %>% 
-  ggtitle("Fiske, fangst og akvakultur, 2008 - 2021")
+  ggtitle("Fiske, fangst og akvakultur, 2008 - 2021") 
 
 Tabell_Sjøfart <- Tab_13470_andeler_naering %>%
   select(ar, Region, Andel, Naering) %>%
@@ -460,5 +460,6 @@ Tab_10539_13470_Nov %>%
   labs(colour = "Arbeidsledighet") %>% 
   ggtitle("For november måned, 2008-2020")
 ```
+
 
 ## References
