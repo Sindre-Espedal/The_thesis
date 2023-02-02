@@ -344,84 +344,6 @@ Tab_13470_andeler_naering %>%
   ggtitle("Pleie og omsorg i institusjon, 2008 - 2021")
 ```
 
-
-### Norg er større Haugalandet
-
-```{r}
-Tab_13470_andeler_naering %>%
- select(ar, Region, Andel, Naering) %>%
-  filter(Naering %in% c("Agentur- og engroshandel, unntatt med motorvogner")
-    ) %>%
-  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
-  geom_line(aes(group = Region), lwd = 0.6) +
-  theme(legend.position = 'bottom') +
-  xlab("År") +
-  ylab("Andel %") +
-  labs(colour = "Andel sysselsatte") %>% 
-  ggtitle("Agentur- og engroshandel, unntatt med motorvogner, 2008 - 2021")
-```
-
-```{r}
-Tab_13470_andeler_naering %>%
- select(ar, Region, Andel, Naering) %>%
-  filter(Naering %in% c("Forlagsvirksomhet")
-    ) %>%
-  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
-  geom_line(aes(group = Region), lwd = 0.6) +
-  theme(legend.position = 'bottom') +
-  xlab("År") +
-  ylab("Andel %") +
-  labs(colour = "Andel sysselsatte") %>% 
-  ggtitle("Forlagsvirksomhet, 2008 - 2021")
-```
-
-```{r}
-Tab_FoU <- Tab_13470_andeler_naering %>%
- select(ar, Region, Andel, Naering) %>%
-  filter(Naering %in% c("Forskning og utviklingsarbeid")
-    ) %>%
-  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
-  geom_line(aes(group = Region), lwd = 0.6) +
-  theme(legend.position = 'bottom') +
-  xlab("År") +
-  ylab("Andel %") +
-  labs(colour = "Andel sysselsatte") %>% 
-  ggtitle("Forskning og utviklingsarbeid, 2008 - 2021")
-
-Tab_Off._For_Sos <- Tab_13470_andeler_naering %>%
- select(ar, Region, Andel, Naering) %>%
-  filter(Naering %in% c("Off.adm., forsvar, sosialforsikring")
-    ) %>%
-  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
-  geom_line(aes(group = Region), lwd = 0.6) +
-  theme(legend.position = 'bottom') +
-  xlab("År") +
-  ylab("Andel %") +
-  labs(colour = "Andel sysselsatte") %>% 
-  ggtitle("Off.adm., forsvar, sosialforsikring, 2008 - 2021")
-
-ggarrange(Tab_FoU, Tab_Off._For_Sos)
-```
-
-
-```{r}
-Tab_13470_andeler_naering %>%
- select(ar, Region, Andel, Naering) %>%
-  filter(Naering %in% c("Finansieringsvirksomhet")
-    ) %>%
-  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
-  geom_line(aes(group = Region), lwd = 0.6) +
-  theme(legend.position = 'bottom') +
-  xlab("År") +
-  ylab("Andel %") +
-  labs(colour = "Andel sysselsatte") %>% 
-  ggtitle("Finansieringsvirksomhet, 2008 - 2021")
-```
-
-## Næringsfordelingen internt på Haugalandet
-
-
-
 ### Arbeidsledigheten
 
 ```{r}
@@ -446,6 +368,9 @@ Tab_10539_13470_Nov %>%
   labs(colour = "Arbeidsledighet") %>% 
   ggtitle("For november måned, 2008-2020")
 ```
+
+
+
 
 
 ## References
