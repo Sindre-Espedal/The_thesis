@@ -273,9 +273,9 @@ Tabell_Metallindustri <- Tab_13470_andeler_naering %>%
   labs(colour = "Andel sysselsatte") %>% 
   ggtitle("Metallindustri, 2008 - 2021")
 
-Tabell_Metallvareindustri <- Tab_13470_andeler_naering %>%
-  select(ar, Region, Andel, Naering) %>%
-  filter(Naering %in% c("Metallvareindustri")
+Tabell_Transportmiddelindustri_ellers <- Tab_13470_andeler_naering %>%
+ select(ar, Region, Andel, Naering) %>%
+  filter(Naering %in% c("Transportmiddelindustri ellers")
     ) %>%
   ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
   geom_line(aes(group = Region), lwd = 0.6) +
@@ -283,9 +283,9 @@ Tabell_Metallvareindustri <- Tab_13470_andeler_naering %>%
   xlab("År") +
   ylab("Andel %") +
   labs(colour = "Andel sysselsatte") %>% 
-  ggtitle("Metallvareindustri, 2008 - 2021")
+  ggtitle("Transportmiddelindustri ellers, 2008 - 2021")
 
-ggarrange(Tabell_Metallindustri, Tabell_Metallvareindustri)
+ggarrange(Tabell_Metallindustri, Tabell_Transportmiddelindustri_ellers)
 ```
 
 ```{r}
@@ -300,20 +300,6 @@ Tab_13470_andeler_naering %>%
   ylab("Andel %") +
   labs(colour = "Andel sysselsatte") %>% 
   ggtitle("Utvinning av råolje og naturgass, 2008 - 2021")
-```
-
-```{r}
-Tab_13470_andeler_naering %>%
- select(ar, Region, Andel, Naering) %>%
-  filter(Naering %in% c("Transportmiddelindustri ellers")
-    ) %>%
-  ggplot(mapping = aes(x = ar, y = Andel, colour = Region)) +
-  geom_line(aes(group = Region), lwd = 0.6) +
-  theme(legend.position = 'bottom') +
-  xlab("År") +
-  ylab("Andel %") +
-  labs(colour = "Andel sysselsatte") %>% 
-  ggtitle("Transportmiddelindustri ellers, 2008 - 2021")
 ```
 
 ```{r}
