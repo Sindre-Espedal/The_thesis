@@ -369,6 +369,18 @@ Tab_10539_13470_Nov %>%
   ggtitle("For november måned, 2008-2020")
 ```
 
+## Fagfelt og Utdanning på Haugalandet
+
+```{r}
+Tab_11615_fagfelt_sysselsatte <- read_excel("Data_R_MSB_210/11615_fagfelt_sysselsatte.xlsx")
+```
+
+```{r}
+Tab_11615_fagfelt_sysselsatte <- Tab_11615_fagfelt_sysselsatte %>% 
+mutate(ar = make_date(aar))
+```
+
+
 
 
 
