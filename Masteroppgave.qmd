@@ -389,7 +389,8 @@ Tab_11615_fagfelt_sysselsatte %>%
   filter(Region %in% c("Haugalandet", "Norge")) %>%
   filter(ar == "2021-01-01") %>% 
     ggplot(Tab_11615_fagfelt_sysselsatte, mapping = aes(fill = fagfelt, y = Andel, x = Region)) +
-  geom_bar(position = "dodge", stat = "identity")
+  geom_bar(position = "dodge", stat = "identity") + 
+  theme(legend.position = "bottom")
 ```
 
 ```{r}
@@ -399,6 +400,21 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel <- read_excel("Data_R_MSB_210/11615_
 
 ```{r}
 Tab_11615_utdanningsnivaa_sysselsatte_andel$Region <- replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Region,                                                      Tab_11615_utdanningsnivaa_sysselsatte_andel$Region=="Hele landet","Norge")
+```
+
+```{r}
+Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <- 
+  replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa, 
+          Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa == 
+            "Universitets- og høgskoleutdanning, 1-4 år (nivå 6)", "Universitet - kort")
+```
+
+```{r}
+Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <- 
+  replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa, 
+          Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa == 
+            "Universitets- og høgskoleutdanning, over 4 år (nivå 7-8)", 
+          "Universitet - lang")
 ```
 
 ```{r}
