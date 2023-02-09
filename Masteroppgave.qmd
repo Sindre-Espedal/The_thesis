@@ -216,6 +216,24 @@ $$ {#eq-7}
 
 ## Arbeidsstrukturen på Haugalandet
 
+```{r}
+Tab_andel_sysselsatt_fordelt <- read_excel("Data_R_MSB_210/Tab_andel_sysselsatt_fordelt.xlsx")
+```
+
+```{r}
+Tab_andel_sysselsatt_fordelt %>%
+  select(Region, Andel, Naering) %>% 
+    ggplot(Tab_andel_sysselsatt_fordelt, 
+           mapping = aes(fill = Naering, 
+                         y = Andel, 
+                         x = Region)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  scale_fill_brewer(palette = "Set3") + 
+  theme(legend.position="none")
+```
+
+
+
 ### Andelen sysselsatte i ulike næringer
 
 ```{r}
@@ -389,8 +407,7 @@ Tab_11615_fagfelt_sysselsatte %>%
   filter(Region %in% c("Haugalandet", "Norge")) %>%
   filter(ar == "2021-01-01") %>% 
     ggplot(Tab_11615_fagfelt_sysselsatte, mapping = aes(fill = fagfelt, y = Andel, x = Region)) +
-  geom_bar(position = "dodge", stat = "identity") + 
-  theme(legend.position = "bottom")
+  geom_bar(position = "dodge", stat = "identity")
 ```
 
 ```{r}
