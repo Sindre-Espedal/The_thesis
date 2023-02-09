@@ -450,9 +450,9 @@ Detaljhandel er den med tredje mest antall ansatte på Haugalandet, og
 ligger over den nasjonale andelen med litt under ett prosent. Internt i
 regionen består Haugesund (47%) og Karmøy (30%) for cirka 80% av
 arbeidsplassene fordelt i underkant av 50% i Haugesund, som har landets
-lengste gågate (Stavanger Aftenblad, 2014), og overkant av 30% på
-Karmøy. Figur 5 viser også en nedadgående trend, som kan tenkes å skylde
-økt aktivitet i netthandel, noe som krever mindre arbeidskraft.
+lengste gågate [@stokka2014], og overkant av 30% på Karmøy. Figur 5
+viser også en nedadgående trend, som kan tenkes å skylde økt aktivitet i
+netthandel, noe som krever mindre arbeidskraft.
 
 ```{r}
 Tab_13470_andeler_naering %>%
