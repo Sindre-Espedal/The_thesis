@@ -216,12 +216,25 @@ $$ {#eq-7}
 
 ## Arbeidsstrukturen på Haugalandet
 
+### Introduksjon
+
+Dette kapittelet vil vi se på næringsstrukturen på Haugalandet.  Vi velger å gjøre dette for å få en bedre oversikt over hva de regionale virkningene på etableringen av en gigafabrikk vil ha å si på næringsstrukturen, hvilken type arbeidskraft som er tilgjengelig og hvordan arbeidsledighetsnivået er.
+
+Vi har definert regionen Haugalandet med kommunene som er formelt med; Haugesund, Karmøy, Tysvær, Utsira, Bokn og Vindafjord. I tillegg har vi tatt med kommunene Sveio, Etne og Sauda. Sveio og Etne ligger veldig nært Haugalandet og henger godt sammen med arbeidsmarkedet på Haugalandet. Sauda grenser til Etne og selv om Sauda har en høy andel som arbeider og bor i kommunen, er det grunn til å tro at mobiliteten og arbeidsmarkedsområde vil øke i fremtiden (Severinsen, 2022). Vi har derfor definert Haugalandet som de ni nevnte kommunene. 
+
+
+### Arbeidsfordelingen internt på Haugalandet, 2021
+
+Vi ser tydelig at Haugesund er sentrum for regionen i figurene nedenfor når det gjelder arbeidssted på Haugalandet, etterfulgt av Karmøy. I tillegg har Haugesund en betydelig høyere andel innpendling enn de resterende kommunene, med unntak av Tysvær kommune. En mulig årsak til at Karmøy har den nest største andelen sysselsatte er dens befolkningsstørrelse, som er den største i regionen (KILDE). I figurene nedenfor ser vi også at Karmøy også er blant kommunene med lavere innpendling, med en andel på cirka 25%. 
+
 ```{r}
 Tab_andel_sysselsatt_fordelt <- read_excel("Data_R_MSB_210/Tab_andel_sysselsatt_fordelt.xlsx")
 ```
 
+
+
 ```{r}
-Tab_andel_sysselsatt_fordelt %>%
+Tab_andel_sysselsatt_fordelt %>% 
   select(Region, Andel, Naering) %>% 
     ggplot(Tab_andel_sysselsatt_fordelt, 
            mapping = aes(fill = Naering, 
@@ -232,6 +245,29 @@ Tab_andel_sysselsatt_fordelt %>%
   theme(legend.position="none")
 ```
 
+
+```{r}
+Tab_03321_andeler <- read_excel("Data_R_MSB_210/Tab_03321_andeler.xlsx") %>% 
+  mutate(ar = make_date(aar))
+
+```
+
+```{r}
+Tab_03321_andeler%>%
+  select(ar, b_knavn_new, Inn_pendlere) %>%
+  filter(
+    b_knavn_new %in% c("Tysvær", "Karmøy", "Sauda", "Haugesund", "Bokn", "Utsira", "Vindafjord", "Etne", "Sveio")
+    ) %>%
+  ggplot(mapping = aes(x = ar, y = Inn_pendlere, colour = b_knavn_new)) +
+  geom_line(aes(group = b_knavn_new), lwd = 0.5) +
+  theme(legend.position = 'bottom') +
+  xlab("År") +
+  ylab("Innpendling %") +
+  labs(colour = "Kommune")
+  
+
+
+```
 
 
 ### Andelen sysselsatte i ulike næringer
@@ -248,6 +284,13 @@ Tab_13470_andeler_naering <- Tab_13470_andeler_naering %>%
 ```{r}
 Tab_13470_andeler_naering$Region <- replace(Tab_13470_andeler_naering$Region,Tab_13470_andeler_naering$Region=="Hele landet","Norge")
 ```
+
+### Figur 1 a og b) – Fiske, fangst og akvakultur – Sjøfart
+
+Det første vi vil se på er hvilke næringer som har større andeler i regionen opp mot nasjonen. I figuren under ser vi at fiske, fangst og akvakultur er marginalt større enn det er nasjonalt. Grunnen til dette er antall trålere og oppdrettsanlegg både på land og sjø som er her på Haugalandet. Dette står også sterkt på resten av kysten til Norge, så det skiller seg ikke ut hvis vi ser på kyst-Norge, men ser vi på Norge generelt så er det større. Næringen er godt spredt på kommunene på Haugalandet, men Karmøy skiller seg ut med ca. 30% av andel sysselsatte i sin kommune.
+ 
+Ved siden av har vi sjøfart, her ser vi en markant forskjell på regionen og landet. Haugesund ser på seg selv som den maritime hovedstaden i Norge og forklarer litt på hvorfor det er store forskjeller. Solstad shipping og Knutsen OAS og er store påvirkere på hvorfor sjøfart er så stort her på Haugalandet. I 2014 oppsto oljekrisen i Norge, i hovedsak Vest-Norge (Aftenposten, 2016) . Det er derfor vi ser en stor nedgang i andel ansatte på Haugalandet innen sjøfart fra 2014 til 2016. Vi ser at det er tendenser til vekst i sjøfart næringen fra og med 2020 og videre. Dette kan ha noe med optimismen og etableringen av havvindparker (Fornybarenergi, 2023).
+
 
 
 ```{r}
@@ -278,6 +321,13 @@ Tabell_Sjøfart <- Tab_13470_andeler_naering %>%
 ggarrange(Tabell_Fiske_fangst_og_akvakultur, Tabell_Sjøfart)
 ```
 
+### Figur 2 a og b) – Metallindustri – Transportmiddelindustri ellers
+
+Metallindustrien i regionen er en klar basisnæring på både regionalt- og kommunenivå, og de siste fem årene har Karmøy kommune stått for 82% (vedlagt) av næringen etter arbeidssted. Resterende andelen av metallindustri er i Sauda kommune. I figuren nedenfor ser vi også at grafen beveger seg i stor korrelasjon med hvor mange ansatte Hydro aluminium har over tid (KILDE), noe som gjør det rimelig å anta at denne næringssektoren består i stor grad av Hydro Aluminium på Karmøy. 
+
+Denne næringen er også definitivt en basisnæring på de to ulike nivåene. Opptil 90% i regionen har arbeidssted i Haugesund kommune, hvor resterende er jevnt fordelt mellom Tysvær, Karmøy og Vindafjord. Det er grunn til å tro at denne næringssektoren er tungt vektet av bedriften Aibel, som er etablert i Haugesund kommune. For Haugesund kommune, så er Aibel en hjørnesteinsbedrift, hvor deres prestasjoner er korrelert med Haugesund sine prestasjoner (e24, 2015).  
+
+
 ```{r}
 Tabell_Metallindustri <- Tab_13470_andeler_naering %>%
   select(ar, Region, Andel, Naering) %>%
@@ -305,6 +355,9 @@ Tabell_Transportmiddelindustri_ellers <- Tab_13470_andeler_naering %>%
 
 ggarrange(Tabell_Metallindustri, Tabell_Transportmiddelindustri_ellers)
 ```
+### Figur 3 – Utvinning av råolje og naturgass
+
+I denne figuren ser vi at forskjellen er små fra regionen og hele landet. For Haugalandet er det Kårstø i Tysvær som står for denne andelen av ansatte. Hadde vi inkludert Stavanger med i Haugalandet så hadde vi sitt en høyere differanse. Det skal komme en tunnel mellom Haugalandet og Nord-Jæren som heter Rogfast, når denne ferdigstilles kan det diskuteres om næringsstrukturen vil forandre seg og om økonomiene til Nord-Jæren og Haugalandet vil smelte enda mer sammen.
 
 ```{r}
 Tab_13470_andeler_naering %>%
@@ -319,6 +372,10 @@ Tab_13470_andeler_naering %>%
   labs(colour = "Andel sysselsatte") %>% 
   ggtitle("Utvinning av råolje og naturgass, 2008 - 2021")
 ```
+### Figur 4 – Spesialisert bygge- og anleggsvirksomhet
+
+Her ser vi nok en næring som står sterkt på Haugalandet opp mot nasjonen. Vi ser at det er et tydelig hopp fra 2010 til 2011 på Haugalandet, dette hoppet har oppstått på grunn av Haugalandspakken og T-forbindelsen virkelig har satt i gang og har krevd mye arbeidskraft inn i denne bransjen. Regionen har opprettholdt andelen sysselsatte, dette er nok fordi arbeidet med Haugalandspakken ikke er ferdig enda og at Haugalandet er i generell utvikling som krever mer av denne typen arbeid.
+
 
 ```{r}
 Tab_13470_andeler_naering %>%
@@ -333,6 +390,9 @@ Tab_13470_andeler_naering %>%
   labs(colour = "Andel sysselsatte") %>% 
   ggtitle("Spesialisert bygge- og anleggsvirksomhet, 2008 - 2021")
 ```
+### Figur 5 – Detaljhandel, unntatt med motorvogner
+
+Detaljhandel er den med tredje mest antall ansatte på Haugalandet, og ligger over den nasjonale andelen med litt under ett prosent. Internt i regionen består Haugesund (47%) og Karmøy (30%) for cirka 80% av arbeidsplassene fordelt i underkant av 50% i Haugesund, som har landets lengste gågate (Stavanger Aftenblad, 2014),  og overkant av 30% på Karmøy. Figur 5 viser også en nedadgående trend, som kan tenkes å skylde økt aktivitet i netthandel, noe som krever mindre arbeidskraft. 
 
 ```{r}
 Tab_13470_andeler_naering %>%
@@ -347,7 +407,9 @@ Tab_13470_andeler_naering %>%
   labs(colour = "Andel sysselsatte") %>% 
   ggtitle("Detaljhandel, unntatt med motorvogner, 2008 - 2021")
 ```
+### Figur 6 – Pleie og omsorg i institusjon
 
+Når det gjelder pleie og omsorg så har vi en generelt høyere andel sysselsatte i regionen enn landet. Dette kan skyldes at det er sykehus i Haugesund og at de har sykepleierutdanning på Høgskulen på Vestlandet (HVL) som er med på å fylle etterspørselen fra sykehuset og sykehjemmene.
 ```{r}
 Tab_13470_andeler_naering %>%
  select(ar, Region, Andel, Naering) %>%
@@ -372,6 +434,8 @@ Tab_10539_13470_Nov <- read_excel("Data_R_MSB_210/Tab_10539_13470_Nov.xlsx")
 Tab_10539_13470_Nov <- Tab_10539_13470_Nov %>% 
   mutate(ar = make_date(Aar))
 ```
+
+I denne grafen er tidspunktene for arbeidsledighet i november måned for hvert år. Her observerer vi at Haugalandet følger Norge jevnt over, men unntak av oljekrisen i 2014. Her får vi en økning i arbeidsledigheten. Et slik fall skjer ikke bare i oljenæringen, det gir også ringvirkninger til næringene rundt på Haugalandet der mange leverer varer og tjenester til oljenæringen. I 2020 ser vi et høy økning på grafen som skyldes Korona pandemien.
 
 ```{r}
 Tab_10539_13470_Nov %>%
@@ -401,6 +465,8 @@ mutate(ar = make_date(aar))
 ```{r}
 Tab_11615_fagfelt_sysselsatte$Region <- replace(Tab_11615_fagfelt_sysselsatte$Region, Tab_11615_fagfelt_sysselsatte$Region=="Hele landet","Norge")
 ```
+
+Figur 7 viser at Haugalandet har en relativt større andel i Naturvitenskapelige fag, håndverksfag og tekniske fag enn på nasjonal basis. Dette fagfeltet omfatter et bredt spekter, og omfatter ingeniører, industriarbeidere, bygg og anlegg, maskinarbeidere osv. Som figurene ovenfor viser, er Haugalandet godt etablert i disse næringssektorene hvor regionen har en sterk arbeidskraft, og viser til at fagfelt og næringssektor korrelerer.
 
 ```{r}
 Tab_11615_fagfelt_sysselsatte %>%
@@ -434,6 +500,10 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <-
           "Universitet - lang")
 ```
 
+### Utdanningsnivå
+
+Utdanningsnivået på Haugalandet skiller seg mest ut i positiv favør på videregående skole. Bakgrunnen for dette er at Haugalandet har en næringsstruktur som er med på å fremheve fagfolk og personen med fag/svennebrev. Når det gjelder universitetsutdanning så kan vi se at Norge kommer bedre ut enn Haugalandet, grunnen til dette er at de som tar høyere utdanninger flytter til byer som Oslo og Bergen og gjerne bli igjen for å starte sin arbeidskarriere.
+
 ```{r}
 Tab_11615_utdanningsnivaa_sysselsatte_andel %>%
   filter(Region %in% c("Haugalandet", "Norge")) %>%
@@ -444,6 +514,19 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel %>%
                          x = Region)) +
   geom_bar(position = "dodge", stat = "identity")
 ```
+
+
+### Gini og RDI
+
+GINI indeks og RDI er to forskjellige mål som kan forklare spredningen i regionen og hvor spesialisert regionen er i ulike næringer. I utregningen av de to indeksene så vi at en aggregering av næringskodene var det som ga den mest optimale tolkningen av resultatene. Vi aggregerte dermed næringskodene på to-siffer nivå ned til 21 ulike næringer (SSB / Klassifiserng / Næringskoder).
+GINI indeksen brukes til å måle i hvilken grad en industri har en tendens til å gruppere seg i rommet (McCann, 2013). Verdier på null indikerer at næringene er jevnt spredt i rommet, mens verdier som er nærme en på GINI indeksen indikerer at den aktuelle næringen har en tendens til å samle seg på et lite antall steder (Audretsch & Feldman, 1996).
+Samtlige verdier på Haugalandet er veldig lave, noe som indikerer at regionen har en jevn spredning mellom næringene. Undervisning er den næringen i regionen med lavest GINI-verdi. Dette kan virke som et fornuftig resultat ettersom skoler er jevnt spredt utover i de ulike kommunene etter hvor folk er bosatte. De to næringene med høyest GINI-verdier er Finansierings- og forsikringsvirksomhet og Industri. Haugalandet har flere industriområder etablert rundt omkring i de forskjellige kommunene, som for eksempel Husøy på Karmøy og Killingøy i Haugesund. Likevel har regionen flere slike områder, noe som kan skyldes at GINI indeksen tilsier at denne næringen ikke er veldig konsentrert på Haugalandet, selv om det er den med nest høyest verdi på indeksene. For finansierings- og forsikringsvirksomhet er situasjonen veldig lik. 
+Regional diversity index (RDI) forteller hvor spesialisert en næring i regionen er opp mot nasjonalt nivå. Lav verdi indikerer at regionen er spesialisert innenfor næringskoden og høy verdi forteller at regionen ikke er noe spesialisert innenfor næringskoden (Duranton & Puga, 2000). I tabellen ser vi at næringskoden C – industri (10-33) har en verdi 19,86 i 2008, noe som er lavt og sier at regionen er spesialisert innenfor dette. Dette kan stemme med tanke på at Aibel og Hydro faller innenfor denne kategorien. Ellers er regionen ikke nevneverdig spesialisert i forhold til resten av landet med det aggregerte nivå vi har valgt for RDI utregning.
+
+### Oppsumering
+
+Haugalandet er en region som har to kommuner som dominerer andel sysselsatte i regionen. De næringene Haugalandet er sterkest på er metallindustri og transportmiddelindustri ellers. Ifølge  RDI ser vi også at Haugalandet er spesialisert i industrinæringen. Gini forteller oss at industrien er spredt rundt på Haugalandet, men de største bedriftene hører til på Karmøy og i Haugesund. Tysvær er den kommunen som har høyest andel innpendlere, dette kan skyldes Kårstø som er en stor arbeidsplass i regionen. Fagfelt og utdanningsnivået på Haugalandet gir oss et godt bilde på hvilken type næringsstruktur det er i regionen. Vi ser at det utdannes en god andel yrkesarbeidere, som har fagfeltet naturvitenskapelige fag, håndverksfag og tekniske fag. Dette henger godt sammen med hvilke type næringer som dominerer markedet og etterspør arbeidskraft. 
+
 
 
 
