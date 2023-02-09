@@ -1,12 +1,33 @@
 ---
 title: "Masteroppgave"
 author: "Morten Knutsen og Sindre M. Espedal"
-format: pdf 
+format: 
+  pdf:
+      documentclass: article
+      fig-pos: 'H'
+      include-in-header:
+          text: |
+            \usepackage{fancyhdr}
+            \pagestyle{fancy}
+            \fancyhead[L]{Candidate 7}
+            \fancyhead[C]{Term Paper ECS530}
+            \fancyhead[R]{02-06 jan 2023}
+            \fancyfoot[CO,CE]{\thepage}
+            \usepackage{sectsty}
+            \definecolor{overskrift}{RGB}{0,175,186}
+            \allsectionsfont{\color{overskrift}}
+            \usepackage[labelfont=bf]{caption}
+            \usepackage{float}
+            \floatplacement{table}{H}
+number-sections: true
 editor: visual
 csl: apa-no-ampersand.csl
 lang: nb-NO
+citecolor: teal
+urlcolor: teal
 language:
   crossref-eq-prefix: "Ligning"
+  crossref-fig-title: "Figur"
 bibliography: referanser_msb210/referanser_msb210.bib
 ---
 
@@ -251,6 +272,8 @@ Tab_andel_sysselsatt_fordelt <- read_excel("Data_R_MSB_210/Tab_andel_sysselsatt_
 ```
 
 ```{r sysselsettingsfordelingen på Haugalandet}
+#| label: fig-sysselsettingsfordeling
+#| fig-cap: "Sysselsettingsfordelingen på Haugalandet, 2021"
 Tab_andel_sysselsatt_fordelt %>% 
   select(Region, Andel, Naering) %>% 
     ggplot(Tab_andel_sysselsatt_fordelt, 
@@ -269,6 +292,8 @@ Tab_03321_andeler <- read_excel("Data_R_MSB_210/Tab_03321_andeler.xlsx") %>%
 ```
 
 ```{r innpendling}
+#| label: fig-innpendling
+#| fig-cap: "Innpendling på Haugalandet, 2000 - 2020"
 Tab_03321_andeler%>%
   select(ar, b_knavn_new, Inn_pendlere) %>%
   filter(
@@ -280,9 +305,6 @@ Tab_03321_andeler%>%
   xlab("År") +
   ylab("Innpendling %") +
   labs(colour = "Kommune")
-  
-
-
 ```
 
 ### Andelen sysselsatte i ulike næringer
@@ -409,6 +431,8 @@ det diskuteres om næringsstrukturen vil forandre seg og om økonomiene
 til Nord-Jæren og Haugalandet vil smelte enda mer sammen.
 
 ```{r Råolje og naturgass}
+#| label: fig-utvinning_råolje_naturgass
+#| fig-cap: "Utvinning av råolje og naturgass, 2008 - 2021"
 Tab_13470_andeler_naering %>%
  select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Utvinning av råolje og naturgass")
@@ -434,6 +458,8 @@ at Haugalandet er i generell utvikling som krever mer av denne typen
 arbeid.
 
 ```{r Bygge og anlegg}
+#| label: fig-bygg_og_anlegg
+#| fig-cap: "pesialisert bygge- og anleggsvirksomhet, 2008 - 2021"
 Tab_13470_andeler_naering %>%
  select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Spesialisert bygge- og anleggsvirksomhet")
@@ -466,6 +492,8 @@ viser også en nedadgående trend, som kan tenkes å skylde økt aktivitet i
 netthandel, noe som krever mindre arbeidskraft.
 
 ```{r Detaljhandel}
+#| label: fig-detaljhandel
+#| fig-cap: "Detaljhandel, unntatt med motorvogner, 2008-2021"
 Tab_13470_andeler_naering %>%
  select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Detaljhandel, unntatt med motorvogner")
@@ -488,6 +516,8 @@ Haugesund og at de har sykepleierutdanning på Høgskulen på Vestlandet
 sykehjemmene.
 
 ```{r Pleie og omsorg}
+#| label: fig-pleie_og_omsorg
+#| fig-cap: "Pleie og omsorg, 2008-2021"
 Tab_13470_andeler_naering %>%
  select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Pleie og omsorg i institusjon")
@@ -521,6 +551,8 @@ til oljenæringen. I 2020 ser vi et høy økning på grafen som skyldes
 Korona pandemien.
 
 ```{r Arbeidsledighet}
+#| label: fig-arbeidsledighet
+#| fig-cap: "Arbeidsledighet for november, 2008-2020"
 Tab_10539_13470_Nov %>%
   select(ar, Region, Andel) %>%
   filter(Region %in% c("Haugalandet", "Hele landet")
@@ -558,6 +590,8 @@ næringssektorene hvor regionen har en sterk arbeidskraft, og viser til
 at fagfelt og næringssektor korrelerer.
 
 ```{r Fagfelt}
+#| label: fig-fagfelt
+#| fig-cap: "Fagfelt"
 Tab_11615_fagfelt_sysselsatte %>%
   filter(Region %in% c("Haugalandet", "Norge")) %>%
   filter(ar == "2021-01-01") %>% 
@@ -598,8 +632,11 @@ fag/svennebrev. Når det gjelder universitetsutdanning så kan vi se at
 Norge kommer bedre ut enn Haugalandet, grunnen til dette er at de som
 tar høyere utdanninger flytter til byer som Oslo og Bergen og gjerne bli
 igjen for å starte sin arbeidskarriere.
+Se @fig-utdanning for utfyllende informasjon :P
 
 ```{r Utdanningsnivå}
+#| label: fig-utdanning
+#| fig-cap: "Utdanningsnivå"
 Tab_11615_utdanningsnivaa_sysselsatte_andel %>%
   filter(Region %in% c("Haugalandet", "Norge")) %>%
   filter(ar == "2021-01-01") %>% 
