@@ -250,7 +250,7 @@ lavere innpendling, med en andel på cirka 25%.
 Tab_andel_sysselsatt_fordelt <- read_excel("Data_R_MSB_210/Tab_andel_sysselsatt_fordelt.xlsx")
 ```
 
-```{r}
+```{r sysselsettingsfordelingen på Haugalandet}
 Tab_andel_sysselsatt_fordelt %>% 
   select(Region, Andel, Naering) %>% 
     ggplot(Tab_andel_sysselsatt_fordelt, 
@@ -268,7 +268,7 @@ Tab_03321_andeler <- read_excel("Data_R_MSB_210/Tab_03321_andeler.xlsx") %>%
 
 ```
 
-```{r}
+```{r innpendling}
 Tab_03321_andeler%>%
   select(ar, b_knavn_new, Inn_pendlere) %>%
   filter(
@@ -323,7 +323,7 @@ tendenser til vekst i sjøfart næringen fra og med 2020 og videre. Dette
 kan ha noe med optimismen og etableringen av havvindparker
 [@fornybarnorge2022].
 
-```{r}
+```{r Fiske, fangst og akvakultur + Sjøfart}
 Tabell_Fiske_fangst_og_akvakultur <- Tab_13470_andeler_naering %>%
   select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Fiske, fangst og akvakultur")
@@ -370,7 +370,7 @@ Aibel, som er etablert i Haugesund kommune. For Haugesund kommune, så er
 Aibel en hjørnesteinsbedrift, hvor deres prestasjoner er korrelert med
 Haugesund sine prestasjoner [@midtsjo2015].
 
-```{r}
+```{r Metallindustri og Transportmiddelindustri ellers}
 Tabell_Metallindustri <- Tab_13470_andeler_naering %>%
   select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Metallindustri")
@@ -408,7 +408,7 @@ Haugalandet og Nord-Jæren som heter Rogfast, når denne ferdigstilles kan
 det diskuteres om næringsstrukturen vil forandre seg og om økonomiene
 til Nord-Jæren og Haugalandet vil smelte enda mer sammen.
 
-```{r}
+```{r Råolje og naturgass}
 Tab_13470_andeler_naering %>%
  select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Utvinning av råolje og naturgass")
@@ -433,7 +433,7 @@ dette er nok fordi arbeidet med Haugalandspakken ikke er ferdig enda og
 at Haugalandet er i generell utvikling som krever mer av denne typen
 arbeid.
 
-```{r}
+```{r Bygge og anlegg}
 Tab_13470_andeler_naering %>%
  select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Spesialisert bygge- og anleggsvirksomhet")
@@ -465,7 +465,7 @@ lengste gågate [@stokka2014], og overkant av 30% på Karmøy. Figur 5
 viser også en nedadgående trend, som kan tenkes å skylde økt aktivitet i
 netthandel, noe som krever mindre arbeidskraft.
 
-```{r}
+```{r Detaljhandel}
 Tab_13470_andeler_naering %>%
  select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Detaljhandel, unntatt med motorvogner")
@@ -487,7 +487,7 @@ Haugesund og at de har sykepleierutdanning på Høgskulen på Vestlandet
 (HVL) som er med på å fylle etterspørselen fra sykehuset og
 sykehjemmene.
 
-```{r}
+```{r Pleie og omsorg}
 Tab_13470_andeler_naering %>%
  select(ar, Region, Andel, Naering) %>%
   filter(Naering %in% c("Pleie og omsorg i institusjon")
@@ -520,7 +520,7 @@ til næringene rundt på Haugalandet der mange leverer varer og tjenester
 til oljenæringen. I 2020 ser vi et høy økning på grafen som skyldes
 Korona pandemien.
 
-```{r}
+```{r Arbeidsledighet}
 Tab_10539_13470_Nov %>%
   select(ar, Region, Andel) %>%
   filter(Region %in% c("Haugalandet", "Hele landet")
@@ -557,7 +557,7 @@ figurene ovenfor viser, er Haugalandet godt etablert i disse
 næringssektorene hvor regionen har en sterk arbeidskraft, og viser til
 at fagfelt og næringssektor korrelerer.
 
-```{r}
+```{r Fagfelt}
 Tab_11615_fagfelt_sysselsatte %>%
   filter(Region %in% c("Haugalandet", "Norge")) %>%
   filter(ar == "2021-01-01") %>% 
@@ -599,7 +599,7 @@ Norge kommer bedre ut enn Haugalandet, grunnen til dette er at de som
 tar høyere utdanninger flytter til byer som Oslo og Bergen og gjerne bli
 igjen for å starte sin arbeidskarriere.
 
-```{r}
+```{r Utdanningsnivå}
 Tab_11615_utdanningsnivaa_sysselsatte_andel %>%
   filter(Region %in% c("Haugalandet", "Norge")) %>%
   filter(ar == "2021-01-01") %>% 
