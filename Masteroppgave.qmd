@@ -138,11 +138,23 @@ Eksport base modellen ble utviklet av Homer Hoyt på 1930-tallet, og
 teorien baserer seg på at regioner og byer ikke kan stole utelukkende på
 endogene kapasiteter for å oppnå utvikling: deres økonomiske vekst er
 sterkt knyttet til faktorer eksternt fra det lokale systemet
-[@capello2015].
+[@capello2015]. Han skilte sysselsettingsfordelingen mellom basisnæringer $E_b$ 
+og lokalnæringer $E_s$, hvor $E_T$ er total sysselsetting i regionen. 
+Hoyt formulerte dermed følgende uttrykk:
 
-Hoyt [@hoyt1954] forklarer at base-arbeiderne trenger tjenestene til
+$$
+E_T = E_b + E_s
+$$ {#eq-5.1.1}
+$$
+E_s = aE_T
+$$ {#eq-5.1.2}
+$$
+E_b = \bar{E_b}
+$$ {#eq-5.1.3}
+
+@hoyt1954 forklarer at base-arbeiderne trenger tjenestene til
 detaljhandel, lokale offentlige arbeidere, lokal transport og utstyr,
-byggere, doktorer, tannleger og andre profesjonelle tjenester; disse
+byggere, leger, tannleger og andre profesjonelle tjenester; disse
 arbeiderene som jobber for behovet til base-arbeiderne, kalles for
 lokal-arbeidere. Hoyt sier videre at en by eller region må produsere
 eksport for å kunne betale for importen av andre varer, og at disse
@@ -631,8 +643,8 @@ næringsstruktur som er med på å fremheve fagfolk og personen med
 fag/svennebrev. Når det gjelder universitetsutdanning så kan vi se at
 Norge kommer bedre ut enn Haugalandet, grunnen til dette er at de som
 tar høyere utdanninger flytter til byer som Oslo og Bergen og gjerne bli
-igjen for å starte sin arbeidskarriere.
-Se @fig-utdanning for utfyllende informasjon :P
+igjen for å starte sin arbeidskarriere. Se @fig-utdanning for utfyllende
+informasjon :P
 
 ```{r Utdanningsnivå}
 #| label: fig-utdanning
