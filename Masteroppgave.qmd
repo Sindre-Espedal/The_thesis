@@ -204,31 +204,31 @@ base-sektor- og lokalsektor-sysselsetting (lokal tjenester).
 @eq-1 viser at befolkningen er proporsjonal med totalt antall
 sysselsatte.
 
-@eq-2 viser ar total sysselsetting er summen av base-sysselsetting og
-lokal-sysselsetting.
-
-@eq-3 viser lokalsysselsettingen er proporsjonal med bed befolkningen.
-
-@eq-4 viser aktivitetsnivået i basisnæringene er eksogent gitt.
-
-[@capello2015] introduserer så et tidsetterslep i @eq-3 og
-ikke-lineariteter i @eq-1 og @eq-3, som vil si de subsidieres med:
-
 $$
 P = aE_T
 $$ {#eq-1}
+
+@eq-2 viser ar total sysselsetting er summen av base-sysselsetting og
+lokal-sysselsetting.
 
 $$
 E_T = E_b + E_s
 $$ {#eq-2}
 
+@eq-3 viser lokalsysselsettingen er proporsjonal med bed befolkningen.
+
 $$
 E_s = bP
 $$ {#eq-3}
 
+@eq-4 viser aktivitetsnivået i basisnæringene er eksogent gitt.
+
 $$
 E_b = \bar{E}_b
 $$ {#eq-4}
+
+[@capello2015] introduserer så et tidsetterslep i @eq-3 og
+ikke-lineariteter i @eq-1 og @eq-3, som vil si de subsidieres med:
 
 @eq-5 og @eq-6 viser at effekten av økt sysselsetting på befolkning er
 sterkere for høye sysselsettingsnivåer, og effekten av økt befolkning på
