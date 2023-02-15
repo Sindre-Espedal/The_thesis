@@ -163,13 +163,13 @@ basisnæringene i regionen eller byen er den primære årsaken til vekst
 
 Sysselsetting i basesektoren er eksogen for det økonomiske systemet,
 mens sysselsettingen for lokalsektoren er en andel $a$ av total
-sysselsetting. Ved enkel matematikk kan vi få frem:
+sysselsetting. Dermed får vi følgende uttrykk:
 
 $$
 E_T = \frac{1}{1-a}E_b
 $$ {#eq-5.2}
 
-Og på vekstrate betingelser, for én enkel periode:
+På tilvekstform svarer dette til at:
 
 $$
 \Delta E_T = \frac{1}{1-a} \Delta E_b
@@ -198,22 +198,6 @@ $$ {#eq-5.5}
 [@capello2015] formulerer videre Hoyt sin eskport base modell som
 følgende:
 
-$$
-P = aE_T
-$$ {#eq-1}
-
-$$
-E_T = E_b + E_s
-$$ {#eq-2}
-
-$$
-E_s = bP
-$$ {#eq-3}
-
-$$
-E_b = \bar{E}_b
-$$ {#eq-4}
-
 Hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-,
 base-sektor- og lokalsektor-sysselsetting (lokal tjenester).
 
@@ -231,12 +215,20 @@ lokal-sysselsetting.
 ikke-lineariteter i @eq-1 og @eq-3, som vil si de subsidieres med:
 
 $$
-P = \alpha E_T, \alpha' > 0 
-$$ {#eq-5}
+P = aE_T
+$$ {#eq-1}
 
 $$
-E_s = \beta P, \beta' > 0 
-$$ {#eq-6}
+E_T = E_b + E_s
+$$ {#eq-2}
+
+$$
+E_s = bP
+$$ {#eq-3}
+
+$$
+E_b = \bar{E}_b
+$$ {#eq-4}
 
 @eq-5 og @eq-6 viser at effekten av økt sysselsetting på befolkning er
 sterkere for høye sysselsettingsnivåer, og effekten av økt befolkning på
@@ -244,6 +236,14 @@ sysselsettingen i lokal sektor er sterkere for høye befolkningsnivåer
 [@capello2015].
 
 Capello setter så inn fra ligning 2 og 6 i @eq-5, og får:
+
+$$
+P = \alpha E_T, \alpha' > 0 
+$$ {#eq-5}
+
+$$
+E_s = \beta P, \beta' > 0 
+$$ {#eq-6}
 
 $$
 P(t) = \beta\{E_b + \alpha [P(t-1)]\}
