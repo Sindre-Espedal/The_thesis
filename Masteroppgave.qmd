@@ -224,27 +224,10 @@ $$
 E_b = \bar{E}_b
 $$ {#eq-4}
 
-[@capello2015] introduserer så et tidsetterslep i @eq-3 og
-ikke-lineariteter i @eq-1 og @eq-3, som vil si de subsidieres med:
+Den første varianten spiller på sammenhengen mellom lokalnæringer og samlet sysselsetting. Forutsetningen om proporsjonalitet innebærer en hypotese om at sysselsettingen i lokalnæringene må stå i et fast forhold til samlet sysselsetting i den geografien en studerer. Dette er basert på en forutsetning om at lokalbedriftene leverer varer og tjenester til bedriftene samlet sett, på en slik måte at den sysselsettingen for lokalnæringene utvikler seg i et fast forhold med samlet sysselsetting.  
 
-@eq-5 og @eq-6 viser at effekten av økt sysselsetting på befolkning er
-sterkere for høye sysselsettingsnivåer, og effekten av økt befolkning på
-sysselsettingen i lokal sektor er sterkere for høye befolkningsnivåer
-[@capello2015].
+I den andre tilnærmingen er det proporsjonalitet mellom lokalaktivitet og befolkning. Dette henviser til at lokalaktivitet er bestemt av lokal kjøpekraft og lokalt konsum, som igjen er avledet av befolkning. Dette er imidlertid en befolkning; etterspørselen må også forventes å reflektere inntekt, demografisk sammensetning av befolkningen o.l.  
 
-Capello setter så inn fra ligning 2 og 6 i @eq-5, og får:
-
-$$
-P = \alpha E_T, \alpha' > 0 
-$$ {#eq-5}
-
-$$
-E_s = \beta P, \beta' > 0 
-$$ {#eq-6}
-
-$$
-P(t) = \beta\{E_b + \alpha [P(t-1)]\}
-$$ {#eq-7}
 
 ## Arbeidsstrukturen på Haugalandet
 
