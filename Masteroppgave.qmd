@@ -45,43 +45,166 @@ knitr::opts_chunk$set(echo=FALSE)
 
 ## Beskrivelse
 
-Beyonder er en batteribedrift som har planer om å etablere en gigafabrikk på Haugaland næringspark i Gismarvik. Den kommersielle distribusjonen fra fabrikken er planlagt fra 2026 (Beyonder, 2022). I første omgang ser Beyonder for seg å ansette mellom 800-1000 arbeidstakere for å drifte de fem første produksjonshallene. De ser for seg i senere tid å etablere fem ekstra haller og med det sitte med 10 haller og da trenger cirka 2000 ansatte hvorav 70-75% vil være fagarbeidere, 25-30% vil være ingeniører og i tillegg en administrasjon bestående av ledelse, økonomi, HR, HMS, supply chain osv. De ser for seg at de trenger cirka 50 ansatte i administrasjonen per 1000 ansatte. Administrasjon kan ende opp med 100 ansatte.
+Beyonder er en batteribedrift som har planer om å etablere en
+gigafabrikk [@whiteaker2022] på Haugaland næringspark i Gismarvik. Den
+kommersielle distribusjonen fra fabrikken er planlagt fra 2026
+(Beyonder, 2022). I første omgang ser Beyonder for seg å ansette mellom
+800-1000 arbeidstakere for å drifte de fem første produksjonshallene. De
+ser for seg i senere tid å etablere fem ekstra haller og med det sitte
+med 10 haller og da trenger cirka 2000 ansatte hvorav 70-75% vil være
+fagarbeidere, 25-30% vil være ingeniører og i tillegg en administrasjon
+bestående av ledelse, økonomi, HR, HMS, supply chain osv. De ser for seg
+at de trenger cirka 50 ansatte i administrasjonen per 1000 ansatte.
+Administrasjon kan ende opp med 100 ansatte.
 
-Beyonder var første produsent av batteri-celler i Norge og ble etablert i slutten av første kvartal i 2016. Beyonder har stadig utviklet seg og har i dag 59 ansatte [@proff2023]
+Beyonder var første produsent av batteri-celler i Norge og ble etablert
+i slutten av første kvartal i 2016. Beyonder har stadig utviklet seg og
+har i dag 59 ansatte [@proff2023]. Beyonder produserer såkalte
+«høyeffektsbatterier», som er batterier med mye kraft. Batteriene er en
+hybrid mellom en kondensator og et lithiumion batteri, dette er med på å
+løse utfordringer som ikke er adressert i dagens batterier. Batteriene
+er også øko-vennlige, og produksjonen består av bruk av fornybar energi
+og sagspon [@beyonder2023a].
 
-Beyonder produserer såkalte «høyeffektsbatterier», som er batterier med mye kraft. Batteriene er en hybrid mellom en kondensator og ett Lithiumion batteri hvor en ønsker å ta vare på de to ulike teknologienes fordeler og samtidig redusere de negative egenskapene i størst mulig grad, som løser utfordringen som ikke er adressert i dagens batterier i høy-kraft applikasjoner. Batteriene er også øko-vennlige, og produksjonen består av bruk av fornybar energi og sagspon (Beyonder, 2022).
+Beyonder planlegger å etablere en gigafabrikkpå Haugaland Næringspark,
+lokalisert i Gismarvik. Valg av destinasjon er en nøye vurdering av
+lokalsamfunn, naturomgivelser, tilgang på personell og ren kraft
+(Beyonder, 2022). Gigafabrikken er planlagt å være ferdig innen 2026. 
 
-Beyonder sin teknologi gjør det mulig for industrier å elektrifisere produksjonen sin på en balansert og mer effektive måte (Beyonder, 2022). Denne løsningen, i tråd med FNs bærekrafts mål, vil gjøre at etterspørselen etter batterier vil overstige dagens globale tilbud. Beyonder planlegger dermed å etablere en gigafactory på Haugaland Næringspark, lokalisert i Gismarvik. Valg av destinasjon er en nøye vurdering av lokalsamfunn, naturomgivelser, tilgang på personell og ren kraft (Beyonder, 2022). Gigafactorien er planlagt å være ferdig innen 2026.
+Haugaland næringspark er Norges største regulerte næringspark og gir
+bedrifter gode muligheter til å utforme tomt etter ønske. Området er
+spesielt lagt til rette for areal- og energikrevende industri, noe
+Beyonder er. Det er også god tilgang til kraft i form av el-kraft,
+naturgasser og fornybar kraft. Næringsparken har også lett tilkomst med
+bilvei og sjøveien [@haugalandnaeringspark2023a]. I tillegg er det ikke
+langt fra Haugesund flyplass, Karmøy, noe som gjør beliggenheten veldig
+tilgjengelig. Gismarvik Havn som er en del av Haugesund næringspark har
+en kai på 110 meter og minste dybde på 16,5 meter, noe som betyr at
+tilkomst med båt ikke er noe problem og kan være med på å øke
+attraktiviteten til å etablere seg her[@haugalandnaeringspark2023]. Det
+er også et lagerareal på 80 dekar, dette gjør at bedrifter som er
+etablert i næringsparken kan lagre ferdigprodukt på kaien og ligger der
+klar til henting av båter. En slik næringspark passer veldig godt inn i
+etableringen til Beyonder. Næringsparken vil bidra med gode forbindelser
+til både vann, land og luft som gjør at produktene enkelt kan
+distribueres rundt.
 
-Haugaland næringspark er Norges største regulerte næringspark og gir bedrifter gode muligheter til å utforme tomt etter ønske. Området er spesielt lagt til rette for areal- og energikrevende industri, noe Beyonder er. Det er også god tilgang til kraft i form av el-kraft, naturgasser og fornybar kraft. Næringsparken har også lett tilkomst med bilvei og sjøveien [@haugalandnaeringspark2023a]. I tillegg er det ikke langt fra Haugesund flyplass, Karmøy, noe som gjør beliggenheten veldig tilgjengelig. Gismarvik Havn som er en del av Haugesund næringspark har en kai på 110 meter og minste dybde på 16,5 meter, noe som betyr at tilkomst med båt ikke er noe problem og kan være med på å øke attraktiviteten til å etablere seg her[@haugalandnaeringspark2023]. Det er også et lagerareal på 80 dekar, dette gjør at bedrifter som er etablert i næringsparken kan lagre ferdigprodukt på kaien og ligger der klar til henting av båter. En slik næringspark passer veldig godt inn i etableringen til Beyonder. Næringsparken vil bidra med gode forbindelser til både vann, land og luft som gjør at produktene enkelt kan distribueres rundt.
+### Beyonder, bare et luftslott?
+
+Etableringen av Beyonder på Gismarvik er fortsatt i veldig tidlig fase,
+og for at det skal realiseres må det hentes inn milliarder i kapital
+[@storksen2022]. På starten av 2023 leter Beyonder etter finansiering
+til hovedkontoret og driften på Forus, og etablering på Gismarvik er
+ikke i fokus [@storksen2023]. Beyonder sin manglende langsiktige
+finansiering skaper stor usikkerhet og betydelig tvil om selskapets evne
+til fortsatt drift [@storksen2022a]. Dette har skapt debatt i
+lokalsamfunnet, og det har vokst frem skepsis om det er et luftslott som
+planlegges på Haugaland næringspark [@kristensen2022].  
+
+En annen mulig skepsis som kan være i samfunnet er uroen for
+"backwash-effekter" [@capello2015, s153], som handler om at konkurransen
+regionen øker, og presser opp lønninger, ved en etablering av
+batterifabrikken. Denne økte konkurransen kan føre til at andre
+bedrifter blir til slutt utkonkurrert.
+
+### Føler en overskrift passer inn her, men usikker på hva
+
+I oppgaven har vi valgt å se på Beyonder da det er den bedriften som er
+aktuell med etablering i Gismarvik. Hvis det viser seg at dette ikke
+blir en realitet så er oppgaven vår, uavhengig av Beyonder-etableringen,
+aktuell for andre etableringer som kan oppstå i næringsparken på grunn
+av den interessante illustrasjonen av ringvirkninger på en slik
+etablering. Det er gjort et godt stykke arbeid med å tilrettelegge
+infrastrukturen for å gjøre næringsparken attraktiv, så det er gode
+muligheter for at det vil oppstå en etablering.
+
+Viktige forhold i en ringvirkningsanalyse er om det oppstår generative
+eller distributive virkninger. En distributiv virkning får vi når et
+område har en positiv utvikling og motsvares av en tilsvarende negativ
+utvikling i et annet område. Et godt eksempel på en slik virkning er
+flyttestrømmer. Generativ virkning kan for eksempel være utvikling av
+veinett som vil gjøre arbeidsmarkedet mer effektivt, hvis det oppstår en
+generativ effekt vil dette gi en forbedring i geografien som helhet
+[@brathen2003]. Over tid har det blitt investert i forbedring av veinett
+på Haugalandet gjennom Haugalandspakken. Det er fine veier inn til
+Haugaland næringspark, noe som gjør det lett tilgjengelig. Dette er med
+på å skape kortere reisetid for varer som blir produsert, noe igjen som
+gjør varene mer attraktive. Nå som arbeidet av Rogfast er i gang
+[@statensvegvesen2023] vil ferdigstillingen av denne være med på å øke
+tilgjengeligheten mellom Haugalandet og Stavanger-regionen og det kan
+skape enda større generative effekter for regionen.
 
 # Baseteori
 
-### McCann
+Når vi skal vurdere betydningen av en så stor etablering på Haugalandet,
+og vurdere ringvirkningene, er det naturlig å presentere økonomisk
+baseteori. Denne teorien hører til familien av keynesiansk-inspirerte
+modeller, med fokus på at variasjoner i samlet etterspørsel påvirker
+kapasitetsutnyttelsen i regionen.
 
-Den økonomiske basemodellen er utviklet til brukt på by- og regionsnivå og aggregerte analyser. I stedet for å analysere virkgninger av industriell endring på mikroøkonomisk nivå, fokuserer denne modellen på koblingene mellom aggregerte sektorer ved å karakterisere en region som består av to industrisektorer. Disse to er lokalnæringer og basenæringer (McCann, 2013, s.156).
+Den økonomiske basemodellen er utviklet til bruk på by- og regionsnivå
+og aggregerte analyser. I stedet for å analysere virkninger av
+industriell endring på mikroøkonomisk nivå, fokuserer denne modellen på
+koblingene mellom aggregerte sektorer ved å karakterisere en region som
+består av to industrisektorer. Disse to er lokalnæringer og basenæringer
+\[McCann2013, s. 156\].
 
-McCann (2013) sier at lokalsektoren består av bedrifter som produserer tjenester og produkter som serves lokalt, kan også kalles servicenæringer. Lokalnæringer blir neste utelukkende brukt av lokalbedrifter og husholdningene. Dette betyr at lokalnæringer styres av interne (endogene) forhold. Noen eksempler på lokalnæring kan være skole, helse, dagligvarebutikk og lignende.
+McCann (2013) sier at lokalsektoren består av bedrifter som produserer
+tjenester og produkter som serves lokalt. Lokalnæringer blir neste
+utelukkende brukt av lokalbedrifter og husholdningene. Dette betyr at
+lokalnæringer styres av forhold, som inngår endogent i modellen. Noen
+eksempler på lokalnæring kan være skole, helse, dagligvarebutikk og
+lignende.
 
-Basisnæring er ifølge McCann (2013) en næring som har spesialisert seg og produserer tjenester eller goder som blir eksportert til andre regioner eller land. Eksempler på basisnæringer kan være bilindustrien i Toriono og Detroit, flyindustrien i Seattle og Toulouse (McCann, 2013, S.156). Hvis vi vil ser her lokalt så vi kan sammenligne med hvordan Beyonder vil ha det så kan vi nevne Aibel i Haugesund, Hydro på Karmøy og Autostore i Tysvær. Vi vet at basisnæring styres av eksport, da kan vi også si at sysselsettingen i basisnæringene er eksogent gitt, noe som betyr at forholdene er bestemt utenfor regionen næringen er etablert. Videre vil vi snakke mer om Hoyt og hvordan eksportelementet i basisnæringer grunnen til at Hoyts basemodell blir ansett som en eksport-basemodell.
+Basisnæring er ifølge McCann (2013) en næring som har spesialisert seg
+og produserer tjenester eller goder som blir eksportert til andre
+regioner eller land. Eksempler på basisnæringer kan være bilindustrien i
+Torino og Detroit, flyindustrien i Seattle og Toulouse (McCann, 2013,
+S.156). Vi vet at basisnæring styres av eksport, da kan vi også si at
+sysselsettingen i basisnæringene er eksogent gitt, noe som betyr at
+forholdene er bestemt utenfor regionen næringen er etablert. Videre vil
+vi presentere Hoyts basemodell, og diskutere eksportelementet i
+basisnæringer er grunnen til at Hoyts basemodell blir ansett som en
+eksport-basemodell.
 
 ### Capello/Hoyt (Kapittel 5 + artikel)
 
-Den økonomiske eksport baseteori er utviklet for å bestemme rollen til etterspørselen når det gjelder vekst og utvikling til en region [@capello2015].
+Den økonomiske eksport baseteori er utviklet for å bestemme rollen til
+etterspørselen når det gjelder vekst og utvikling til en region
+[@capello2015].
 
-Eksport base modellen ble utviklet av Homer Hoyt på 1930-tallet, og teorien baserer seg på at regioner og byer ikke kan stole utelukkende på endogene kapasiteter for å oppnå utvikling: deres økonomiske vekst er sterkt knyttet til faktorer eksternt fra det lokale systemet [@capello2015]. Han skilte sysselsettingsfordelingen mellom basisnæringer $E_b$ og lokalnæringer $E_s$, hvor $E_T$ er total sysselsetting i regionen. Hoyt formulerte dermed følgende uttrykk:
+Eksport base modellen ble utviklet av Homer Hoyt på 1930-tallet, og
+teorien baserer seg på at regioner og byer ikke kan stole utelukkende på
+endogene kapasiteter for å oppnå utvikling: deres økonomiske vekst er
+sterkt knyttet til faktorer eksternt fra det lokale systemet
+[@capello2015]. Han skilte sysselsettingsfordelingen mellom
+basisnæringer $E_b$ og lokalnæringer $E_s$, hvor $E_T$ er total
+sysselsetting i regionen. Hoyt formulerte dermed følgende uttrykk:
 
 $$
 E_T = E_b + E_s
-$$ {#eq-5.1.1} $$
+$$ {#eq-5.1.1}
+
+$$
 E_s = aE_T
-$$ {#eq-5.1.2} $$
+$$ {#eq-5.1.2}
+
+$$
 E_b = \bar{E_b}
 $$ {#eq-5.1.3}
 
-@hoyt1954 forklarer at base-arbeiderne trenger tjenestene til detaljhandel, lokale offentlige arbeidere, lokal transport og utstyr, byggere, leger, tannleger og andre profesjonelle tjenester; disse arbeiderene som jobber for behovet til base-arbeiderne, kalles for lokal-arbeidere. Hoyt sier videre at en by eller region må produsere eksport for å kunne betale for importen av andre varer, og at disse basisnæringene i regionen eller byen er den primære årsaken til vekst [@hoyt1954].
+@hoyt1954 forklarer at base-arbeiderne trenger tjenestene til
+detaljhandel, lokale offentlige arbeidere, lokal transport og utstyr,
+byggere, leger, tannleger og andre profesjonelle tjenester; disse
+arbeiderne som jobber for behovet til base-arbeiderne, kalles for
+lokal-arbeidere. Hoyt sier videre at en by eller region må produsere
+eksport for å kunne betale for importen av andre varer, og at disse
+basisnæringene i regionen eller byen er den primære årsaken til vekst
+[@hoyt1954].
 
-Sysselsetting i basesektoren er eksogen for det økonomiske systemet, mens sysselsettingen for lokalsektoren er en andel $a$ av total sysselsetting. Dermed får vi følgende uttrykk:
+Sysselsetting i basesektoren er eksogen for det økonomiske systemet,
+mens sysselsettingen for lokalsektoren er en andel $a$ av total
+sysselsetting. Dermed får vi følgende uttrykk:
 
 $$
 E_T = \frac{1}{1-a}E_b
@@ -93,17 +216,36 @@ $$
 \Delta E_T = \frac{1}{1-a} \Delta E_b
 $$ {#eq-5.3}
 
-@eq-5.3 sier at når sysselsetting øker i basissektoren, så undergår total sysselsetting mer enn en proporsjonal økning, hvis beløpet er definert av basemultiplikatoren ($\frac{1}{1-a}$) som per definisjon antar verdier større enn én. Hvis man antar en enkel andel, $b$, mellom total sysselsetting og befolkningen som er bosatt i området, kan vi skrive:
+@eq-5.3 sier at når sysselsetting øker i basissektoren, så undergår
+total sysselsetting mer enn en proporsjonal økning, hvis beløpet er
+definert av basemultiplikatoren ($\frac{1}{1-a}$) som per definisjon
+antar verdier større enn én. Hvis man antar en enkel andel, $b$, mellom
+total sysselsetting og befolkningen som er bosatt i området, kan vi
+skrive:
 
 $$
 P = bE_T, b >1
 $$ {#eq-5.4}
 
-Ved å kombinere ligningene ovenfor, kan befolkningsveksten (og derfor den fysiske veksten i området) enkelt beregnes som:
+Ved å kombinere ligningene ovenfor, kan befolkningsveksten (og derfor
+den fysiske veksten i området) enkelt beregnes som:
 
 $$
 \Delta P = b \Delta E_T = \frac{b}{1-a} \Delta E_b
 $$ {#eq-5.5}
+
+Ligning 1 og 2 viser til at basisnæringene påvirker den totale sysselsettingen i regionen. Virkningene av for eksempel en positiv eksogen basissysselsetting inn til regionen, som potensielt Beyonder, vil skape en økt sysselsetting i regionen.  Ligning 4 sier noe om hvordan virkningene påvirker befolkningsutviklingen i regionen.  
+
+### Tolkning av parameterne a & b: 
+
+Parameteren a er definert i ligning 2, og kan omformuleres slik: a = E_s/E_t. Dette er en viktig størrelse i en diskusjon av hvordan endret basisaktivitet påvirker økonomien til regionen. En høy verdi på a indikerer at regionen har en høy andel som er sysselsatte i lokalnæringer, mens en lav a indikerer at regionen har en høy andel sysselsatte i basisnæringer.  
+
+Parameteren b representer som nevnt ovenfor andelen mellom total sysselsetting og befolkningen i regionen, og kan omformuleres slik: b = P/E_t. En høy verdi på b indikerer at befolkningen i regionen t er relativt større enn antall arbeidsplasser i regionen. På Haugalandet har Sveio kommune den høyeste b, og dette er en kommune i regionen som har mye utpendling. Nabokommunen, Haugesund, har den laveste b-verdien i regionen. Dette indikerer at det mye arbeidsplasser, sett i forhold til befolkningen i området. På kommunenivå vil verdiene på b svinge mye mer. Dette gir mer oversikt over hvor arbeidsplassene og bosettingsmønstrene er lokalisert i geografien.  
+
+Den kommunen med lavest b representerer sentrum for regionen, hvor det oftest er høyest innpendling. For arbeidsmarkedsregionene Haugalandet og Sunnhordland er dett Haugesund og Stord. For Stavangerregionen og Bergensregionen er dette Stavanger+Sola og Bergen. 
+
+På arbeidsmarkedsregion nivå så endrer b seg mindre fra region til region. Som vist i tabellen, ser vi at Haugalandet og Sunnhordland har en relativt lik b. Stavangerregionen og Bergensregionen har en enda lavere b enn Haugalandet og Sunnhordland. Dette kan skyldes at disse to regionene er adskilt med ferjer, og dermed mindre knyttet til hverandre, og at de to arbeidsmarkedsregionene er større enn på Haugalandet. 
+
 
 **Basemultiplikatoren fra modellen (utregning)**
 
@@ -136,17 +278,21 @@ $$
 \Delta E_r = \frac{1}{1-a} \cdot \Delta \bar{E_b}
 $$ {#eq-5.0.7} der $\frac{1}{1-a}$ er lik basemultiplikatoren.
 
-Kan også poengtere at lokalnæringer er knyttet til samlet produksjon som nevnt tidligere(?), som leverandær til produksjonsaktivitet.
+Kan også poengtere at lokalnæringer er knyttet til samlet produksjon som
+nevnt tidligere(?), som leverandær til produksjonsaktivitet.
 
 hvis $a = \frac{1}{2} \rightarrow \frac{1}{1-a} = 2$,
 
 og hvis hvis $a = 0,8 \rightarrow \frac{1}{1-a} = 5$,
 
-Her er $a$ altså en viktig størrelse i en diskusjon av hvordan endret basisproduktivitet påvirker lokal økonomi.
+Her er $a$ altså en viktig størrelse i en diskusjon av hvordan endret
+basisproduktivitet påvirker lokal økonomi.
 
 **Sum av mange ledd, basemultiplikatoren**
 
-Hvis for eksempel $\Delta \bar{E_b} = 100$ så vil: $$
+Hvis for eksempel $\Delta \bar{E_b} = 100$ så vil: 
+
+$$
 \rightarrow \Delta E_r = 100
 $$ {#eq-5.0.1.1}
 
@@ -212,15 +358,21 @@ $$ {#eq-5.0.1.1.5}
 
 Med $a < 1$ så har vi en konvergerende prosess:
 
-@Capello2015 presenterer også en annen tilnærmingen, som legger mer vekt på befolkningen. Hun formulerer videre Hoyt sin eskport base modell som følgende, hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-, base-sektor- og lokalsektor-sysselsetting (lokal tjenester), som nevnt tidligere.
+@Capello2015 presenterer også en annen tilnærmingen, som legger mer vekt
+på befolkningen. Hun formulerer videre Hoyt sin eskport base modell som
+følgende, hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-,
+base-sektor- og lokalsektor-sysselsetting (lokal tjenester), som nevnt
+tidligere.
 
-@eq-1 viser da at befolkningen er proporsjonal med totalt antall sysselsatte.
+@eq-1 viser da at befolkningen er proporsjonal med totalt antall
+sysselsatte.
 
 $$
 P = aE_T
 $$ {#eq-1}
 
-@eq-2 viser slik som sist, at total sysselsetting er summen av base-sysselsetting og lokal-sysselsetting.
+@eq-2 viser slik som sist, at total sysselsetting er summen av
+base-sysselsetting og lokal-sysselsetting.
 
 $$
 E_T = E_b + E_s
@@ -238,21 +390,49 @@ $$
 E_b = \bar{E}_b
 $$ {#eq-4}
 
-Den første varianten spiller på sammenhengen mellom lokalnæringer og samlet sysselsetting. Forutsetningen om proporsjonalitet innebærer en hypotese om at sysselsettingen i lokalnæringene må stå i et fast forhold til samlet sysselsetting i den geografien en studerer. Dette er basert på en forutsetning om at lokalbedriftene leverer varer og tjenester til bedriftene samlet sett, på en slik måte at den sysselsettingen for lokalnæringene utvikler seg i et fast forhold med samlet sysselsetting.
+Den første varianten spiller på sammenhengen mellom lokalnæringer og
+samlet sysselsetting. Forutsetningen om proporsjonalitet innebærer en
+hypotese om at sysselsettingen i lokalnæringene må stå i et fast forhold
+til samlet sysselsetting i den geografien en studerer. Dette er basert
+på en forutsetning om at lokalbedriftene leverer varer og tjenester til
+bedriftene samlet sett, på en slik måte at den sysselsettingen for
+lokalnæringene utvikler seg i et fast forhold med samlet sysselsetting.
 
-I den andre tilnærmingen er det proporsjonalitet mellom lokalaktivitet og befolkning. Dette henviser til at lokalaktivitet er bestemt av lokal kjøpekraft og lokalt konsum, som igjen er avledet av befolkning. Dette er imidlertid en befolkning; etterspørselen må også forventes å reflektere inntekt, demografisk sammensetning av befolkningen o.l.
+I den andre tilnærmingen er det proporsjonalitet mellom lokalaktivitet
+og befolkning. Dette henviser til at lokalaktivitet er bestemt av lokal
+kjøpekraft og lokalt konsum, som igjen er avledet av befolkning. Dette
+er imidlertid en befolkning; etterspørselen må også forventes å
+reflektere inntekt, demografisk sammensetning av befolkningen o.l.
 
 ## Arbeidsstrukturen på Haugalandet
 
 ### Introduksjon
 
-Dette kapittelet vil vi se på næringsstrukturen på Haugalandet. Vi velger å gjøre dette for å få en bedre oversikt over hva de regionale virkningene på etableringen av en gigafabrikk vil ha å si på næringsstrukturen, hvilken type arbeidskraft som er tilgjengelig og hvordan arbeidsledighetsnivået er.
+Dette kapittelet vil vi se på næringsstrukturen på Haugalandet. Vi
+velger å gjøre dette for å få en bedre oversikt over hva de regionale
+virkningene på etableringen av en gigafabrikk vil ha å si på
+næringsstrukturen, hvilken type arbeidskraft som er tilgjengelig og
+hvordan arbeidsledighetsnivået er.
 
-Vi har definert regionen Haugalandet med kommunene som er formelt med; Haugesund, Karmøy, Tysvær, Utsira, Bokn og Vindafjord. I tillegg har vi tatt med kommunene Sveio, Etne og Sauda. Sveio og Etne ligger veldig nært Haugalandet og henger godt sammen med arbeidsmarkedet på Haugalandet. Sauda grenser til Etne og selv om Sauda har en høy andel som arbeider og bor i kommunen, er det grunn til å tro at mobiliteten og arbeidsmarkedsområde vil øke i fremtiden [@severinsen2022]. Vi har derfor definert Haugalandet som de ni nevnte kommunene.
+Vi har definert regionen Haugalandet med kommunene som er formelt med;
+Haugesund, Karmøy, Tysvær, Utsira, Bokn og Vindafjord. I tillegg har vi
+tatt med kommunene Sveio, Etne og Sauda. Sveio og Etne ligger veldig
+nært Haugalandet og henger godt sammen med arbeidsmarkedet på
+Haugalandet. Sauda grenser til Etne og selv om Sauda har en høy andel
+som arbeider og bor i kommunen, er det grunn til å tro at mobiliteten og
+arbeidsmarkedsområde vil øke i fremtiden [@severinsen2022]. Vi har
+derfor definert Haugalandet som de ni nevnte kommunene.
 
 ### Arbeidsfordelingen internt på Haugalandet, 2021
 
-Vi ser tydelig at Haugesund er sentrum for regionen i figurene nedenfor når det gjelder arbeidssted på Haugalandet, etterfulgt av Karmøy. I tillegg har Haugesund en betydelig høyere andel innpendling enn de resterende kommunene, med unntak av Tysvær kommune. En mulig årsak til at Karmøy har den nest største andelen sysselsatte er dens befolkningsstørrelse, som er den største i regionen [@vareide2021]. I figurene nedenfor ser vi også at Karmøy også er blant kommunene med lavere innpendling, med en andel på cirka 25%.
+Vi ser tydelig at Haugesund er sentrum for regionen i figurene nedenfor
+når det gjelder arbeidssted på Haugalandet, etterfulgt av Karmøy. I
+tillegg har Haugesund en betydelig høyere andel innpendling enn de
+resterende kommunene, med unntak av Tysvær kommune. En mulig årsak til
+at Karmøy har den nest største andelen sysselsatte er dens
+befolkningsstørrelse, som er den største i regionen [@vareide2021]. I
+figurene nedenfor ser vi også at Karmøy også er blant kommunene med
+lavere innpendling, med en andel på cirka 25%.
 
 ```{r}
 Tab_andel_sysselsatt_fordelt <- read_excel("Data_R_MSB_210/Tab_andel_sysselsatt_fordelt.xlsx")
@@ -311,9 +491,26 @@ Tab_13470_andeler_naering$Region <- replace(Tab_13470_andeler_naering$Region,Tab
 
 ### Figur 1 a og b) -- Fiske, fangst og akvakultur -- Sjøfart
 
-Det første vi vil se på er hvilke næringer som har større andeler i regionen opp mot nasjonen. I figuren under ser vi at fiske, fangst og akvakultur er marginalt større enn det er nasjonalt. Grunnen til dette er antall trålere og oppdrettsanlegg både på land og sjø som er her på Haugalandet. Dette står også sterkt på resten av kysten til Norge, så det skiller seg ikke ut hvis vi ser på kyst-Norge, men ser vi på Norge generelt så er det større. Næringen er godt spredt på kommunene på Haugalandet, men Karmøy skiller seg ut med ca. 30% av andel sysselsatte i sin kommune.
+Det første vi vil se på er hvilke næringer som har større andeler i
+regionen opp mot nasjonen. I figuren under ser vi at fiske, fangst og
+akvakultur er marginalt større enn det er nasjonalt. Grunnen til dette
+er antall trålere og oppdrettsanlegg både på land og sjø som er her på
+Haugalandet. Dette står også sterkt på resten av kysten til Norge, så
+det skiller seg ikke ut hvis vi ser på kyst-Norge, men ser vi på Norge
+generelt så er det større. Næringen er godt spredt på kommunene på
+Haugalandet, men Karmøy skiller seg ut med ca. 30% av andel sysselsatte
+i sin kommune.
 
-Ved siden av har vi sjøfart, her ser vi en markant forskjell på regionen og landet. Haugesund ser på seg selv som den maritime hovedstaden i Norge og forklarer litt på hvorfor det er store forskjeller. Solstad shipping og Knutsen OAS og er store påvirkere på hvorfor sjøfart er så stort her på Haugalandet. I 2014 oppsto oljekrisen i Norge, i hovedsak Vest-Norge [@ntb2016]. Det er derfor vi ser en stor nedgang i andel ansatte på Haugalandet innen sjøfart fra 2014 til 2016. Vi ser at det er tendenser til vekst i sjøfart næringen fra og med 2020 og videre. Dette kan ha noe med optimismen og etableringen av havvindparker [@fornybarnorge2022].
+Ved siden av har vi sjøfart, her ser vi en markant forskjell på regionen
+og landet. Haugesund ser på seg selv som den maritime hovedstaden i
+Norge og forklarer litt på hvorfor det er store forskjeller. Solstad
+shipping og Knutsen OAS og er store påvirkere på hvorfor sjøfart er så
+stort her på Haugalandet. I 2014 oppsto oljekrisen i Norge, i hovedsak
+Vest-Norge [@ntb2016]. Det er derfor vi ser en stor nedgang i andel
+ansatte på Haugalandet innen sjøfart fra 2014 til 2016. Vi ser at det er
+tendenser til vekst i sjøfart næringen fra og med 2020 og videre. Dette
+kan ha noe med optimismen og etableringen av havvindparker
+[@fornybarnorge2022].
 
 ```{r Fiske, fangst og akvakultur + Sjøfart}
 Tabell_Fiske_fangst_og_akvakultur <- Tab_13470_andeler_naering %>%
@@ -345,9 +542,22 @@ ggarrange(Tabell_Fiske_fangst_og_akvakultur, Tabell_Sjøfart)
 
 ### Figur 2 a og b) -- Metallindustri -- Transportmiddelindustri ellers
 
-Metallindustrien i regionen er en klar basisnæring på både regionalt- og kommunenivå, og de siste fem årene har Karmøy kommune stått for 82% (vedlagt) av næringen etter arbeidssted. Resterende andelen av metallindustri er i Sauda kommune. I figuren nedenfor ser vi også at grafen beveger seg i stor korrelasjon med hvor mange ansatte Hydro aluminium har over tid [@odd-atle2010], noe som gjør det rimelig å anta at denne næringssektoren består i stor grad av Hydro Aluminium på Karmøy.
+Metallindustrien i regionen er en klar basisnæring på både regionalt- og
+kommunenivå, og de siste fem årene har Karmøy kommune stått for 82%
+(vedlagt) av næringen etter arbeidssted. Resterende andelen av
+metallindustri er i Sauda kommune. I figuren nedenfor ser vi også at
+grafen beveger seg i stor korrelasjon med hvor mange ansatte Hydro
+aluminium har over tid [@odd-atle2010], noe som gjør det rimelig å anta
+at denne næringssektoren består i stor grad av Hydro Aluminium på
+Karmøy.
 
-Denne næringen er også definitivt en basisnæring på de to ulike nivåene. Opptil 90% i regionen har arbeidssted i Haugesund kommune, hvor resterende er jevnt fordelt mellom Tysvær, Karmøy og Vindafjord. Det er grunn til å tro at denne næringssektoren er tungt vektet av bedriften Aibel, som er etablert i Haugesund kommune. For Haugesund kommune, så er Aibel en hjørnesteinsbedrift, hvor deres prestasjoner er korrelert med Haugesund sine prestasjoner [@midtsjo2015].
+Denne næringen er også definitivt en basisnæring på de to ulike nivåene.
+Opptil 90% i regionen har arbeidssted i Haugesund kommune, hvor
+resterende er jevnt fordelt mellom Tysvær, Karmøy og Vindafjord. Det er
+grunn til å tro at denne næringssektoren er tungt vektet av bedriften
+Aibel, som er etablert i Haugesund kommune. For Haugesund kommune, så er
+Aibel en hjørnesteinsbedrift, hvor deres prestasjoner er korrelert med
+Haugesund sine prestasjoner [@midtsjo2015].
 
 ```{r Metallindustri og Transportmiddelindustri ellers}
 Tabell_Metallindustri <- Tab_13470_andeler_naering %>%
@@ -379,7 +589,13 @@ ggarrange(Tabell_Metallindustri, Tabell_Transportmiddelindustri_ellers)
 
 ### Figur 3 -- Utvinning av råolje og naturgass
 
-I denne figuren ser vi at forskjellen er små fra regionen og hele landet. For Haugalandet er det Kårstø i Tysvær som står for denne andelen av ansatte. Hadde vi inkludert Stavanger med i Haugalandet så hadde vi sitt en høyere differanse. Det skal komme en tunnel mellom Haugalandet og Nord-Jæren som heter Rogfast, når denne ferdigstilles kan det diskuteres om næringsstrukturen vil forandre seg og om økonomiene til Nord-Jæren og Haugalandet vil smelte enda mer sammen.
+I denne figuren ser vi at forskjellen er små fra regionen og hele
+landet. For Haugalandet er det Kårstø i Tysvær som står for denne
+andelen av ansatte. Hadde vi inkludert Stavanger med i Haugalandet så
+hadde vi sitt en høyere differanse. Det skal komme en tunnel mellom
+Haugalandet og Nord-Jæren som heter Rogfast, når denne ferdigstilles kan
+det diskuteres om næringsstrukturen vil forandre seg og om økonomiene
+til Nord-Jæren og Haugalandet vil smelte enda mer sammen.
 
 ```{r Råolje og naturgass}
 #| label: fig-utvinning_råolje_naturgass
@@ -399,7 +615,14 @@ Tab_13470_andeler_naering %>%
 
 ### Figur 4 -- Spesialisert bygge- og anleggsvirksomhet
 
-Her ser vi nok en næring som står sterkt på Haugalandet opp mot nasjonen. Vi ser at det er et tydelig hopp fra 2010 til 2011 på Haugalandet, dette hoppet har oppstått på grunn av Haugalandspakken og T-forbindelsen virkelig har satt i gang og har krevd mye arbeidskraft inn i denne bransjen. Regionen har opprettholdt andelen sysselsatte, dette er nok fordi arbeidet med Haugalandspakken ikke er ferdig enda og at Haugalandet er i generell utvikling som krever mer av denne typen arbeid.
+Her ser vi nok en næring som står sterkt på Haugalandet opp mot
+nasjonen. Vi ser at det er et tydelig hopp fra 2010 til 2011 på
+Haugalandet, dette hoppet har oppstått på grunn av Haugalandspakken og
+T-forbindelsen virkelig har satt i gang og har krevd mye arbeidskraft
+inn i denne bransjen. Regionen har opprettholdt andelen sysselsatte,
+dette er nok fordi arbeidet med Haugalandspakken ikke er ferdig enda og
+at Haugalandet er i generell utvikling som krever mer av denne typen
+arbeid.
 
 ```{r Bygge og anlegg}
 #| label: fig-bygg_og_anlegg
@@ -419,9 +642,21 @@ Tab_13470_andeler_naering %>%
 
 ### Figur 5 -- Detaljhandel, unntatt med motorvogner
 
-Detaljhandel er den med tredje mest antall ansatte på Haugalandet, og ligger over den nasjonale andelen med litt under ett prosent. Internt i regionen består Haugesund (47%) og Karmøy (30%) for cirka 80% av arbeidsplassene fordelt i underkant av 50% i Haugesund, som har landets lengste gågate (Stavanger Aftenblad, 2014), og overkant av 30% på Karmøy. Figur 5 viser også en nedadgående trend, som kan tenkes å skylde økt aktivitet i netthandel, noe som krever mindre arbeidskraft.
+Detaljhandel er den med tredje mest antall ansatte på Haugalandet, og
+ligger over den nasjonale andelen med litt under ett prosent. Internt i
+regionen består Haugesund (47%) og Karmøy (30%) for cirka 80% av
+arbeidsplassene fordelt i underkant av 50% i Haugesund, som har landets
+lengste gågate (Stavanger Aftenblad, 2014), og overkant av 30% på
+Karmøy. Figur 5 viser også en nedadgående trend, som kan tenkes å skylde
+økt aktivitet i netthandel, noe som krever mindre arbeidskraft.
 
-Detaljhandel er den med tredje mest antall ansatte på Haugalandet, og ligger over den nasjonale andelen med litt under ett prosent. Internt i regionen består Haugesund (47%) og Karmøy (30%) for cirka 80% av arbeidsplassene fordelt i underkant av 50% i Haugesund, som har landets lengste gågate [@stokka2014], og overkant av 30% på Karmøy. Figur 5 viser også en nedadgående trend, som kan tenkes å skylde økt aktivitet i netthandel, noe som krever mindre arbeidskraft.
+Detaljhandel er den med tredje mest antall ansatte på Haugalandet, og
+ligger over den nasjonale andelen med litt under ett prosent. Internt i
+regionen består Haugesund (47%) og Karmøy (30%) for cirka 80% av
+arbeidsplassene fordelt i underkant av 50% i Haugesund, som har landets
+lengste gågate [@stokka2014], og overkant av 30% på Karmøy. Figur 5
+viser også en nedadgående trend, som kan tenkes å skylde økt aktivitet i
+netthandel, noe som krever mindre arbeidskraft.
 
 ```{r Detaljhandel}
 #| label: fig-detaljhandel
@@ -441,7 +676,11 @@ Tab_13470_andeler_naering %>%
 
 ### Figur 6 -- Pleie og omsorg i institusjon
 
-Når det gjelder pleie og omsorg så har vi en generelt høyere andel sysselsatte i regionen enn landet. Dette kan skyldes at det er sykehus i Haugesund og at de har sykepleierutdanning på Høgskulen på Vestlandet (HVL) som er med på å fylle etterspørselen fra sykehuset og sykehjemmene.
+Når det gjelder pleie og omsorg så har vi en generelt høyere andel
+sysselsatte i regionen enn landet. Dette kan skyldes at det er sykehus i
+Haugesund og at de har sykepleierutdanning på Høgskulen på Vestlandet
+(HVL) som er med på å fylle etterspørselen fra sykehuset og
+sykehjemmene.
 
 ```{r Pleie og omsorg}
 #| label: fig-pleie_og_omsorg
@@ -470,7 +709,13 @@ Tab_10539_13470_Nov <- Tab_10539_13470_Nov %>%
   mutate(ar = make_date(Aar))
 ```
 
-I denne grafen er tidspunktene for arbeidsledighet i november måned for hvert år. Her observerer vi at Haugalandet følger Norge jevnt over, men unntak av oljekrisen i 2014. Her får vi en økning i arbeidsledigheten. Et slik fall skjer ikke bare i oljenæringen, det gir også ringvirkninger til næringene rundt på Haugalandet der mange leverer varer og tjenester til oljenæringen. I 2020 ser vi et høy økning på grafen som skyldes Korona pandemien.
+I denne grafen er tidspunktene for arbeidsledighet i november måned for
+hvert år. Her observerer vi at Haugalandet følger Norge jevnt over, men
+unntak av oljekrisen i 2014. Her får vi en økning i arbeidsledigheten.
+Et slik fall skjer ikke bare i oljenæringen, det gir også ringvirkninger
+til næringene rundt på Haugalandet der mange leverer varer og tjenester
+til oljenæringen. I 2020 ser vi et høy økning på grafen som skyldes
+Korona pandemien.
 
 ```{r Arbeidsledighet}
 #| label: fig-arbeidsledighet
@@ -503,7 +748,13 @@ mutate(ar = make_date(aar))
 Tab_11615_fagfelt_sysselsatte$Region <- replace(Tab_11615_fagfelt_sysselsatte$Region, Tab_11615_fagfelt_sysselsatte$Region=="Hele landet","Norge")
 ```
 
-Figur 7 viser at Haugalandet har en relativt større andel i Naturvitenskapelige fag, håndverksfag og tekniske fag enn på nasjonal basis. Dette fagfeltet omfatter et bredt spekter, og omfatter ingeniører, industriarbeidere, bygg og anlegg, maskinarbeidere osv. Som figurene ovenfor viser, er Haugalandet godt etablert i disse næringssektorene hvor regionen har en sterk arbeidskraft, og viser til at fagfelt og næringssektor korrelerer.
+Figur 7 viser at Haugalandet har en relativt større andel i
+Naturvitenskapelige fag, håndverksfag og tekniske fag enn på nasjonal
+basis. Dette fagfeltet omfatter et bredt spekter, og omfatter
+ingeniører, industriarbeidere, bygg og anlegg, maskinarbeidere osv. Som
+figurene ovenfor viser, er Haugalandet godt etablert i disse
+næringssektorene hvor regionen har en sterk arbeidskraft, og viser til
+at fagfelt og næringssektor korrelerer.
 
 ```{r Fagfelt}
 #| label: fig-fagfelt
@@ -541,7 +792,14 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <-
 
 ### Utdanningsnivå
 
-Utdanningsnivået på Haugalandet skiller seg mest ut i positiv favør på videregående skole. Bakgrunnen for dette er at Haugalandet har en næringsstruktur som er med på å fremheve fagfolk og personen med fag/svennebrev. Når det gjelder universitetsutdanning så kan vi se at Norge kommer bedre ut enn Haugalandet, grunnen til dette er at de som tar høyere utdanninger flytter til byer som Oslo og Bergen og gjerne bli igjen for å starte sin arbeidskarriere. Se @fig-utdanning for utfyllende informasjon :P
+Utdanningsnivået på Haugalandet skiller seg mest ut i positiv favør på
+videregående skole. Bakgrunnen for dette er at Haugalandet har en
+næringsstruktur som er med på å fremheve fagfolk og personen med
+fag/svennebrev. Når det gjelder universitetsutdanning så kan vi se at
+Norge kommer bedre ut enn Haugalandet, grunnen til dette er at de som
+tar høyere utdanninger flytter til byer som Oslo og Bergen og gjerne bli
+igjen for å starte sin arbeidskarriere. Se @fig-utdanning for utfyllende
+informasjon :P
 
 ```{r Utdanningsnivå}
 #| label: fig-utdanning
@@ -558,10 +816,53 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel %>%
 
 ### Gini og RDI
 
-GINI indeks og RDI er to forskjellige mål som kan forklare spredningen i regionen og hvor spesialisert regionen er i ulike næringer. I utregningen av de to indeksene så vi at en aggregering av næringskodene var det som ga den mest optimale tolkningen av resultatene. Vi aggregerte dermed næringskodene på to-siffer nivå ned til 21 ulike næringer [@ssb2023]. GINI indeksen brukes til å måle i hvilken grad en industri har en tendens til å gruppere seg i rommet (McCann, 2013). Verdier på null indikerer at næringene er jevnt spredt i rommet, mens verdier som er nærme en på GINI indeksen indikerer at den aktuelle næringen har en tendens til å samle seg på et lite antall steder [@audretsch1996]. Samtlige verdier på Haugalandet er veldig lave, noe som indikerer at regionen har en jevn spredning mellom næringene. Undervisning er den næringen i regionen med lavest GINI-verdi. Dette kan virke som et fornuftig resultat ettersom skoler er jevnt spredt utover i de ulike kommunene etter hvor folk er bosatte. De to næringene med høyest GINI-verdier er Finansierings- og forsikringsvirksomhet og Industri. Haugalandet har flere industriområder etablert rundt omkring i de forskjellige kommunene, som for eksempel Husøy på Karmøy og Killingøy i Haugesund. Likevel har regionen flere slike områder, noe som kan skyldes at GINI indeksen tilsier at denne næringen ikke er veldig konsentrert på Haugalandet, selv om det er den med nest høyest verdi på indeksene. For finansierings- og forsikringsvirksomhet er situasjonen veldig lik. Regional diversity index (RDI) forteller hvor spesialisert en næring i regionen er opp mot nasjonalt nivå. Lav verdi indikerer at regionen er spesialisert innenfor næringskoden og høy verdi forteller at regionen ikke er noe spesialisert innenfor næringskoden [@duranton2000]. I tabellen ser vi at næringskoden C -- industri (10-33) har en verdi 19,86 i 2008, noe som er lavt og sier at regionen er spesialisert innenfor dette. Dette kan stemme med tanke på at Aibel og Hydro faller innenfor denne kategorien. Ellers er regionen ikke nevneverdig spesialisert i forhold til resten av landet med det aggregerte nivå vi har valgt for RDI utregning.
+GINI indeks og RDI er to forskjellige mål som kan forklare spredningen i
+regionen og hvor spesialisert regionen er i ulike næringer. I
+utregningen av de to indeksene så vi at en aggregering av næringskodene
+var det som ga den mest optimale tolkningen av resultatene. Vi
+aggregerte dermed næringskodene på to-siffer nivå ned til 21 ulike
+næringer [@ssb2023]. GINI indeksen brukes til å måle i hvilken grad en
+industri har en tendens til å gruppere seg i rommet (McCann, 2013).
+Verdier på null indikerer at næringene er jevnt spredt i rommet, mens
+verdier som er nærme en på GINI indeksen indikerer at den aktuelle
+næringen har en tendens til å samle seg på et lite antall steder
+[@audretsch1996]. Samtlige verdier på Haugalandet er veldig lave, noe
+som indikerer at regionen har en jevn spredning mellom næringene.
+Undervisning er den næringen i regionen med lavest GINI-verdi. Dette kan
+virke som et fornuftig resultat ettersom skoler er jevnt spredt utover i
+de ulike kommunene etter hvor folk er bosatte. De to næringene med
+høyest GINI-verdier er Finansierings- og forsikringsvirksomhet og
+Industri. Haugalandet har flere industriområder etablert rundt omkring i
+de forskjellige kommunene, som for eksempel Husøy på Karmøy og Killingøy
+i Haugesund. Likevel har regionen flere slike områder, noe som kan
+skyldes at GINI indeksen tilsier at denne næringen ikke er veldig
+konsentrert på Haugalandet, selv om det er den med nest høyest verdi på
+indeksene. For finansierings- og forsikringsvirksomhet er situasjonen
+veldig lik. Regional diversity index (RDI) forteller hvor spesialisert
+en næring i regionen er opp mot nasjonalt nivå. Lav verdi indikerer at
+regionen er spesialisert innenfor næringskoden og høy verdi forteller at
+regionen ikke er noe spesialisert innenfor næringskoden [@duranton2000].
+I tabellen ser vi at næringskoden C -- industri (10-33) har en verdi
+19,86 i 2008, noe som er lavt og sier at regionen er spesialisert
+innenfor dette. Dette kan stemme med tanke på at Aibel og Hydro faller
+innenfor denne kategorien. Ellers er regionen ikke nevneverdig
+spesialisert i forhold til resten av landet med det aggregerte nivå vi
+har valgt for RDI utregning.
 
 ### Oppsumering
 
-Haugalandet er en region som har to kommuner som dominerer andel sysselsatte i regionen. De næringene Haugalandet er sterkest på er metallindustri og transportmiddelindustri ellers. Ifølge RDI ser vi også at Haugalandet er spesialisert i industrinæringen. Gini forteller oss at industrien er spredt rundt på Haugalandet, men de største bedriftene hører til på Karmøy og i Haugesund. Tysvær er den kommunen som har høyest andel innpendlere, dette kan skyldes Kårstø som er en stor arbeidsplass i regionen. Fagfelt og utdanningsnivået på Haugalandet gir oss et godt bilde på hvilken type næringsstruktur det er i regionen. Vi ser at det utdannes en god andel yrkesarbeidere, som har fagfeltet naturvitenskapelige fag, håndverksfag og tekniske fag. Dette henger godt sammen med hvilke type næringer som dominerer markedet og etterspør arbeidskraft.
+Haugalandet er en region som har to kommuner som dominerer andel
+sysselsatte i regionen. De næringene Haugalandet er sterkest på er
+metallindustri og transportmiddelindustri ellers. Ifølge RDI ser vi også
+at Haugalandet er spesialisert i industrinæringen. Gini forteller oss at
+industrien er spredt rundt på Haugalandet, men de største bedriftene
+hører til på Karmøy og i Haugesund. Tysvær er den kommunen som har
+høyest andel innpendlere, dette kan skyldes Kårstø som er en stor
+arbeidsplass i regionen. Fagfelt og utdanningsnivået på Haugalandet gir
+oss et godt bilde på hvilken type næringsstruktur det er i regionen. Vi
+ser at det utdannes en god andel yrkesarbeidere, som har fagfeltet
+naturvitenskapelige fag, håndverksfag og tekniske fag. Dette henger godt
+sammen med hvilke type næringer som dominerer markedet og etterspør
+arbeidskraft.
 
 ## References
