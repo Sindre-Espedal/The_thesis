@@ -193,22 +193,19 @@ $$
 \Delta P = b \Delta E_T = \frac{b}{1-a} \Delta E_b
 $$ {#eq-5.5}
 
-## Kapittel 10
+@Capello2015 presenterer også en annen tilnærmingen, som legger mer vekt på befolkningen. 
+Hun formulerer videre Hoyt sin eskport base modell som følgende, hvor $P$ er befolkningen. 
+$E_t$, $E_b$, $E_s$ er hhv total-,
+base-sektor- og lokalsektor-sysselsetting (lokal tjenester), som nevnt tidligere.
 
-[@capello2015] formulerer videre Hoyt sin eskport base modell som
-følgende:
-
-Hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-,
-base-sektor- og lokalsektor-sysselsetting (lokal tjenester).
-
-@eq-1 viser at befolkningen er proporsjonal med totalt antall
+@eq-1 viser da at befolkningen er proporsjonal med totalt antall
 sysselsatte.
 
 $$
 P = aE_T
 $$ {#eq-1}
 
-@eq-2 viser ar total sysselsetting er summen av base-sysselsetting og
+@eq-2 viser slik som sist, at total sysselsetting er summen av base-sysselsetting og
 lokal-sysselsetting.
 
 $$
