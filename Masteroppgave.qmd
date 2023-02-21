@@ -474,6 +474,26 @@ Tab_03321_andeler%>%
   labs(colour = "Kommune")
 ```
 
+### Næringsfordelingen - kakediagram
+
+```{r}
+NACE_kake_2021 <- read_excel("Data_R_MSB_210/NACE_kake_2021.xlsx")
+```
+
+```{r kakediagram}
+NACE_kake_2021 %>%
+  filter(Region %in% c("Haugalandet")) %>%
+  ggplot(NACE_kake_2021, mapping = aes(fill = Næring,
+                                       y = Andel,
+                                       x = Region)) +
+ geom_bar(stat = "identity", width = 1, color = "white") +
+  coord_polar("y", start = 0) +
+  theme(legend.position = "bottom") + 
+  theme_void()
+```
+
+
+
 ### Andelen sysselsatte i ulike næringer
 
 ```{r}
