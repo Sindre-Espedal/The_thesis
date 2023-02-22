@@ -750,7 +750,7 @@ Korona pandemien.
 
 ```{r Arbeidsledighet}
 #| label: fig-arbeidsledighet
-#| fig-cap: "Arbeidsledighet for november, 2008-2020"
+#| fig-cap: "Prosentvis arbeidsledighet for november, 2008-2020"
 Tab_10539_13470_Nov %>%
   select(ar, Region, Andel) %>%
   filter(Region %in% c("Haugalandet", "Hele landet")
@@ -763,6 +763,34 @@ Tab_10539_13470_Nov %>%
   labs(colour = "Arbeidsledighet") %>% 
   ggtitle("For november måned, 2008-2020")
 ```
+
+```{r}
+Tab_10539_13470_Intern_Hgld <- read_excel("Data_R_MSB_210/Tab_10539_13470_Intern_Hgld.xlsx")
+```
+
+```{r}
+Tab_10539_13470_Intern_Hgld <- Tab_10539_13470_Intern_Hgld %>% 
+  mutate(ar = make_date(År))
+```
+
+
+```{r Arbeidsledighet, intern}
+#| label: fig-arbeidsledighet-internt
+#| fig-cap: "% arbeidsledighet for november, 2008-2020"
+Tab_10539_13470_Intern_Hgld %>% 
+  select(ar, Kommune, Andel) %>% 
+  filter(Kommune %in% c("Tysvær", "Karmøy", "Sauda", "Haugesund", "Vindafjord", "Etne", "Sveio")) %>% 
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Kommune)) + 
+  geom_line(aes(group = Kommune), lwd = 0.5) + 
+  theme(legend.position = 'bottom') +
+  xlab("År") + 
+  ylab("Andel %") + 
+  labs(colour = "Arbeidsledighet %") %>% 
+  ggtitle("Test")
+```
+
+
+
 
 ## Fagfelt og Utdanning på Haugalandet
 
