@@ -789,6 +789,29 @@ Tab_10539_13470_Intern_Hgld %>%
   ggtitle("Test")
 ```
 
+```{r}
+Tab_10539_13470_bosted <- read_excel("Data_R_MSB_210/Tab_10539_13470_bosted.xlsx")
+```
+
+```{r}
+Tab_10539_13470_bosted <- Tab_10539_13470_bosted %>% 
+  mutate(ar = make_date(År))
+```
+
+```{r Arbeidsledighet, bosted}
+#| label: fig-arbeidsledighet-bosted
+#| fig-cap: "% arbeidsledighet for november, bosted, 2008-2020"
+Tab_10539_13470_bosted %>% 
+  select(ar, Kommune, Andel) %>% 
+  filter(Kommune %in% c("Tysvær", "Karmøy", "Sauda", "Haugesund", "Vindafjord", "Etne", "Sveio")) %>% 
+  ggplot(mapping = aes(x = ar, y = Andel, colour = Kommune)) + 
+  geom_line(aes(group = Kommune), lwd = 0.5) + 
+  theme(legend.position = 'bottom') +
+  xlab("År") + 
+  ylab("Andel %") + 
+  labs(colour = "Arbeidsledighet %") %>% 
+  ggtitle("bosted")
+```
 
 
 
