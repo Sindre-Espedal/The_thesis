@@ -1,0 +1,161 @@
+---
+title: "Untitled"
+format: pdf
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(readr)
+library(ggplot2)
+library(ggpubr)
+library(dplyr)
+library(readxl)
+library(data.table)
+library(DiagrammeR)
+```
+
+
+| Region        | Multiplikator (1/1-a) |
+|---------------|-----------------------|
+| Haugesund     | 2,61                  |
+| Sauda         | 2,31                  |
+| Bokn          | 1,75                  |
+| Tysvær        | 2,10                  |
+| Karmøy        | 2,39                  |
+| Utsira        | 3,07                  |
+| Vindafjord    | 2,13                  |
+| Etne          | 2,09                  |
+| Sveio         | 2,50                  |
+| Haugalandet   | 2,40                  |
+
+TABELL 1
+
+::: {#tbl-panel layout-ncol=2}
+| Region        | (1/1-a) |
+|---------------|---------|
+| Haugesund     | 2,61    |
+| Sauda         | 2,31    |
+| Bokn          | 1,75    |
+| Tysvær        | 2,10    |
+| Karmøy        | 2,39    |
+| Utsira        | 3,07    |
+| Vindafjord    | 2,13    |
+| Etne          | 2,09    |
+| Sveio         | 2,50    |
+| Haugalandet   | 2,40    |
+
+: Regionperspektiv {#tbl-first}
+
+| Region        | (1/1-a) |
+|---------------|---------|
+| Haugesund     | 2,58    |
+| Sauda         | 1,75    |
+| Bokn          | 1,49    |
+| Tysvær        | 1,80    |
+| Karmøy        | 2,75    |
+| Utsira        | 2,39    |
+| Vindafjord    | 1,90    |
+| Etne          | 2,47    |
+| Sveio         | 1,74    |
+| Haugalandet   | 2,36    |
+
+: Kommuneperspektiv {#tbl-second}
+
+Basemultiplikator
+:::
+
+See @tbl-panel for details, especially @tbl-second.
+
+TABELL 2 & 1 (a & b)
+
+```{r}
+kake_karsto <- read_excel("Data_R_MSB_210/kake_karsto.xlsx")
+```
+
+```{r kakediagram - Karsto}
+#| label: fig-kake-karsto
+#| fig-cap: "Pendling til grunnkrets Falkeid"
+kake_karsto %>%
+  filter(`Bosted knavn` %in% c("Tysvær", "Karmøy", "Sauda", "Haugesund", "Bokn", "Utsira", "Vindafjord", "Etne", "Sveio")) %>%
+  ggplot(kake_karsto, mapping = aes(fill = `Bosted knavn`,
+                                       y = `Andel pendlere`,
+                                       x = `Arbeidssted`)) +
+ geom_bar(stat = "identity", width = 2, color = "white") +
+  coord_polar("y", start = 0) +
+  theme(legend.position = "bottom") + 
+  theme_void()
+```
+
+FIGUR - kakediagram falkeid
+
+
+| Kommune       | Direkte arbeidsplasser |
+|---------------|------------------------|
+| Haugesund     | 633                    |
+| Sauda         | 0                      |
+| Bokn          | 36                     |
+| Tysvær        | 666                    |
+| Karmøy        | 503                    |
+| Utsira        | 0                      |
+| Vindafjord    | 60                     |
+| Etne          | 15                     |
+| Sveio         | 87                     |
+| Haugalandet   | 2 000                  |
+
+TABELL 3
+
+| Kommune       | Indirekte arbeidsplasser |
+|---------------|--------------------------|
+| Haugesund     | 1020                     |
+| Sauda         | 0                        |
+| Bokn          | 27                       |
+| Tysvær        | 730                      |
+| Karmøy        | 700                      |
+| Utsira        | 0                        |
+| Vindafjord    | 68                       |
+| Etne          | 16                       |
+| Sveio         | 131                      |
+| Haugalandet   | 2 692                    |
+
+TABELL 4
+
+| Kommune       | Befolkningsvekst         |
+|---------------|--------------------------|
+| Haugesund     | 2839                     |
+| Sauda         | 0                        |
+| Bokn          | 170                      |
+| Tysvær        | 3261                     |
+| Karmøy        | 3175                     |
+| Utsira        | 0                        |
+| Vindafjord    | 222                      |
+| Etne          | 81                       |
+| Sveio         | 826                      |
+
+TABELL 5
+
+::: {#tbl-fysisk layout-ncol=2}
+| Region        | Befolkningsvekst |
+|---------------|------------------|
+| Haugalandet   | 10 573           |
+
+: Sum av kommunene i regionen {#tbl-first}
+
+| Region        | Befolkningsvekst |
+|---------------|------------------|
+| Haugalandet   | 10 412           |
+
+: Region paramterne {#tbl-second}
+
+Fysisk vekst på Haugalandet
+:::
+
+See @tbl-fysisk for details, especially @tbl-second.
+
+TABELL 6
+
+
+
+
+

@@ -1162,11 +1162,26 @@ I tabell 1 kan vi se at Haugesund sin basemultiplikator er høyere enn Haugaland
 Sveio kommune har den nest høyeste basemultiplikator på Haugalandet. Denne er også høyere enn for regionen. Dette kan skyldes at det er en “utependler” kommune. Hvor de arbeidsplassene som er i området er tildelt for å serve den lokale befolkningen.
 I tabellen er Utsira kommune utelatt. Det er fordi det er få innbyggere i kommunen, noe som gjør at noe av dataene fra SSB er skjermet grunnet personvernopplysninger. Selv om Utsira hadde den høyeste basemultiplikatoren på 3,07, så gjør kommunens geografiske størrelse  og posisjon det urimelig å anta at det skal være tilfellet.
 
+| Region    | Multiplikator (1/1-a) |
+|---------------|-------------------|
+| Haugesund     | 2,61              |
+| Sauda         | 2,31              |
+| Bokn          | 1,75              |
+| Tysvær        | 2,10              |
+| Karmøy        | 2,39              |
+| Utsira        | 3,07              |
+| Vindafjord    | 2,13              |
+| Etne          | 2,09              |
+| Sveio         | 2,50              |
+| Haugalandet   | 2,40              |
+
 TABELL 1
 
 Det romlige aggregeringsnivået vil påvirke analysen. I tabellen nedenfor er basis- og lokalnæring vurdert for hver enkelt kommune i regionen. Dette er gjort fordi det kan finnes næringer som er lokale i et regionalt perspektiv, og basisnæring i et kommuneperspektiv. Et eksempel på dette er næringen “86 - Helsetjenester”. På kommunenivå kan dette være basisnæring for kommunen som har et sykehus, mens det er lokalt for kommunene rundt. På et mer aggregert (regionnivå) nivå vil nok dette jevnes ut, ergo bli en lokalnæring. Sykehusene betjener en større del enn kommunen de er lokalisert i. Samtidig så eksporterer ikke kommunene hjemmesykepleie tilbud ut til nabokommunene.
 
 I tabell 2 får de fleste kommunene en lavere basemultiplikator som skyldes at antall basisnæringer øker. Dette er naturlig, ettersom det eksporteres varer og tjenester lettere ut mellom kommunene enn ut av regionen. Karmøy og Etne kommune får en høyere basemultiplikator enn i tabell 1. Dette kan skyldes at basisnæringene i disse kommunene eksporteres for det meste ut av regionen, og server ikke andre kommuner. Det kan tenkes at Karmøy og Etne kommune i mindre grad betjener folk i andre kommunene innenfor regionen.
+
+
 
 TABELL 2
 
