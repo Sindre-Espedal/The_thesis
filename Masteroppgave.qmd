@@ -1150,4 +1150,59 @@ kjøpekraft og lokalt konsum, som igjen er avledet av befolkning. Dette
 er imidlertid en befolkning; etterspørselen må også forventes å
 reflektere inntekt, demografisk sammensetning av befolkningen o.l.
 
+# Basemekanismen
+
+Vi bruker baseteorien for å predikere ringvirkningene av etableringen av Beyonder. En viktig del av baseteorien er basemulitliplikatoren, som tilhører den keynesianske familien. Denne forteller oss hvor stor påvirkningen av de direkte arbeidsplassene har på de indirekte arbeidsplassene. De indirekte arbeidsplassene kan være at det trengs flere hus og dermed må for eksempel snekkerbedrifter ansatte flere, det blir behov for ny matbutikk. Det skapes også indirekte arbeidsplasser i form av leverandører og underleverandører til Beyonder. Denne konvergerende prosessen skaper økt total sysselsetting utover det eksogene sjokker på 2000 arbeidsplasser.
+
+Vi har først regnet ut basemultiplikatoren for regionen og kommunene i regionen med utgangspunkt i likning 2 og 4. For å finne base multiplikatoren må næringene i regionen først deles inn i lokal- og basisnæringer. Denne vurderingen er først gjort på regionnivå. Teorien sier at lokaliseringskvotienter (LQ) over 1 indikerer en basisnæring, og LQ-verdier under 1 indikerer lokalnæring (FINN KILDE). Vår metode for inndeling av næringene har utgangspunkt i teorien. I tillegg har vi gjennomgått en skjønnsvurdering av hver enkel næring i regionen for å beslutte om det er basis- eller lokalnæring. Dette er fordi LQ-verdiene i seg selv ikke alltid er til å stole på. Et eksempel på dette var vurderingen av næring “49 - Landtransport og rørtransport”. LQ-verdien alene tilsier at dette skal være en lokalnæring, men ved hjelp av kryssløpet til SSB og den geografiske kunnskapen for regionen klarer vi å definere at denne næringen handler om gasseksport. Intuisjonen om at dette er en basisnæringen overveier dermed LQ-verdien som tilsier at dette er lokalnæring for regionen. Ut fra dataene fikk Haugalandet en basemultiplikator på 2,40. Dette vil gi regionen 2802 indirekte arbeidsplasser som ringvirkninger av etableringen av Beyonder, se tabell 1. 
+
+Modelleringen ovenfor gir en oversikt på Haugalandet som en helhet. Den gir ikke muligheten til å fordele virkningene av det eksogene sjokket mellom de ulike områdene i regionen. For å fylle dette informasjonstapet tar vi fordelingen som er gjort mellom lokal- og basisnæring på regionnivå og ser dem på kommunene i regionen.
+
+I tabell 1 kan vi se at Haugesund sin basemultiplikator er høyere enn Haugalandet har. Grunnen til dette er at det er en høy andel lokalhandel i Haugesund kommune. Motsatt så kan vi se at Bokn har en den lavere multiplikator, dette skyldes at det er lite lokal handel og arbeidsplasser generelt i denne kommunen. 
+Sveio kommune har den nest høyeste basemultiplikator på Haugalandet. Denne er også høyere enn for regionen. Dette kan skyldes at det er en “utependler” kommune. Hvor de arbeidsplassene som er i området er tildelt for å serve den lokale befolkningen.
+I tabellen er Utsira kommune utelatt. Det er fordi det er få innbyggere i kommunen, noe som gjør at noe av dataene fra SSB er skjermet grunnet personvernopplysninger. Selv om Utsira hadde den høyeste basemultiplikatoren på 3,07, så gjør kommunens geografiske størrelse  og posisjon det urimelig å anta at det skal være tilfellet.
+
+TABELL 1
+
+Det romlige aggregeringsnivået vil påvirke analysen. I tabellen nedenfor er basis- og lokalnæring vurdert for hver enkelt kommune i regionen. Dette er gjort fordi det kan finnes næringer som er lokale i et regionalt perspektiv, og basisnæring i et kommuneperspektiv. Et eksempel på dette er næringen “86 - Helsetjenester”. På kommunenivå kan dette være basisnæring for kommunen som har et sykehus, mens det er lokalt for kommunene rundt. På et mer aggregert (regionnivå) nivå vil nok dette jevnes ut, ergo bli en lokalnæring. Sykehusene betjener en større del enn kommunen de er lokalisert i. Samtidig så eksporterer ikke kommunene hjemmesykepleie tilbud ut til nabokommunene.
+
+I tabell 2 får de fleste kommunene en lavere basemultiplikator som skyldes at antall basisnæringer øker. Dette er naturlig, ettersom det eksporteres varer og tjenester lettere ut mellom kommunene enn ut av regionen. Karmøy og Etne kommune får en høyere basemultiplikator enn i tabell 1. Dette kan skyldes at basisnæringene i disse kommunene eksporteres for det meste ut av regionen, og server ikke andre kommuner. Det kan tenkes at Karmøy og Etne kommune i mindre grad betjener folk i andre kommunene innenfor regionen.
+
+TABELL 2
+
+Vi mener tabell 1 vil være best egnet mellom fordelingen av basis- og lokalnæringer. Dette er fordi basisnæringer er det som driver økonomisk vekst i en region [@andrews1953]. Fra kommuneperspektiv så vil en basisnæringer kunne være en næring som betjener en annen kommune innenfor samme region. Dette vil derimot gi distributive virkninger innenfor Haugalandet, og ikke skape samme vekst i regionen som basisnæringer i regionen Basisnæringer for regionperspektiv er drevet av etterspørsel. Forskjellene mellom tabell 1 og tabell 2 er også minimale samlet sett for regionen.
+
+## Anvendelsen av Beyonder
+
+Videre ønsker vi å få frem hvor arbeidstakerne til Beyonder har sine bosteder. Vi ser på dette med hjelp av pendledata fra SSB på grunnkretsnivå. Vi forutsetter pendling til grunnkretsen Falkeid fra kommunene innenfor regionen. Falkeid har prosessanlegget Kårstø i sin grunnkrets. Det ligger også i nærområde til Haugaland næringspark på Gismarvik. Kårstø sin posisjon i regionen og dens lokasjon i geografien gjør det rimelig å predikere pendling til Beyonder utfra pendledataene til Kårstø prosessanlegg. I figur-falkeid ser vi hvilke kommuner andelen av pendlere inn til Falkeid kommer fra.
+ 
+
+FIGUR - kakediagram falkeid
+
+Når dette anvendes på Beyonder får vi frem at de 2000 direkte arbeidsplassene som skapes, vil bli fordelt som vist i tabell 3.
+TABELL 3
+
+Ved å ta fordelingen i tabell 3 og anvende multiplikatorene til kommunene innenfor region som er presentert i tabell 1, kan vi gi et anslag på hvor mange indirekte arbeidsplasser som vil oppstå i kommunene. Tabell 4 viser hvor mange indirekte arbeidsplasser som kan forventes å bli skapt. 
+TABELL 4
+
+### Sysselsettingsvekst basert på økt basissektor
+
+Baseteorien forklarer videre at når sysselsettingen øker i basissektoren, så øker den totale sysselsettingen med mer enn en proporsjonal økning med basissektoren. Ved å anvende ligning 6 og ligning 7 kan vi gi et anslag for den fysiske veksten i området. Estimert befolkningsvekst i regionen fordelt mellom kommunene er presentert i tabell 5.
+TABELL 5
+
+Den fysiske veksten for regionen som er presentert i tabell 6 er regnet ut ved to forskjellige tilnærminger. Først summeres fordelingen mellom kommunene i tabell 5 sammen, og får samlet vekst for Haugalandet. I den andre tilnærmingen benyttes parametrene a og b for regionen. Begge tilnærmingene ga nokså like resultater, med et avvik på kun 161 beboere på Haugalandet samlet sett. Se tabell 6.
+TABELL 6
+
+b kan forventes å være konstant mellom regioner over tid. Vil anta b svinger mye mer på kommunenivå. snakk med Inge igjen om dette avsnittet.
+
+### Sysselsettingsvekst basert på konsum
+
+Den første varianten på befolkningen som presenteres ovenfor spiller på sammenhengen mellom lokalnæringer og samlet sysselsetting. Forutsetningen om proporsjonalitet innebærer en hypotese om at sysselsettingen i lokalnæringene må stå i et fast forhold til samlet sysselsetting i regionen. Dette er basert på en forutsetning om at de lokale bedriftene leverer varer og tjenester til bedriftene samlet sett, på en slik måte at sysselsettingen for lokalnæringene utvikler seg i et fast forhold med samlet sysselsetting.
+
+En annen tilnærming er å fordele de 2000 arbeidsplassene mellom kommunene på samme måte, og estimere sysselsettingsvekst i kommunene innenfor regionen. Ved å fordele arbeidsplassene som lokale sjokk etter hvor arbeidstakerne har bosted, vil det kunne forventes at ringvirkningene er forklart av en gjensidig avhengighet mellom lokalnæringer og befolkning. Dette er forklart i den andre varianten av baseteorien på befolkningen, se ligning 28-31. En lokal multiplikatorprosess oppstår når flere lokale får arbeidsplasser som stimulerer til økt konsum, som er med på å trekke nye folk til område og slik går prosessen videre.
+
+Ved denne metoden oppnådde vi identiske resultater lik den første tilnærmingen på befolkningen.
+
+\newpage
+
 ## References
