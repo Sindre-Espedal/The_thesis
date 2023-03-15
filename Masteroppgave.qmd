@@ -680,7 +680,7 @@ $$ {#eq-5.0.1.1.5}
 
 Med $a < 1$ så har vi en konvergerende prosess:
 
-![](bilder/Skjermbilde%202023-03-15%20kl.%2010.39.01.png)
+![Konvergerende prosess](bilder/Skjermbilde%202023-03-15%20kl.%2010.39.01.png){fig-align="center"}
 
 @Capello2015 presenterer også en annen tilnærmingen, som legger mer vekt på befolkningen. Hun formulerer videre Hoyt sin eskport base modell som følgende, hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-, base-sektor- og lokalsektor-sysselsetting (lokal tjenester), som nevnt tidligere.
 
@@ -784,7 +784,7 @@ kake_karsto %>%
   theme_void()
 ```
 
-Når dette anvendes på Beyonder får vi frem at de 2000 direkte arbeidsplassene som skapes, vil bli fordelt som vist i @tbl-diekte.
+Når dette anvendes på Beyonder får vi frem at de 2000 direkte arbeidsplassene som skapes, vil bli fordelt som vist i @tbl-direkte.
 
 | Kommune     | Direkte arbeidsplasser |
 |-------------|------------------------|
