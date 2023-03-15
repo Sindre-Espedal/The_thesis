@@ -571,7 +571,15 @@ $$
 \Delta P = b \Delta E_T = \frac{b}{1-a} \Delta E_b
 $$ {#eq-5.5}
 
-@eq-5.1.1 og @eq-5.1.2 viser til at basisnæringene påvirker den totale sysselsettingen i regionen. Virkningene av for eksempel en positiv eksogen basissysselsetting inn til regionen, som potensielt Beyonder, vil skape en økt sysselsetting i regionen. @eq-5.2 sier noe om hvordan virkningene påvirker befolkningsutviklingen i regionen.
+@eq-5.1.1 og @eq-5.1.2 viser til at basisnæringene påvirker den totale sysselsettingen i regionen.
+
+Virkningene av for eksempel en positiv eksogen basissysselsetting inn til regionen, som potensielt Beyonder, vil skape en økt sysselsetting i regionen. @eq-5.2 sier noe om hvordan virkningene påvirker befolkningsutviklingen i regionen.
+
+hvis $a = \frac{1}{2} \rightarrow \frac{1}{1-a} = 2$,
+
+og hvis hvis $a = 0,8 \rightarrow \frac{1}{1-a} = 5$,
+
+Her er $a$ altså en viktig størrelse i en diskusjon av hvordan endret basisproduktivitet påvirker lokal økonomi.
 
 ### Tolkning av parameterne a & b:
 
