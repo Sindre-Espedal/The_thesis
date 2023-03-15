@@ -649,7 +649,9 @@ $$ {#eq-5.0.1.1.5}
 
 **Konvergerende effekt**
 
-Med $a < 1$ så har vi derfor en konvergerende prosess:
+
+
+Med $a < 1$ så har vi derfor en konvergerende prosess i denne konvergerende prosessen oppstår det en lekasje, denne lekasjen er at noe av etterspørselsøkningen i lokalsektorene rettes mot andre regioner:
 
 ![Konvergerende prosess](bilder/Skjermbilde%202023-03-15%20kl.%2010.39.01.png){fig-align="center"}
 
