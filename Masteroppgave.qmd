@@ -28,6 +28,7 @@ urlcolor: teal
 language:
   crossref-eq-prefix: "Ligning"
   crossref-fig-title: "Figur"
+  crossref-tbl-title: "Tabell"
 bibliography: referanser_msb210/referanser_msb210.bib
 ---
 
@@ -1162,28 +1163,45 @@ I tabell 1 kan vi se at Haugesund sin basemultiplikator er høyere enn Haugaland
 Sveio kommune har den nest høyeste basemultiplikator på Haugalandet. Denne er også høyere enn for regionen. Dette kan skyldes at det er en “utependler” kommune. Hvor de arbeidsplassene som er i området er tildelt for å serve den lokale befolkningen.
 I tabellen er Utsira kommune utelatt. Det er fordi det er få innbyggere i kommunen, noe som gjør at noe av dataene fra SSB er skjermet grunnet personvernopplysninger. Selv om Utsira hadde den høyeste basemultiplikatoren på 3,07, så gjør kommunens geografiske størrelse  og posisjon det urimelig å anta at det skal være tilfellet.
 
-| Region    | Multiplikator (1/1-a) |
-|---------------|-------------------|
-| Haugesund     | 2,61              |
-| Sauda         | 2,31              |
-| Bokn          | 1,75              |
-| Tysvær        | 2,10              |
-| Karmøy        | 2,39              |
-| Utsira        | 3,07              |
-| Vindafjord    | 2,13              |
-| Etne          | 2,09              |
-| Sveio         | 2,50              |
-| Haugalandet   | 2,40              |
-
-TABELL 1
-
 Det romlige aggregeringsnivået vil påvirke analysen. I tabellen nedenfor er basis- og lokalnæring vurdert for hver enkelt kommune i regionen. Dette er gjort fordi det kan finnes næringer som er lokale i et regionalt perspektiv, og basisnæring i et kommuneperspektiv. Et eksempel på dette er næringen “86 - Helsetjenester”. På kommunenivå kan dette være basisnæring for kommunen som har et sykehus, mens det er lokalt for kommunene rundt. På et mer aggregert (regionnivå) nivå vil nok dette jevnes ut, ergo bli en lokalnæring. Sykehusene betjener en større del enn kommunen de er lokalisert i. Samtidig så eksporterer ikke kommunene hjemmesykepleie tilbud ut til nabokommunene.
 
 I tabell 2 får de fleste kommunene en lavere basemultiplikator som skyldes at antall basisnæringer øker. Dette er naturlig, ettersom det eksporteres varer og tjenester lettere ut mellom kommunene enn ut av regionen. Karmøy og Etne kommune får en høyere basemultiplikator enn i tabell 1. Dette kan skyldes at basisnæringene i disse kommunene eksporteres for det meste ut av regionen, og server ikke andre kommuner. Det kan tenkes at Karmøy og Etne kommune i mindre grad betjener folk i andre kommunene innenfor regionen.
 
+::: {#tbl-parameter layout-ncol=2}
+| Region        | (1/1-a) |
+|---------------|---------|
+| Haugesund     | 2,61    |
+| Sauda         | 2,31    |
+| Bokn          | 1,75    |
+| Tysvær        | 2,10    |
+| Karmøy        | 2,39    |
+| Utsira        | 3,07    |
+| Vindafjord    | 2,13    |
+| Etne          | 2,09    |
+| Sveio         | 2,50    |
+| Haugalandet   | 2,40    |
 
+: Regionperspektiv {#tbl-parameter1}
 
-TABELL 2
+| Region        | (1/1-a) |
+|---------------|---------|
+| Haugesund     | 2,58    |
+| Sauda         | 1,75    |
+| Bokn          | 1,49    |
+| Tysvær        | 1,80    |
+| Karmøy        | 2,75    |
+| Utsira        | 2,39    |
+| Vindafjord    | 1,90    |
+| Etne          | 2,47    |
+| Sveio         | 1,74    |
+| Haugalandet   | 2,36    |
+
+: Kommuneperspektiv {#tbl-parameter2}
+
+Basemultiplikator
+:::
+
+See @tbl-parameter for details, especially @tbl-parameter2.
 
 Vi mener tabell 1 vil være best egnet mellom fordelingen av basis- og lokalnæringer. Dette er fordi basisnæringer er det som driver økonomisk vekst i en region [@andrews1953]. Fra kommuneperspektiv så vil en basisnæringer kunne være en næring som betjener en annen kommune innenfor samme region. Dette vil derimot gi distributive virkninger innenfor Haugalandet, og ikke skape samme vekst i regionen som basisnæringer i regionen Basisnæringer for regionperspektiv er drevet av etterspørsel. Forskjellene mellom tabell 1 og tabell 2 er også minimale samlet sett for regionen.
 
@@ -1191,21 +1209,107 @@ Vi mener tabell 1 vil være best egnet mellom fordelingen av basis- og lokalnær
 
 Videre ønsker vi å få frem hvor arbeidstakerne til Beyonder har sine bosteder. Vi ser på dette med hjelp av pendledata fra SSB på grunnkretsnivå. Vi forutsetter pendling til grunnkretsen Falkeid fra kommunene innenfor regionen. Falkeid har prosessanlegget Kårstø i sin grunnkrets. Det ligger også i nærområde til Haugaland næringspark på Gismarvik. Kårstø sin posisjon i regionen og dens lokasjon i geografien gjør det rimelig å predikere pendling til Beyonder utfra pendledataene til Kårstø prosessanlegg. I figur-falkeid ser vi hvilke kommuner andelen av pendlere inn til Falkeid kommer fra.
  
+```{r}
+kake_karsto <- read_excel("Data_R_MSB_210/kake_karsto.xlsx")
+```
 
-FIGUR - kakediagram falkeid
+```{r kakediagram - Karsto}
+#| label: fig-kake-karsto
+#| fig-cap: "Pendling til grunnkrets Falkeid"
+kake_karsto %>%
+  filter(`Bosted knavn` %in% c("Tysvær", "Karmøy", "Sauda", "Haugesund", "Bokn", "Utsira", "Vindafjord", "Etne", "Sveio")) %>%
+  ggplot(kake_karsto, mapping = aes(fill = `Bosted knavn`,
+                                       y = `Andel pendlere`,
+                                       x = `Arbeidssted`)) +
+ geom_bar(stat = "identity", width = 2, color = "white") +
+  coord_polar("y", start = 0) +
+  theme(legend.position = "bottom") + 
+  theme_void()
+```
 
 Når dette anvendes på Beyonder får vi frem at de 2000 direkte arbeidsplassene som skapes, vil bli fordelt som vist i tabell 3.
+
+| Kommune       | Direkte arbeidsplasser |
+|---------------|------------------------|
+| Haugesund     | 633                    |
+| Sauda         | 0                      |
+| Bokn          | 36                     |
+| Tysvær        | 666                    |
+| Karmøy        | 503                    |
+| Utsira        | 0                      |
+| Vindafjord    | 60                     |
+| Etne          | 15                     |
+| Sveio         | 87                     |
+| Haugalandet   | 2 000                  |
+
+: Fordelingen av direkte arbeidsplasser etter bosted {#tbl-direkte}
+
+See @tbl-direkte.
+
 TABELL 3
 
-Ved å ta fordelingen i tabell 3 og anvende multiplikatorene til kommunene innenfor region som er presentert i tabell 1, kan vi gi et anslag på hvor mange indirekte arbeidsplasser som vil oppstå i kommunene. Tabell 4 viser hvor mange indirekte arbeidsplasser som kan forventes å bli skapt. 
+Ved å ta fordelingen i tabell 3 og anvende multiplikatorene til kommunene innenfor region som er presentert i tabell 1, kan vi gi et anslag på hvor mange indirekte arbeidsplasser som vil oppstå i kommunene. Tabell 4 viser hvor mange indirekte arbeidsplasser som kan forventes å bli skapt.
+
+| Kommune       | Indirekte arbeidsplasser |
+|---------------|--------------------------|
+| Haugesund     | 1020                     |
+| Sauda         | 0                        |
+| Bokn          | 27                       |
+| Tysvær        | 730                      |
+| Karmøy        | 700                      |
+| Utsira        | 0                        |
+| Vindafjord    | 68                       |
+| Etne          | 16                       |
+| Sveio         | 131                      |
+| Haugalandet   | 2 692                    |
+
+: Anslag for indirekte arbeidsplasser {#tbl-indirekte}
+
+See @tbl-indirekte.
+
 TABELL 4
 
 ### Sysselsettingsvekst basert på økt basissektor
 
 Baseteorien forklarer videre at når sysselsettingen øker i basissektoren, så øker den totale sysselsettingen med mer enn en proporsjonal økning med basissektoren. Ved å anvende ligning 6 og ligning 7 kan vi gi et anslag for den fysiske veksten i området. Estimert befolkningsvekst i regionen fordelt mellom kommunene er presentert i tabell 5.
+
+| Kommune       | Befolkningsvekst         |
+|---------------|--------------------------|
+| Haugesund     | 2839                     |
+| Sauda         | 0                        |
+| Bokn          | 170                      |
+| Tysvær        | 3261                     |
+| Karmøy        | 3175                     |
+| Utsira        | 0                        |
+| Vindafjord    | 222                      |
+| Etne          | 81                       |
+| Sveio         | 826                      |
+
+: Befolkningsvekst som følge av etableringen {#tbl-befolkning}
+
+See @tbl-befolkning.
+
 TABELL 5
 
 Den fysiske veksten for regionen som er presentert i tabell 6 er regnet ut ved to forskjellige tilnærminger. Først summeres fordelingen mellom kommunene i tabell 5 sammen, og får samlet vekst for Haugalandet. I den andre tilnærmingen benyttes parametrene a og b for regionen. Begge tilnærmingene ga nokså like resultater, med et avvik på kun 161 beboere på Haugalandet samlet sett. Se tabell 6.
+
+::: {#tbl-fysisk layout-ncol=2}
+| Region        | Befolkningsvekst |
+|---------------|------------------|
+| Haugalandet   | 10 573           |
+
+: Sum av kommunene i regionen {#tbl-first}
+
+| Region        | Befolkningsvekst |
+|---------------|------------------|
+| Haugalandet   | 10 412           |
+
+: Region paramterne {#tbl-second}
+
+Fysisk vekst på Haugalandet
+:::
+
+See @tbl-fysisk for details, especially @tbl-second.
 TABELL 6
 
 b kan forventes å være konstant mellom regioner over tid. Vil anta b svinger mye mer på kommunenivå. snakk med Inge igjen om dette avsnittet.
