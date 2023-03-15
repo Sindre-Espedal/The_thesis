@@ -563,13 +563,13 @@ $$
 \Delta P = b \Delta E_T = \frac{b}{1-a} \Delta E_b
 $$ {#eq-5.5}
 
-Ligning 1 og 2 viser til at basisnæringene påvirker den totale sysselsettingen i regionen. Virkningene av for eksempel en positiv eksogen basissysselsetting inn til regionen, som potensielt Beyonder, vil skape en økt sysselsetting i regionen. Ligning 4 sier noe om hvordan virkningene påvirker befolkningsutviklingen i regionen.
+@eq-5.1.1 og @eq-5.1.2 viser til at basisnæringene påvirker den totale sysselsettingen i regionen. Virkningene av for eksempel en positiv eksogen basissysselsetting inn til regionen, som potensielt Beyonder, vil skape en økt sysselsetting i regionen. @eq-5.2 sier noe om hvordan virkningene påvirker befolkningsutviklingen i regionen.
 
 ### Tolkning av parameterne a & b:
 
-Parameteren a er definert i ligning 2, og kan omformuleres slik: a = E_s/E_t. Dette er en viktig størrelse i en diskusjon av hvordan endret basisaktivitet påvirker økonomien til regionen. En høy verdi på a indikerer at regionen har en høy andel som er sysselsatte i lokalnæringer, mens en lav a indikerer at regionen har en høy andel sysselsatte i basisnæringer.
+Parameteren a er definert i @eq-5.1.2, og kan omformuleres slik: $a = \frac{E_s}{E_t}$. Dette er en viktig størrelse i en diskusjon av hvordan endret basisaktivitet påvirker økonomien til regionen. En høy verdi på a indikerer at regionen har en høy andel som er sysselsatte i lokalnæringer, mens en lav a indikerer at regionen har en høy andel sysselsatte i basisnæringer.
 
-Parameteren b representer som nevnt ovenfor andelen mellom total sysselsetting og befolkningen i regionen, og kan omformuleres slik: b = P/E_t. En høy verdi på b indikerer at befolkningen i regionen t er relativt større enn antall arbeidsplasser i regionen. På Haugalandet har Sveio kommune den høyeste b, og dette er en kommune i regionen som har mye utpendling. Nabokommunen, Haugesund, har den laveste b-verdien i regionen. Dette indikerer at det mye arbeidsplasser, sett i forhold til befolkningen i området. På kommunenivå vil verdiene på b svinge mye mer. Dette gir mer oversikt over hvor arbeidsplassene og bosettingsmønstrene er lokalisert i geografien.
+Parameteren b representer som nevnt ovenfor andelen mellom total sysselsetting og befolkningen i regionen, og kan omformuleres slik: $b = \frac{P}{E_t}$. En høy verdi på b indikerer at befolkningen i regionen t er relativt større enn antall arbeidsplasser i regionen. På Haugalandet har Sveio kommune den høyeste b, og dette er en kommune i regionen som har mye utpendling. Nabokommunen, Haugesund, har den laveste b-verdien i regionen. Dette indikerer at det mye arbeidsplasser, sett i forhold til befolkningen i området. På kommunenivå vil verdiene på b svinge mye mer. Dette gir mer oversikt over hvor arbeidsplassene og bosettingsmønstrene er lokalisert i geografien.
 
 Den kommunen med lavest b representerer sentrum for regionen, hvor det oftest er høyest innpendling. For arbeidsmarkedsregionene Haugalandet og Sunnhordland er dett Haugesund og Stord. For Stavangerregionen og Bergensregionen er dette Stavanger+Sola og Bergen.
 
