@@ -95,6 +95,10 @@ Sauda er den kommunen i regionen med lavest andel innpendling. Sauda har også e
 Tab_andel_sysselsatt_fordelt <- read_excel("Data_R_MSB_210/Tab_andel_sysselsatt_fordelt.xlsx")
 ```
 
+```{r}
+Tab_andel_sysselsatt_fordelt$Region <- replace(Tab_andel_sysselsatt_fordelt$Region,Tab_andel_sysselsatt_fordelt$Region=="Sveo","Sveio")
+```
+
 ```{r sysselsettingsfordelingen på Haugalandet}
 #| label: fig-sysselsettingsfordeling
 #| fig-cap: "Andel arbeidsplasser fordelt etter kommune, 2021"
