@@ -581,48 +581,7 @@ og hvis hvis $a = 0,8 \rightarrow \frac{1}{1-a} = 5$,
 
 Her er $a$ altså en viktig størrelse i en diskusjon av hvordan endret basisproduktivitet påvirker lokal økonomi.
 
-### Tolkning av parameterne a & b:
-
-Parameteren a er definert i @eq-5.1.2, og kan omformuleres slik: $a = \frac{E_s}{E_t}$. Dette er en viktig størrelse i en diskusjon av hvordan endret basisaktivitet påvirker økonomien til regionen. En høy verdi på a indikerer at regionen har en høy andel som er sysselsatte i lokalnæringer, mens en lav a indikerer at regionen har en høy andel sysselsatte i basisnæringer.
-
-Parameteren b representer som nevnt ovenfor andelen mellom total sysselsetting og befolkningen i regionen, og kan omformuleres slik: $b = \frac{P}{E_t}$. En høy verdi på b indikerer at befolkningen i regionen t er relativt større enn antall arbeidsplasser i regionen. På Haugalandet har Sveio kommune den høyeste b, og dette er en kommune i regionen som har mye utpendling. Nabokommunen, Haugesund, har den laveste b-verdien i regionen. Dette indikerer at det mye arbeidsplasser, sett i forhold til befolkningen i området. På kommunenivå vil verdiene på b svinge mye mer. Dette gir mer oversikt over hvor arbeidsplassene og bosettingsmønstrene er lokalisert i geografien.
-
-Den kommunen med lavest b representerer sentrum for regionen, hvor det oftest er høyest innpendling. For arbeidsmarkedsregionene Haugalandet og Sunnhordland er dett Haugesund og Stord. For Stavangerregionen og Bergensregionen er dette Stavanger+Sola og Bergen.
-
-På arbeidsmarkedsregion nivå så endrer b seg mindre fra region til region. Som vist i tabellen, ser vi at Haugalandet og Sunnhordland har en relativt lik b. Stavangerregionen og Bergensregionen har en enda lavere b enn Haugalandet og Sunnhordland. Dette kan skyldes at disse to regionene er adskilt med ferjer, og dermed mindre knyttet til hverandre, og at de to arbeidsmarkedsregionene er større enn på Haugalandet.
-
-**Basemultiplikatoren fra modellen (utregning)**
-
-$$
-E_r = E_b + E_s
-$$ {#eq-5.0.1}
-
-$$
-E_s = aE_r, hvor 0 < a < 1
-$$ {#eq-5.0.2}
-
-$$
-E_b = \bar{E}_b
-$$ {#eq-5.0.3}
-
-$$
-\rightarrow E_r = \frac{1}{1-a} \cdot E_b
-$$ {#eq-5.0.6}\
-og på endringsform:
-
-$$
-\Delta E_r = \frac{1}{1-a} \cdot \Delta \bar{E_b}
-$$ {#eq-5.0.7} der $\frac{1}{1-a}$ er lik basemultiplikatoren.
-
-Kan også poengtere at lokalnæringer er knyttet til samlet produksjon som nevnt tidligere(?), som leverandær til produksjonsaktivitet.
-
-hvis $a = \frac{1}{2} \rightarrow \frac{1}{1-a} = 2$,
-
-og hvis hvis $a = 0,8 \rightarrow \frac{1}{1-a} = 5$,
-
-Her er $a$ altså en viktig størrelse i en diskusjon av hvordan endret basisproduktivitet påvirker lokal økonomi.
-
-**Sum av mange ledd, basemultiplikatoren**
+### Sum av mange ledd, basemultiplikatoren eskempel
 
 Hvis for eksempel $\Delta \bar{E_b} = 100$ så vil:
 
@@ -688,11 +647,21 @@ $$
 \Delta E_r = \frac{1}{1-a} \cdot \bar{E_b}
 $$ {#eq-5.0.1.1.5}
 
-**Basemultiplikatoren, forklaring; konvergerende effekt**
+**Konvergerende effekt**
 
-Med $a < 1$ så har vi en konvergerende prosess:
+Med $a < 1$ så har vi derfor en konvergerende prosess:
 
 ![Konvergerende prosess](bilder/Skjermbilde%202023-03-15%20kl.%2010.39.01.png){fig-align="center"}
+
+### Tolkning av parameterne a & b:
+
+Parameteren a er definert i @eq-5.1.2, og kan omformuleres slik: $a = \frac{E_s}{E_t}$. Dette er en viktig størrelse i en diskusjon av hvordan endret basisaktivitet påvirker økonomien til regionen. En høy verdi på a indikerer at regionen har en høy andel som er sysselsatte i lokalnæringer, mens en lav a indikerer at regionen har en høy andel sysselsatte i basisnæringer.
+
+Parameteren b representer som nevnt ovenfor andelen mellom total sysselsetting og befolkningen i regionen, og kan omformuleres slik: $b = \frac{P}{E_t}$. En høy verdi på b indikerer at befolkningen i regionen t er relativt større enn antall arbeidsplasser i regionen. På Haugalandet har Sveio kommune den høyeste b, og dette er en kommune i regionen som har mye utpendling. Nabokommunen, Haugesund, har den laveste b-verdien i regionen. Dette indikerer at det mye arbeidsplasser, sett i forhold til befolkningen i området. På kommunenivå vil verdiene på b svinge mye mer. Dette gir mer oversikt over hvor arbeidsplassene og bosettingsmønstrene er lokalisert i geografien.
+
+Den kommunen med lavest b representerer sentrum for regionen, hvor det oftest er høyest innpendling. For arbeidsmarkedsregionene Haugalandet og Sunnhordland er dett Haugesund og Stord. For Stavangerregionen og Bergensregionen er dette Stavanger+Sola og Bergen.
+
+På arbeidsmarkedsregion nivå så endrer b seg mindre fra region til region. Som vist i tabellen, ser vi at Haugalandet og Sunnhordland har en relativt lik b. Stavangerregionen og Bergensregionen har en enda lavere b enn Haugalandet og Sunnhordland. Dette kan skyldes at disse to regionene er adskilt med ferjer, og dermed mindre knyttet til hverandre, og at de to arbeidsmarkedsregionene er større enn på Haugalandet.
 
 @Capello2015 presenterer også en annen tilnærmingen, som legger mer vekt på befolkningen. Hun formulerer videre Hoyt sin eskport base modell som følgende, hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-, base-sektor- og lokalsektor-sysselsetting (lokal tjenester), som nevnt tidligere.
 
