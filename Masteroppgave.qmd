@@ -523,7 +523,7 @@ Basisnæring er ifølge McCann (2013) en næring som har spesialisert seg og pro
 
 Den økonomiske eksport baseteori er utviklet for å bestemme rollen til etterspørselen når det gjelder vekst og utvikling til en region [@capello2015].
 
-Eksport base modellen ble utviklet av Homer Hoyt på 1930-tallet, og teorien baserer seg på at regioner og byer ikke kan stole utelukkende på endogene kapasiteter for å oppnå utvikling: deres økonomiske vekst er sterkt knyttet til faktorer eksternt fra det lokale systemet [@capello2015]. Han skilte sysselsettingsfordelingen mellom basisnæringer $E_b$ og lokalnæringer $E_s$, hvor $E_T$ er total sysselsetting i regionen. Hoyt formulerte dermed følgende uttrykk:
+Eksport base modellen ble utviklet av Homer Hoyt på 1930-tallet, og teorien baserer seg på at regioner og byer ikke kan stole utelukkende på endogene kapasiteter for å oppnå utvikling: deres økonomiske vekst er sterkt knyttet til faktorer eksternt fra det lokale systemet [@stabler1968]. Han skilte sysselsettingsfordelingen mellom basisnæringer $E_b$ og lokalnæringer $E_s$, hvor $E_T$ er total sysselsetting i regionen. Hoyt formulerte dermed følgende uttrykk:
 
 $$
 E_T = E_b + E_s
