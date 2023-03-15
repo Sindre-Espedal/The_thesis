@@ -539,7 +539,15 @@ $$ {#eq-5.1.3}
 
 @hoyt1954 forklarer at base-arbeiderne trenger tjenestene til detaljhandel, lokale offentlige arbeidere, lokal transport og utstyr, byggere, leger, tannleger og andre profesjonelle tjenester; disse arbeiderne som jobber for behovet til base-arbeiderne, kalles for lokal-arbeidere. Hoyt sier videre at en by eller region må produsere eksport for å kunne betale for importen av andre varer, og at disse basisnæringene i regionen eller byen er den primære årsaken til vekst [@hoyt1954].
 
-Sysselsetting i basesektoren er eksogen for det økonomiske systemet, mens sysselsettingen for lokalsektoren er en andel $a$ av total sysselsetting. Dermed får vi følgende uttrykk:
+Sysselsetting i basesektoren er dermed eksogen for det økonomiske systemet, mens sysselsettingen for lokalsektoren er en andel $a$ av total sysselsetting. Ved utregningen i @eq-5.0.4 og @eq-5.0.5 kommer vi frem til følgende uttrykk vist i @eq-5.2.
+
+$$
+E_T = \bar{E_b} + aE_T
+$$ {#eq-5.0.4}
+
+$$
+\rightarrow E_T (1-a) = \bar{E_b}
+$$ {#eq-5.0.5}
 
 $$
 E_T = \frac{1}{1-a}E_b
@@ -588,14 +596,6 @@ $$ {#eq-5.0.2}
 $$
 E_b = \bar{E}_b
 $$ {#eq-5.0.3}
-
-$$
-E_r = \bar{E_b} + aE_r
-$$ {#eq-5.0.4}
-
-$$
-\rightarrow E_r (1-a) = \bar{E_b}
-$$ {#eq-5.0.5}
 
 $$
 \rightarrow E_r = \frac{1}{1-a} \cdot E_b
