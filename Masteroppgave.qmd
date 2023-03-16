@@ -691,16 +691,17 @@ $$
 E_b = \bar{E}_b
 $$ {#eq-4}
 
+Ved tilsvarende beregninger som gjort i den første varianten av baseteorien kommer vi frem til at fysisk vekst er gitt ved:
 
 $$
 P=\frac{a}{1-ab}*\bar{E}_b
 $$ {#eq-5}
 
+På endringsform vises virkningen av et eksogent sjokk ved:
+
 $$
 \Delta{P}=\frac{a}{1-ab}*\Delta\bar{E}_b
 $$ {#eq-6}
-
-
 
 Den første varianten spiller på sammenhengen mellom lokalnæringer og samlet sysselsetting. Forutsetningen om proporsjonalitet innebærer en hypotese om at sysselsettingen i lokalnæringene må stå i et fast forhold til samlet sysselsetting i den geografien en studerer. Dette er basert på en forutsetning om at lokalbedriftene leverer varer og tjenester til bedriftene samlet sett, på en slik måte at den sysselsettingen for lokalnæringene utvikler seg i et fast forhold med samlet sysselsetting.
 
