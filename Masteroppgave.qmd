@@ -177,6 +177,8 @@ NACE_kake_2021 %>%
 
 ### Lokaliseringskvotienter
 
+Med å se på lokaliseringskvotienter så får vi en oversikt over hvordan næringsstrukturen til regionen er og hvilke næringer som er base- eller lokalnæring i en region. Hva base- og lokalnæring og lokaliseringskvotienter er, blir forklart i kapittel Baseteori.
+
 ![LQ-verdier for Haugalandet, etter næring](bilder/LQ-hierarki.png){fig-align="center"}
 
 ```{r}
@@ -855,6 +857,12 @@ Den første varianten på befolkningen som presenteres ovenfor spiller på samme
 En annen tilnærming er å fordele de 2000 arbeidsplassene mellom kommunene på samme måte, og estimere sysselsettingsvekst i kommunene innenfor regionen. Ved å fordele arbeidsplassene som lokale sjokk etter hvor arbeidstakerne har bosted, vil det kunne forventes at ringvirkningene er forklart av en gjensidig avhengighet mellom lokalnæringer og befolkning. Dette er forklart i den andre varianten av baseteorien på befolkningen, se @eq-1-[-@eq-6]. En lokal multiplikatorprosess oppstår når flere lokale får arbeidsplasser som stimulerer til økt konsum, som er med på å trekke nye folk til område og slik går prosessen videre.
 
 Ved denne metoden oppnådde vi identiske resultater lik den første tilnærmingen på befolkningen.
+
+### Mangler ved basemodellen
+
+Svakheter med eksport base modellen er mangelfulle. Modellen tar ikke hensyn om de interregionale forskjellene. Det blir heller ikke tatt hensyn til dynamikken i det lokale tilbudet og forskjellene i konkurranseevnen [@pfouts1958]. Modellen antar også at at det ikke er noe hindring for forsyningsutvidelse, noe som ikke stemmer, for det er ikke ubegrenset med arbeidskraft og produksjonskapasitet. Langtidsprediksjonene er også begrenset og avhengig av at multiplikatoren er stabil over tid [@capello2015]. Modellen tar heller ikke hensyn til substitusjonseffekter og strukturelle endringer i regionen. Rollen til boligsektoren uteblir også i basemodellen, hvor det kan oppstå større endringer som kan endre for eksempel et bo- og pendlemønster i regionen. Mye av kritikken mot eksport base teorien har vært rettet mot problemene med å måle størrelsen på basissektoren og forholdet mellom de basis og ikke-basis komponentene i den regionale økonomien [@thomas1964].
+
+Mangler ved lokaliseringkvotient-metoden er godt forklart av @mattila1955. Å kunne skille mellom rene basis- og lokalnæringer har også vist seg i praksis å ikke være mulig [@ha2012]. I en regional økonomi vil det alltid være en blanding av disse to typer næringer. Basissektoren er også undervurdert som følge av at økonomien er et lukket system gjennom antagelsen om at nasjonen ikke driver med eksport.
 
 \newpage
 
