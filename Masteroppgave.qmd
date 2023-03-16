@@ -268,10 +268,6 @@ ggarrange(Tabell_Metallindustri, Tabell_Transportmiddelindustri_ellers)
 
 I [@fig-utvinning_råolje_naturgass] ser vi at utvinning av råolje og naturgass er en liten næring både nasjonalt og regionalt. Likevel er dette en viktig sektor for regionen ettersom dette er en basisnæring for Haugalandet og Tysvær kommune. For på Haugalandet er det Kårstø i Tysvær som står for denne andelen av ansatte. I Tysvær kommune så er rundt 16% av arbeidsplassene i 2021 innenfor utvinning av råolje og naturgass.
 
-Avsnittet under skulle vi "sette på vent" frem til uke 10, ref. Samtale på kontoret.
-
-Hvor Kårstø rekrutterer arbeidskraften sin fra var ikke tydelig representert i dataene etter bostedskommunene. Årsaken til det er at antallet arbeidere i sektoren etter bosted er betydelige høyere. Dette reflekterer arbeidere som jobber offshore, som ikke har arbeidsstedskommune nødvendigvis i regionene.
-
 Det skal komme en tunnel mellom Haugalandet og Nord-Jæren som heter Rogfast, når denne ferdigstilles kan det diskuteres om næringsstrukturen vil forandre seg og om økonomiene til Nord-Jæren og Haugalandet vil smelte enda mer sammen. Dette vil gå nærmere innpå i et senere kapittel i oppgaven.
 
 ```{r Råolje og naturgass}
@@ -393,7 +389,7 @@ Tab_10539_13470_bosted <- Tab_10539_13470_bosted %>%
 
 ```{r Arbeidsledighet, bosted}
 #| label: fig-arbeidsledighet-internt
-#| fig-cap: "Prosentvis arbeidsledighet for Haugalandet, 2008-2020"
+#| fig-cap: "Prosentvis arbeidsledighet innenfor Haugalandet, 2008-2020"
 Tab_10539_13470_bosted %>% 
   select(ar, Kommune, Andel) %>% 
   filter(Kommune %in% c("Tysvær", "Karmøy", "Sauda", "Haugesund", "Vindafjord", "Etne", "Sveio")) %>% 
@@ -402,8 +398,8 @@ Tab_10539_13470_bosted %>%
   theme(legend.position = 'bottom') +
   xlab("År") + 
   ylab("Andel %") + 
-  labs(colour = "Arbeidsledighet %") %>% 
-  ggtitle("bosted")
+  labs(colour = "Arbeidsledighet") %>% 
+  ggtitle("etter bosted")
 ```
 
 ## Fagfelt og Utdanning på Haugalandet
