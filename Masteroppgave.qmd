@@ -61,7 +61,7 @@ Etableringen av Beyonder på Gismarvik er fortsatt i veldig tidlig fase, og for 
 
 En annen mulig skepsis som kan være i samfunnet er uroen for "backwash-effekter" [@capello2015, s153], som handler om at konkurransen regionen øker, og presser opp lønninger, ved en etablering av batterifabrikken. Denne økte konkurransen kan føre til at andre bedrifter blir til slutt utkonkurrert.
 
-## Føler en overskrift passer inn her, men usikker på hva
+## Tilrettelegging av etablering på Gismarvik
 
 I oppgaven har vi valgt å se på Beyonder da det er den bedriften som er aktuell med etablering i Gismarvik. Hvis det viser seg at dette ikke blir en realitet så er oppgaven vår, uavhengig av Beyonder-etableringen, aktuell for andre etableringer som kan oppstå i næringsparken på grunn av den interessante illustrasjonen av ringvirkninger på en slik etablering. Det er gjort et godt stykke arbeid med å tilrettelegge infrastrukturen for å gjøre næringsparken attraktiv, så det er gode muligheter for at det vil oppstå en etablering.
 
@@ -649,8 +649,6 @@ $$ {#eq-5.0.1.1.5}
 
 **Konvergerende effekt**
 
-
-
 Med $a < 1$ så har vi derfor en konvergerende prosess i denne konvergerende prosessen oppstår det en lekasje, denne lekasjen er at noe av etterspørselsøkningen i lokalsektorene rettes mot andre regioner:
 
 ![Konvergerende prosess](bilder/Skjermbilde%202023-03-15%20kl.%2010.39.01.png){fig-align="center"}
@@ -665,7 +663,9 @@ Den kommunen med lavest b representerer sentrum for regionen, hvor det oftest er
 
 På arbeidsmarkedsregion nivå så endrer b seg mindre fra region til region. Som vist i tabellen, ser vi at Haugalandet og Sunnhordland har en relativt lik b. Stavangerregionen og Bergensregionen har en enda lavere b enn Haugalandet og Sunnhordland. Dette kan skyldes at disse to regionene er adskilt med ferjer, og dermed mindre knyttet til hverandre, og at de to arbeidsmarkedsregionene er større enn på Haugalandet.
 
-@Capello2015 presenterer også en annen tilnærmingen, som legger mer vekt på befolkningen. Hun formulerer videre Hoyt sin eskport base modell som følgende, hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-, base-sektor- og lokalsektor-sysselsetting (lokal tjenester), som nevnt tidligere.
+### Lokalaktivitet og konsum
+
+@capello2015 presenterer også en annen tilnærmingen, som legger mer vekt på befolkningen. Hun formulerer videre Hoyt sin eskport base modell som følgende, hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-, base-sektor- og lokalsektor-sysselsetting (lokal tjenester), som nevnt tidligere.
 
 @eq-1 viser da at befolkningen er proporsjonal med totalt antall sysselsatte.
 
@@ -690,6 +690,17 @@ $$ {#eq-3}
 $$
 E_b = \bar{E}_b
 $$ {#eq-4}
+
+
+$$
+P=\frac{a}{1-ab}*\bar{E}_b
+$$ {#eq-5}
+
+$$
+\Delta{P}=\frac{a}{1-ab}*\Delta\bar{E}_b
+$$ {#eq-6}
+
+
 
 Den første varianten spiller på sammenhengen mellom lokalnæringer og samlet sysselsetting. Forutsetningen om proporsjonalitet innebærer en hypotese om at sysselsettingen i lokalnæringene må stå i et fast forhold til samlet sysselsetting i den geografien en studerer. Dette er basert på en forutsetning om at lokalbedriftene leverer varer og tjenester til bedriftene samlet sett, på en slik måte at den sysselsettingen for lokalnæringene utvikler seg i et fast forhold med samlet sysselsetting.
 
