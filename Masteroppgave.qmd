@@ -649,7 +649,7 @@ $$ {#eq-5.0.1.1.5}
 
 Med $a < 1$ så har vi derfor en konvergerende prosess i denne konvergerende prosessen oppstår det en lekasje, denne lekasjen er at noe av etterspørselsøkningen i lokalsektorene rettes mot andre regioner:
 
-![Konvergerende prosess](bilder/Skjermbilde%202023-03-15%20kl.%2010.39.01.png){fig-align="center"}
+![Konvergerende prosess](bilder/Skjermbilde%2023-04-14%kl.11.03.27){fig-align="center"}
 
 ### Tolkning av parameterne a & b:
 
@@ -863,6 +863,8 @@ Ved denne metoden oppnådde vi identiske resultater lik den første tilnærminge
 Svakheter med eksport base modellen er mangelfulle. Modellen tar ikke hensyn om de interregionale forskjellene. Det blir heller ikke tatt hensyn til dynamikken i det lokale tilbudet og forskjellene i konkurranseevnen [@pfouts1958]. Modellen antar også at at det ikke er noe hindring for forsyningsutvidelse, noe som ikke stemmer, for det er ikke ubegrenset med arbeidskraft og produksjonskapasitet. Langtidsprediksjonene er også begrenset og avhengig av at multiplikatoren er stabil over tid [@capello2015]. Modellen tar heller ikke hensyn til substitusjonseffekter og strukturelle endringer i regionen. Rollen til boligsektoren uteblir også i basemodellen, hvor det kan oppstå større endringer som kan endre for eksempel et bo- og pendlemønster i regionen. Mye av kritikken mot eksport base teorien har vært rettet mot problemene med å måle størrelsen på basissektoren og forholdet mellom de basis og ikke-basis komponentene i den regionale økonomien [@thomas1964].
 
 Mangler ved lokaliseringkvotient-metoden er godt forklart av @mattila1955. Å kunne skille mellom rene basis- og lokalnæringer har også vist seg i praksis å ikke være mulig [@ha2012]. I en regional økonomi vil det alltid være en blanding av disse to typer næringer. Basissektoren er også undervurdert som følge av at økonomien er et lukket system gjennom antagelsen om at nasjonen ikke driver med eksport.
+
+
 
 \newpage
 
