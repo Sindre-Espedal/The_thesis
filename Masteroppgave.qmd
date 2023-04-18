@@ -651,7 +651,7 @@ Med $a < 1$ så har vi derfor en konvergerende prosess i denne konvergerende pro
 
 ![Konvergerende prosess](bilder/Skjermbilde%2023-04-14%kl.11.03.27){fig-align="center"}
 
-### Tolkning av parameterne a & b:
+### Tolkning av parameterne a & b: 
 
 Parameteren a er definert i @eq-5.1.2, og kan omformuleres slik: $a = \frac{E_s}{E_t}$. Dette er en viktig størrelse i en diskusjon av hvordan endret basisaktivitet påvirker økonomien til regionen. En høy verdi på a indikerer at regionen har en høy andel som er sysselsatte i lokalnæringer, mens en lav a indikerer at regionen har en høy andel sysselsatte i basisnæringer.
 
