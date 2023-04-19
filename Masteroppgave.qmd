@@ -952,7 +952,7 @@ Input-output-analyse (IOA) er en metode som brukes til å studere sammenhengen m
 
 En sentral del av IOA er å beregne såkalte multiplikatoreffekter. Disse viser hvor mye produksjonen i en sektor vil øke som følge av en økning i etterspørselen i en annen sektor. Multiplikatoreffektene kan brukes til å vurdere virkningen av ulike politikktiltak, for eksempel en økning i offentlige investeringer eller en reduksjon i importen av varer fra en bestemt sektor. 
 
-IOA har også blitt utvidet til å inkludere geografisk informasjon, slik at man kan studere sammenhengene mellom ulike regioner eller byer i en økonomi. Dette kalles ofte regional input-output-analyse [@capello2015]. 
+IOA har også blitt utvidet til å inkludere geografisk informasjon, slik at man kan studere sammenhengene mellom ulike regioner eller byer i en økonomi. Dette kalles ofte regional input-output-analyse [@capello2015].
 
   
 
@@ -972,8 +972,34 @@ Input-output-analyse (IOA) og økonomisk baseteorien er to tilnærminger til øk
 
  Samlet sett gir IOA en viktig tilnærming til økonomisk analyse ved å bidra til en dypere forståelse av samspillet mellom ulike sektorer og næringsklynger i en økonomi. Ved å bruke IOA kan økonomer identifisere de nødvendige produksjonsfaktorene og sektorer som kreves i forskjellige deler av økonomien og dermed bidra til utviklingen av bærekraftige næringsklynger. 
 
- Ved å analysere hvordan ulike sektorer påvirker hverandre gjennom forskjellige produksjonsprosesser, kan man få en bedre forståelse av hvilke typer arbeidskraft som er nødvendige for å støtte disse prosessene. I boken "Input-Output Analysis: Foundations and Extensions" av Miller og Blair fra 2009, forklarer forfatterne hvordan input-output analyse kan brukes til å analysere næringsklynger og identifisere arbeidskraftbehovet i forskjellige sektorer [@miller2009]. På denne måten kan input-output-analysen gi verdifull informasjon til planleggere og beslutningstakere om hvilke typer arbeidskraft som kreves i forskjellige sektorer, og bidra til å utvikle mer effektive arbeidsmarkeds- og utdanningspolitikk for å støtte disse sektorene. 
+ Ved å analysere hvordan ulike sektorer påvirker hverandre gjennom forskjellige produksjonsprosesser, kan man få en bedre forståelse av hvilke typer arbeidskraft som er nødvendige for å støtte disse prosessene. I boken "Input-Output Analysis: Foundations and Extensions" av Miller og Blair fra 2009, forklarer forfatterne hvordan input-output analyse kan brukes til å analysere næringsklynger og identifisere arbeidskraftbehovet i forskjellige sektorer [@miller2009]. På denne måten kan input-output-analysen gi verdifull informasjon til planleggere og beslutningstakere om hvilke typer arbeidskraft som kreves i forskjellige sektorer, og bidra til å utvikle mer effektive arbeidsmarkeds- og utdanningspolitikk for å støtte disse sektorene.
 
+
+# Kartene
+
+Anvendelsen av baseteorien tar utgangspunkt i den inndelingen av næringer som ble gjort på regionnivå. Videre kan man beregne lokale multiplikatorer som varier mellom kommunene, som vist i @tbl-parameter. Som man ser så varierer basemultiplikatoren avhengig av hvilket aggregeringsnivå man gjør av studieområdet. Det kan diskuteres at virkningene av et sjokk kan variere i stor grad etter hvor i regionen sjokket inntreffer. Men, at forskjellene er så store som multiplikatorverdiene i @tbl-parameter tilsier kan bli møtt med skepsis. Det kan argumenteres gjennom blant annet vekstpol-teori, at disse forskjellen vil til en viss grad utlignes gjennom pendlestrømmer til nye bedrifter, som bidrar med å spre vekstimpulser og økning i lokalaktiviteter til andre kommuner enn der sjokket inntreffer.
+
+## Vekstpolteori
+
+@capello2015 presenterer to tilnærminger for teorien om vekstpoler. Teorien ble først utviklet av Francois Perroux som var en fransk økonom. Han la grunnlaget for teorien på 1950-tallet, da han mente at økonomisk vekst i en region kan oppstå på grunn av utviklingen av visse sentrale sektorer eller "vekstpoler" [@perroux1955]. Disse sentrale sektorene vil da trekke til seg investeringer og skape nye arbeidsplasser, som igjen vil føre til økonomisk vekst og utvikling i hele regionen. @perroux1955 definerer vekstpoler som "geografiske konsentrasjoner av økonomisk aktivitet som gir en spesiell drivkraft for utvikling, og hvorav virkningene er utbredt i økonomien.". Dette betyr at vekstpolene fungerer som et senter for økonomisk aktivitet som driver vekst og utvikling i hele regionen.
+
+Perroux identifiserte tre viktige faktorer som bidrar til utviklingen av vekstpoler: (1) tilstedeværelse av en nøkkebedrift eller en nøkkelindustri som fungerer som en katalysator for vekst, (2) tilstedeværelse av effektive kommunikasjonsnettverk som muliggjør rask og effektiv transport av varer og tjenester, og (3) tilstedeværelse av et velfungerende arbeidsmarked som gir tilgang til kvalifisert arbeidskraft.
+
+Perroux mente at vekstpoler ville kunne bidra til å redusere ulikheter mellom regioner, ved å tiltrekke seg investeringer og skape nye arbeidsplasser i mindre utviklede regioner. Han argumenterte også for at vekstpoler kan bidra til å øke produktiviteten og innovasjonen i økonomien, og dermed øke den økonomiske veksten på lang sikt.
+
+Perroux sin tilnærming om vekstpoler ble så videreutviklet av @boudeville1964 på 1960-tallet, hvor han fremhevet betydningen av samarbeid mellom ulike sektorer og bedrifter innenfor en region. Boudeville argumenterte for at utviklingen av vekstpoler ikke bare skyldtes tilstedeværelsen av en nøkkelindustri- eller bedrift, men også på grunn av samarbeidet mellom ulike bedrifter og sektorer som var lokalisert i en region. Dette samarbeidet kunne føre til utveksling av ideer og teknologier som bidrar til økt produktivitet og innovasjon, og dermed økt økonomisk vekst.
+
+Boudeville introduserte også begrepet "sekundære vekstpoler", som var mindre vekstsentre som oppstod som et resultat av samarbeid mellom bedrifter og sektorer i en større vekstpol. Disse sekundære vekstpolene kan også bidra til økt økonomisk utvikling i regionen [@boudeville1964]. Videre forklarer han at utviklingen av slike vekstpoler er avhengig av ulike faktorer som tilstedeværelsen av kvalifisert arbeidskraft, tilgang til finansiering og investeringer, og effektive kommunikasjonsnettverk.
+
+Perroux sin tilnærming fremhever betydningen av lokal etterspørsel og forbruk, og mente at utviklingen av vekstpoler kunne bidra til økt forbruk og velstand i regionen. Boudeville sin tilnærming la større vekt på samarbeid mellom ulike bedrifter og sektorer som kunne utveksle ideer og teknologier og dermed bidra til økt produktivitet og innovasjon. Boudeville mente også at utviklingen av vekstpoler kunne føre til opprettelsen av mindre vekstsentre, eller sekundære vekstpoler.
+
+Hvor vekstpol-teorien fokuserer på å indentifisere og stimulere til økonomisk vekst i en region, kan det også tenkes at en slik vekst kan ha negative effekter for andre regioner og/eller sektorer. Dette kan forklares gjennom «Backwash effekter» som er forklart av @hirschmann1958. Begrepet "backwash effekter" beskriver de negative konsekvensene som kan oppstå når det skjer en økonomisk vekst i en region. Dette kan oppstå når en region eller en sektor tiltrekker seg store mengder kapital og arbeidskraft, som deretter trekker til seg ytterligere investeringer og økt etterspørsel.
+
+For eksempel kan det oppstå arbeidskraftmangel i andre deler av en region eller andre sektorer, da arbeidere migrerer til den voksende regionen. Dette kan føre til en forverring av arbeidsforholdene og økt arbeidsledighet i andre regioner. Negative effekter kan også skje gjennom de økende investeringene som skjer i den voksende regionen. Dette fører til at priser og lønninger øker, som igjen fører til høyere kostnader for andre bedrifter og forbrukere i andre regioner, som igjen kan føre til redusert etterspørsel og økt arbeidsledighet i disse regionene. @hirschman1958 argumenterte for at backwash effekter var et viktig aspekt å vurdere når man vurderte økonomisk utvikling og vekst. Han mente at det var viktig å vurdere hvordan økonomisk vekst kunne påvirke andre regioner og sektorer, og for å ta hensyn til disse negative effektene i planleggingen av økonomisk utvikling.
+
+
+ 
+ 
 
 
 
