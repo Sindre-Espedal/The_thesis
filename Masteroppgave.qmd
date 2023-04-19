@@ -726,9 +726,30 @@ Vi bruker baseteorien for å predikere ringvirkningene av etableringen av Beyond
 Vi har først regnet ut basemultiplikatoren for regionen og kommunene i regionen med utgangspunkt i @eq-5.3 .For å finne basemultiplikatoren må næringene i regionen først deles inn i lokal- og basisnæringer. Denne inndelingen gjøres ved hjelp av lokaliseringskvotienter (LQ). @capello2015 forklarer at LQ er et verktøy for å måle den relative spesialisering av en bestemt sektor eller industri i en region sammenlignet opp mot nasjonen eller regionen som helhet. LQ er definert som forholdet mellom andelen av sysselsettingen eller verdiskapingen i en bestemt sektor i en region og dens andel i landet eller regionen som helhet. Teorien sier at lokaliseringskvotienter (LQ) over 1 indikerer en basisnæring, og LQ-verdier under 1 indikerer lokalnæring [@isserman2007]. Vår metode for inndeling av næringene har utgangspunkt i teorien. I tillegg har vi gjennomgått en skjønnsvurdering av hver enkel næring i regionen for å beslutte om det er basis- eller lokalnæring. Dette er fordi LQ-verdiene i seg selv ikke alltid er til å stole på [@leigh1970]. Sysselsetting som en måleenhet er ikke et perfekt verktøy [@andrews1954].
 Et eksempel på dette var vurderingen av næring "49 - Landtransport og rørtransport". I @tab-lqLQ så tilsier LQ-verdien alene at dette skal være en lokalnæring, men ved hjelp av kryssløpet til SSB og den geografiske kunnskapen for regionen klarer vi å definere at denne næringen handler om gasseksport. Intuisjonen om at dette er en basisnæringen overveier dermed LQ-verdien som tilsier at dette er lokalnæring for regionen. LQ-verdiene for basisnæringene i regionen er vist i @tbl-LQ.
 
-I @tab-LQ er det spesielt tre av næringene som er med på å vise til at Haugalandet er en industriregion. 06, 24 og 30 er næringer innen industri og inneholder henholdsvis Kårstø, Hydro og Aibel. De bedriftene er med på å danne et bilde om en mulig industriklynge på Haugalandet. Ser vi videre på noen andre næringer så ser vi også at 50 - sjøfart er en tydelig basisbedrift på Haugalandet. Her kommer de store shippingselskapene Solstad shipping, Knutsen OAS shipping og Østensjø rederi. Dette er eksempler på bedrifter som gjør Haugesund/Haugalandet til en maritim hovedstad som nevnt tidligere i oppgaven. Vi har også en næring med høy LQ, dette er næring 15 - lær- og lærvareindustri. Grunnen til en så høy LQ kan være at denne type industri ikke er så utbredt generelt i landet, og dermed vil en slik næring med få sysselsatte, men høy eksport av varer rundt om i landet få en høy LQ-verdi.  
+I @tbl-LQ er det spesielt tre av næringene som er med på å vise til at Haugalandet er en industriregion. 06, 24 og 30 er næringer innen industri og inneholder henholdsvis Kårstø, Hydro og Aibel. De bedriftene er med på å danne et bilde om en mulig industriklynge på Haugalandet. Ser vi videre på noen andre næringer så ser vi også at 50 - sjøfart er en tydelig basisbedrift på Haugalandet. Her kommer de store shippingselskapene Solstad shipping, Knutsen OAS shipping og Østensjø rederi. Dette er eksempler på bedrifter som gjør Haugesund/Haugalandet til en maritim hovedstad som nevnt tidligere i oppgaven. Vi har også en næring med høy LQ, dette er næring 15 - lær- og lærvareindustri. Grunnen til en så høy LQ kan være at denne type industri ikke er så utbredt generelt i landet, og dermed vil en slik næring med få sysselsatte, men høy eksport av varer rundt om i landet få en høy LQ-verdi.  
 
-TABELL 
+| Næring                                 |    LQ-verdi  |   Næring                         |  LQ-verdi |
+|----------------------------------------|--------------|----------------------------------|-----------|
+| 01 Jordbrk. og tilhørende tjnst., jakt | 1,48         | 26 Data- og elektronisk industri | 0,73      |
+| 02 Skogbruk og tilhørende tjenester    | 0,35         | 27 Elektroteknisk industri       | 1,12      |
+| 03 Fiske, fangst og akvakultur         | 1,30         | 28 Maskinindustri                | 0,81      |
+| 06 Utvinning av råolje og naturgass    | 1,71         | 29 Motorkjøretøyindustri         | 0,83      |
+| 08 Bryting og bergverksdrift ellers    | 1,49         | 30 Transportmiddelindustri ellers| 6,39      |
+| 09 Tjenester til bergverk og utvinning | 1,41         | 31 Møbelindustri                 | 0,18      |
+| 10 Næringsmiddelindustri               | 0,97         | 32 Annen industri                | 0,29      |
+| 11 Drikkevareindustri                  | 0,07         | 33 Maskinrep. og -installasjon   | 1,96      |
+| 13 Tekstilindustri                     | 1,01         | 35 Kraftforsyning                | 1,54      |
+| 14 Bekledningsindustri                 | 0,49         | 36 Vannforsyning                 | 1,92      |
+| 15 Lær- og lærvareindustri             | 18,10        | 37 Håndtering av avløpsvann      | 1,67      |
+| 16 Trelast- og trevareindustri         | 0,33         | 42 Anleggsvirksomhet             | 0,42      |
+| 18 Trykking, grafisk industri          | 0,25         | 43 Speslrt.bygg.- og anleggsvirk.| 1,26      |
+| 20 Kjemisk industri                    | 0,67         | 49 Landtransport og rørtransport | 0,94      |
+| 22 Gummivare- og plastindustri         | 0,60         | 50 Sjøfart                       | 3,51      |
+| 23 Mineralproduktindustri              | 2,11         | 52 Transporttjenester og lagring | 1,01      |
+| 24 Metallindustri                      | 5,99         | 55 Overnattingsvirksomhet        | 0,69      |
+| 25 Metallvareindustri                  | 1,97         | 86 Helsetjenester                | 1,01      |
+
+: LQ-verdier for næringer på Haugalandet, 2021 {#tbl-LQ} 
 
 Hvis vi ser på @tabell for basis- og lokalsysselsetting i regionen så ser vi at total sysselsatte i basisnæring er 22093 og total sysselsatte i lokalnæring er på 30948. Går vi mer innpå disse tallene så ser vi at det er Haugesund og Karmøy som er de kommunene med flest sysselsatte i både lokal- og basisnæring. Det er kun Bokn som har flere ansatte i basisnæring enn lokalnæring.  Haugesund har 8317 som jobber innenfor en basisnæring. 1623 av disse jobber innenfor næringen transportmiddelindustri ellers, som er Aibel. Aibel blir sitt på som en hjørnesteinsbedrift i Haugesund og har stor påvirkningskraft på om det går bra eller dårlig i den lokale industrien på Haugalandet. I Karmøy kommune er det 6709 sysselsatte i basisnæring, nærmere 1000 av disse jobber for Hydro. Hydro har vært med på å skape et godt arbeidsmarked på Karmøy og vært med på å skape nye arbeidsplasser. Den siste store og interessante arbeidsplassen for vår oppgave er Kårstø i Tysvær kommune. I kommunen er det 2282 sysselsatte innenfor basisnæringen. Hele 784 av disse jobber på Kårstø. Dette er den største andelen av de tre nevnte over. Med tanke på hvor stor påvirkning disse bedriftene har hatt på arbeidsmarkedet her på Haugalandet så er det interessant å sette i perspektiv at Beyonder har planer om å etablere 2000 arbeidsplasser på langsikt. Dette vil skape store ringvirkninger og en økt konkurranse på å sikre seg kvalifisert arbeidskraft.  
 
@@ -736,13 +757,26 @@ Hvis vi ser på @tabell for basis- og lokalsysselsetting i regionen så ser vi a
 
 Når det gjelder verdien på $a(d)$ så får vi et tydelig bilde på hvilke kommuner som er utpendlingskommuner.  Vi ser i tabellen at Sveio er en kommune som folk bosetter seg i, men ikke jobber i. 
 
- 
+
 
 Verdien på $a$; = Andelen som arbeider i lokalnæringer (ref. @likning-Rstudio) 
 
 Parameteren $a$ i den første tilnærmingen av baseteorien reflekterer andelen av sysselsatte i lokalnæringer i regionen, se @likning-Rstudio. @TAB viser Utsira og Haugesund er de kommunene med høyest andel av lokalt sysselsatte i regionen. Det kan tenkes at Utsira sin geografi og lokale arbeidsmarkedssituasjonen gjør at de arbeidsplassene som er i kommunen er for å dekke behovene for befolkningen, og kan være med på å forklare en mulig årsak til den høye andelen av sysselsatte i lokalnæring. For Haugesund kommune kan en plausibel årsak til den relativt høye andelen skyldes at Haugesund er senter for regionen. Som regionsenter foregår mye av handelsaktiviteten i området og for en lokalnæringsbedrift kan dette være en gunstig lokalisering. 
 
-TABELL
+| Region      |    Basisnæringer  |   Lokalnæringer   |  a   |
+|-------------|-------------------|-------------------|------|
+| Haugesond   | 8 317             | 13 409            | 0,62 |
+| Sauda       | 846               | 1 105             | 0,57 |
+| Bokn        | 183               | 138               | 0,43 |
+| Tyssver     | 2 282             | 2 501             | 0,52 |
+| Kærmøy      | 6 709             | 9 330             | 0,58 |
+| Utsira      | 28                | 58                | 0,67 |
+| Vindafjord  | 2 360             | 2 660             | 0,53 |
+| Etne        | 755               | 825               | 0,52 |
+| Sveio       | 613               | 922               | 0,60 |
+| Haugalandet | 22 093            | 30 948            | 0,58 |
+
+: LQ-verdier for næringer på Haugalandet, 2021 {#tbl-basis-lokal}
 
 
 ## Aggreegeringsnivå
