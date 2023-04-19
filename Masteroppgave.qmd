@@ -573,15 +573,15 @@ Her er $a$ altså en viktig størrelse i en diskusjon av hvordan endret basispro
 Modellformuleringene tilsier at en økning i basissysselsetting vil gi en økning i samlet sysselsetting, som gir rom for en ny økning i lokal sysselsetting, osv. @eq-5.0.1.1.1 viser til en uendelig geometrisk rekke. Dette kan omformuleres til summen av en uendelig geomeetrisk rekke, se @eq-5.0.1.1.5 . Dette kan også illustreres ved et eksempel, hvis det forutsettes at $\Delta \bar{E}_b = 100$ så vil:
 
 $$
-\rightarrow \Delta E_r = 100
+\rightarrow \Delta E_T = 100
 $$ {#eq-5.0.1.1}
 
 $$
-\rightarrow \Delta E_r = \Delta E_s = a \cdot 100
+\rightarrow \Delta E_T = \Delta E_s = a \cdot 100
 $$ {#eq-5.0.1.2}
 
 $$
-\rightarrow \Delta E_r = \Delta E_s = a^2 \cdot 100
+\rightarrow \Delta E_T = \Delta E_s = a^2 \cdot 100
 $$ {#eq-5.0.1.3}
 
 $$
@@ -589,19 +589,19 @@ $$
 $$
 
 $$
-\rightarrow \Delta E_r = \Delta E_s = a^{k-1} \cdot 100
+\rightarrow \Delta E_T = \Delta E_s = a^{k-1} \cdot 100
 $$ {#eq-5.0.1.4}
 
 $$
-\rightarrow \Delta E_s = a\cdot \Delta E_r = a \cdot 100
+\rightarrow \Delta E_s = a\cdot \Delta E_T = a \cdot 100
 $$ {#eq-5.0.1.5}
 
 $$
-\rightarrow \Delta E_s = a \cdot \Delta E_r = a \cdot (a \cdot 100) = a^2 \cdot 100
+\rightarrow \Delta E_s = a \cdot \Delta E_T = a \cdot (a \cdot 100) = a^2 \cdot 100
 $$ {#eq-5.0.1.6}
 
 $$
-\rightarrow \Delta E_s = a \cdot \Delta E_r = a \cdot (a^2 \cdot 100) = a^3 \cdot 100
+\rightarrow \Delta E_s = a \cdot \Delta E_T = a \cdot (a^2 \cdot 100) = a^3 \cdot 100
 $$ {#eq-5.0.1.7}
 
 $$
@@ -609,21 +609,21 @@ $$
 $$
 
 $$
-\rightarrow \Delta E_s = a \cdot \Delta E_r = a \cdot (a^{k-1} \cdot 100) = a^k \cdot 100
+\rightarrow \Delta E_s = a \cdot \Delta E_T = a \cdot (a^{k-1} \cdot 100) = a^k \cdot 100
 $$ {#eq-5.0.1.8}
 
 **samlet blir dette:**
 
 $$
-a) \Delta E_r = 100 + a \cdot 100 + a^2 \cdot 100 + a^3 \cdot 100 + .... + a^{k-1} \cdot 100 + a^k \cdot 100 (1 + a + a^2 + a^3 + ... + a^{k-1} + a^k)
+a) \Delta E_T = 100 + a \cdot 100 + a^2 \cdot 100 + a^3 \cdot 100 + .... + a^{k-1} \cdot 100 + a^k \cdot 100 (1 + a + a^2 + a^3 + ... + a^{k-1} + a^k)
 $$ {#eq-5.0.1.1.1}
 
 $$
-b) a \cdot \Delta E_r = 100 \cdot a + a^2 \cdot 100 + a^3 \cdot 100 + a^4 \cdot 100 + ... + a^{k} \cdot 100 + a^{k + 1} \cdot 100
+b) a \cdot \Delta E_T = 100 \cdot a + a^2 \cdot 100 + a^3 \cdot 100 + a^4 \cdot 100 + ... + a^{k} \cdot 100 + a^{k + 1} \cdot 100
 $$ {#eq-5.0.1.1.2}
 
 $$
-a) - b) \rightarrow \Delta E_r (1-a) = 100 \cdot (1-a^{k+1}) = \Delta \bar{E_b} (1-a^{k+1})
+a) - b) \rightarrow \Delta E_T (1-a) = 100 \cdot (1-a^{k+1}) = \Delta \bar{E_b} (1-a^{k+1})
 $$ {#eq-5.0.1.1.3}
 
 $$
@@ -631,7 +631,7 @@ a^{k+1} \rightarrow 0 ,når, k \rightarrow \infty
 $$ {#eq-5.0.1.1.4}
 
 $$
-\Delta E_r = \frac{1}{1-a} \cdot \bar{E_b}
+\Delta E_T = \frac{1}{1-a} \cdot \bar{E_b}
 $$ {#eq-5.0.1.1.5}
 
 **Konvergerende effekt**
@@ -642,59 +642,82 @@ Med $a<1$ så har vi derfor en konvergerende prosess. @fig-con-pro viser en fore
 
 ### Tolkning av parameterne a & b: 
 
-Parameteren a er definert i @eq-5.1.2, og kan omformuleres slik: $a = \frac{E_s}{E_t}$. Dette er en viktig størrelse i en diskusjon av hvordan endret basisaktivitet påvirker økonomien til regionen. En høy verdi på a indikerer at regionen har en høy andel som er sysselsatte i lokalnæringer, mens en lav a indikerer at regionen har en høy andel sysselsatte i basisnæringer.
+Parameteren $a$ er definert i @eq-5.1.2, og kan omformuleres slik: $a = \frac{E_s}{E_t}$. Dette er en viktig størrelse i en diskusjon av hvordan endret basisaktivitet påvirker økonomien i geografien. En høy verdi på $a$ indikerer at geografien har en høy andel som er sysselsatte i lokalnæringer, mens en lav $a$ indikerer at geografien har en høy andel sysselsatte i basisnæringer.
 
-Parameteren b representer som nevnt ovenfor andelen mellom total sysselsetting og befolkningen i regionen, og kan omformuleres slik: $b = \frac{P}{E_t}$. En høy verdi på b indikerer at befolkningen i regionen t er relativt større enn antall arbeidsplasser i regionen. På Haugalandet har Sveio kommune den høyeste b, og dette er en kommune i regionen som har mye utpendling. Nabokommunen, Haugesund, har den laveste b-verdien i regionen. Dette indikerer at det mye arbeidsplasser, sett i forhold til befolkningen i området. På kommunenivå vil verdiene på b svinge mye mer. Dette gir mer oversikt over hvor arbeidsplassene og bosettingsmønstrene er lokalisert i geografien.
+Parameteren $b$ representer som nevnt ovenfor andelen mellom total sysselsetting og befolkningen i geografien, og kan omformuleres slik: $b = \frac{P}{E_t}$. En høy verdi på $b$ indikerer at befolkningen i er relativt større enn antall arbeidsplasser i geografien. På Haugalandet har Sveio kommune den høyeste $b$, og dette er en kommune som har mye utpendling. Nabokommunen, Haugesund, har den laveste $b$-verdien i geografien. Dette indikerer at det mye arbeidsplasser, sett i forhold til befolkningen i området. På kommunenivå vil verdiene på $b$ svinge mye mer enn om en sammenligner regioner. Den kommunen med lavest $b$ representerer i regelen sentrum for regionen, hvor det oftest er høyest innpendling. For arbeidsmarkedsregionene Haugalandet og Sunnhordland er det Haugesund og Stord.
 
-Den kommunen med lavest b representerer sentrum for regionen, hvor det oftest er høyest innpendling. For arbeidsmarkedsregionene Haugalandet og Sunnhordland er dett Haugesund og Stord. For Stavangerregionen og Bergensregionen er dette Stavanger+Sola og Bergen.
+På arbeidsmarkedsregion nivå så endrer $b$ seg mindre fra region til region. Som vist i @tbl-a_n_b, ser vi at Haugalandet og Sunnhordland har en relativt lik $b$. Stavangerregionen og Bergensregionen har en enda lavere $b$ enn Haugalandet og Sunnhordland. Dette kan skyldes at disse to regionene kan ha enda sterkere klynger av basisbedrifter, med mye sysselsetting, som tildels dekkes inn med pendling fra andre regioner.
 
-På arbeidsmarkedsregion nivå så endrer b seg mindre fra region til region. Som vist i tabellen, ser vi at Haugalandet og Sunnhordland har en relativt lik b. Stavangerregionen og Bergensregionen har en enda lavere b enn Haugalandet og Sunnhordland. Dette kan skyldes at disse to regionene er adskilt med ferjer, og dermed mindre knyttet til hverandre, og at de to arbeidsmarkedsregionene er større enn på Haugalandet.
+| Region      |    a    |   b  |
+|-------------|---------|------|
+| Haugesund   | 0,62    | 1,72 |
+| Sauda       | 0,57    | 2,34 |
+| Bokn        | 0,43    | 2,68 |
+| Tysvær      | 0,52    | 2,34 |
+| Karmøy      | 0,58    | 2,64 |
+| Utsira      | 0,67    | 2,23 |
+| Vindafjord  | 0,53    | 1,73 |
+| Etne        | 0,52    | 2,57 |
+| Sveio       | 0,60    | 3,78 |
+| Haugalandet | 0,58    | 2,17 |
+
+: Parameterverdiene for kommunene i regionen {#tbl-a_n_b}
+
 
 ### Lokalaktivitet og konsum
 
-@capello2015 presenterer også en annen tilnærmingen, som legger mer vekt på befolkningen. Hun formulerer videre Hoyt sin eskport base modell som følgende, hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-, base-sektor- og lokalsektor-sysselsetting (lokal tjenester), som nevnt tidligere.
-
-@eq-1 viser da at befolkningen er proporsjonal med totalt antall sysselsatte.
+@capello2015 presenterer også en annen tilnærmingen, som legger mer vekt på befolkningen. Hun formulerer videre Hoyt sin eksportbase-modell som følgende, hvor $P$ er befolkningen. $E_t$, $E_b$, $E_s$ er hhv total-, base-sektor- og lokalsektor-sysselsetting, som nevnt tidligere.
 
 $$
-P = aE_T
+P = cE_T
 $$ {#eq-1}
-
-@eq-2 viser slik som sist, at total sysselsetting er summen av base-sysselsetting og lokal-sysselsetting.
 
 $$
 E_T = E_b + E_s
 $$ {#eq-2}
 
-@eq-3 viser lokalsysselsettingen er proporsjonal med bed befolkningen.
-
 $$
-E_s = bP
+E_s = dP
 $$ {#eq-3}
-
-@eq-4 viser aktivitetsnivået i basisnæringene er eksogent gitt.
 
 $$
 E_b = \bar{E}_b
 $$ {#eq-4}
 
-Ved tilsvarende beregninger som gjort i den første varianten av baseteorien kommer vi frem til at fysisk vekst er gitt ved:
+$$
+c = b 
+$$ {#eq-6.2}
 
 $$
-P=\frac{a}{1-ab}*\bar{E}_b
+a = cd
+$$ {#eq-6.3}
+
+@eq-1 viser da at befolkningen er proporsjonal med totalt antall sysselsatte.
+@eq-2 viser slik som sist, at total sysselsetting er summen av base-sysselsetting og lokal-sysselsetting.
+@eq-3 viser lokalsysselsettingen er proporsjonal med med befolkningen.
+@eq-4 viser aktivitetsnivået i basisnæringene er eksogent gitt.
+
+@eq-6.2 og @eq-6.3 er en forlengelse av de to tilnærmingene, som viser de to ulike modelltilnærmingene skal gi identiske resultater.
+
+Ved tilsvarende beregninger som gjort i den første varianten av baseteorien kommer vi frem til følgende løsning for samlet befolkning i geografien:
+
+$$
+P=\frac{c}{1-cd}*\bar{E}_b
 $$ {#eq-5}
 
 På endringsform vises virkningen av et eksogent sjokk ved:
 
 $$
-\Delta{P}=\frac{a}{1-ab}*\Delta\bar{E}_b
+\Delta{P}=\frac{c}{1-cd}*\Delta\bar{E}_b
 $$ {#eq-6}
 
-Den første varianten spiller på sammenhengen mellom lokalnæringer og samlet sysselsetting. Forutsetningen om proporsjonalitet innebærer en hypotese om at sysselsettingen i lokalnæringene må stå i et fast forhold til samlet sysselsetting i den geografien en studerer. Dette er basert på en forutsetning om at lokalbedriftene leverer varer og tjenester til bedriftene samlet sett, på en slik måte at den sysselsettingen for lokalnæringene utvikler seg i et fast forhold med samlet sysselsetting.
+Den første varianten, @eq-5.1.1-[-@eq-5.1.3], spiller på sammenhengen mellom lokalnæringer og samlet sysselsetting. Forutsetningen om proporsjonalitet innebærer en hypotese om at sysselsettingen i lokalnæringene må stå i et fast forhold til samlet sysselsetting i den geografien en studerer. Dette er basert på en forutsetning om at lokalbedriftene leverer varer og tjenester til bedriftene samlet sett, på en slik måte at den sysselsettingen for lokalnæringene utvikler seg i et fast forhold med samlet sysselsetting.
 
 I den andre tilnærmingen er det proporsjonalitet mellom lokalaktivitet og befolkning. Dette henviser til at lokalaktivitet er bestemt av lokal kjøpekraft og lokalt konsum, som igjen er avledet av befolkning. Dette er imidlertid en befolkning; etterspørselen må også forventes å reflektere inntekt, demografisk sammensetning av befolkningen o.l.
 
-# Basemekanismen
+Multiplikatoren i @eq-6 kan forklares på samme måte som multiplikatoren i @eq-5.0.1.1.5 . Her vil det også oppstå en multiplikatorprosess som også vil få lekkasje. Forskjellen her er at denne lekasjen består nå i at lokale konsumenter også etterspør varer og tjenester som er produsert i andre land og regioner.  
+
+# Anvendelse av baseteorien
 
 Vi bruker baseteorien for å predikere ringvirkningene av etableringen av Beyonder. En viktig del av baseteorien er basemulitliplikatoren, som tilhører den keynesianske familien. Denne forteller oss hvor stor påvirkningen av de direkte arbeidsplassene har på de indirekte arbeidsplassene. De indirekte arbeidsplassene kan være at det trengs flere hus og dermed må for eksempel snekkerbedrifter ansatte flere, det blir behov for ny matbutikk. Det skapes også indirekte arbeidsplasser i form av leverandører og underleverandører til Beyonder. Denne konvergerende prosessen skaper økt total sysselsetting utover det eksogene sjokker på 2000 arbeidsplasser.
 
