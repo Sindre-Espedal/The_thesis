@@ -761,7 +761,7 @@ Når det gjelder verdien på $a(d)$ så får vi et tydelig bilde på hvilke komm
 
 Verdien på $a$; = Andelen som arbeider i lokalnæringer (ref. @likning-Rstudio) 
 
-Parameteren $a$ i den første tilnærmingen av baseteorien reflekterer andelen av sysselsatte i lokalnæringer i regionen, se @likning-Rstudio. @TAB viser Utsira og Haugesund er de kommunene med høyest andel av lokalt sysselsatte i regionen. Det kan tenkes at Utsira sin geografi og lokale arbeidsmarkedssituasjonen gjør at de arbeidsplassene som er i kommunen er for å dekke behovene for befolkningen, og kan være med på å forklare en mulig årsak til den høye andelen av sysselsatte i lokalnæring. For Haugesund kommune kan en plausibel årsak til den relativt høye andelen skyldes at Haugesund er senter for regionen. Som regionsenter foregår mye av handelsaktiviteten i området og for en lokalnæringsbedrift kan dette være en gunstig lokalisering. 
+Parameteren $a$ i den første tilnærmingen av baseteorien reflekterer andelen av sysselsatte i lokalnæringer i regionen, se @likning-Rstudio. @tbl-basis-lokal viser Utsira og Haugesund er de kommunene med høyest andel av lokalt sysselsatte i regionen. Det kan tenkes at Utsira sin geografi og lokale arbeidsmarkedssituasjonen gjør at de arbeidsplassene som er i kommunen er for å dekke behovene for befolkningen, og kan være med på å forklare en mulig årsak til den høye andelen av sysselsatte i lokalnæring. For Haugesund kommune kan en plausibel årsak til den relativt høye andelen skyldes at Haugesund er senter for regionen. Som regionsenter foregår mye av handelsaktiviteten i området og for en lokalnæringsbedrift kan dette være en gunstig lokalisering. 
 
 | Region      |    Basisnæringer  |   Lokalnæringer   |  a   |
 |-------------|-------------------|-------------------|------|
@@ -776,7 +776,7 @@ Parameteren $a$ i den første tilnærmingen av baseteorien reflekterer andelen a
 | Sveio       | 613               | 922               | 0,60 |
 | Haugalandet | 22 093            | 30 948            | 0,58 |
 
-: LQ-verdier for næringer på Haugalandet, 2021 {#tbl-basis-lokal}
+: Fordelingen mellom basis- og lokalnæring på Haugalandet, 2021 {#tbl-basis-lokal}
 
 
 ## Aggreegeringsnivå
