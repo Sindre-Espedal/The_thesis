@@ -719,12 +719,35 @@ Multiplikatoren i @eq-6 kan forklares på samme måte som multiplikatoren i @eq-
 
 # Anvendelse av baseteorien
 
-Vi bruker baseteorien for å predikere ringvirkningene av etableringen av Beyonder. En viktig del av baseteorien er basemulitliplikatoren, som tilhører den keynesianske familien. Denne forteller oss hvor stor påvirkningen av de direkte arbeidsplassene har på de indirekte arbeidsplassene. De indirekte arbeidsplassene kan være at det trengs flere hus og dermed må for eksempel snekkerbedrifter ansatte flere, det blir behov for ny matbutikk. Det skapes også indirekte arbeidsplasser i form av leverandører og underleverandører til Beyonder. Denne konvergerende prosessen skaper økt total sysselsetting utover det eksogene sjokker på 2000 arbeidsplasser.
+Vi bruker baseteorien for å predikere ringvirkningene av etableringen av Beyonder. En viktig del av baseteorien er basemultiplikatoren, som tilhører den keynesianske familien. Denne forteller oss hvor stor påvirkning de basis arbeidsplassene har på de lokale arbeidsplassene. De lokale arbeidsplassene kan være at det trengs flere hus og dermed må for eksempel snekkerbedrifter ansatte flere, det blir behov for ny matbutikk, osv. Det skapes også lokale arbeidsplasser i form av leverandører og underleverandører til Beyonder. Denne konvergerende prosessen skaper økt total sysselsetting utover det eksogene sjokket på 2000 arbeidsplasser. 
 
-Vi har først regnet ut basemultiplikatoren for regionen og kommunene i regionen med utgangspunkt i @eq-5.0.1.2 og @eq-5.2. For å finne base multiplikatoren må næringene i regionen først deles inn i lokal- og basisnæringer. Denne vurderingen er først gjort på regionnivå. Teorien sier at lokaliseringskvotienter (LQ) over 1 indikerer en basisnæring, og LQ-verdier under 1 indikerer lokalnæring [@isserman2007]. Vår metode for inndeling av næringene har utgangspunkt i teorien. I tillegg har vi gjennomgått en skjønnsvurdering av hver enkel næring i regionen for å beslutte om det er basis- eller lokalnæring. Dette er fordi LQ-verdiene i seg selv ikke alltid er til å stole på [@leigh1970]. Sysselsetting som en måleenhet er ikke et perfekt verktøy [@andrews1954].
-Et eksempel på dette var vurderingen av næring "49 - Landtransport og rørtransport". LQ-verdien alene tilsier at dette skal være en lokalnæring, men ved hjelp av kryssløpet til SSB og den geografiske kunnskapen for regionen klarer vi å definere at denne næringen handler om gasseksport. Intuisjonen om at dette er en basisnæringen overveier dermed LQ-verdien som tilsier at dette er lokalnæring for regionen. Ut fra dataene fikk Haugalandet en basemultiplikator på 2,40. Dette vil gi regionen 2802 indirekte arbeidsplasser som ringvirkninger av etableringen av Beyonder, se @tbl-parameter.
+## Basemultiplikator og lokaliseringskvotient
 
-Modelleringen ovenfor gir en oversikt på Haugalandet som en helhet. Den gir ikke muligheten til å fordele virkningene av det eksogene sjokket mellom de ulike områdene i regionen. For å fylle dette informasjonstapet tar vi fordelingen som er gjort mellom lokal- og basisnæring på regionnivå og ser dem på kommunene i regionen.
+Vi har først regnet ut basemultiplikatoren for regionen og kommunene i regionen med utgangspunkt i @eq-5.3 .For å finne basemultiplikatoren må næringene i regionen først deles inn i lokal- og basisnæringer. Denne inndelingen gjøres ved hjelp av lokaliseringskvotienter (LQ). @capello2015 forklarer at LQ er et verktøy for å måle den relative spesialisering av en bestemt sektor eller industri i en region sammenlignet opp mot nasjonen eller regionen som helhet. LQ er definert som forholdet mellom andelen av sysselsettingen eller verdiskapingen i en bestemt sektor i en region og dens andel i landet eller regionen som helhet. Teorien sier at lokaliseringskvotienter (LQ) over 1 indikerer en basisnæring, og LQ-verdier under 1 indikerer lokalnæring [@isserman2007]. Vår metode for inndeling av næringene har utgangspunkt i teorien. I tillegg har vi gjennomgått en skjønnsvurdering av hver enkel næring i regionen for å beslutte om det er basis- eller lokalnæring. Dette er fordi LQ-verdiene i seg selv ikke alltid er til å stole på [@leigh1970]. Sysselsetting som en måleenhet er ikke et perfekt verktøy [@andrews1954].
+Et eksempel på dette var vurderingen av næring "49 - Landtransport og rørtransport". I @tab-lqLQ så tilsier LQ-verdien alene at dette skal være en lokalnæring, men ved hjelp av kryssløpet til SSB og den geografiske kunnskapen for regionen klarer vi å definere at denne næringen handler om gasseksport. Intuisjonen om at dette er en basisnæringen overveier dermed LQ-verdien som tilsier at dette er lokalnæring for regionen. LQ-verdiene for basisnæringene i regionen er vist i @tbl-LQ.
+
+I @tab-LQ er det spesielt tre av næringene som er med på å vise til at Haugalandet er en industriregion. 06, 24 og 30 er næringer innen industri og inneholder henholdsvis Kårstø, Hydro og Aibel. De bedriftene er med på å danne et bilde om en mulig industriklynge på Haugalandet. Ser vi videre på noen andre næringer så ser vi også at 50 - sjøfart er en tydelig basisbedrift på Haugalandet. Her kommer de store shippingselskapene Solstad shipping, Knutsen OAS shipping og Østensjø rederi. Dette er eksempler på bedrifter som gjør Haugesund/Haugalandet til en maritim hovedstad som nevnt tidligere i oppgaven. Vi har også en næring med høy LQ, dette er næring 15 - lær- og lærvareindustri. Grunnen til en så høy LQ kan være at denne type industri ikke er så utbredt generelt i landet, og dermed vil en slik næring med få sysselsatte, men høy eksport av varer rundt om i landet få en høy LQ-verdi.  
+
+TABELL 
+
+Hvis vi ser på @tabell for basis- og lokalsysselsetting i regionen så ser vi at total sysselsatte i basisnæring er 22093 og total sysselsatte i lokalnæring er på 30948. Går vi mer innpå disse tallene så ser vi at det er Haugesund og Karmøy som er de kommunene med flest sysselsatte i både lokal- og basisnæring. Det er kun Bokn som har flere ansatte i basisnæring enn lokalnæring.  Haugesund har 8317 som jobber innenfor en basisnæring. 1623 av disse jobber innenfor næringen transportmiddelindustri ellers, som er Aibel. Aibel blir sitt på som en hjørnesteinsbedrift i Haugesund og har stor påvirkningskraft på om det går bra eller dårlig i den lokale industrien på Haugalandet. I Karmøy kommune er det 6709 sysselsatte i basisnæring, nærmere 1000 av disse jobber for Hydro. Hydro har vært med på å skape et godt arbeidsmarked på Karmøy og vært med på å skape nye arbeidsplasser. Den siste store og interessante arbeidsplassen for vår oppgave er Kårstø i Tysvær kommune. I kommunen er det 2282 sysselsatte innenfor basisnæringen. Hele 784 av disse jobber på Kårstø. Dette er den største andelen av de tre nevnte over. Med tanke på hvor stor påvirkning disse bedriftene har hatt på arbeidsmarkedet her på Haugalandet så er det interessant å sette i perspektiv at Beyonder har planer om å etablere 2000 arbeidsplasser på langsikt. Dette vil skape store ringvirkninger og en økt konkurranse på å sikre seg kvalifisert arbeidskraft.  
+
+ 
+
+Når det gjelder verdien på $a(d)$ så får vi et tydelig bilde på hvilke kommuner som er utpendlingskommuner.  Vi ser i tabellen at Sveio er en kommune som folk bosetter seg i, men ikke jobber i. 
+
+ 
+
+Verdien på $a$; = Andelen som arbeider i lokalnæringer (ref. @likning-Rstudio) 
+
+Parameteren $a$ i den første tilnærmingen av baseteorien reflekterer andelen av sysselsatte i lokalnæringer i regionen, se @likning-Rstudio. @TAB viser Utsira og Haugesund er de kommunene med høyest andel av lokalt sysselsatte i regionen. Det kan tenkes at Utsira sin geografi og lokale arbeidsmarkedssituasjonen gjør at de arbeidsplassene som er i kommunen er for å dekke behovene for befolkningen, og kan være med på å forklare en mulig årsak til den høye andelen av sysselsatte i lokalnæring. For Haugesund kommune kan en plausibel årsak til den relativt høye andelen skyldes at Haugesund er senter for regionen. Som regionsenter foregår mye av handelsaktiviteten i området og for en lokalnæringsbedrift kan dette være en gunstig lokalisering. 
+
+TABELL
+
+
+## Aggreegeringsnivå
+
+Modelleringene ovenfor gir en oversikt på Haugalandet som en helhet. Den gir ikke muligheten til å fordele virkningene av det eksogene sjokket mellom de ulike kommunene   regionen. For å fylle dette informasjonstapet tar vi fordelingen som er gjort mellom lokal- og basisnæring på regionnivå og ser dem på kommunene i regionen.  ette gjør vi fordi det romlige aggregeringsnivået vil påvirke analysen. I @tabell1 nedenfor er basis- og lokalnæringer vurdert for regionen samlet sett (a), og for hver enkelt kommune i regionen (b). Det kan finnes næringer som er lokalnæringer i et regionalt perspektiv, og basisnæring i et kommuneperspektiv. Et eksempel på dette er næringen “86 - Helsetjenester”. På kommunenivå kan dette være basisnæring for kommunen som har et sykehus, mens det er lokalt for kommunene rundt. På et mer aggregert (regionnivå) nivå vil nok dette jevnes ut, ergo bli en lokalnæring. Sykehusene betjener en større del enn kommunen de er lokalisert i. Samtidig så eksporterer ikke kommunene hjemmesykepleie tilbud ut til nabokommunene. 
 
 I @tbl-parameter1 kan vi se at Haugesund sin basemultiplikator er høyere enn Haugalandet har. Grunnen til dette er at det er en høy andel lokalhandel i Haugesund kommune. Motsatt så kan vi se at Bokn har en den lavere multiplikator, dette skyldes at det er lite lokal handel og arbeidsplasser generelt i denne kommunen. Sveio kommune har den nest høyeste basemultiplikator på Haugalandet. Denne er også høyere enn for regionen. Dette kan skyldes at det er en "utependler" kommune. Hvor de arbeidsplassene som er i området er tildelt for å serve den lokale befolkningen. I tabellen er Utsira kommune utelatt. Det er fordi det er få innbyggere i kommunen, noe som gjør at noe av dataene fra SSB er skjermet grunnet personvernopplysninger. Selv om Utsira hadde den høyeste basemultiplikatoren på 3,07, så gjør kommunens geografiske størrelse og posisjon det urimelig å anta at det skal være tilfellet.
 
@@ -768,9 +791,11 @@ Basemultiplikator
 
 Vi mener @tbl-parameter1 vil være best egnet mellom fordelingen av basis- og lokalnæringer. Dette er fordi basisnæringer er det som driver økonomisk vekst i en region [@andrews1953]. Fra kommuneperspektiv så vil en basisnæringer kunne være en næring som betjener en annen kommune innenfor samme region. Dette vil derimot gi distributive virkninger innenfor Haugalandet, og ikke skape samme vekst i regionen som basisnæringer i regionen Basisnæringer for regionperspektiv er drevet av etterspørsel. Forskjellene mellom @tbl-parameter1 og @tbl-parameter2 er også minimale samlet sett for regionen.
 
-## Anvendelsen av Beyonder
+## Spredning av sjokket
 
-Videre ønsker vi å få frem hvor arbeidstakerne til Beyonder har sine bosteder. Vi ser på dette med hjelp av pendledata fra SSB på grunnkretsnivå. Vi forutsetter pendling til grunnkretsen Falkeid fra kommunene innenfor regionen. Falkeid har prosessanlegget Kårstø i sin grunnkrets. Det ligger også i nærområde til Haugaland næringspark på Gismarvik. Kårstø sin posisjon i regionen og dens lokasjon i geografien gjør det rimelig å predikere pendling til Beyonder utfra pendledataene til Kårstø prosessanlegg. I [@fig-kake-karsto] ser vi hvilke kommuner andelen av pendlere inn til Falkeid kommer fra.
+Videre ønsker vi å få frem hvor arbeidstakerne til Beyonder har sine bosteder. Vi ser på dette med hjelp av pendledata fra SSB på grunnkretsnivå. Vi forutsetter pendling til grunnkretsen Falkeid fra kommunene innenfor regionen. Falkeid har prosessanlegget Kårstø i sin grunnkrets. Det ligger også i nærområde til Haugaland næringspark på Gismarvik. Kårstø sin posisjon i regionen og dens lokasjon i geografien gjør det rimelig å predikere pendling til Beyonder utfra pendledataene til Kårstø prosessanlegg. I [@fig-kake-karsto] ser vi hvilke kommuner andelen av pendlere inn til Falkeid kommer fra. Gismarvik ligger noe mer sentralt i regionen enn Kårstø, sett i forhold til de tunge befolkningssentrene i regionen. Dette kan påvirke fordelingen av innpendlere, men det er ingen grunn til å regne med store forskjellene. Det er nok særlig Karmøy og til dels Haugesund som ligger strategisk gunstigere til Gismarvik enn til Kårstø.  
+
+Videre vil vi fordele de samlede regionale virkningene på ulike kommuner i regionen. Gjennom å rekruttere arbeidskraft fra andre kommuner enn kun Tysvær, slik at vi får spredd sjokket geografisk. 
 
 ```{r}
 kake_karsto <- read_excel("Data_R_MSB_210/kake_karsto.xlsx")
@@ -790,9 +815,9 @@ kake_karsto %>%
   theme_void()
 ```
 
-Når dette anvendes på Beyonder får vi frem at de 2000 direkte arbeidsplassene som skapes, vil bli fordelt som vist i @tbl-direkte.
+Når disse pendledataene anvendes på Beyonder får vi frem at de 2000 direkte arbeidsplassene som skapes, vil bli fordelt som vist i @tbl-direkte.
 
-| Kommune     | Direkte arbeidsplasser |
+| Kommune     | Basis arbeidsplasser |
 |-------------|------------------------|
 | Haugesund   | 633                    |
 | Sauda       | 0                      |
@@ -805,11 +830,12 @@ Når dette anvendes på Beyonder får vi frem at de 2000 direkte arbeidsplassene
 | Sveio       | 87                     |
 | Haugalandet | 2 000                  |
 
-: Fordelingen av direkte arbeidsplasser etter bosted {#tbl-direkte}
+: Økt antall basis arbeidsplasser{#tbl-direkte}
 
-Ved å ta fordelingen i @tbl-direkte og anvende multiplikatorene til kommunene innenfor region som er presentert i @tbl-parameter1, kan vi gi et anslag på hvor mange indirekte arbeidsplasser som vil oppstå i kommunene. [@tbl-indirekte] viser hvor mange indirekte arbeidsplasser som kan forventes å bli skapt.
+Vi bruker tallene fra [@tbl-direkte] og ganger disse med basemultiplikatoren til kommunene. Vi vil da få et anslag på økt antall lokale arbeidsplasser som vil oppstå i de forskjellige kommunene som sjokket har spredd seg på.  
 
-| Kommune     | Indirekte arbeidsplasser |
+
+| Kommune     | Lokale arbeidsplasser    |
 |-------------|--------------------------|
 | Haugesund   | 1020                     |
 | Sauda       | 0                        |
@@ -822,11 +848,12 @@ Ved å ta fordelingen i @tbl-direkte og anvende multiplikatorene til kommunene i
 | Sveio       | 131                      |
 | Haugalandet | 2 692                    |
 
-: Anslag for indirekte arbeidsplasser {#tbl-indirekte}
+: Økt antall lokale arbeidsplasser{#tbl-indirekte}
 
 ### Sysselsettingsvekst basert på økt basissektor
 
-Baseteorien forklarer videre at når sysselsettingen øker i basissektoren, så øker den totale sysselsettingen med mer enn en proporsjonal økning med basissektoren. Ved å anvende @eq-5.4 og @eq-5.5 kan vi gi et anslag for den fysiske veksten i området. Estimert befolkningsvekst i regionen fordelt mellom kommunene er presentert i @tbl-befolkning.
+Ved å anvende @ligning9 kan vi gi et ansalg for  befolkningsveksten i området. Estimert befolkningsvekst i regionen fordelt mellom kommunene er presentert i [@tbl-befolkning]
+
 
 | Kommune    | Befolkningsvekst |
 |------------|------------------|
@@ -840,27 +867,26 @@ Baseteorien forklarer videre at når sysselsettingen øker i basissektoren, så 
 | Etne       | 81               |
 | Sveio      | 826              |
 
-: Befolkningsvekst som følge av etableringen {#tbl-befolkning}
+: Befolkningsvekst som følge av etableringen av en batteribedrift med 2000 ansatte på Gismarvik.   {#tbl-befolkning}
 
-Den fysiske veksten for regionen som er presentert i @tbl-fysisk er regnet ut ved to forskjellige tilnærminger. Først summeres fordelingen mellom kommunene i @tbl-befolkning sammen, og får samlet vekst for Haugalandet. I den andre tilnærmingen benyttes parametrene a og b for regionen. Begge tilnærmingene ga nokså like resultater, med et avvik på kun 161 beboere på Haugalandet samlet sett. Se @tbl-fysisk.
+Befolkningsveksten for regionen som er presentert i @tbl-fysisk er regnet ut ved to forskjellige tilnærminger. Først summeres fordelingen mellom kommunene i @tbl-befolkning sammen, og får samlet vekst for Haugalandet. I den andre tilnærmingen benyttes parameterne a og b for regionen. Begge tilnærmingene ga nokså like resultater, med et avvik på kun 161 beboere på Haugalandet samlet sett. Se @tbl-fysisk.
 
 ::: {#tbl-fysisk layout-ncol="2"}
 | Region      | Befolkningsvekst |
 |-------------|------------------|
 | Haugalandet | 10 573           |
 
-: Sum av kommunene i regionen {#tbl-first}
+: (a) Sum av kommunene i regionen {#tbl-first}
 
 | Region      | Befolkningsvekst |
 |-------------|------------------|
 | Haugalandet | 10 412           |
 
-: Region paramterne {#tbl-second}
+: (b) Region paramterne {#tbl-second}
 
-Fysisk vekst på Haugalandet
+Befolkningsvekst på Haugalandet
 :::
 
-b kan forventes å være konstant mellom regioner over tid. Vil anta b svinger mye mer på kommunenivå. snakk med Inge igjen om dette avsnittet.
 
 ### Sysselsettingsvekst basert på konsum
 
@@ -868,7 +894,15 @@ Den første varianten på befolkningen som presenteres ovenfor spiller på samme
 
 En annen tilnærming er å fordele de 2000 arbeidsplassene mellom kommunene på samme måte, og estimere sysselsettingsvekst i kommunene innenfor regionen. Ved å fordele arbeidsplassene som lokale sjokk etter hvor arbeidstakerne har bosted, vil det kunne forventes at ringvirkningene er forklart av en gjensidig avhengighet mellom lokalnæringer og befolkning. Dette er forklart i den andre varianten av baseteorien på befolkningen, se @eq-1-[-@eq-6]. En lokal multiplikatorprosess oppstår når flere lokale får arbeidsplasser som stimulerer til økt konsum, som er med på å trekke nye folk til område og slik går prosessen videre.
 
-Ved denne metoden oppnådde vi identiske resultater lik den første tilnærmingen på befolkningen.
+Ved denne metoden oppnådde vi identiske resultater lik den første tilnærmingen på befolkningen. og samsvarer med forlengelsen av teorien, se @eq-6.2-[-@eq-6.3] . Likevel har de to ulike tilnærmingene litt ulike forklaringer til basemekanismen.  
+
+Den første tilnærmingen forklares gjennom vareleveransen fra lokal til basisbedrifter. Dette er lokale bedrifter som leverer varer og tjenester som sørger for at basisbedriften kan opprettholde sin produksjon. Dette kan være allerede eksisterende bedrifter som utvider sin portefølje, eller nyetablerte bedrifter som satser på å serve Beyonder med varer og tjenester de trenger.   
+
+Den andre tilnærmingen forklares gjennom vareleveranser til forbruk. Beyonder sin potensielle etablering vil skape en økt befolkningsvekst i området. Denne økningen i befolkningen vil også skape en større etterspørsel i konsum. Økt konsum gir en økning i antall lokale arbeidsplasser i regionen, med hensikt for å serve den lokale befolkningen. 
+
+Begge tilnærmingene kan brukes til å diskutere ringvirkninger av etableringer som potensielt Beyonder på Gismarvik. Og vi mener å både ha vist og dokumentert i data, at disse to forskjellige tilnærmingene gir identiske resultater.  
+
+
 
 ### Mangler ved basemodellen
 
