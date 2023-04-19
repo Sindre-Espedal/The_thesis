@@ -944,6 +944,37 @@ Svakheter med eksport base modellen er mangelfulle. Modellen tar ikke hensyn om 
 
 Mangler ved lokaliseringkvotient-metoden er godt forklart av @mattila1955. Å kunne skille mellom rene basis- og lokalnæringer har også vist seg i praksis å ikke være mulig [@ha2012]. I en regional økonomi vil det alltid være en blanding av disse to typer næringer. Basissektoren er også undervurdert som følge av at økonomien er et lukket system gjennom antagelsen om at nasjonen ikke driver med eksport.
 
+### Input- outputanalyse: 
+
+Input-output-analyse (IOA) er en metode som brukes til å studere sammenhengen mellom ulike økonomiske sektorer eller bransjer i en økonomi. Metoden ble utviklet av den russisk-amerikanske økonomen Wassily Leontief på 1930-tallet, og har siden blitt mye brukt i økonomisk forskning og planlegging [@leontief1986]. IOA er basert på ideen om at en endring i produksjonen eller etterspørselen i en sektor vil påvirke produksjonen og etterspørselen i alle andre sektorer i økonomien. 
+
+ IOA bruker en matematisk modell for å analysere disse sammenhengene. Modellen består av en matrise som viser hvor mye hver sektor produserer og hvor mye den bruker av innsatsfaktorer fra andre sektorer. Dette gir grunnlag for å beregne hvor mye av produksjonen til hver sektor som går til ulike formål, for eksempel eksport, investeringer og husholdningsforbruk. 
+
+En sentral del av IOA er å beregne såkalte multiplikatoreffekter. Disse viser hvor mye produksjonen i en sektor vil øke som følge av en økning i etterspørselen i en annen sektor. Multiplikatoreffektene kan brukes til å vurdere virkningen av ulike politikktiltak, for eksempel en økning i offentlige investeringer eller en reduksjon i importen av varer fra en bestemt sektor. 
+
+IOA har også blitt utvidet til å inkludere geografisk informasjon, slik at man kan studere sammenhengene mellom ulike regioner eller byer i en økonomi. Dette kalles ofte regional input-output-analyse [@capello2015]. 
+
+  
+
+  
+
+Utregning 
+
+  
+
+  
+
+IOA har blitt mye brukt i planlegging og politikkutforming, spesielt innen miljø- og energipolitikk. For eksempel kan IOA brukes til å vurdere hvordan ulike energitiltak vil påvirke ulike sektorer i økonomien og dermed bidra til å redusere klimautslippene [@miller2009]. 
+
+  
+
+Input-output-analyse (IOA) og økonomisk baseteorien er to tilnærminger til økonomisk analyse som har forskjellige styrker og svakheter. Mens baseteorien kan forklare hvorfor visse næringsklynger utvikler seg i bestemte geografiske områder, kan den ofte gi begrenset innsikt i hvilken type arbeidskraft som kreves i disse klyngene. IOA kan på den annen side brukes til å identifisere de nødvendige produksjonsfaktorene og sektorer som kreves i forskjellige deler av økonomien. 
+
+ Samlet sett gir IOA en viktig tilnærming til økonomisk analyse ved å bidra til en dypere forståelse av samspillet mellom ulike sektorer og næringsklynger i en økonomi. Ved å bruke IOA kan økonomer identifisere de nødvendige produksjonsfaktorene og sektorer som kreves i forskjellige deler av økonomien og dermed bidra til utviklingen av bærekraftige næringsklynger. 
+
+ Ved å analysere hvordan ulike sektorer påvirker hverandre gjennom forskjellige produksjonsprosesser, kan man få en bedre forståelse av hvilke typer arbeidskraft som er nødvendige for å støtte disse prosessene. I boken "Input-Output Analysis: Foundations and Extensions" av Miller og Blair fra 2009, forklarer forfatterne hvordan input-output analyse kan brukes til å analysere næringsklynger og identifisere arbeidskraftbehovet i forskjellige sektorer [@miller2009]. På denne måten kan input-output-analysen gi verdifull informasjon til planleggere og beslutningstakere om hvilke typer arbeidskraft som kreves i forskjellige sektorer, og bidra til å utvikle mer effektive arbeidsmarkeds- og utdanningspolitikk for å støtte disse sektorene. 
+
+
 
 
 \newpage
