@@ -997,10 +997,42 @@ Hvor vekstpol-teorien fokuserer på å indentifisere og stimulere til økonomisk
 
 For eksempel kan det oppstå arbeidskraftmangel i andre deler av en region eller andre sektorer, da arbeidere migrerer til den voksende regionen. Dette kan føre til en forverring av arbeidsforholdene og økt arbeidsledighet i andre regioner. Negative effekter kan også skje gjennom de økende investeringene som skjer i den voksende regionen. Dette fører til at priser og lønninger øker, som igjen fører til høyere kostnader for andre bedrifter og forbrukere i andre regioner, som igjen kan føre til redusert etterspørsel og økt arbeidsledighet i disse regionene. @hirschman1958 argumenterte for at backwash effekter var et viktig aspekt å vurdere når man vurderte økonomisk utvikling og vekst. Han mente at det var viktig å vurdere hvordan økonomisk vekst kunne påvirke andre regioner og sektorer, og for å ta hensyn til disse negative effektene i planleggingen av økonomisk utvikling.
 
+## Beyonder som case (midlertidig navn)
 
- 
- 
+Det som er viktig for en så stor bedrift som planlegger å etablere seg i en litt mindre region er å vite hvilken arbeidskraft som er tilgjengelig for en slik etablering. Det vi mener er interessant å se på er hvor mye mer arbeidskraft som blir tilgjengelig før og etter Rogfast er ferdig. En ferdigstilling av Rogfast vil gjøre det lettere for arbeidskraft og pendle til og fra jobb på grunn av redusert reisetid. I kartene under vil det bli illustrert hvor langt du får kjørt på 15-, 30-, 45-, 60- og 75 minutters kjøretid før og etter Rogfast. Dette vil gi en pekepinn på hvor Beyonder kan forvente arbeidskraften sin fra. 
 
+I luftlinje får vi en fin illustrasjon på hvor langt vi kommer i geografien. Området som dekkes strekker seg fra Nærbø og Helland i sør og til Sandvikvåg i nord. Østover strekker det seg helt inn til Sauda. Det gir oss en pekepinn på at med et optimalt vegnett så vil det tilgjengelige arbeidsmarkedet for Beyonder på Gismarvik være ganske bredt. 
+
+
+ ![Avstand luftlinje](bilder/Avstand_luftlinje.png){#fig-avst-luft}
+ 
+ Avstand målt i vegnett er illustrert i @fig-avst-veg. Vi ser at man når mindre ut i geografien fra Haugaland næringspark enn avstand i luftlinje som illustrert i figuren ovenfor. Dette er forventet, og kan forklares av geografien i området. Kysten er relativt flat med mange øyer og fjorder. Mange veier langs kysten i området har derfor bro- og ferjeforbindelser. Skal man for eksempel fra Haugesund til Stavanger så inkluderer det en ferjeforbindelse over Boknafjorden i dagens vegnett.
+
+Vegnettverket i området er ganske omfattende i sentrumspunktene rundt Haugesund og Stavanger. I en storby vil avstandsforskjellen i luftlinje og vegnett ikke være betydelig. Men, regionen har også rurale områder med mindre omfattende vegnettverk. 
+
+![Avstand veinett](bilder/Avstand_veg.png){#fig-avst-veg}
+
+@fig-rtid viser reisetid til Haugaland Næringspark fra sentroidene til hver grunnkrets i området. Avstanden er målt fra nærmeste veg fra disse sentroidene til grunnkretsene. Siden dette punktet er sentrum for grunnkretsen, og ikke sentrum for aktiviteten i grunnkretsen, kan reisetiden avvike noe. I modelleringen er gjennomsnittsfart 60 km/t. 
+Innen 15 minutters-tidsintervallet når man store deler av Tysvær kommune. Man når også Nord-Karmøy og helt sør i Haugesund kommune innenfor 15 minutter. Dette skyldes vegprosjektet T-forbindelsen som har knyttet vegnettet mellom Tysvær, Karmøy og Haugesund kommune. Særlig Tysvær og Karmøy kommune har oppnådd store fordeler av gjennom dette vegnettverket. 
+Sørover fra næringsparken kommer man til Byfjordtunnelen rett før Randaberg, som ligger nord for Stavanger. Vi ser også at tidsintervallene er smale i området rundt Arsvågen og Mortavika. Dette skyldes ferjen over Boknafjorden som binder Haugalandet og Stavanger Området sammen. Reisetiden over fjorden er modellert til cirka 30 minutter. Dette gjenspeiler selve fergetiden på cirka 24 minutt. Ventetiden er regnet ut fra avreise hvert 15 minutt delt på 2. Dette er også med på å forklare hvorfor man kommer lenger nord for Haugaland næringspark enn sør i reisetiden. 
+
+![Avstand reisetid](bilder/reisetid_ferje.png){#fig-rtid}
+
+I @fig-prosj-rog har vi laget en illustrasjon på hvor Rogfast vil gå over Boknafjorden via Kvitsøy. Rogfast er et vegprosjekt som ble vedtatt for utbygging mellom kommunene Bokn, Kvitsøy og Randaberg 23.Mai 2017 [@statensvegvesen2023]. Ifølge @cowi2012 så vil Rogfast være 27km og ha en fart på  90 km/t og med det vil reisetiden fra Haugesund til Stavanger gå fra 1 ½ time til 1 time [@bayer2015]. Vi har lagt Rogfast inn i kartet vårt i QGIS da den ikke eksisterer i dagens vegnett. Her la vi inn den informasjonen vi har funnet angående fart og avstand for å få en antatt korrekt reisetid. 
+
+![Illustrasjon tunell](bilder/Illustrasjon_tunell.png){#fig-prosj-rog}
+
+Ved rogfast vil man kunne komme helt sør til Bryne og Nærbø på 75 minutter. Reisetid fra Haugaland næringspark ved Rogfast er illustrert i @fig-tid-rf .60 minutters intervallet starter sør i Stavanger kommune. Reisetiden Gismarvik til Stavanger er estimert til cirka 50 minutter med Rogfast tunnelen. Reisetiden er modellert ut fra vegnettet i geografien. Mellom alle veiene i ytterpunktene på 75 minutter trekkes det rette linjer mellom dem. Dette gjør at det fargelagte området som avsluttes ved 75 minutters intervallet i øst på kartet er illustrert som veldig rette linjer.
+
+![Reisetid tunell](bilder/reisetid_rogfast.png){#fig-tid-rf}
+
+@tab-rogfast nedenfor viser fordelingen av sysselsatte etter bosted innenfor tidsintervallene med Haugaland næringspark som senter. Som illustrert nedenfor vil dette være en betydelig økning. Rogfasttunnelen øker rekrutteringsområdet med hele 231% innenfor 75 minutter. Den største økningen etter Rogfast er innenfor intervallene 45 og 60 minutter. Samlet sett øker potensiell sysselsetting i disse intervallene med 759%. Dette skyldes at store deler av arbeidsmarkedsregionen i Stavanger blir fanget opp i disse tidsintervallene.
+
+TABELL ROGFAST
+
+### Kritikk:
+
+Dataene vi har benyttet i pendlematrisene er hentet fra pendlingstall for 4. kvartal 2015-2022, grunnkretsnivå. Som ved all data innebærer det feil og mangler. På et så disaggregert nivå vil noe av dataene være utelatt grunnet personvern. Celler med verdi en eller to er fjernet fra tabellen. Celler med færre enn 3 virksomheter i arbeidsgrunnkrets er også fjernet. Dette innebærer at i tabeller med pendling etter grunnkrets blir om lag 75 prosent av cellene med verdi fjernet (Kilde? kopiert og limt inn fra SSB e-post). Vi har kontrollsjekket alle tallene vi har fått opp mot mer aggregerte data fra SSB som er offentlige. Ved å ta hensyn til mangler som SSB opplyser om, og korrigerer for dem, finner vi frem til at våre resultater er i overensstemmelse med SSBs.
 
 
 \newpage
