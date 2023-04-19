@@ -993,7 +993,9 @@ Boudeville introduserte også begrepet "sekundære vekstpoler", som var mindre v
 
 Perroux sin tilnærming fremhever betydningen av lokal etterspørsel og forbruk, og mente at utviklingen av vekstpoler kunne bidra til økt forbruk og velstand i regionen. Boudeville sin tilnærming la større vekt på samarbeid mellom ulike bedrifter og sektorer som kunne utveksle ideer og teknologier og dermed bidra til økt produktivitet og innovasjon. Boudeville mente også at utviklingen av vekstpoler kunne føre til opprettelsen av mindre vekstsentre, eller sekundære vekstpoler.
 
-Hvor vekstpol-teorien fokuserer på å indentifisere og stimulere til økonomisk vekst i en region, kan det også tenkes at en slik vekst kan ha negative effekter for andre regioner og/eller sektorer. Dette kan forklares gjennom «Backwash effekter» som er forklart av @hirschmann1958. Begrepet "backwash effekter" beskriver de negative konsekvensene som kan oppstå når det skjer en økonomisk vekst i en region. Dette kan oppstå når en region eller en sektor tiltrekker seg store mengder kapital og arbeidskraft, som deretter trekker til seg ytterligere investeringer og økt etterspørsel.
+### Backwash effekter
+
+Hvor vekstpol-teorien fokuserer på å indentifisere og stimulere til økonomisk vekst i en region, kan det også tenkes at en slik vekst kan ha negative effekter for andre regioner og/eller sektorer. Dette kan forklares gjennom «Backwash effekter» som er forklart av @hirschman1958. Begrepet "backwash effekter" beskriver de negative konsekvensene som kan oppstå når det skjer en økonomisk vekst i en region. Dette kan oppstå når en region eller en sektor tiltrekker seg store mengder kapital og arbeidskraft, som deretter trekker til seg ytterligere investeringer og økt etterspørsel.
 
 For eksempel kan det oppstå arbeidskraftmangel i andre deler av en region eller andre sektorer, da arbeidere migrerer til den voksende regionen. Dette kan føre til en forverring av arbeidsforholdene og økt arbeidsledighet i andre regioner. Negative effekter kan også skje gjennom de økende investeringene som skjer i den voksende regionen. Dette fører til at priser og lønninger øker, som igjen fører til høyere kostnader for andre bedrifter og forbrukere i andre regioner, som igjen kan føre til redusert etterspørsel og økt arbeidsledighet i disse regionene. @hirschman1958 argumenterte for at backwash effekter var et viktig aspekt å vurdere når man vurderte økonomisk utvikling og vekst. Han mente at det var viktig å vurdere hvordan økonomisk vekst kunne påvirke andre regioner og sektorer, og for å ta hensyn til disse negative effektene i planleggingen av økonomisk utvikling.
 
@@ -1026,13 +1028,60 @@ Ved rogfast vil man kunne komme helt sør til Bryne og Nærbø på 75 minutter. 
 
 ![Reisetid tunell](bilder/reisetid_rogfast.png){#fig-tid-rf}
 
-@tab-rogfast nedenfor viser fordelingen av sysselsatte etter bosted innenfor tidsintervallene med Haugaland næringspark som senter. Som illustrert nedenfor vil dette være en betydelig økning. Rogfasttunnelen øker rekrutteringsområdet med hele 231% innenfor 75 minutter. Den største økningen etter Rogfast er innenfor intervallene 45 og 60 minutter. Samlet sett øker potensiell sysselsetting i disse intervallene med 759%. Dette skyldes at store deler av arbeidsmarkedsregionen i Stavanger blir fanget opp i disse tidsintervallene.
+@tbl-rogfast nedenfor viser fordelingen av sysselsatte etter bosted innenfor tidsintervallene med Haugaland næringspark som senter. Som illustrert nedenfor vil dette være en betydelig økning. Rogfasttunnelen øker rekrutteringsområdet med hele 231% innenfor 75 minutter. Den største økningen etter Rogfast er innenfor intervallene 45 og 60 minutter. Samlet sett øker potensiell sysselsetting i disse intervallene med 759%. Dette skyldes at store deler av arbeidsmarkedsregionen i Stavanger blir fanget opp i disse tidsintervallene.
 
-TABELL ROGFAST
+| Reisetid |    Uten Rogfast  |   Med Rogfast   |
+|----------|------------------|-----------------|
+| 15 min   | 11 273           | 11 273          |
+| 30 min   | 19 310           | 19 466          |
+| 45 min   | 3 045            | 35 896          |
+| 60 min   | 10 586           | 81 128          |
+| 75 min   | 9 784            | 75 164          |
+| 0-75 min | 53 998           | 178 927         |
+
+: Antall sysselsatte i reisetid fra Haugaland næringspark som sentrum {#tbl-rogfast}
+
 
 ### Kritikk:
 
 Dataene vi har benyttet i pendlematrisene er hentet fra pendlingstall for 4. kvartal 2015-2022, grunnkretsnivå. Som ved all data innebærer det feil og mangler. På et så disaggregert nivå vil noe av dataene være utelatt grunnet personvern. Celler med verdi en eller to er fjernet fra tabellen. Celler med færre enn 3 virksomheter i arbeidsgrunnkrets er også fjernet. Dette innebærer at i tabeller med pendling etter grunnkrets blir om lag 75 prosent av cellene med verdi fjernet (Kilde? kopiert og limt inn fra SSB e-post). Vi har kontrollsjekket alle tallene vi har fått opp mot mer aggregerte data fra SSB som er offentlige. Ved å ta hensyn til mangler som SSB opplyser om, og korrigerer for dem, finner vi frem til at våre resultater er i overensstemmelse med SSBs.
+
+# Teori / Litteraturgjennomgang
+
+Dette er teori vi har funnet frem og skrevet om, men ikke har noen klar plass i oppgaven enda:
+
+## Klyngeteori
+
+Klyngeteori er en økonomisk teori som hevder at bedrifter som er lokalisert i nærheten av hverandre, eller i en klynge, kan ha økonomiske fordeler som ikke er tilgjengelige for bedrifter som er lokalisert utenfor klyngen. Denne teorien ble først utviklet av den britiske økonomen Alfred Marshall i hans bok "Principles of Economics" fra 1920.
+ 
+@marshall2009 mente at nærhet mellom bedrifter i en klynge kan føre til økt produktivitet og innovasjon, fordi bedriftene kan dra nytte av eksternaliteter som kunnskapsoverføring og felles tilgang til infrastruktur og arbeidskraft. Marshall argumenterte også for at klynger kan gi bedrifter en økt konkurranseevne ved å tillate dem å dele på kostnader og risiko.
+ 
+Senere har forskere videreutviklet Marshalls teori og studert klynger i ulike sammenhenger. @hoover1948 undersøkte geografisk lokalisering av bedrifter og økonomisk aktivitet og argumenterte for at nærhet mellom bedrifter i en klynge kan føre til reduserte transaksjonskostnader og økt innovasjon.
+ 
+@cooke2001 har også studert klynger og pekt på at klynger kan ha både positive og negative konsekvenser for økonomisk utvikling. Han argumenterer for at klynger kan føre til økt innovasjon og produktivitet, men også til økt økonomisk ulikhet mellom regioner.
+ 
+@paci1999 studerte eksternaliteter og kunnskapsoverføringer i klynger og fant at kunnskapsspredning mellom bedrifter i en klynge kan føre til økt innovasjon og produktivitet, spesielt for små og mellomstore bedrifter. De påpeker imidlertid også at kunnskapsoverføringen ikke nødvendigvis skjer jevnt mellom alle bedrifter i klyngen, og at større bedrifter ofte kan dra større nytte av klyngens ressurser og nettverk.
+ 
+@henderson1997 har studert eksternaliteter og industriell utvikling og funnet at nærhet mellom bedrifter kan føre til økt innovasjon og produktivitet, men også til økte kostnader på grunn av miljøproblemer og konkurranse om ressurser.
+ 
+@glaeser1992 har studert vekst i byer og funnet at nærhet mellom bedrifter kan føre til økt innovasjon og produktivitet, men også til økt konkurranse og konflikt mellom bedrifter.
+ 
+Samlet sett kan klyngeteori være et nyttig rammeverk for å forstå økonomisk vekst og utvikling i regioner og byer. Det gir innsikt i hvordan lokale økonomiske faktorer kan samhandle og skape fordeler og ulemper for bedrifter i området. Klyngeteorien understreker også viktigheten av eksterne effekter og kunnskapsspredning, noe som kan bidra til å stimulere innovasjon og økonomisk vekst i klyngen.
+ 
+Selv om klyngeteorien har blitt anerkjent som en verdifull tilnærming til å forstå økonomisk utvikling, har den også møtt kritikk for en rekke begrensninger og utfordringer. @cooke2001 argumenterer for at klyngeteorien kan føre til en overdreven vektlegging av økonomisk konkurranse innenfor en klynge, og at den ikke tar hensyn til ikke-markedsmessige faktorer som politikk og kultur. @maskell1999 har også pekt på utfordringene med å definere og måle klynger og deres effekter nøyaktig. @storper1997 kritiserte klyngeteorien for å være for lite opptatt av sammenhengen mellom lokale og globale økonomier. @bathelt2004 hevder at klyngeteorien overser viktigheten av kunnskap som flyter gjennom globale nettverk, og at det er behov for en mer dynamisk og kompleks tilnærming til å forstå økonomisk utvikling.
+ 
+Til tross for disse begrensningene, fortsetter klyngeteorien å være et viktig perspektiv innen økonomisk geografi og regional utvikling. Forskning innenfor dette feltet vil sannsynligvis fortsette å gi innsikt i hvordan klynger fungerer, og hvordan de kan bidra til å fremme økonomisk vekst og utvikling på lokalt og regionalt nivå.
+
+## Potensialmål
+
+Potensialmål innenfor regional økonomi brukes til å estimere det maksimale nivået av økonomisk aktivitet som en region kan oppnå på lang sikt, gitt dens tilgjengelige ressurser og teknologi, samt tilstedeværelsen av næringsklynger. Den faktiske produksjonen er den mengden varer og tjenester som faktisk produseres i en region, mens den potensielle produksjonskapasiteten er den mengden av varer og tjenester som kan produseres med eksisterende ressurser og teknologi [@fujita1999]. Potensialmål brukes ofte til å evaluere økonomisk ytelse og muligheter for økonomisk vekst i en region. Likevel, et nøyaktig estimat av potensialmålet er veldig krevende, da det er avhengig av en rekke faktorer som kan endre seg over tid [@fujita1999].
+
+
+
+
+
+
+
 
 
 \newpage
