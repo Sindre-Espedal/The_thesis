@@ -188,6 +188,39 @@ OD_PM_Ferje <- OD_PM_Ferje %>%
 OD_PM_Ferje_new <- left_join(OD_PM_Ferje, Pendling_gk_4k_2022_new, by = c("o_gknr"))
 ```
 
+```{r test}
+Pendling_gk_4k_2022_new_test <- Pendling_gk_4k_2022_new %>% 
+  rename(d_gknr = o_gknr)
+
+OD_PM_Ferje <- OD_PM_Ferje %>% 
+  mutate(d_gknr = as.character(d_gknr))
+OD_PM_Ferje_new_test <- left_join(OD_PM_Ferje, Pendling_gk_4k_2022_new_test, by = c("d_gknr"))
+```
+
+```{r test pj}
+ OD_PM_Ferje_new_test <- OD_PM_Ferje_new_test %>% 
+  rename(P_j = o_sysselsatte)
+```
+
+```{r}
+OD_PM_Ferje_new_test <- OD_PM_Ferje_new_test %>% 
+  mutate(dist_ferje = ifelse(dist_ferje == 0, 1, dist_ferje),
+         dist_tunell = ifelse(dist_tunell == 0, 1, dist_tunell))
+```
+
+```{r}
+OD_PM_Ferje_new_test <- OD_PM_Ferje_new_test %>% 
+  mutate(potensial_ferje = P_j/(dist_ferje^0.07),
+         potensial_tunell = P_j/(dist_tunell^0.07))
+```
+
+```{r}
+potensialmal_test <- OD_PM_Ferje_new_test %>% 
+  group_by(o_gknr) %>% 
+  summarise(Ea_ferje = sum(potensial_ferje),
+            Ea_tunell = sum(potensial_tunell))
+```
+
 ```{r}
 OD_PM_Ferje_new <- OD_PM_Ferje_new %>% 
   mutate(dist_ferje = ifelse(dist_ferje == 0, 1, dist_ferje),
@@ -208,6 +241,10 @@ potensialmal <- OD_PM_Ferje_new %>%
             Ea_tunell = sum(potensial_tunell))
 ```
 
+```{r}
+library(writexl)
+write_xlsx(potensialmal_test,"potensial_maal\\potensialmal_Test_Ea.xlsx")
+```
 
 ```{r}
 library(writexl)
