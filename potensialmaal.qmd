@@ -1,0 +1,218 @@
+---
+title: "Potensialmaal"
+format: pdf
+editor: visual
+---
+
+```{r setup, message = FALSE, echo = FALSE}
+library(tidyverse)
+library(lubridate)
+library(readr)
+library(ggplot2)
+library(ggpubr)
+library(dplyr)
+library(readxl)
+library(data.table)
+library(DiagrammeR)
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+## Laster inn od-matrise med avstand på dagens vegnett
+
+```{r}
+OD_PM_Ferje <- read_excel("potensial_maal/OD_Avstand_Vegnett_Ferje_long.xlsx")
+
+OD_PM_Tunell <- read_excel("potensial_maal/OD_Avstand_Vegnett_Tunell_long.xlsx")
+
+```
+
+```{r}
+OD_PM_Ferje <- OD_PM_Ferje %>% 
+  select(origin_id, destination_id, network_cost)
+
+OD_PM_Tunell <- OD_PM_Tunell %>% 
+  select(origin_id, destination_id, network_cost)
+```
+
+```{r}
+OD_PM_Ferje <- OD_PM_Ferje %>% 
+  rename(o_gknr = origin_id,
+         d_gknr = destination_id,
+         dist_ferje = network_cost)
+
+
+OD_PM_Tunell <- OD_PM_Tunell %>% 
+  rename(o_gknr = origin_id,
+         d_gknr = destination_id,
+         dist_tunell = network_cost)
+```
+
+```{r}
+OD_PM_Ferje <- left_join(OD_PM_Ferje, OD_PM_Tunell, by = c("o_gknr", "d_gknr"))
+```
+
+
+```{r}
+OD_PM_Ferje <- OD_PM_Ferje %>% 
+    mutate(knr = str_sub(OD_PM_Ferje$o_gknr, 1, 4))
+
+knr_rogfast <- unique(OD_PM_Ferje$knr)
+```
+
+## Finner sysselsatte på grunnkrets ut fra pendledata
+
+```{r}
+Pendling_gk_4k_2022 <- read_excel("potensial_maal/Filtrert - Pendling grunnkrets 4. kvartal 2022.xlsx")
+```
+
+```{r}
+Pendling_gk_4k_2022 <- Pendling_gk_4k_2022 %>% 
+  mutate(o_gknr = str_sub(bostedsgrunnkrets, 1, 8),
+         o_gknavn = str_sub(bostedsgrunnkrets, 10,),
+         d_gknr = str_sub(arbeidsstedsgrunnkrets, 1, 8),
+         d_gknavn = str_sub(arbeidsstedsgrunnkrets, 10,))
+```
+
+```{r}
+Pendling_gk_4k_2022 <- Pendling_gk_4k_2022 %>% 
+  select(tid, o_gknr, o_gknavn, d_gknr, d_gknavn, antall)
+```
+
+```{r}
+Pendling_gk_4k_2022 <- Pendling_gk_4k_2022 %>% 
+  mutate(o_knr = str_sub(Pendling_gk_4k_2022$o_gknr, 1, 4),
+         d_knr = str_sub(Pendling_gk_4k_2022$d_gknr, 1, 4),
+         del_gknr = str_sub(Pendling_gk_4k_2022$d_gknr, 5,))
+
+Pendling_gk_4k_2022_rogfast <- Pendling_gk_4k_2022 %>% 
+  filter(o_knr %in% knr_rogfast & d_knr %in% knr_rogfast & del_gknr != "9999") %>% 
+  select(o_gknr:antall)
+```
+
+
+
+
+
+
+
+
+
+```{r}
+Pendling_gk_4k_2022_OD <- Pendling_gk_4k_2022_rogfast %>% 
+  pivot_wider(
+    id_cols = o_gknr,
+    names_from = d_gknr,
+    values_from = antall)
+
+Pendling_gk_4k_2022_OD[is.na(Pendling_gk_4k_2022_OD)] = 0
+
+Pendling_gk_4k_2022_OD <- Pendling_gk_4k_2022_OD%>% 
+  select(order(colnames(Pendling_gk_4k_2022_OD))) %>% 
+  select(o_gknr, everything())
+
+Pendling_gk_4k_2022_OD <- Pendling_gk_4k_2022_OD %>% 
+  arrange(o_gknr)
+```
+
+
+
+```{r}
+syss_var <- names(Pendling_gk_4k_2022_OD)
+syss_var <- syss_var[-1]
+rogfast_var <- unique(OD_PM_Ferje$o_gknr)
+
+sone_diff <- setdiff(rogfast_var, syss_var)
+sone_diff
+
+syss_var_orig <- unique(Pendling_gk_4k_2022_OD$o_gknr)
+sone_diff_orig <- setdiff(rogfast_var, syss_var_orig)
+
+```
+
+```{r}
+nr <- as.character(syss_var)
+o_gknr <- as.character(rogfast_var)
+
+tib <- tibble(nr)
+tib2 <- tibble(o_gknr)
+
+com2 <- function(df, o_gknr, n) {
+  varname <- o_gknr[1:n]
+  for(i in 1:n) {
+    df[[varname[i]]] <- with(df, 0)
+  }
+  df
+}
+
+tib2 <- com2(tib2, o_gknr, 1183)
+```
+
+
+```{r}
+OD_rogfast <- left_join(Pendling_gk_4k_2022_OD, tib2)
+```
+
+```{r}
+tib3 <- tib2 %>% 
+  filter(o_gknr %in% sone_diff_orig)
+```
+
+```{r}
+OD_rogfast <- OD_rogfast %>% 
+  rbind(tib3)
+```
+
+```{r}
+rog_var <- unique(OD_rogfast$o_gknr)
+ukjent <- setdiff(rog_var, rogfast_var)
+
+OD_rogfast <- OD_rogfast %>% 
+  filter(!o_gknr %in% ukjent)
+
+OD_rogfast[is.na(OD_rogfast)] = 0
+```
+
+```{r}
+Pendling_gk_4k_2022_new <- OD_rogfast %>%
+  select(-o_gknr) %>% 
+  mutate(o_sysselsatte = rowSums(.),
+         o_gknr = OD_rogfast$o_gknr) %>% 
+  select(o_gknr, o_sysselsatte)
+
+
+```
+
+```{r}
+OD_PM_Ferje <- OD_PM_Ferje %>% 
+  mutate(o_gknr = as.character(o_gknr))
+OD_PM_Ferje_new <- left_join(OD_PM_Ferje, Pendling_gk_4k_2022_new, by = c("o_gknr"))
+```
+
+```{r}
+OD_PM_Ferje_new <- OD_PM_Ferje_new %>% 
+  mutate(dist_ferje = ifelse(dist_ferje == 0, 1, dist_ferje),
+         dist_tunell = ifelse(dist_tunell == 0, 1, dist_tunell))
+```
+
+
+```{r}
+OD_PM_Ferje_new <- OD_PM_Ferje_new %>% 
+  mutate(potensial_ferje = o_sysselsatte/(dist_ferje^0.07),
+         potensial_tunell = o_sysselsatte/(dist_tunell^0.07))
+```
+
+```{r}
+potensialmal <- OD_PM_Ferje_new %>% 
+  group_by(o_gknr) %>% 
+  summarise(Ea_ferje = sum(potensial_ferje),
+            Ea_tunell = sum(potensial_tunell))
+```
+
+
+```{r}
+library(writexl)
+write_xlsx(potensialmal,"potensial_maal\\potensialmal_Ea.xlsx")
+```
+
+
+
