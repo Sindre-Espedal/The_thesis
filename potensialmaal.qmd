@@ -51,7 +51,6 @@ OD_PM_Tunell <- OD_PM_Tunell %>%
 OD_PM_Ferje <- left_join(OD_PM_Ferje, OD_PM_Tunell, by = c("o_gknr", "d_gknr"))
 ```
 
-
 ```{r}
 OD_PM_Ferje <- OD_PM_Ferje %>% 
     mutate(knr = str_sub(OD_PM_Ferje$o_gknr, 1, 4))
@@ -89,14 +88,6 @@ Pendling_gk_4k_2022_rogfast <- Pendling_gk_4k_2022 %>%
   select(o_gknr:antall)
 ```
 
-
-
-
-
-
-
-
-
 ```{r}
 Pendling_gk_4k_2022_OD <- Pendling_gk_4k_2022_rogfast %>% 
   pivot_wider(
@@ -113,8 +104,6 @@ Pendling_gk_4k_2022_OD <- Pendling_gk_4k_2022_OD%>%
 Pendling_gk_4k_2022_OD <- Pendling_gk_4k_2022_OD %>% 
   arrange(o_gknr)
 ```
-
-
 
 ```{r}
 syss_var <- names(Pendling_gk_4k_2022_OD)
@@ -147,7 +136,6 @@ com2 <- function(df, o_gknr, n) {
 tib2 <- com2(tib2, o_gknr, 1183)
 ```
 
-
 ```{r}
 OD_rogfast <- left_join(Pendling_gk_4k_2022_OD, tib2)
 ```
@@ -178,8 +166,6 @@ Pendling_gk_4k_2022_new <- OD_rogfast %>%
   mutate(o_sysselsatte = rowSums(.),
          o_gknr = OD_rogfast$o_gknr) %>% 
   select(o_gknr, o_sysselsatte)
-
-
 ```
 
 ```{r}
@@ -227,7 +213,6 @@ OD_PM_Ferje_new <- OD_PM_Ferje_new %>%
          dist_tunell = ifelse(dist_tunell == 0, 1, dist_tunell))
 ```
 
-
 ```{r}
 OD_PM_Ferje_new <- OD_PM_Ferje_new %>% 
   mutate(potensial_ferje = o_sysselsatte/(dist_ferje^0.07),
@@ -251,5 +236,50 @@ library(writexl)
 write_xlsx(potensialmal,"potensial_maal\\potensialmal_Ea.xlsx")
 ```
 
+```{r}
+library(writexl)
+write_xlsx(OD_PM_Ferje_new_test,"potensial_maal\\OD_PM_Ferje_new_test.xlsx")
+```
 
+```{r}
+P <- Pendling_gk_4k_2022_new_test %>% 
+  select(-d_gknr) %>% 
+  mutate(Tot_PJ = colSums(.),
+         d_gknr = Pendling_gk_4k_2022_new_test$d_gknr) %>% 
+  select(d_gknr, Tot_PJ)
+```
 
+```{r}
+IP_PM <- OD_PM_Ferje_new_test %>% 
+  select(o_gknr, d_gknr, dist_ferje, dist_tunell, P_j)
+```
+
+```{r}
+IP_PM <- IP_PM %>% 
+  mutate(ip_potensial_ferje = dist_ferje*(P_j/190934)) %>% 
+  mutate(ip_potensial_tunell = dist_tunell*(P_j/190934))
+```
+
+```{r}
+ikke_parametrisk_potensialmal <- IP_PM %>% 
+  group_by(o_gknr) %>% 
+  summarise(d_a_ferje = sum(ip_potensial_ferje),
+            d_a_tunell = sum(ip_potensial_tunell))
+```
+
+```{r}
+library(writexl)
+write_xlsx(ikke_parametrisk_potensialmal,"potensial_maal\\pm_ip.xlsx")
+```
+
+```{r}
+ippmtest <- IP_PM %>% 
+  group_by(o_gknr) %>% 
+  summarise(daf = mean(ip_potensial_ferje), 
+            dat = mean(ip_potensial_tunell))
+```
+
+```{r}
+library(writexl)
+write_xlsx(ippmtest,"potensial_maal\\ippm_test.xlsx")
+```
