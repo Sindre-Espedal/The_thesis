@@ -274,12 +274,9 @@ Tab_andel_sysselsatt_fordelt$Region <- replace(Tab_andel_sysselsatt_fordelt$Regi
 #| label: fig-sysselsettingsfordeling
 #| fig-cap: "Andel sysselsatte etter arbeidssted, 2021"
 Tab_andel_sysselsatt_fordelt %>% 
-  select(Region, Andel, Naering) %>% 
-    ggplot(Tab_andel_sysselsatt_fordelt, 
-           mapping = aes(fill = Naering, 
-                         y = Andel, 
-                         x = Region)) +
-  geom_bar(position = "dodge", stat = "identity") +
+  group_by(Andel, Region) %>%
+  ggplot(aes(x = Region, y = Andel, fill = Naering)) + 
+  geom_bar(stat = 'identity', position = 'dodge') + 
   scale_fill_brewer(palette = "Set3") + 
   theme(legend.position="none")
 ```
@@ -287,7 +284,6 @@ Tab_andel_sysselsatt_fordelt %>%
 ```{r}
 Tab_03321_andeler <- read_excel("Data_R_MSB_210/Tab_03321_andeler.xlsx") %>% 
   mutate(ar = make_date(aar))
-
 ```
 
 ```{r innpendling}
