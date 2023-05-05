@@ -1501,9 +1501,31 @@ bestemt sektor.
 
 IOA har også blitt utvidet til å inkludere geografisk informasjon, slik
 at man kan studere sammenhengene mellom ulike regioner eller byer i en
-økonomi. Dette kalles ofte regional input-output-analyse [@capello2015].
+økonomi. Dette kalles ofte regional input-output-analyse [@capello2015]. Den matematiske utregning er som følger: 
 
-Utregning
+$$
+\sum_j = A_{ij} + (C_i + G_i + I_i X_i) = R_i \hspace{1cm} \forall_i
+$$ {#eq-IO1}
+
+$$
+\sum_i = A_{ij} + W_j + \Pi_j + M_j = R_j \hspace{1cm} \forall_j
+$$ {#eq-IO2}
+
+$$
+W + \Pi = Y = C + G + I + X - M = R - \sum_j \sum_i A_{ij} - M
+$$ {#eq-IO3}
+
+$$
+A_{ij} = a_{ij}R_j \hspace{1cm} og \hspace{1cm} a_{ij} = \frac{A_{ij}}{R_j}
+$$ {#eq-IO4}
+
+$$
+\sum_{j} a_{ij}R_j + D_j = R_i \hspace{1cm} \forall_{i}
+$$ {#eq-IO5}
+
+$$
+R_i = \sum_{j} b_{ij}D_j \hspace{1cm} \forall_{i}
+$$ {#eq-IO5}
 
 IOA har blitt mye brukt i planlegging og politikkutforming, spesielt
 innen miljø- og energipolitikk. For eksempel kan IOA brukes til å
