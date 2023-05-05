@@ -668,7 +668,7 @@ Beyonder har planer om å etablere seg på Haugalandet.  Da kan det være intere
 
 Industrisektoren på NACE-hovednivå er sterkt knyttet opp mot fagfeltet naturvitenskapelige fag, håndverksfag og tekniske fag. I @fig-fagfelt . ser vi at Haugalandet har en relativt større andel av sysselsettingen knyttet til slike fagområder enn det som gjelder på nasjonal base. Dette fagfeltet innebærer utdanninger som kjemi og prosess, automasjon og aluminiumskonstruksjon som er sterkt knyttet opp til arbeidere på Hydro Karmøy og Kårstø i Tysvær kommune (SSB, 2023a). Hvert år pleier Aibel tar inn nye lærlinger i disiplinene rørleggere, sveisere og elektrikere i Haugesund kommune (Karrierestart, 2023). Disse utdanningene omfattes også innenfor fagfeltet naturvitenskapelige fag, håndverksfag og tekniske fag. 
 
-I @fig-utdaning ser vi at Haugalandet skiller seg mest ut på utdanningsnivået videregående skole, og ligger 7 prosentpoeng over nasjonen. En plausibel forklaring er at Haugalandet har en næringsstruktur som er med på å fremheve fagfolk og personen med fag/svennebrev. Dette er et utdanningsnivå som blir etterspurt av Industrisektoren. 
+I @fig-utdanning ser vi at Haugalandet skiller seg mest ut på utdanningsnivået videregående skole, og ligger 7 prosentpoeng over nasjonen. En plausibel forklaring er at Haugalandet har en næringsstruktur som er med på å fremheve fagfolk og personen med fag/svennebrev. Dette er et utdanningsnivå som blir etterspurt av Industrisektoren. 
 
 Når det gjelder arbeidstakere med lang universitetsutdanning så ser vi  [@fig-utdanning] at Haugalandet har en lavere andel enn den nasjonale, med 5 prosentpoeng under det nasjonale. Haugalandet har også en større forskjell mellom
 lang- og kort-universitetsutdanning på 19 prosentpoeng, opp mot 15
@@ -768,7 +768,7 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel <- Tab_11615_utdanningsnivaa_syssels
 
 
 ```{r Utdanningsnivå hgld & nrg}
-#| label: fig-utdanning-hgld
+#| label: fig-utdanning
 #| fig-cap: "Andel utdanningsnivå på Haugalandet, 2021"
 Tab_11615_utdanningsnivaa_sysselsatte_andel %>%
   filter(Region %in% c("Haugalandet", "Norge")) %>%
@@ -1042,7 +1042,7 @@ to regionene kan ha enda sterkere klynger av basebedrifter, med mye
 sysselsetting, som tildels dekkes inn med pendling fra andre regioner.
 
 
-
+::: {#tbl-a_n_b layout-ncol="2"}
 | Region      | a    | b    |
 |-------------|------|------|
 | Haugesund   | 0,62 | 1,72 |
@@ -1056,7 +1056,7 @@ sysselsetting, som tildels dekkes inn med pendling fra andre regioner.
 | Sveio       | 0,60 | 3,78 |
 | Haugalandet | 0,58 | 2,17 |
 
-: (a) Parameterverdiene for kommunene i regionen {#tbl-first}
+: Parameterverdiene for kommunene i regionen {#tbl-a_n}
 
 | Region      | b    |
 |-------------|------|
@@ -1065,8 +1065,10 @@ sysselsetting, som tildels dekkes inn med pendling fra andre regioner.
 | Stavanger   | 1,82 |
 | Bergen      | 1,89 |
 
-: (b) Parameterverdiene for regioner {#tbl-second}
+: Parameterverdiene for regioner {#tbl-n_b}
 
+Ulike parameterverdier
+:::
 
 
 ### Lokalaktivitet og konsum
@@ -1227,10 +1229,9 @@ I kommunen er det 2282 sysselsatte innenfor basenæringen. Hele 784 av
 disse jobber på Kårstø-anlegget. Med tanke på hvor stor påvirkning disse bedriftene har hatt på arbeidsmarkedet her på Haugalandet så er det interessant å sette i perspektiv at Beyonder har planer om å etablere 2000 arbeidsplasser på lang sikt. Dette vil skape store ringvirkninger og en økt konkurranse på å sikre seg kvalifisert arbeidskraft. 
 
 Når det gjelder verdien på $a(d)$ så får vi et tydelig bilde på hvilke
-kommuner som er utpendlingskommuner. Vi ser i tabellen en tendens til at Sveio er en kommune som folk bosetter seg i, men ikke jobber i. Dette er lett å forklare med budrenteteori, hvor landets verdi og avstanden for sentrale aktiviteter i rommet spillet en betydningsfull rolle [@alonso1964]. 
+kommuner som er utpendlingskommuner. Vi ser i tabellen en tendens til at Sveio er en kommune som folk bosetter seg i, men ikke jobber i. Dette er lett å forklare med budrenteteori, hvor landets verdi og avstanden for sentrale aktiviteter i rommet spillet en betydningsfull rolle [@alonso1964a]. 
 
-Verdien på $a$; = Andelen som arbeider i lokalnæringer (ref.
-@likning-Rstudio)
+Verdien på $a$; = Andelen som arbeider i lokalnæringer (ref. @eq-5.1.2)
 
 Parameteren $a$ i den første tilnærmingen av baseteorien reflekterer
 andelen av sysselsatte i lokalnæringer i regionen.
@@ -1345,9 +1346,10 @@ direkte arbeidsplassene som skapes, vil bli fordelt som vist i
 | Sveio       | 87                   |
 | Haugalandet | 2 000                |
 
-: Økt antall basis arbeidsplasser{#tbl-direkte}
+: Økt antall basis arbeidsplasser
+{#tbl-direkte}
 
-Vi bruker tallene fra [@tbl-direkte] og ganger disse med
+Vi bruker tallene fra @tbl-direkte og ganger disse med
 basemultiplikatoren til kommunene. Vi vil da få et anslag på økt antall
 lokale arbeidsplasser som vil oppstå i de forskjellige kommunene som
 sjokket har spredd seg på.
@@ -1365,7 +1367,8 @@ sjokket har spredd seg på.
 | Sveio       | 131                   |
 | Haugalandet | 2 692                 |
 
-: Økt antall lokale arbeidsplasser{#tbl-indirekte}
+: Økt antall lokale arbeidsplasser
+{#tbl-indirekte}
 
 ### Sysselsettingsvekst basert på økt basissektor
 
@@ -1557,7 +1560,7 @@ arbeidsmarkeds- og utdanningspolitikk for å støtte disse sektorene.
 
 Videre i oppgaven ønsker vi å analysere pendleavstander på Haugalandet og i Stavanger-regionen hvor Gismarvik er sentrumspunktet. Slik vil man få et visuelt bilde på hva som er akseptable pendleavstanden til Haugaland Næringspark. Vi vil også se på virkningene av et operativt Rogfast vegnett for å presentere hvilke betydninger det vil få med pendling fra Stavanger-regionen. En slik analyse vil kunne gi et bilde på rekrutteringsområdene for ulike typer arbeidskraft i regionen. Dette er en klar tiltrekningsfaktor for Beyonder ved en lokalisering på Gismarvik.  
 
-Anvendelsen av baseteorien tar utgangspunkt i den inndelingen av næringer som ble gjort på regionnivå. Videre kan man beregne lokale multiplikatorer som varierer mellom kommunene, som vist i @tbl-parameter1 og @tbl-parameter2.Det kan diskuteres at virkningene av et sjokk kan variere i stor grad etter hvor i regionen sjokket inntreffer. Spredningen avhenger blant annet av tilgjengeligheten til bedriften i regionen. Men, at forskjellene er så store som multiplikatorverdiene i @tbl-parameter1 tilsier kan bli møtt med skepsis. Det kan argumenteres at disse forskjellene vil til en viss grad utlignes gjennom pendlestrømmer til nye bedrifter. En ny bedrift har større potensiale for å opptre som en vekstpol når den lokaliseres sentralt i det lokale arbeidsmarkedsområdet, innenfor rimelig pendleavstand for en høy andel av lokale arbeidstakere. 
+Anvendelsen av baseteorien tar utgangspunkt i den inndelingen av næringer som ble gjort på regionnivå. Videre kan man beregne lokale multiplikatorer som varierer mellom kommunene, som vist i @tbl-parameter1 og @tbl-parameter2. Det kan diskuteres at virkningene av et sjokk kan variere i stor grad etter hvor i regionen sjokket inntreffer. Spredningen avhenger blant annet av tilgjengeligheten til bedriften i regionen. Men, at forskjellene er så store som multiplikatorverdiene i @tbl-parameter1 tilsier kan bli møtt med skepsis. Det kan argumenteres at disse forskjellene vil til en viss grad utlignes gjennom pendlestrømmer til nye bedrifter. En ny bedrift har større potensiale for å opptre som en vekstpol når den lokaliseres sentralt i det lokale arbeidsmarkedsområdet, innenfor rimelig pendleavstand for en høy andel av lokale arbeidstakere. 
 
 ## Vekstpolteori
 
