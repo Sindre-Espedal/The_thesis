@@ -1,0 +1,150 @@
+---
+title: "Untitled"
+format: pdf
+---
+
+
+```{r setup, message = FALSE, echo = FALSE}
+library(tidyverse)
+library(lubridate)
+library(readr)
+library(ggplot2)
+library(ggpubr)
+library(dplyr)
+library(readxl)
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+# Fagfelt
+
+
+```{r}
+Tab_11615_fagfelt_sysselsatte <- read_excel("Data_R_MSB_210/11615_fagfelt_sysselsatte.xlsx")
+```
+
+```{r}
+Tab_11615_fagfelt_sysselsatte <- Tab_11615_fagfelt_sysselsatte %>% 
+mutate(ar = make_date(aar))
+```
+
+```{r}
+Tab_11615_fagfelt_sysselsatte$Region <- replace(Tab_11615_fagfelt_sysselsatte$Region, Tab_11615_fagfelt_sysselsatte$Region=="Hele landet","Norge")
+```
+
+```{r}
+Tab_11615_fagfelt_sysselsatte_0_9 <- Tab_11615_fagfelt_sysselsatte
+```
+
+```{r}
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Allmenne fag", "00")
+
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Humanistiske og estetiske fag", "01")
+
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Lærerutdanninger og utdanninger i pedagogikk", "02")
+
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Samfunnsfag og juridiske fag", "03")
+
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Økonomiske og administrative fag", "04")
+
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Naturvitenskapelige fag, håndverksfag og tekniske fag", "05")
+
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Helse-, sosial- og idrettsfag", "06")
+
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Primærnæringsfag", "07")
+
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Samferdsels- og sikkerhetsfag og andre servicefag", "08")
+
+Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsatte_0_9$fagfelt, Tab_11615_fagfelt_sysselsatte_0_9$fagfelt=="Uoppgitt fagfelt", "09")
+```
+
+```{r}
+Tab_11615_fagfelt_sysselsatte_0_9 %>% 
+  group_by(Andel, Region) %>% 
+  filter(Region %in% c("Haugalandet", "Norge")) %>% 
+  ggplot(aes(x = fagfelt, y = Andel, fill = Region)) + 
+  geom_bar(stat = 'identity', position = 'dodge')
+```
+
+```{r}
+Tab_11615_fagfelt_sysselsatte %>% 
+  group_by(Andel, Region) %>% 
+  filter(Region %in% c("Haugalandet", "Norge")) %>% 
+  ggplot(aes(x = fagfelt, y = Andel, fill = Region)) + 
+  theme(text = element_text(size=10),
+          axis.text.x = element_text(angle = 30, 
+                                     vjust = 0.5, 
+                                     hjust = 0.5)) + 
+  geom_bar(stat = 'identity', position = 'dodge')
+```
+
+
+
+
+
+# Utdanning
+
+```{r}
+Tab_11615_utdanningsnivaa_sysselsatte_andel <- read_excel("Data_R_MSB_210/11615_utdanningsnivaa_sysselsatte_andel.xlsx") %>% 
+  mutate(ar = make_date(Aar))
+```
+
+```{r}
+Tab_11615_utdanningsnivaa_sysselsatte_andel$Region <- replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Region,                                                      Tab_11615_utdanningsnivaa_sysselsatte_andel$Region=="Hele landet","Norge")
+```
+
+```{r}
+Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <- 
+  replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa, 
+          Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa == 
+            "Universitets- og høgskoleutdanning, 1-4 år (nivå 6)", "Universitet - kort")
+```
+
+```{r}
+Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <- 
+  replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa, 
+          Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa == 
+            "Universitets- og høgskoleutdanning, over 4 år (nivå 7-8)", 
+          "Universitet - lang")
+```
+
+```{r}
+Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <- 
+  replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa, 
+          Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa == 
+            "Grunnskole (nivå 1-2)", 
+          "Grunnskole")
+
+Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <- 
+  replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa, 
+          Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa == 
+            "Videregående skole (nivå 3-5)", 
+          "Videregående skole")
+
+Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <- 
+  replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa, 
+          Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa == 
+            "Uoppgitt utdanning (9)", 
+          "Uoppgitt utdanning")
+```
+
+```{r}
+Tab_11615_utdanningsnivaa_sysselsatte_andel <- Tab_11615_utdanningsnivaa_sysselsatte_andel %>% 
+  rename("Utdanningsnivå" = Utdanningnivaa)
+```
+
+
+```{r Utdanningsnivå hgld & nrg}
+#| label: fig-utdanning-hgld
+#| fig-cap: "Andel utdanningsnivå på Haugalandet, 2021"
+Tab_11615_utdanningsnivaa_sysselsatte_andel %>%
+  filter(Region %in% c("Haugalandet", "Norge")) %>%
+  group_by(Andel, Region) %>% 
+  ggplot(aes(x = Utdanningsnivå, y = Andel, fill = Region)) + 
+  theme(text = element_text(size=10),
+          axis.text.x = element_text(angle = 15, 
+                                     vjust = 0.5, 
+                                     hjust = 0.5)) + 
+  geom_bar(stat = 'identity', position = 'dodge')
+```
+
+
