@@ -204,7 +204,7 @@ Senere har forskere videreutviklet Marshalls teori og studert klynger i ulike sa
 
 Samlet sett kan klyngeteori være et nyttig rammeverk for å forstå økonomisk vekst og utvikling i regioner og byer. Det gir innsikt i hvordan lokale økonomiske faktorer kan samhandle og skape fordeler og ulemper for bedrifter i området. Klyngeteorien understreker også viktigheten av eksterne effekter og kunnskapsspredning, noe som kan bidra til å stimulere innovasjon og økonomisk vekst i klyngen. 
 
-Selv om klyngeteorien har blitt anerkjent som en verdifull tilnærming til å forstå økonomisk utvikling, har den også møtt kritikk for en rekke begrensninger og utfordringer. @cooke2001 argumenterer for at klyngeteorien kan føre til en overdreven vektlegging av økonomisk konkurranse innenfor en klynge, og at den ikke tar hensyn til ikke-markedsmessige faktorer som politikk og kultur. @maksell1999 har også pekt på utfordringene med å definere og måle klynger og deres effekter nøyaktig. @storper1997 kritiserte klyngeteorien for å være for lite opptatt av sammenhengen mellom lokale og globale økonomier. @bathelt2004 hevder at klyngeteorien overser viktigheten av kunnskap som flyter gjennom globale nettverk, og at det er behov for en mer dynamisk og kompleks tilnærming til å forstå økonomisk utvikling. 
+Selv om klyngeteorien har blitt anerkjent som en verdifull tilnærming til å forstå økonomisk utvikling, har den også møtt kritikk for en rekke begrensninger og utfordringer. @cooke2001 argumenterer for at klyngeteorien kan føre til en overdreven vektlegging av økonomisk konkurranse innenfor en klynge, og at den ikke tar hensyn til ikke-markedsmessige faktorer som politikk og kultur. @maskell1999 har også pekt på utfordringene med å definere og måle klynger og deres effekter nøyaktig. @storper1997 kritiserte klyngeteorien for å være for lite opptatt av sammenhengen mellom lokale og globale økonomier. @bathelt2004 hevder at klyngeteorien overser viktigheten av kunnskap som flyter gjennom globale nettverk, og at det er behov for en mer dynamisk og kompleks tilnærming til å forstå økonomisk utvikling. 
 
 Til tross for disse begrensningene, fortsetter klyngeteorien å være et viktig perspektiv innen økonomisk geografi og regional utvikling. Forskning innenfor dette feltet vil sannsynligvis fortsette å gi innsikt i hvordan klynger fungerer, og hvordan de kan bidra til å fremme økonomisk vekst og utvikling på lokalt og regionalt nivå. 
 
@@ -920,7 +920,7 @@ $$
 \Delta P = b \Delta E_T = \frac{b}{1-a} \Delta E_b
 $$ {#eq-5.5}
 
-@eq-5.2 og @eq-5.3 iser hvordan både aktiviteten i basenæringer påvirker henholdsvis nivået og endringene i samlet sysselsetting i regionen.@eq-5.4 og @eq5.5 viser påvirkningen for samlet befolkning i regionen. 
+@eq-5.2 og @eq-5.3 viser hvordan både aktiviteten i basenæringer påvirker henholdsvis nivået og endringene i samlet sysselsetting i regionen. @eq-5.4 og @eq-5.5 viser påvirkningen for samlet befolkning i regionen. 
 
 Virkningene av for eksempel en positiv eksogen basessysselsetting  inn
 til regionen, som potensielt Beyonder, vil skape en økt sysselsetting i
@@ -938,7 +938,7 @@ basisproduktivitet påvirker lokal økonomi.
 
 Modellformuleringene tilsier at en økning i basesysselsetting  vil gi en
 økning i samlet sysselsetting, som gir rom for en ny økning i lokal
-sysselsetting, osv. @eq-5.0.1.1.1 representerer en uendelig geometrisk rekke. De utregningene som er gitt ved @eq-5.0.1.1.2 - @eq-5.0.1.1.5 under viser at løsningen for samlet sysselsetting i basemodellen er gitt ved summen av en slik uendelig geometrisk rekke. Dette innebærer at det resonnementet som ligger til grunn for overgangene @eq-5.0.1.1 - @ea-5.0.1.8 gir en forklaring på den økonomiske basemekanismen. I utregningene under er det brukt et eksempel med $\Delta \bar{E}_b = 100$ så vil:
+sysselsetting, osv. @eq-5.0.1.1.1 representerer en uendelig geometrisk rekke. De utregningene som er gitt ved @eq-5.0.1.1.2 - @eq-5.0.1.1.5 under viser at løsningen for samlet sysselsetting i basemodellen er gitt ved summen av en slik uendelig geometrisk rekke. Dette innebærer at det resonnementet som ligger til grunn for overgangene @eq-5.0.1.1 - @eq-5.0.1.8 gir en forklaring på den økonomiske basemekanismen. I utregningene under er det brukt et eksempel med $\Delta \bar{E}_b = 100$ så vil:
 
 $$
 \rightarrow \Delta E_T = 100
@@ -1166,7 +1166,7 @@ enkel næring i regionen for å beslutte om det er basis- eller
 lokalnæring. Dette er fordi LQ-verdiene i seg selv ikke alltid er til å
 stole på [@leigh1970]. Sysselsetting som en måleenhet er ikke et perfekt
 verktøy [@andrews1954]. Et eksempel på dette var vurderingen av næring
-"49 - Landtransport og rørtransport". I @tab-lqLQ så tilsier LQ-verdien
+"49 - Landtransport og rørtransport". I @tbl-LQ så tilsier LQ-verdien
 alene at dette skal være en lokalnæring, men ved hjelp av kryssløpet til
 SSB og den geografiske kunnskapen for regionen klarer vi å definere at
 denne næringen handler om gasseksport. Intuisjonen om at dette er en
@@ -1372,7 +1372,7 @@ sjokket har spredd seg på.
 
 ### Sysselsettingsvekst basert på økt basissektor
 
-Ved å anvende @ligning9 kan vi gi et ansalg for befolkningsveksten i
+Ved å anvende @eq-5.5 kan vi gi et ansalg for befolkningsveksten i
 området. Estimert befolkningsvekst i regionen fordelt mellom kommunene
 er presentert i [@tbl-befolkning]
 
