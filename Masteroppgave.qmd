@@ -46,7 +46,7 @@ library(DiagrammeR)
 knitr::opts_chunk$set(echo=FALSE)
 ```
 
-#  Introduksjon Beyonder og Haugaland næringspark 
+# Introduksjon Beyonder og Haugaland næringspark
 
 Beyonder er en batteribedrift som har planer om å etablere en
 gigafabrikk [@whiteaker2022] på Haugaland næringspark i Gismarvik. Den
@@ -104,7 +104,12 @@ til fortsatt drift [@storksen2022a]. Dette har skapt debatt i
 lokalsamfunnet, og det har vokst frem skepsis om det er et luftslott som
 planlegges på Haugaland næringspark [@kristensen2022].
 
-En annen mulig skepsis som kan være i samfunnet er uroen for “backwash-effekter” [@capello2015], som handler om at konkurransen i regionen øker, og presser opp lønninger, ved en etablering av batterifabrikken. Denne økte konkurransen kan føre til at andre bedrifter blir til slutt utkonkurrert. Backwash-effekter vil bli presentert og diskutert grundigere i @chp-FINN DETTE 
+En annen mulig skepsis som kan være i samfunnet er uroen for
+"backwash-effekter" [@capello2015], som handler om at konkurransen i
+regionen øker, og presser opp lønninger, ved en etablering av
+batterifabrikken. Denne økte konkurransen kan føre til at andre
+bedrifter blir til slutt utkonkurrert. Backwash-effekter vil bli
+presentert og diskutert grundigere i @chp-FINN DETTE
 
 ## Tilrettelegging av etablering på Gismarvik
 
@@ -188,25 +193,71 @@ regionen, for eksempel i relativt perifer beliggenhet til klyngen, kan
 tape både befolkning og arbeidsplasser. Sauda er et eksempel på et slikt
 område i regionen
 
-Klyngeteori er en økonomisk teori som hevder at bedrifter som er lokalisert i nærheten av hverandre, eller i en klynge, kan ha økonomiske fordeler som ikke er tilgjengelige for bedrifter som er lokalisert utenfor klyngen. Denne teorien ble først utviklet av den britiske økonomen Alfred Marshall i hans bok “Principles of Economics” fra 1920. 
+Klyngeteori er en økonomisk teori som hevder at bedrifter som er
+lokalisert i nærheten av hverandre, eller i en klynge, kan ha økonomiske
+fordeler som ikke er tilgjengelige for bedrifter som er lokalisert
+utenfor klyngen. Denne teorien ble først utviklet av den britiske
+økonomen Alfred Marshall i hans bok "Principles of Economics" fra 1920.
 
-@marshall2009 mente at nærhet mellom bedrifter i en klynge kan føre til økt produktivitet og innovasjon, fordi bedriftene kan dra nytte av eksternaliteter som kunnskapsoverføring og felles tilgang til infrastruktur og arbeidskraft. Marshall argumenterte også for at klynger kan gi bedrifter en økt konkurranseevne ved å tillate dem å dele på kostnader og risiko. 
+@marshall2009 mente at nærhet mellom bedrifter i en klynge kan føre til
+økt produktivitet og innovasjon, fordi bedriftene kan dra nytte av
+eksternaliteter som kunnskapsoverføring og felles tilgang til
+infrastruktur og arbeidskraft. Marshall argumenterte også for at klynger
+kan gi bedrifter en økt konkurranseevne ved å tillate dem å dele på
+kostnader og risiko.
 
-Senere har forskere videreutviklet Marshalls teori og studert klynger i ulike sammenhenger. @hoover1948 undersøkte geografisk lokalisering av bedrifter og økonomisk aktivitet og argumenterte for at nærhet mellom bedrifter i en klynge kan føre til reduserte transaksjonskostnader og økt innovasjon. 
+Senere har forskere videreutviklet Marshalls teori og studert klynger i
+ulike sammenhenger. @hoover1948 undersøkte geografisk lokalisering av
+bedrifter og økonomisk aktivitet og argumenterte for at nærhet mellom
+bedrifter i en klynge kan føre til reduserte transaksjonskostnader og
+økt innovasjon.
 
-@cooke2001 har også studert klynger og pekt på at klynger kan ha både positive og negative konsekvenser for økonomisk utvikling. Han argumenterer for at klynger kan føre til økt innovasjon og produktivitet, men også til økt økonomisk ulikhet mellom regioner. 
+@cooke2001 har også studert klynger og pekt på at klynger kan ha både
+positive og negative konsekvenser for økonomisk utvikling. Han
+argumenterer for at klynger kan føre til økt innovasjon og
+produktivitet, men også til økt økonomisk ulikhet mellom regioner.
 
-@paci1999 studerte eksternaliteter og kunnskapsoverføringer i klynger og fant at kunnskapsspredning mellom bedrifter i en klynge kan føre til økt innovasjon og produktivitet, spesielt for små og mellomstore bedrifter. De påpeker imidlertid også at kunnskapsoverføringen ikke nødvendigvis skjer jevnt mellom alle bedrifter i klyngen, og at større bedrifter ofte kan dra større nytte av klyngens ressurser og nettverk. 
+@paci1999 studerte eksternaliteter og kunnskapsoverføringer i klynger og
+fant at kunnskapsspredning mellom bedrifter i en klynge kan føre til økt
+innovasjon og produktivitet, spesielt for små og mellomstore bedrifter.
+De påpeker imidlertid også at kunnskapsoverføringen ikke nødvendigvis
+skjer jevnt mellom alle bedrifter i klyngen, og at større bedrifter ofte
+kan dra større nytte av klyngens ressurser og nettverk.
 
-@henderson1997 har studert eksternaliteter og industriell utvikling og funnet at nærhet mellom bedrifter kan føre til økt innovasjon og produktivitet, men også til økte kostnader på grunn av miljøproblemer og konkurranse om ressurser. 
+@henderson1997 har studert eksternaliteter og industriell utvikling og
+funnet at nærhet mellom bedrifter kan føre til økt innovasjon og
+produktivitet, men også til økte kostnader på grunn av miljøproblemer og
+konkurranse om ressurser.
 
-@glaeser1992 har studert vekst i byer og funnet at nærhet mellom bedrifter kan føre til økt innovasjon og produktivitet, men også til økt konkurranse og konflikt mellom bedrifter. 
+@glaeser1992 har studert vekst i byer og funnet at nærhet mellom
+bedrifter kan føre til økt innovasjon og produktivitet, men også til økt
+konkurranse og konflikt mellom bedrifter.
 
-Samlet sett kan klyngeteori være et nyttig rammeverk for å forstå økonomisk vekst og utvikling i regioner og byer. Det gir innsikt i hvordan lokale økonomiske faktorer kan samhandle og skape fordeler og ulemper for bedrifter i området. Klyngeteorien understreker også viktigheten av eksterne effekter og kunnskapsspredning, noe som kan bidra til å stimulere innovasjon og økonomisk vekst i klyngen. 
+Samlet sett kan klyngeteori være et nyttig rammeverk for å forstå
+økonomisk vekst og utvikling i regioner og byer. Det gir innsikt i
+hvordan lokale økonomiske faktorer kan samhandle og skape fordeler og
+ulemper for bedrifter i området. Klyngeteorien understreker også
+viktigheten av eksterne effekter og kunnskapsspredning, noe som kan
+bidra til å stimulere innovasjon og økonomisk vekst i klyngen.
 
-Selv om klyngeteorien har blitt anerkjent som en verdifull tilnærming til å forstå økonomisk utvikling, har den også møtt kritikk for en rekke begrensninger og utfordringer. @cooke2001 argumenterer for at klyngeteorien kan føre til en overdreven vektlegging av økonomisk konkurranse innenfor en klynge, og at den ikke tar hensyn til ikke-markedsmessige faktorer som politikk og kultur. @maskell1999 har også pekt på utfordringene med å definere og måle klynger og deres effekter nøyaktig. @storper1997 kritiserte klyngeteorien for å være for lite opptatt av sammenhengen mellom lokale og globale økonomier. @bathelt2004 hevder at klyngeteorien overser viktigheten av kunnskap som flyter gjennom globale nettverk, og at det er behov for en mer dynamisk og kompleks tilnærming til å forstå økonomisk utvikling. 
+Selv om klyngeteorien har blitt anerkjent som en verdifull tilnærming
+til å forstå økonomisk utvikling, har den også møtt kritikk for en rekke
+begrensninger og utfordringer. @cooke2001 argumenterer for at
+klyngeteorien kan føre til en overdreven vektlegging av økonomisk
+konkurranse innenfor en klynge, og at den ikke tar hensyn til
+ikke-markedsmessige faktorer som politikk og kultur. @maskell1999 har
+også pekt på utfordringene med å definere og måle klynger og deres
+effekter nøyaktig. @storper1997 kritiserte klyngeteorien for å være for
+lite opptatt av sammenhengen mellom lokale og globale økonomier.
+@bathelt2004 hevder at klyngeteorien overser viktigheten av kunnskap som
+flyter gjennom globale nettverk, og at det er behov for en mer dynamisk
+og kompleks tilnærming til å forstå økonomisk utvikling.
 
-Til tross for disse begrensningene, fortsetter klyngeteorien å være et viktig perspektiv innen økonomisk geografi og regional utvikling. Forskning innenfor dette feltet vil sannsynligvis fortsette å gi innsikt i hvordan klynger fungerer, og hvordan de kan bidra til å fremme økonomisk vekst og utvikling på lokalt og regionalt nivå. 
+Til tross for disse begrensningene, fortsetter klyngeteorien å være et
+viktig perspektiv innen økonomisk geografi og regional utvikling.
+Forskning innenfor dette feltet vil sannsynligvis fortsette å gi innsikt
+i hvordan klynger fungerer, og hvordan de kan bidra til å fremme
+økonomisk vekst og utvikling på lokalt og regionalt nivå.
 
 Vi kan også se på "learning regions" i @capello2015. Her får vi et
 innblikk i hva som blir sitt på viktige egenskaper i en region for at
@@ -221,13 +272,52 @@ fabrikken? Er det muligheter å få hente industriarbeidere fra andre
 relevante jobber? Dette skal vi se på videre i oppgaven.
 
 Tradisjonelt sett består regionen Haugalandet av kommunene Haugesund,
-Bokn, Tysvær, Karmøy, Utsira, Vindafjord [@thorsnaes2021]. Vi har også valgt å se på Etne og Sveio kommune på grunn av deres nærhet til regionen i geografien. Bømlo og Stord kommune ligger nesten like tett på Gismarvik som Etne, men etter en vurdering ut fra pendledataene så utelates Stord og Bømlo. Oppgavens begrensninger i form av tid er også en faktor for denne avgjørelsen, selv om det kan diskuteres om dette er en god beslutning. Sauda kommune ligger enda lengre fra Gismarvik, men kan tenkes å tjene som et eksempel på en lokal kommune som er mer perifert knyttet til anlegget på Gismarvik. Vi ender derfor opp med å se på kommunene på Haugalandet, i tillegg til Etne-, Sveio- og Sauda kommune.  
+Bokn, Tysvær, Karmøy, Utsira, Vindafjord [@thorsnaes2021]. Vi har også
+valgt å se på Etne og Sveio kommune på grunn av deres nærhet til
+regionen i geografien. Bømlo og Stord kommune ligger nesten like tett på
+Gismarvik som Etne, men etter en vurdering ut fra pendledataene så
+utelates Stord og Bømlo. Oppgavens begrensninger i form av tid er også
+en faktor for denne avgjørelsen, selv om det kan diskuteres om dette er
+en god beslutning. Sauda kommune ligger enda lengre fra Gismarvik, men
+kan tenkes å tjene som et eksempel på en lokal kommune som er mer
+perifert knyttet til anlegget på Gismarvik. Vi ender derfor opp med å se
+på kommunene på Haugalandet, i tillegg til Etne-, Sveio- og Sauda
+kommune.
 
 ## Den geografiske fordelingen av arbeidsplasser på Haugalandet
 
-Vi starter med en illustrasjon av en helhetlig beskrivelse knyttet til fordelingen av arbeidsplasser mellom de lokale kommunene. Det aller meste av regionen kan oppfattes som et felles bo- og arbeidsmarkedsområde (BA-region), hvor mye av pendlestrømmen til arbeidsplasser flyter inn til Haugesund. Det kommer også pendlestrømmer fra/til kommunene Bømlo og Stord. Som nevnt foran, er likevel ikke disse kommunene en del av dataene i presentasjonen av dette kapittelet. Pendledataene er også sett i forhold til regionen, så pendlestrømmer som flyter utenfor dette området er ikke med i beregningene. Dataene fra @fig-sysselsettingsfordeling og @fig-innpendling er hentet fra tabellene 13470 og 03321 hos SSB (se appendiks). I @fig-sysselsettingsfordeling er dataene registrert av sysselsatte personer etter arbeidssted. Alle næringene er summert opp kolonnevis i pendlematrisene, og ender da opp med et estimat for antall personer som arbeider i kommunene. Disse er da delt på alle sysselsatte i kommunene samlet sett for regionen, slik at vi får en andelsfordeling mellom kommunene av sysselsatte etter arbeidssted i regionen. Dataene presentert i @fig-sysselsettingsfordeling gjelder for året 2021. 
+Vi starter med en illustrasjon av en helhetlig beskrivelse knyttet til
+fordelingen av arbeidsplasser mellom de lokale kommunene. Det aller
+meste av regionen kan oppfattes som et felles bo- og
+arbeidsmarkedsområde (BA-region), hvor mye av pendlestrømmen til
+arbeidsplasser flyter inn til Haugesund. Det kommer også pendlestrømmer
+fra/til kommunene Bømlo og Stord. Som nevnt foran, er likevel ikke disse
+kommunene en del av dataene i presentasjonen av dette kapittelet.
+Pendledataene er også sett i forhold til regionen, så pendlestrømmer som
+flyter utenfor dette området er ikke med i beregningene. Dataene fra
+@fig-sysselsettingsfordeling og @fig-innpendling er hentet fra tabellene
+13470 og 03321 hos SSB (se appendiks). I @fig-sysselsettingsfordeling er
+dataene registrert av sysselsatte personer etter arbeidssted. Alle
+næringene er summert opp kolonnevis i pendlematrisene, og ender da opp
+med et estimat for antall personer som arbeider i kommunene. Disse er da
+delt på alle sysselsatte i kommunene samlet sett for regionen, slik at
+vi får en andelsfordeling mellom kommunene av sysselsatte etter
+arbeidssted i regionen. Dataene presentert i
+@fig-sysselsettingsfordeling gjelder for året 2021.
 
-[@fig-sysselsettingsfordeling] viser tydelig at Haugesund kommune har den høyeste andelen sysselsatte etter arbeidssted i regionen. I tabell 03321 finner vi at de som har arbeidsstedsadresse i Haugesund kommune, har 55,8% av disse Haugesund kommune som bosted. 23,6% av de som jobber i Haugesund har bosted i Karmøy kommune. 7,5% av disse har bosted i Tysvær kommune, og 4% har bostedsadresse i Sveio kommune. De resterende 9% er jevnt spredt mellom kommune i regionen og resten av landet. Karmøy kommune, som er den mest befolkede kommunen i regionen, har den nest høyest andelen av sysselsatte etter arbeidssted på Haugalandet. Av de som har arbeidsstedsadresse i Karmøy kommune, har 16% av disse bosted i Haugesund kommune. 4% har bostedsadresse i Tysvær kommune. 73,1% har både bosteds- og arbeidsadresse i Karmøy kommune. De 7% som gjenstår er spredt mellom de gjenstående kommunene i regionen og resten av landet.  
+[@fig-sysselsettingsfordeling] viser tydelig at Haugesund kommune har
+den høyeste andelen sysselsatte etter arbeidssted i regionen. I tabell
+03321 finner vi at de som har arbeidsstedsadresse i Haugesund kommune,
+har 55,8% av disse Haugesund kommune som bosted. 23,6% av de som jobber
+i Haugesund har bosted i Karmøy kommune. 7,5% av disse har bosted i
+Tysvær kommune, og 4% har bostedsadresse i Sveio kommune. De resterende
+9% er jevnt spredt mellom kommune i regionen og resten av landet. Karmøy
+kommune, som er den mest befolkede kommunen i regionen, har den nest
+høyest andelen av sysselsatte etter arbeidssted på Haugalandet. Av de
+som har arbeidsstedsadresse i Karmøy kommune, har 16% av disse bosted i
+Haugesund kommune. 4% har bostedsadresse i Tysvær kommune. 73,1% har
+både bosteds- og arbeidsadresse i Karmøy kommune. De 7% som gjenstår er
+spredt mellom de gjenstående kommunene i regionen og resten av landet.
 
 [@fig-innpendling] viser at Tysvær er den kommunen med høyest andel av
 innpendlere i regionen. Omtrent halvparten av de som pendler inn til
@@ -238,7 +328,8 @@ til Tysvær, og Sveio står for 6,8% av pendling inn til kommunen.
 Tysvær kommune har også en høy andel med 53,9% av arbeidere som pendler
 ut av kommunen. Av de som pendler ut av Tysvær kommune, pendler 61,2% av
 de til Haugesund kommune. Nest høyeste andelen pendler til Karmøy, med
-en andel rundt 24,1%. 11% av arbeidstakerne i Tysvær pendler til Vindafjord. 
+en andel rundt 24,1%. 11% av arbeidstakerne i Tysvær pendler til
+Vindafjord.
 
 I midtre strøk i regionen har Vindafjord mange arbeidsplasser og mye
 innpendling sett i forhold til nabokommunen Etne. Dette reflekterer
@@ -304,15 +395,41 @@ Tab_03321_andeler%>%
 
 ## Andelen sysselsatte i ulike næringer
 
-Motivasjonen for dette kapittelet er å få frem hvordan næringsstrukturen ser ut på Haugalandet. Vi vil skape et bilde på hva Haugalandet er spesialisert i, dette vil vi gjøre med å sette næringer opp mot hverandre på region- og landsbase. Ved å danne et bilde av næringsstrukturen kan vi få informasjon for å registrere eventuelle klynger, og få grunnlag for å vurdere hvordan en ny industribedrift på Gismarvik eventuelt kan supplere eksisterende næringsstruktur på en måte som kan forsterke eventuelle klyngeeffekter. 
+Motivasjonen for dette kapittelet er å få frem hvordan næringsstrukturen
+ser ut på Haugalandet. Vi vil skape et bilde på hva Haugalandet er
+spesialisert i, dette vil vi gjøre med å sette næringer opp mot
+hverandre på region- og landsbase. Ved å danne et bilde av
+næringsstrukturen kan vi få informasjon for å registrere eventuelle
+klynger, og få grunnlag for å vurdere hvordan en ny industribedrift på
+Gismarvik eventuelt kan supplere eksisterende næringsstruktur på en måte
+som kan forsterke eventuelle klyngeeffekter.
 
 Vi starter med en presentasjon av næringsfordelingen på Haugalandet
 sammenlignet med næringsfordelingen ellers i landet, ved hjelp av
 kakediagrammene i @fig-kake-haugalandet og @fig-kake-norge.
 
-I kakediagrammene vi har fremstilt under så får vi et inntrykk på hvordan næringsinndelingen lokalt avviker fra den nasjonale inndelingen. Her får vi frem at det største avviket fra landsgjennomsnittet gjelder industrinæringen. På et så aggregert nivå, geografisk og næringsmessig, er dette helt naturlig. Slike forskjeller er å forvente for typiske basenæringer. Basenæring er en næring som eksporterer varer og tjenester ut av regionen, mens bedrifter innenfor lokalnæringene i hovedsak betjener befolkningen internt i regionen. Dette vil bli mer forklart i kapittel 3 og 4 om baseteori og anvendelsen. 
+I kakediagrammene vi har fremstilt under så får vi et inntrykk på
+hvordan næringsinndelingen lokalt avviker fra den nasjonale inndelingen.
+Her får vi frem at det største avviket fra landsgjennomsnittet gjelder
+industrinæringen. På et så aggregert nivå, geografisk og næringsmessig,
+er dette helt naturlig. Slike forskjeller er å forvente for typiske
+basenæringer. Basenæring er en næring som eksporterer varer og tjenester
+ut av regionen, mens bedrifter innenfor lokalnæringene i hovedsak
+betjener befolkningen internt i regionen. Dette vil bli mer forklart i
+kapittel 3 og 4 om baseteori og anvendelsen.
 
-Videre i oppgaven vil vi se på næringer på 2-siffer nivå, der vi vil gå mer detaljert inn å se på hvilke næringer som er tyngre vektet på Haugalandet enn Norge. Dette er for å få en bedre innsikt i hvilken arbeidskraft som er på Haugalandet og hvordan utviklingen har vært de siste årene. Appendix 1 gir oversikt og forklaring på næringsfordelingen etter ulike siffernivåer av NACE-koder. NACE er en EU-standard for næringsgrupperinger som brukes til statiske formål. Ifølge Statistisk sentralbyrå (2023) er NACE-hovednivå det samme som NACE-seksjon, som er det øverste nivået i NACE-systemet. Dette nivået består av 21 seksjoner som hver representerer en bred kategori av økonomisk aktivitet, for eksempel “Jordbruk, skogbruk og fiske” eller “Informasjon og kommunikasjon”. Seksjonene er nummerert fra A til U. 
+Videre i oppgaven vil vi se på næringer på 2-siffer nivå, der vi vil gå
+mer detaljert inn å se på hvilke næringer som er tyngre vektet på
+Haugalandet enn Norge. Dette er for å få en bedre innsikt i hvilken
+arbeidskraft som er på Haugalandet og hvordan utviklingen har vært de
+siste årene. Appendix 1 gir oversikt og forklaring på næringsfordelingen
+etter ulike siffernivåer av NACE-koder. NACE er en EU-standard for
+næringsgrupperinger som brukes til statiske formål. Ifølge Statistisk
+sentralbyrå (2023) er NACE-hovednivå det samme som NACE-seksjon, som er
+det øverste nivået i NACE-systemet. Dette nivået består av 21 seksjoner
+som hver representerer en bred kategori av økonomisk aktivitet, for
+eksempel "Jordbruk, skogbruk og fiske" eller "Informasjon og
+kommunikasjon". Seksjonene er nummerert fra A til U.
 
 ```{r}
 NACE_kake_2021 <- read_excel("Data_R_MSB_210/NACE_kake_2021.xlsx")
@@ -359,11 +476,13 @@ en god indikator til å få fram kjennetegn ved den lokale
 næringsstrukturen. @capello2015 forklarer videre at dersom LQ er større
 enn én, betyr det at denne sektoren er overrepresentert i regionen, og
 omvendt, hvis kvotienten er mindre enn én, betyr det at sektoren er
-underrepresentert.@mccann viser til følgende LQ formel: 
+underrepresentert.\@mccann viser til følgende LQ formel:
 
-$LQ_{ir} = \frac{\frac{E_{ir}}{E_r}}{\frac{E_{in}}{E_n}}$ . 
+$LQ_{ir} = \frac{\frac{E_{ir}}{E_r}}{\frac{E_{in}}{E_n}}$ .
 
-Hvor $E_{ir}$ er sysselsetting i sektor $i$ for region $r$. $E_r$ er samlet sysselsetting i region $r$. Og $E_{in}$ er da nasjonal sysselsetting i sektor $i$, og $E_n$ er samlet nasjonal sysselsetting.  
+Hvor $E_{ir}$ er sysselsetting i sektor $i$ for region $r$. $E_r$ er
+samlet sysselsetting i region $r$. Og $E_{in}$ er da nasjonal
+sysselsetting i sektor $i$, og $E_n$ er samlet nasjonal sysselsetting.
 
 I @fig-loq har vi tatt utgangspunkt i næringer som har verdier større
 enn 1 på NACE-hovednivå. Videre nedover i hierarkiet har vi delt opp
@@ -411,7 +530,10 @@ andel ansatte på Haugalandet innen sjøfart fra 2014 til 2016. Vi ser at
 det er tendenser til vekst i sjøfart næringen fra og med 2020 og videre.
 Dette kan ha noe med optimismen og etableringen av havvindparker
 [@fornybarnorge2022. Til etableringen av havvindparker så krever det
-sysselsatte i sjøfartsnæringen for å gjennomføre prosjektene. Solstad offshore, Deepocean og Aker Solutions etablerte i 2021 selskapet Offshore Renewables Alliance. Denne etableringen er med på å gi et oppsving til sjøfartnæringen lokalt [@akersolutions2021]. 
+sysselsatte i sjøfartsnæringen for å gjennomføre prosjektene. Solstad
+offshore, Deepocean og Aker Solutions etablerte i 2021 selskapet
+Offshore Renewables Alliance. Denne etableringen er med på å gi et
+oppsving til sjøfartnæringen lokalt [@akersolutions2021].
 
 ```{r Fiske, fangst og akvakultur + Sjøfart}
 #| label: fig-ffa
@@ -464,7 +586,8 @@ Vindafjord. Det er grunn til å tro at denne næringssektoren er tungt
 vektet av bedriften Aibel, som er etablert i Haugesund kommune. For
 Haugesund kommune, så er Aibel en hjørnesteinsbedrift, hvor deres
 aktivitetsnivå er korrelert med Haugesund sitt aktivitetsnivå (Midtsjø
-og Lorentzen, 2015). Fallet i [@fig-industri]  korreleres i sterk grad med oljekrisen i 2014 som særlig rammet næringslivet i Vest-Norge. 
+og Lorentzen, 2015). Fallet i [@fig-industri] korreleres i sterk grad
+med oljekrisen i 2014 som særlig rammet næringslivet i Vest-Norge.
 
 ```{r Metallindustri og Transportmiddelindustri ellers}
 #| label: fig-industri
@@ -505,7 +628,11 @@ Haugalandet og Tysvær kommune. For på Haugalandet er det Kårstø i Tysvær
 som står for denne andelen av ansatte. I Tysvær kommune så er rundt 16%
 av arbeidsplassene i 2021 innenfor utvinning av råolje og naturgass.
 
-Det skal komme en tunnel mellom Haugalandet og Nord-Jæren som heter Rogfast, når denne ferdigstilles kan det diskuteres om næringsstrukturen vil forandre seg og om økonomiene til Nord-Jæren og Haugalandet vil smelte enda mer sammen. Dette vil vi gå nærmere innpå i et senere kapittel i oppgaven.  
+Det skal komme en tunnel mellom Haugalandet og Nord-Jæren som heter
+Rogfast, når denne ferdigstilles kan det diskuteres om næringsstrukturen
+vil forandre seg og om økonomiene til Nord-Jæren og Haugalandet vil
+smelte enda mer sammen. Dette vil vi gå nærmere innpå i et senere
+kapittel i oppgaven.
 
 ```{r Råolje og naturgass}
 #| label: fig-utvinning_råolje_naturgass
@@ -556,13 +683,13 @@ Tab_13470_andeler_naering %>%
 
 ### Detaljhandel, unntatt med motorvogner
 
-Som illustrert i [@fig-kake-haugalandet], er varehandel er
-den næringen på hoved-siffernivå med tredje mest antall ansatte på
-Haugalandet, og ligger over den nasjonale andelen med litt under ett
-prosentpoeng. På 2-siffernivå så ser vi at Detaljhandelen ligger over
-det nasjonale sysselsettingsnivået. Internt i regionen består Haugesund
-og Karmøy for cirka 80% av arbeidsplassene i detaljhandel. Disse 80%-ene
-er fordelt i underkant av 50% i Haugesund, som har landets lengste
+Som illustrert i [@fig-kake-haugalandet], er varehandel er den næringen
+på hoved-siffernivå med tredje mest antall ansatte på Haugalandet, og
+ligger over den nasjonale andelen med litt under ett prosentpoeng. På
+2-siffernivå så ser vi at Detaljhandelen ligger over det nasjonale
+sysselsettingsnivået. Internt i regionen består Haugesund og Karmøy for
+cirka 80% av arbeidsplassene i detaljhandel. Disse 80%-ene er fordelt i
+underkant av 50% i Haugesund, som har landets lengste
 gågate[@stokka2014], og overkant av 30% på Karmøy. [@fig-detaljhandel]
 viser også en nedadgående trend, som kan tenkes å skylde økt aktivitet i
 netthandel, noe som krever mindre arbeidskraft.
@@ -594,7 +721,15 @@ Tab_10539_13470_Nov <- Tab_10539_13470_Nov %>%
   mutate(ar = make_date(Aar))
 ```
 
-I [@fig-arbeidsledighet] og [@fig-arbeidsledighet-internt] er tidspunktene for arbeidsledighet i november måned for hvert år. Her observerer vi at Haugalandet følger Norge jevnt over, men unntak av oljekrisen i 2014. Her får vi en økning i arbeidsledigheten, utover den nasjonale økningen. Et slik fall skjer ikke bare i oljenæringen, det gir også ringvirkninger til næringene rundt på Haugalandet der mange leverer varer og tjenester til oljenæringen. I 2020 ser vi en ny markert økning i arbeidsledigheten, både regionalt og nasjonalt. Dette er sannsynligvis knyttet til Korona-pandemien. 
+I [@fig-arbeidsledighet] og [@fig-arbeidsledighet-internt] er
+tidspunktene for arbeidsledighet i november måned for hvert år. Her
+observerer vi at Haugalandet følger Norge jevnt over, men unntak av
+oljekrisen i 2014. Her får vi en økning i arbeidsledigheten, utover den
+nasjonale økningen. Et slik fall skjer ikke bare i oljenæringen, det gir
+også ringvirkninger til næringene rundt på Haugalandet der mange leverer
+varer og tjenester til oljenæringen. I 2020 ser vi en ny markert økning
+i arbeidsledigheten, både regionalt og nasjonalt. Dette er sannsynligvis
+knyttet til Korona-pandemien.
 
 [@fig-arbeidsledighet-internt] viser at arbeidsledigheten innad i
 regionen varierer mellom kommunene. Haugesund og Karmøy er de kommunene
@@ -660,21 +795,65 @@ mutate(ar = make_date(aar))
 Tab_11615_fagfelt_sysselsatte$Region <- replace(Tab_11615_fagfelt_sysselsatte$Region, Tab_11615_fagfelt_sysselsatte$Region=="Hele landet","Norge")
 ```
 
-Beyonder har planer om å etablere seg på Haugalandet.  Da kan det være interessant å kartlegge hvilken type arbeidskraft og kompetanse Haugalandet har spesialisert seg i. Til slutt vil vi måle dette opp mot Beyonder sitt rekrutteringsbehov. Dette er nyttig for en vurdering av Beyonder sin posisjon som en del av en klynge, og deres mulighet til å høste klyngegevinster, for eksempel representert  ved “matching”, det vil si muligheten til å rekruttere kvalifisert arbeidskraft i et tykt arbeidsmarked. 
+Beyonder har planer om å etablere seg på Haugalandet. Da kan det være
+interessant å kartlegge hvilken type arbeidskraft og kompetanse
+Haugalandet har spesialisert seg i. Til slutt vil vi måle dette opp mot
+Beyonder sitt rekrutteringsbehov. Dette er nyttig for en vurdering av
+Beyonder sin posisjon som en del av en klynge, og deres mulighet til å
+høste klyngegevinster, for eksempel representert ved "matching", det vil
+si muligheten til å rekruttere kvalifisert arbeidskraft i et tykt
+arbeidsmarked.
 
-Industrisektoren på NACE-hovednivå er sterkt knyttet opp mot fagfeltet naturvitenskapelige fag, håndverksfag og tekniske fag. I @fig-fagfelt . ser vi at Haugalandet har en relativt større andel av sysselsettingen knyttet til slike fagområder enn det som gjelder på nasjonal base. Dette fagfeltet innebærer utdanninger som kjemi og prosess, automasjon og aluminiumskonstruksjon som er sterkt knyttet opp til arbeidere på Hydro Karmøy og Kårstø i Tysvær kommune (SSB, 2023a). Hvert år pleier Aibel tar inn nye lærlinger i disiplinene rørleggere, sveisere og elektrikere i Haugesund kommune (Karrierestart, 2023). Disse utdanningene omfattes også innenfor fagfeltet naturvitenskapelige fag, håndverksfag og tekniske fag. 
+Industrisektoren på NACE-hovednivå er sterkt knyttet opp mot fagfeltet
+naturvitenskapelige fag, håndverksfag og tekniske fag. I @fig-fagfelt .
+ser vi at Haugalandet har en relativt større andel av sysselsettingen
+knyttet til slike fagområder enn det som gjelder på nasjonal base. Dette
+fagfeltet innebærer utdanninger som kjemi og prosess, automasjon og
+aluminiumskonstruksjon som er sterkt knyttet opp til arbeidere på Hydro
+Karmøy og Kårstø i Tysvær kommune (SSB, 2023a). Hvert år pleier Aibel
+tar inn nye lærlinger i disiplinene rørleggere, sveisere og elektrikere
+i Haugesund kommune (Karrierestart, 2023). Disse utdanningene omfattes
+også innenfor fagfeltet naturvitenskapelige fag, håndverksfag og
+tekniske fag.
 
-I @fig-utdanning ser vi at Haugalandet skiller seg mest ut på utdanningsnivået videregående skole, og ligger 7 prosentpoeng over nasjonen. En plausibel forklaring er at Haugalandet har en næringsstruktur som er med på å fremheve fagfolk og personen med fag/svennebrev. Dette er et utdanningsnivå som blir etterspurt av Industrisektoren. 
+I @fig-utdanning ser vi at Haugalandet skiller seg mest ut på
+utdanningsnivået videregående skole, og ligger 7 prosentpoeng over
+nasjonen. En plausibel forklaring er at Haugalandet har en
+næringsstruktur som er med på å fremheve fagfolk og personen med
+fag/svennebrev. Dette er et utdanningsnivå som blir etterspurt av
+Industrisektoren.
 
-Når det gjelder arbeidstakere med lang universitetsutdanning så ser vi  [@fig-utdanning] at Haugalandet har en lavere andel enn den nasjonale, med 5 prosentpoeng under det nasjonale. Haugalandet har også en større forskjell mellom
-lang- og kort-universitetsutdanning på 19 prosentpoeng, opp mot 15
-prosentpoeng på det nasjonale. En mulig forklaring til dette er at de
-som tar høyere utdanning flytter til de større byene som Oslo og Bergen,
-og gjerne blir igjen for å starte sin arbeidskarriere.
+Når det gjelder arbeidstakere med lang universitetsutdanning så ser vi
+[@fig-utdanning] at Haugalandet har en lavere andel enn den nasjonale,
+med 5 prosentpoeng under det nasjonale. Haugalandet har også en større
+forskjell mellom lang- og kort-universitetsutdanning på 19 prosentpoeng,
+opp mot 15 prosentpoeng på det nasjonale. En mulig forklaring til dette
+er at de som tar høyere utdanning flytter til de større byene som Oslo
+og Bergen, og gjerne blir igjen for å starte sin arbeidskarriere.
 
-Kompetansen Beyonder etterspørr er i hovedsak innenfor fagfeltet naturvitenskapelige fag, håndverksfag og tekniske fag. Rundt 75% av de ansatte vil jobbe med produksjon. I produksjonen antar Beyonder at cirka 25% vil kreve ingeniørutdanning. Beyonder antar at administrasjons- og økonomi avdelingen vil kunne kreve 100 til 150 arbeidstakere. Produksjonsarbeiderne Beyonder etterspør omfavner fagfeltene elektro, kjemi, materialteknologi, maskindrift og robotisering, automasjon og digitalisering. I tillegg har Beyonder behov for rekruttering fra utlandet for spesifikk industrierfaring. 
+Kompetansen Beyonder etterspørr er i hovedsak innenfor fagfeltet
+naturvitenskapelige fag, håndverksfag og tekniske fag. Rundt 75% av de
+ansatte vil jobbe med produksjon. I produksjonen antar Beyonder at cirka
+25% vil kreve ingeniørutdanning. Beyonder antar at administrasjons- og
+økonomi avdelingen vil kunne kreve 100 til 150 arbeidstakere.
+Produksjonsarbeiderne Beyonder etterspør omfavner fagfeltene elektro,
+kjemi, materialteknologi, maskindrift og robotisering, automasjon og
+digitalisering. I tillegg har Beyonder behov for rekruttering fra
+utlandet for spesifikk industrierfaring.
 
-Det største behov Beyonder har er innen produksjon. I produksjonen vil det kreve flest fagfolk og en mindre andel ingeniører, dette samsvarer med hvordan fagfeltet er representert i arbeidsstyrken på Haugalandet. Det er en god “matching” for Beyonder når det gjelder muligheten til å rekruttere lokal og kvalifisert arbeidskraft. Ingeniørutdanning omfavner det samme fagfeltet som produksjonen, men gjerne på et høyere utdanningsnivå. Lokalt tilbys det Ingeniørprogrammer på HVL, og med et potensielt samarbeid kan Beyonder kunne fremme ønskelig spesialisering innenfor disse utdanningsprogrammene. Det er allerede en god etablering av ingeniører i maritim- og industrisektor på Haugalandet. Dersom dette er den ønskene typen av spesialisering av ingeniører som Beyonder har behov for, kan bedriften oppnå gode klyngeeffekter ut fra eksisterende arbeidsmarked.   
+Det største behov Beyonder har er innen produksjon. I produksjonen vil
+det kreve flest fagfolk og en mindre andel ingeniører, dette samsvarer
+med hvordan fagfeltet er representert i arbeidsstyrken på Haugalandet.
+Det er en god "matching" for Beyonder når det gjelder muligheten til å
+rekruttere lokal og kvalifisert arbeidskraft. Ingeniørutdanning omfavner
+det samme fagfeltet som produksjonen, men gjerne på et høyere
+utdanningsnivå. Lokalt tilbys det Ingeniørprogrammer på HVL, og med et
+potensielt samarbeid kan Beyonder kunne fremme ønskelig spesialisering
+innenfor disse utdanningsprogrammene. Det er allerede en god etablering
+av ingeniører i maritim- og industrisektor på Haugalandet. Dersom dette
+er den ønskene typen av spesialisering av ingeniører som Beyonder har
+behov for, kan bedriften oppnå gode klyngeeffekter ut fra eksisterende
+arbeidsmarked.
 
 ```{r}
 Tab_11615_fagfelt_sysselsatte_0_9 <- Tab_11615_fagfelt_sysselsatte
@@ -736,7 +915,6 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <-
           "Universitet - lang")
 ```
 
-
 ```{r}
 Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <- 
   replace(Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa, 
@@ -761,7 +939,6 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel$Utdanningnivaa <-
 Tab_11615_utdanningsnivaa_sysselsatte_andel <- Tab_11615_utdanningsnivaa_sysselsatte_andel %>% 
   rename("Utdanningsnivå" = Utdanningnivaa)
 ```
-
 
 ```{r Utdanningsnivå hgld & nrg}
 #| label: fig-utdanning
@@ -814,7 +991,19 @@ aggregerte nivå vi har valgt for RDI utregning.
 
 ## Oppsummering
 
-Haugalandet er en region som har to kommuner som dominerer andel sysselsatte i regionen. De næringene som er sterkest representert på Haugalandet er metallindustri og transportmiddelindustri ellers. Ifølge RDI ser vi også at Haugalandet er spesialisert i industrinæringen. Gini forteller oss at industrien er spredt rundt på Haugalandet, men de største bedriftene hører til på Karmøy og i Haugesund. Tysvær er den kommunen som har høyest andel innpendlere, dette kan skyldes etableringen på Kårstø som er en stor arbeidsplass i regionen. Fagfelt og utdanningsnivået på Haugalandet reflekterer godt hvilken type næringsstruktur det er i regionen. Vi ser at det utdannes en god andel yrkesarbeidere, som har fagfeltet naturvitenskapelige fag, håndverksfag og tekniske fag. Dette henger godt sammen med hvilke type næringer som dominerer markedet og etterspør arbeidskraft. 
+Haugalandet er en region som har to kommuner som dominerer andel
+sysselsatte i regionen. De næringene som er sterkest representert på
+Haugalandet er metallindustri og transportmiddelindustri ellers. Ifølge
+RDI ser vi også at Haugalandet er spesialisert i industrinæringen. Gini
+forteller oss at industrien er spredt rundt på Haugalandet, men de
+største bedriftene hører til på Karmøy og i Haugesund. Tysvær er den
+kommunen som har høyest andel innpendlere, dette kan skyldes
+etableringen på Kårstø som er en stor arbeidsplass i regionen. Fagfelt
+og utdanningsnivået på Haugalandet reflekterer godt hvilken type
+næringsstruktur det er i regionen. Vi ser at det utdannes en god andel
+yrkesarbeidere, som har fagfeltet naturvitenskapelige fag, håndverksfag
+og tekniske fag. Dette henger godt sammen med hvilke type næringer som
+dominerer markedet og etterspør arbeidskraft.
 
 # Baseteori
 
@@ -824,7 +1013,12 @@ baseteori. Denne teorien hører til familien av keynesiansk-inspirerte
 modeller, med fokus på at variasjoner i samlet etterspørsel påvirker
 kapasitetsutnyttelsen i regionen.
 
-Den økonomiske basemodellen er utviklet til bruk på by- og regionsnivå og aggregerte analyser. I stedet for å analysere virkninger av industriell endring på mikroøkonomisk nivå, fokuserer denne modellen på koblingene mellom aggregerte sektorer ved å karakterisere en region som består av næringer som spesifiseres i to ulike kategorier. Disse to er lokalnæringer og basenæringer[@mccann2013].
+Den økonomiske basemodellen er utviklet til bruk på by- og regionsnivå
+og aggregerte analyser. I stedet for å analysere virkninger av
+industriell endring på mikroøkonomisk nivå, fokuserer denne modellen på
+koblingene mellom aggregerte sektorer ved å karakterisere en region som
+består av næringer som spesifiseres i to ulike kategorier. Disse to er
+lokalnæringer og basenæringer[@mccann2013].
 
 @mccann2013 sier at lokalsektoren består av bedrifter som betjener lokal
 etterspørsel. Lokalnæringer blir nesten utelukkende brukt av
@@ -836,8 +1030,12 @@ lignende.
 Basisnæring er ifølge @mccann2013 en næring som har spesialisert seg og
 produserer tjenester eller goder som blir eksportert til andre regioner
 eller land. Eksempler på basisnæringer kan være bilindustrien i Torino
-og Detroit, flyindustrien i Seattle og Toulouse (@mccann2013).
-Vi vet at basenæring styres av eksport, da kan vi også si at sysselsettingen i basenæringene er eksogent gitt, noe som betyr at forholdene er bestemt utenfor regionen. Videre vil vi presentere Hoyts basemodell, og diskutere eksportelementet i basenæringer, som er grunnen til at Hoyts basemodell blir ansett som en eksport-basemodell. 
+og Detroit, flyindustrien i Seattle og Toulouse (@mccann2013). Vi vet at
+basenæring styres av eksport, da kan vi også si at sysselsettingen i
+basenæringene er eksogent gitt, noe som betyr at forholdene er bestemt
+utenfor regionen. Videre vil vi presentere Hoyts basemodell, og
+diskutere eksportelementet i basenæringer, som er grunnen til at Hoyts
+basemodell blir ansett som en eksport-basemodell.
 
 ## Økonomisk eksport baseteori
 
@@ -866,14 +1064,15 @@ $$
 E_b = \bar{E}_b
 $$ {#eq-5.1.3}
 
-I ligning (3) markerer $\bar{E}_b$ at sysselsettingen i basenæringene er eksogent gitt. @hoyt1954 forklarer at base-arbeiderne trenger tjenestene til
-detaljhandel, lokale offentlige arbeidere, lokal transport og utstyr,
-bygningsarbeidere, leger, tannleger og andre profesjonelle tjenester; disse
-arbeiderne som jobber for behovet til base-arbeiderne, kalles for
-lokal-arbeidere. Hoyt sier videre at en by eller region må produsere
-eksport for å kunne betale for importen av andre varer, og at disse
-basenæringene i regionen eller byen er den primære årsaken til lokal
-vekst [@hoyt1954].
+I ligning (3) markerer $\bar{E}_b$ at sysselsettingen i basenæringene er
+eksogent gitt. @hoyt1954 forklarer at base-arbeiderne trenger tjenestene
+til detaljhandel, lokale offentlige arbeidere, lokal transport og
+utstyr, bygningsarbeidere, leger, tannleger og andre profesjonelle
+tjenester; disse arbeiderne som jobber for behovet til base-arbeiderne,
+kalles for lokal-arbeidere. Hoyt sier videre at en by eller region må
+produsere eksport for å kunne betale for importen av andre varer, og at
+disse basenæringene i regionen eller byen er den primære årsaken til
+lokal vekst [@hoyt1954].
 
 Sysselsetting i basesektoren er dermed eksogen for det økonomiske
 systemet, mens sysselsettingen for lokalsektoren er en andel $a$ av
@@ -898,12 +1097,13 @@ $$
 \Delta E_T = \frac{1}{1-a} \Delta E_b
 $$ {#eq-5.3}
 
-@eq-5.3 sier at når sysselsetting øker i basesektoren, så undergår
-total sysselsetting mer enn en like stor økning. Økningen i samlet
+@eq-5.3 sier at når sysselsetting øker i basesektoren, så undergår total
+sysselsetting mer enn en like stor økning. Økningen i samlet
 sysselsetting vil nærmere bestemt være økningen i basesektoren,
 multiplisert med den såkalte basemultiplikatoren ($\frac{1}{1-a}$) som
-per definisjon antar verdier større enn 1. Anta videre en gitt andel, $b$, mellom total sysselsetting og befolkningen som er bosatt i
-området, det vil si:
+per definisjon antar verdier større enn 1. Anta videre en gitt andel,
+$b$, mellom total sysselsetting og befolkningen som er bosatt i området,
+det vil si:
 
 $$
 P = bE_T, b >1
@@ -916,12 +1116,17 @@ $$
 \Delta P = b \Delta E_T = \frac{b}{1-a} \Delta E_b
 $$ {#eq-5.5}
 
-@eq-5.2 og @eq-5.3 viser hvordan både aktiviteten i basenæringer påvirker henholdsvis nivået og endringene i samlet sysselsetting i regionen. @eq-5.4 og @eq-5.5 viser påvirkningen for samlet befolkning i regionen. 
+@eq-5.2 og @eq-5.3 viser hvordan både aktiviteten i basenæringer
+påvirker henholdsvis nivået og endringene i samlet sysselsetting i
+regionen. @eq-5.4 og @eq-5.5 viser påvirkningen for samlet befolkning i
+regionen.
 
-Virkningene av for eksempel en positiv eksogen basessysselsetting  inn
+Virkningene av for eksempel en positiv eksogen basessysselsetting inn
 til regionen, som potensielt Beyonder, vil skape en økt sysselsetting i
 regionen. @eq-5.2 sier noe om hvordan virkningene påvirker samlet
-sysselsetting i regionen. Det følger av ligningen at virkningen avhenger av parameteren $a$. Multiplikatoren blir for eksempel langt større med en parameterverdi på 0,8 heller enn 0,5:   
+sysselsetting i regionen. Det følger av ligningen at virkningen avhenger
+av parameteren $a$. Multiplikatoren blir for eksempel langt større med
+en parameterverdi på 0,8 heller enn 0,5:
 
 hvis $a = \frac{1}{2} \rightarrow \frac{1}{1-a} = 2$,
 
@@ -932,9 +1137,16 @@ basisproduktivitet påvirker lokal økonomi.
 
 ### Sum av mange ledd, basemultiplikatoren, eksempel
 
-Modellformuleringene tilsier at en økning i basesysselsetting  vil gi en
+Modellformuleringene tilsier at en økning i basesysselsetting vil gi en
 økning i samlet sysselsetting, som gir rom for en ny økning i lokal
-sysselsetting, osv. @eq-5.0.1.1.1 representerer en uendelig geometrisk rekke. De utregningene som er gitt ved @eq-5.0.1.1.2 - @eq-5.0.1.1.5 under viser at løsningen for samlet sysselsetting i basemodellen er gitt ved summen av en slik uendelig geometrisk rekke. Dette innebærer at det resonnementet som ligger til grunn for overgangene @eq-5.0.1.1 - @eq-5.0.1.8 gir en forklaring på den økonomiske basemekanismen. I utregningene under er det brukt et eksempel med $\Delta \bar{E}_b = 100$ så vil:
+sysselsetting, osv. @eq-5.0.1.1.1 representerer en uendelig geometrisk
+rekke. De utregningene som er gitt ved @eq-5.0.1.1.2 - @eq-5.0.1.1.5
+under viser at løsningen for samlet sysselsetting i basemodellen er gitt
+ved summen av en slik uendelig geometrisk rekke. Dette innebærer at det
+resonnementet som ligger til grunn for overgangene @eq-5.0.1.1 -
+@eq-5.0.1.8 gir en forklaring på den økonomiske basemekanismen. I
+utregningene under er det brukt et eksempel med $\Delta \bar{E}_b = 100$
+så vil:
 
 $$
 \rightarrow \Delta E_T = 100
@@ -1002,7 +1214,7 @@ $$ {#eq-5.0.1.1.5}
 
 Med $a<1$ så har vi derfor en konvergerende prosess. @fig-con-pro viser
 en forenkling av den konvergerende prosessen. Denne modellen viser at en
-etablering av en basebedrift  vil gi en økt total sysselsetting. Dette
+etablering av en basebedrift vil gi en økt total sysselsetting. Dette
 vil gi en høyere etterspørsel av varer og tjenester fra lokalsektoren,
 noe som vil føre til flere ansatte i lokalsektor, dermed vil den totale
 sysselsetningen igjen øke. For hver gang prosessen gjentas blir det en
@@ -1016,14 +1228,18 @@ etterspørselsøkningen i lokalsektorene rettes mot andre regioner.
 
 Parameteren $a$ er definert i @eq-5.1.2, og kan omformuleres slik:
 $a = \frac{E_s}{E_t}$. Dette er en viktig størrelse i en diskusjon av
-hvordan endret baseaktivitet  påvirker økonomien i geografien. En høy
+hvordan endret baseaktivitet påvirker økonomien i geografien. En høy
 verdi på $a$ indikerer at geografien har en høy andel som er sysselsatte
 i lokalnæringer, mens en lav $a$ indikerer at geografien har en høy
 andel sysselsatte i basenæringer
 
 Parameteren $b$ representer som nevnt ovenfor andelen mellom total
 sysselsetting og befolkningen i geografien, og kan omformuleres slik:
-$b = \frac{P}{E_t}$. En høy verdi på $b$ indikerer at befolkningen er relativt større enn antall arbeidsplasser i geografien. På Haugalandethar Sveio kommune den høyeste $b$, og dette er en kommune som har myeutpendling. Nabokommunen, Haugesund, har den laveste $b$-verdien igeografien. Dette indikerer at det mye arbeidsplasser, sett i forhold
+$b = \frac{P}{E_t}$. En høy verdi på $b$ indikerer at befolkningen er
+relativt større enn antall arbeidsplasser i geografien. På
+Haugalandethar Sveio kommune den høyeste $b$, og dette er en kommune som
+har myeutpendling. Nabokommunen, Haugesund, har den laveste $b$-verdien
+igeografien. Dette indikerer at det mye arbeidsplasser, sett i forhold
 til befolkningen i området. På kommunenivå vil verdiene på $b$ svinge
 mye mer enn om en sammenligner regioner. Den kommunen med lavest $b$
 representerer i regelen sentrum for regionen, hvor det oftest er høyest
@@ -1036,7 +1252,6 @@ en relativt lik $b$. Stavangerregionen og Bergensregionen har en enda
 lavere $b$ enn Haugalandet og Sunnhordland. Dette kan skyldes at disse
 to regionene kan ha enda sterkere klynger av basebedrifter, med mye
 sysselsetting, som tildels dekkes inn med pendling fra andre regioner.
-
 
 ::: {#tbl-a_n_b layout-ncol="2"}
 | Region      | a    | b    |
@@ -1054,18 +1269,17 @@ sysselsetting, som tildels dekkes inn med pendling fra andre regioner.
 
 : Parameterverdiene for kommunene i regionen {#tbl-a_n}
 
-| Region      | b    |
-|-------------|------|
-| Haugalandet | 2,17 |
-| Sunnhordland| 2,19 |
-| Stavanger   | 1,82 |
-| Bergen      | 1,89 |
+| Region       | b    |
+|--------------|------|
+| Haugalandet  | 2,17 |
+| Sunnhordland | 2,19 |
+| Stavanger    | 1,82 |
+| Bergen       | 1,89 |
 
 : Parameterverdiene for regioner {#tbl-n_b}
 
 Ulike parameterverdier
 :::
-
 
 ### Lokalaktivitet og konsum
 
@@ -1102,9 +1316,10 @@ $$ {#eq-6.3}
 sysselsatte. @eq-2 viser slik som sist, at total sysselsetting er summen
 av base-sysselsetting og lokal-sysselsetting. @eq-3 viser
 lokalsysselsettingen er proporsjonal med med befolkningen. @eq-4 viser
-aktivitetsnivået i basenæringene  er eksogent gitt.
+aktivitetsnivået i basenæringene er eksogent gitt.
 
-@eq-6.2 og @eq-6.3 er en forlengelse av de to tilnærmingene,som viser at de to ulike modelltilnærmingene skal gi identiske resultater. 
+@eq-6.2 og @eq-6.3 er en forlengelse av de to tilnærmingene,som viser at
+de to ulike modelltilnærmingene skal gi identiske resultater.
 
 Ved tilsvarende beregninger som gjort i den første varianten av
 baseteorien kommer vi frem til følgende løsning for samlet befolkning i
@@ -1131,17 +1346,30 @@ et fast forhold med samlet sysselsetting.
 
 I den andre tilnærmingen er det proporsjonalitet mellom lokalaktivitet
 og befolkning. Dette henviser til at lokalaktivitet er bestemt av lokal
-kjøpekraft og lokalt konsum, som igjen er avledet av befolkning. Etterspørselen må med andre ord forventes å reflektere inntekt, demografisk sammensetning av befolkningen o.l. 
+kjøpekraft og lokalt konsum, som igjen er avledet av befolkning.
+Etterspørselen må med andre ord forventes å reflektere inntekt,
+demografisk sammensetning av befolkningen o.l.
 
 Multiplikatoren i @eq-6 kan forklares på samme måte som multiplikatoren
 i @eq-5.0.1.1.5 . Her vil det også oppstå en multiplikatorprosess som
-også vil få lekkasje. Forskjellen her er at denne lekkasjen  består nå i
+også vil få lekkasje. Forskjellen her er at denne lekkasjen består nå i
 at lokale konsumenter også etterspør varer og tjenester som er produsert
 i andre land og regioner.
 
 # Anvendelse av baseteorien
 
-Vi bruker baseteorien for å predikere ringvirkningene av etableringen av Beyonder. En viktig del av baseteorien er basemultiplikatoren, som tilhører den keynesianske familien. Denne forteller oss hvor stor påvirkning basearbeidsplassene har på samlet sysselsetting og sysselsettingen i lokalsektorer i geografien. Arbeidsplassene i lokalsektorer reflekterer behovet for flere hus og dermed må for eksempel snekkerbedrifter ansatte flere, det blir behov for ny matbutikk, osv. Det skapes også lokale arbeidsplasser i form av leverandører og underleverandører til Beyonder. Som diskutert i seksjon @chp-3.1.1, svarer dette til en  Denne konvergerende prosess, som skaper økt total sysselsetting utover det eksogene sjokket på 2000 arbeidsplasser. 
+Vi bruker baseteorien for å predikere ringvirkningene av etableringen av
+Beyonder. En viktig del av baseteorien er basemultiplikatoren, som
+tilhører den keynesianske familien. Denne forteller oss hvor stor
+påvirkning basearbeidsplassene har på samlet sysselsetting og
+sysselsettingen i lokalsektorer i geografien. Arbeidsplassene i
+lokalsektorer reflekterer behovet for flere hus og dermed må for
+eksempel snekkerbedrifter ansatte flere, det blir behov for ny
+matbutikk, osv. Det skapes også lokale arbeidsplasser i form av
+leverandører og underleverandører til Beyonder. Som diskutert i seksjon
+@chp-3.1.1, svarer dette til en Denne konvergerende prosess, som skaper
+økt total sysselsetting utover det eksogene sjokket på 2000
+arbeidsplasser.
 
 ## Basemultiplikator og lokaliseringskvotient
 
@@ -1155,27 +1383,27 @@ sammenlignet opp mot nasjonen eller regionen som helhet. LQ er definert
 som forholdet mellom andelen av sysselsettingen eller verdiskapingen i
 en bestemt sektor i en region og dens andel i landet eller regionen som
 helhet. Teorien sier at lokaliseringskvotienter (LQ) over 1 indikerer en
-basenæring, og LQ-verdier under 1 indikerer lokalnæring
-[@isserman2007]. Vår metode for inndeling av næringene har utgangspunkt
-i teorien. I tillegg har vi gjennomgått en skjønnsvurdering av hver
-enkel næring i regionen for å beslutte om det er basis- eller
-lokalnæring. Dette er fordi LQ-verdiene i seg selv ikke alltid er til å
-stole på [@leigh1970]. Sysselsetting som en måleenhet er ikke et perfekt
-verktøy [@andrews1954]. Et eksempel på dette var vurderingen av næring
-"49 - Landtransport og rørtransport". I @tbl-LQ så tilsier LQ-verdien
-alene at dette skal være en lokalnæring, men ved hjelp av kryssløpet til
-SSB og den geografiske kunnskapen for regionen klarer vi å definere at
-denne næringen handler om gasseksport. Intuisjonen om at dette er en
-basenæringen  overveier dermed LQ-verdien som tilsier at dette er
-lokalnæring for regionen. LQ-verdiene for basenæringene  i regionen er
+basenæring, og LQ-verdier under 1 indikerer lokalnæring [@isserman2007].
+Vår metode for inndeling av næringene har utgangspunkt i teorien. I
+tillegg har vi gjennomgått en skjønnsvurdering av hver enkel næring i
+regionen for å beslutte om det er basis- eller lokalnæring. Dette er
+fordi LQ-verdiene i seg selv ikke alltid er til å stole på [@leigh1970].
+Sysselsetting som en måleenhet er ikke et perfekt verktøy
+[@andrews1954]. Et eksempel på dette var vurderingen av næring "49 -
+Landtransport og rørtransport". I @tbl-LQ så tilsier LQ-verdien alene at
+dette skal være en lokalnæring, men ved hjelp av kryssløpet til SSB og
+den geografiske kunnskapen for regionen klarer vi å definere at denne
+næringen handler om gasseksport. Intuisjonen om at dette er en
+basenæringen overveier dermed LQ-verdien som tilsier at dette er
+lokalnæring for regionen. LQ-verdiene for basenæringene i regionen er
 vist i @tbl-LQ.
 
 I @tbl-LQ er det spesielt tre av næringene som er med på å vise til at
 Haugalandet er en industriregion. 06, 24 og 30 er næringer innen
-industri og inneholder henholdsvis Kårstø-anlegget, Hydro og Aibel. De bedriftene
-er med på å danne et bilde om en mulig industriklynge på Haugalandet.
-Ser vi videre på noen andre næringer så ser vi også at 50 - sjøfart er
-en tydelig basebedrift  på Haugalandet. Her kommer de store
+industri og inneholder henholdsvis Kårstø-anlegget, Hydro og Aibel. De
+bedriftene er med på å danne et bilde om en mulig industriklynge på
+Haugalandet. Ser vi videre på noen andre næringer så ser vi også at 50 -
+sjøfart er en tydelig basebedrift på Haugalandet. Her kommer de store
 shippingselskapene Solstad shipping, Knutsen OAS shipping og Østensjø
 rederi. Dette er eksempler på bedrifter som gjør Haugesund/Haugalandet
 til en maritim hovedstad som nevnt tidligere i oppgaven. Vi har også en
@@ -1185,7 +1413,7 @@ generelt i landet, og dermed vil en slik næring med få sysselsatte, men
 høy eksport av varer rundt om i landet få en høy LQ-verdi.
 
 | Næring                                 | LQ-verdi | Næring                            | LQ-verdi |
-|------------------------|--------------|--------------------|--------------|
+|----------------------------------------|----------|-----------------------------------|----------|
 | 01 Jordbrk. og tilhørende tjnst., jakt | 1,48     | 26 Data- og elektronisk industri  | 0,73     |
 | 02 Skogbruk og tilhørende tjenester    | 0,35     | 27 Elektroteknisk industri        | 1,12     |
 | 03 Fiske, fangst og akvakultur         | 1,30     | 28 Maskinindustri                 | 0,81     |
@@ -1207,13 +1435,13 @@ høy eksport av varer rundt om i landet få en høy LQ-verdi.
 
 : LQ-verdier for næringer på Haugalandet, 2021 {#tbl-LQ}
 
-Hvis vi ser på @tbl-basis-lokal for base- og lokalsysselsetting i regionen så
-ser vi at total sysselsatte i basenæring er 22093 og total sysselsatte
-i lokalnæring er på 30948. Går vi mer innpå disse tallene så ser vi at
-det er Haugesund og Karmøy som er de kommunene med flest sysselsatte i
-både lokal- og basenæring. Det er kun Bokn som har flere ansatte i
-basenæring enn lokalnæring. Haugesund har 8317 som jobber innenfor en
-basisnæring. 1623 av disse jobber innenfor næringen
+Hvis vi ser på @tbl-basis-lokal for base- og lokalsysselsetting i
+regionen så ser vi at total sysselsatte i basenæring er 22093 og total
+sysselsatte i lokalnæring er på 30948. Går vi mer innpå disse tallene så
+ser vi at det er Haugesund og Karmøy som er de kommunene med flest
+sysselsatte i både lokal- og basenæring. Det er kun Bokn som har flere
+ansatte i basenæring enn lokalnæring. Haugesund har 8317 som jobber
+innenfor en basisnæring. 1623 av disse jobber innenfor næringen
 transportmiddelindustri ellers, som er Aibel. Aibel blir sitt på som en
 hjørnesteinsbedrift i Haugesund og har stor påvirkningskraft på om det
 går bra eller dårlig i den lokale industrien på Haugalandet. I Karmøy
@@ -1222,45 +1450,91 @@ jobber for Hydro. Hydro har vært med på å skape et godt arbeidsmarked på
 Karmøy og vært med på å skape nye arbeidsplasser. Den siste store og
 interessante arbeidsplassen for vår oppgave er Kårstø i Tysvær kommune.
 I kommunen er det 2282 sysselsatte innenfor basenæringen. Hele 784 av
-disse jobber på Kårstø-anlegget. Med tanke på hvor stor påvirkning disse bedriftene har hatt på arbeidsmarkedet her på Haugalandet så er det interessant å sette i perspektiv at Beyonder har planer om å etablere 2000 arbeidsplasser på lang sikt. Dette vil skape store ringvirkninger og en økt konkurranse på å sikre seg kvalifisert arbeidskraft. 
+disse jobber på Kårstø-anlegget. Med tanke på hvor stor påvirkning disse
+bedriftene har hatt på arbeidsmarkedet her på Haugalandet så er det
+interessant å sette i perspektiv at Beyonder har planer om å etablere
+2000 arbeidsplasser på lang sikt. Dette vil skape store ringvirkninger
+og en økt konkurranse på å sikre seg kvalifisert arbeidskraft.
 
 Når det gjelder verdien på $a(d)$ så får vi et tydelig bilde på hvilke
-kommuner som er utpendlingskommuner. Vi ser i tabellen en tendens til at Sveio er en kommune som folk bosetter seg i, men ikke jobber i. Dette er lett å forklare med budrenteteori, hvor landets verdi og avstanden for sentrale aktiviteter i rommet spillet en betydningsfull rolle [@alonso1964a]. 
+kommuner som er utpendlingskommuner. Vi ser i tabellen en tendens til at
+Sveio er en kommune som folk bosetter seg i, men ikke jobber i. Dette er
+lett å forklare med budrenteteori, hvor landets verdi og avstanden for
+sentrale aktiviteter i rommet spillet en betydningsfull rolle
+[@alonso1964a].
 
 Verdien på $a$; = Andelen som arbeider i lokalnæringer (ref. @eq-5.1.2)
 
 Parameteren $a$ i den første tilnærmingen av baseteorien reflekterer
-andelen av sysselsatte i lokalnæringer i regionen.
-@tbl-basis-lokal viser Utsira og Haugesund er de kommunene med høyest andel av lokalt sysselsatte i regionen. Utsira har en spesiell lokalisering, og et veldig tynt arbeidsmarked. For Haugesund kommune kan en plausibel årsak til den relativt høye andelen skyldes at Haugesund er senter for regionen. Som regionsenter foregår mye av handelsaktiviteten i området og for en lokalnæringsbedrift kan dette være en gunstig lokalisering.  Lokalnæringer får konsentrasjoner av aktivitet, for eksempel på grunn av skala og bredde fordeler i shopping. Varehandelen er en slik næring, og er tungt representert i Haugesund.  
+andelen av sysselsatte i lokalnæringer i regionen. @tbl-basis-lokal
+viser Utsira og Haugesund er de kommunene med høyest andel av lokalt
+sysselsatte i regionen. Utsira har en spesiell lokalisering, og et
+veldig tynt arbeidsmarked. For Haugesund kommune kan en plausibel årsak
+til den relativt høye andelen skyldes at Haugesund er senter for
+regionen. Som regionsenter foregår mye av handelsaktiviteten i området
+og for en lokalnæringsbedrift kan dette være en gunstig lokalisering.
+Lokalnæringer får konsentrasjoner av aktivitet, for eksempel på grunn av
+skala og bredde fordeler i shopping. Varehandelen er en slik næring, og
+er tungt representert i Haugesund.
 
 | Region      | Basenæringer | Lokalnæringer | a    |
-|-------------|---------------|---------------|------|
-| Haugesund   | 8 317         | 13 409        | 0,62 |
-| Sauda       | 846           | 1 105         | 0,57 |
-| Bokn        | 183           | 138           | 0,43 |
-| Tysvær      | 2 282         | 2 501         | 0,52 |
-| Karmøy      | 6 709         | 9 330         | 0,58 |
-| Utsira      | 28            | 58            | 0,67 |
-| Vindafjord  | 2 360         | 2 660         | 0,53 |
-| Etne        | 755           | 825           | 0,52 |
-| Sveio       | 613           | 922           | 0,60 |
-| Haugalandet | 22 093        | 30 948        | 0,58 |
+|-------------|--------------|---------------|------|
+| Haugesund   | 8 317        | 13 409        | 0,62 |
+| Sauda       | 846          | 1 105         | 0,57 |
+| Bokn        | 183          | 138           | 0,43 |
+| Tysvær      | 2 282        | 2 501         | 0,52 |
+| Karmøy      | 6 709        | 9 330         | 0,58 |
+| Utsira      | 28           | 58            | 0,67 |
+| Vindafjord  | 2 360        | 2 660         | 0,53 |
+| Etne        | 755          | 825           | 0,52 |
+| Sveio       | 613          | 922           | 0,60 |
+| Haugalandet | 22 093       | 30 948        | 0,58 |
 
 : Fordelingen mellom base- og lokalnæring på Haugalandet, 2021
 {#tbl-basis-lokal}
 
 ## Aggreegeringsnivå
 
-De basemodellene som er skissert foran er formulert for regionen Haugalandet som helhet, og gir ikke muligheten til å fordele virkningene av det eksogene sjokket mellom de ulike kommunene i regionen. For å fylle dette informasjonstapet tar vi den fordelingen som er gjort mellom lokal- og basenæring på regionnivå, og overfører den til kommunene i regionen. Dette gjør vi fordi det romlige aggregeringsnivået vil påvirke analysen. I @tbl-parameter1 og @tbl-parameter2 nedenfor er base- og lokalnæringer vurdert for regionen samlet sett (a), og for hver enkelt kommune i regionen (b). Beregningene i (a) er gjort ut fra hvilke næringer i regionen som eksporterer varer og tjenester. I (b) er beregningene ut fra hvilke næringer som eksporter varer og tjenester ut av kommunen. Det kan finnes næringer som er lokalnæringer i et regionalt perspektiv, og basenæring i et kommuneperspektiv. Et eksempel på dette er næringen “86 - Helsetjenester”. På kommunenivå kan dette være basenæring for kommunen som har et sykehus, mens det er lokalt for kommunene rundt. På et mer aggregert (regionnivå) nivå vil nok dette jevnes ut, ergo bli en lokalnæring. Sykehusene betjener en større del enn kommunen de er lokalisert i. Samtidig så eksporterer ikke kommunene hjemmesykepleie tilbud ut til nabokommunene. 
+De basemodellene som er skissert foran er formulert for regionen
+Haugalandet som helhet, og gir ikke muligheten til å fordele virkningene
+av det eksogene sjokket mellom de ulike kommunene i regionen. For å
+fylle dette informasjonstapet tar vi den fordelingen som er gjort mellom
+lokal- og basenæring på regionnivå, og overfører den til kommunene i
+regionen. Dette gjør vi fordi det romlige aggregeringsnivået vil påvirke
+analysen. I @tbl-parameter1 og @tbl-parameter2 nedenfor er base- og
+lokalnæringer vurdert for regionen samlet sett (a), og for hver enkelt
+kommune i regionen (b). Beregningene i (a) er gjort ut fra hvilke
+næringer i regionen som eksporterer varer og tjenester. I (b) er
+beregningene ut fra hvilke næringer som eksporter varer og tjenester ut
+av kommunen. Det kan finnes næringer som er lokalnæringer i et regionalt
+perspektiv, og basenæring i et kommuneperspektiv. Et eksempel på dette
+er næringen "86 - Helsetjenester". På kommunenivå kan dette være
+basenæring for kommunen som har et sykehus, mens det er lokalt for
+kommunene rundt. På et mer aggregert (regionnivå) nivå vil nok dette
+jevnes ut, ergo bli en lokalnæring. Sykehusene betjener en større del
+enn kommunen de er lokalisert i. Samtidig så eksporterer ikke kommunene
+hjemmesykepleie tilbud ut til nabokommunene.
 
-I @tbl-parameter1 kan vi se at Haugesund sin basemultiplikator er høyere enn den som gjelder for Haugalandet som region. Grunnen til dette er at det er en høy andel lokalhandel i Haugesund kommune. Motsatt så kan vi se at Bokn har en den lavere multiplikator, dette skyldes at det er lite lokal handel og arbeidsplasser generelt i denne kommunen. Sveio kommune har den nest høyeste basemultiplikator på Haugalandet. Denne er også høyere enn for regionen. Dette kan skyldes at det er en “utependler” kommune. Hvor de arbeidsplassene som er i området er tildelt for å betjene den lokale befolkningen. I tabellen er Utsira kommune utelatt. Dette er en beslutning vi har tatt grunnet Utsira sin spesielle lokalisering, at den er veldig liten, og den tilfører ikke vår analyse mye av verdi.
-
+I @tbl-parameter1 kan vi se at Haugesund sin basemultiplikator er høyere
+enn den som gjelder for Haugalandet som region. Grunnen til dette er at
+det er en høy andel lokalhandel i Haugesund kommune. Motsatt så kan vi
+se at Bokn har en den lavere multiplikator, dette skyldes at det er lite
+lokal handel og arbeidsplasser generelt i denne kommunen. Sveio kommune
+har den nest høyeste basemultiplikator på Haugalandet. Denne er også
+høyere enn for regionen. Dette kan skyldes at det er en "utependler"
+kommune. Hvor de arbeidsplassene som er i området er tildelt for å
+betjene den lokale befolkningen. I tabellen er Utsira kommune utelatt.
+Dette er en beslutning vi har tatt grunnet Utsira sin spesielle
+lokalisering, at den er veldig liten, og den tilfører ikke vår analyse
+mye av verdi.
 
 I @tbl-parameter2 får de fleste kommunene en lavere basemultiplikator
 som skyldes at antall basisnæringer øker. Dette er naturlig, ettersom
 det eksporteres varer og tjenester lettere ut mellom kommunene enn ut av
 regionen. Karmøy og Etne kommune får en høyere basemultiplikator enn i
-@tbl-parameter1. Dette kan skyldes at basenæringene i disse kommunene eksporteres for det meste ut av regionen, og betjener ikke andre kommuner internt i regionen.  
+@tbl-parameter1. Dette kan skyldes at basenæringene i disse kommunene
+eksporteres for det meste ut av regionen, og betjener ikke andre
+kommuner internt i regionen.
 
 ::: {#tbl-parameter layout-ncol="2"}
 | Region      | (1/1-a) |
@@ -1296,16 +1570,37 @@ regionen. Karmøy og Etne kommune får en høyere basemultiplikator enn i
 Basemultiplikator
 :::
 
-Vi mener @tbl-parameter1 er basert på den mest tjenlige inndelingen i base- og lokalnæringer. Dette er fordi basisnæringer er det som driver
+Vi mener @tbl-parameter1 er basert på den mest tjenlige inndelingen i
+base- og lokalnæringer. Dette er fordi basisnæringer er det som driver
 økonomisk vekst i en region [@andrews1953]. Fra kommuneperspektiv så vil
 en basisnæringer kunne være en næring som betjener en annen kommune
-innenfor samme region. Dette vil derimot gi distributive virkninger innenfor Haugalandet, og ikke skape samme vekst i regionen som basenæringer definert på regionalt nivå. Basenæringer for regionperspektiv er drevet av etterspørsel. Forskjellene mellom @tbl-parameter1 og @tbl-parameter2 er minimale samlet sett for regionen.
+innenfor samme region. Dette vil derimot gi distributive virkninger
+innenfor Haugalandet, og ikke skape samme vekst i regionen som
+basenæringer definert på regionalt nivå. Basenæringer for
+regionperspektiv er drevet av etterspørsel. Forskjellene mellom
+@tbl-parameter1 og @tbl-parameter2 er minimale samlet sett for regionen.
 
 ## Geografisk spredning av sjokket
 
-Videre vil vi predikere hvor en kan forvente at arbeidstakerne har sine bosteder, etter en eventuell etablering på Gismarvik. Vi ser på dette med hjelp av pendledata fra SSB på grunnkretsnivå. Vi forutsetter pendling til grunnkretsen Falkeid fra kommunene innenfor regionen. Falkeid har prosessanlegget Kårstø i sin grunnkrets. Det ligger også i nærområde til Haugaland næringspark på Gismarvik. Kårstø sin posisjon i regionen og dens lokasjon i geografien gjør det rimelig å predikere pendling til Beyonder utfra pendledataene til Kårstø prosessanlegg. I [@fig-kake-karsto] ser vi hvilke kommuner andelen av pendlere inn til Falkeid kommer fra. Gismarvik ligger noe mer sentralt i regionen enn Kårstø, sett i forhold til de tunge befolkningssentrene i regionen. Dette kan påvirke fordelingen av innpendlere, men det er ingen grunn til å regne med store forskjellene. Det er nok særlig Karmøy og til dels Haugesund som ligger strategisk gunstigere til Gismarvik enn til Kårstø
+Videre vil vi predikere hvor en kan forvente at arbeidstakerne har sine
+bosteder, etter en eventuell etablering på Gismarvik. Vi ser på dette
+med hjelp av pendledata fra SSB på grunnkretsnivå. Vi forutsetter
+pendling til grunnkretsen Falkeid fra kommunene innenfor regionen.
+Falkeid har prosessanlegget Kårstø i sin grunnkrets. Det ligger også i
+nærområde til Haugaland næringspark på Gismarvik. Kårstø sin posisjon i
+regionen og dens lokasjon i geografien gjør det rimelig å predikere
+pendling til Beyonder utfra pendledataene til Kårstø prosessanlegg. I
+[@fig-kake-karsto] ser vi hvilke kommuner andelen av pendlere inn til
+Falkeid kommer fra. Gismarvik ligger noe mer sentralt i regionen enn
+Kårstø, sett i forhold til de tunge befolkningssentrene i regionen.
+Dette kan påvirke fordelingen av innpendlere, men det er ingen grunn til
+å regne med store forskjellene. Det er nok særlig Karmøy og til dels
+Haugesund som ligger strategisk gunstigere til Gismarvik enn til Kårstø
 
-Videre vil vi fordele de samlede regionale virkningene på ulike kommuner i regionen. Gjennom å rekruttere arbeidskraft fra andre kommuner enn kun Tysvær, slik at vi får grunnlag for å predikere hvordan sjokket spres geografisk fra Gismarvik til andre deler av regionen. 
+Videre vil vi fordele de samlede regionale virkningene på ulike kommuner
+i regionen. Gjennom å rekruttere arbeidskraft fra andre kommuner enn kun
+Tysvær, slik at vi får grunnlag for å predikere hvordan sjokket spres
+geografisk fra Gismarvik til andre deler av regionen.
 
 ```{r}
 kake_karsto <- read_excel("Data_R_MSB_210/kake_karsto.xlsx")
@@ -1342,8 +1637,7 @@ direkte arbeidsplassene som skapes, vil bli fordelt som vist i
 | Sveio       | 87                   |
 | Haugalandet | 2 000                |
 
-: Økt antall basis arbeidsplasser
-{#tbl-direkte}
+: Økt antall basis arbeidsplasser {#tbl-direkte}
 
 Vi bruker tallene fra @tbl-direkte og ganger disse med
 basemultiplikatoren til kommunene. Vi vil da få et anslag på økt antall
@@ -1363,8 +1657,7 @@ sjokket har spredd seg på.
 | Sveio       | 131                   |
 | Haugalandet | 2 692                 |
 
-: Økt antall lokale arbeidsplasser
-{#tbl-indirekte}
+: Økt antall lokale arbeidsplasser {#tbl-indirekte}
 
 ### Sysselsettingsvekst basert på økt basissektor
 
@@ -1387,7 +1680,13 @@ er presentert i [@tbl-befolkning]
 : Befolkningsvekst som følge av etableringen av en batteribedrift med
 2000 ansatte på Gismarvik. {#tbl-befolkning}
 
-Befolkningsveksten for regionen som er presentert i @tbl-fysisk er regnet ut ved to forskjellige tilnærminger. Del a) er basert på en summering av virkningene når modellen er anvendt for hver enkelt på kommune, før vi summerer opp for regionen. Del b) representerer en direkte anvendelse av modellen på regionalt nivå. Begge tilnærmingene ga nokså like resultater, med et avvik på kun 161 beboere på Haugalandet samlet sett. Se @tbl-fysisk.
+Befolkningsveksten for regionen som er presentert i @tbl-fysisk er
+regnet ut ved to forskjellige tilnærminger. Del a) er basert på en
+summering av virkningene når modellen er anvendt for hver enkelt på
+kommune, før vi summerer opp for regionen. Del b) representerer en
+direkte anvendelse av modellen på regionalt nivå. Begge tilnærmingene ga
+nokså like resultater, med et avvik på kun 161 beboere på Haugalandet
+samlet sett. Se @tbl-fysisk.
 
 ::: {#tbl-fysisk layout-ncol="2"}
 | Region      | Befolkningsvekst |
@@ -1405,7 +1704,12 @@ Befolkningsveksten for regionen som er presentert i @tbl-fysisk er regnet ut ved
 Befolkningsvekst på Haugalandet
 :::
 
-Den geografiske spredningen på kommuner vil påvirkes av situasjonen med Rogfast. Det er grunn til å tro at Rogfast gjør at noe av arbeidskraften som rekrutteres vil ha bosted i sørfylket. Dette gjør også noe med predikert virkning på sysselsetting og bosetting på Haugalandet. Med et tettere integrert arbeidsmarked mot andre regioner, vil kanskje de lokale virkningene være mindre. 
+Den geografiske spredningen på kommuner vil påvirkes av situasjonen med
+Rogfast. Det er grunn til å tro at Rogfast gjør at noe av arbeidskraften
+som rekrutteres vil ha bosted i sørfylket. Dette gjør også noe med
+predikert virkning på sysselsetting og bosetting på Haugalandet. Med et
+tettere integrert arbeidsmarked mot andre regioner, vil kanskje de
+lokale virkningene være mindre.
 
 ### Sysselsettingsvekst basert på konsum
 
@@ -1448,19 +1752,43 @@ etterspørsel i konsum. Økt konsum gir en økning i antall lokale
 arbeidsplasser i regionen, med hensikt å betjene den lokale
 befolkningen.
 
-Begge tilnærmingene kan brukes til å diskutere ringvirkninger av etableringer som potensielt Beyonder på Gismarvik. Med de modellformuleringene som er presentert i @chp-baseteori vil disse to tilnærmingene gi identiske resultater, selv om de representerer noe ulike aktører og lokaletterspørsel i basemekanismen. 
+Begge tilnærmingene kan brukes til å diskutere ringvirkninger av
+etableringer som potensielt Beyonder på Gismarvik. Med de
+modellformuleringene som er presentert i @chp-baseteori vil disse to
+tilnærmingene gi identiske resultater, selv om de representerer noe
+ulike aktører og lokaletterspørsel i basemekanismen.
 
-Når det gjelder plasseringen av Beyonder så kan det tenkes at basemultiplikatorverdiene endres etter hvor etablering oppstår i geografien. Vi tok utgangspunktet i Gismarvik og predikerte spredningen ut ifra hvordan pendledataene er til Kårstø-anlegget. Denne spredningen mellom kommunene avhenger av hvor bedriften ligger. Hvis for eksempel Beyonder hadde plassert seg på Borgøy så ville det vært mye mindre pendling og spredning av det initiale sjokket, ifølge basemekanismen. I et slikt perifert område kan det godt tenkes at det ikke vil gjøres handel lokalt i regionen, men at det søkes ut til andre regioner som Bergen og Stavanger. Dette vil sørge for enn lavere lokal aktivitet. Hvis vi får en mer sentral plassering som Gismarvik er muligheten for lokal aktivitet høyere på grunn av veinett som gjør det lettere å ha lokal interaksjon.  
+Når det gjelder plasseringen av Beyonder så kan det tenkes at
+basemultiplikatorverdiene endres etter hvor etablering oppstår i
+geografien. Vi tok utgangspunktet i Gismarvik og predikerte spredningen
+ut ifra hvordan pendledataene er til Kårstø-anlegget. Denne spredningen
+mellom kommunene avhenger av hvor bedriften ligger. Hvis for eksempel
+Beyonder hadde plassert seg på Borgøy så ville det vært mye mindre
+pendling og spredning av det initiale sjokket, ifølge basemekanismen. I
+et slikt perifert område kan det godt tenkes at det ikke vil gjøres
+handel lokalt i regionen, men at det søkes ut til andre regioner som
+Bergen og Stavanger. Dette vil sørge for enn lavere lokal aktivitet.
+Hvis vi får en mer sentral plassering som Gismarvik er muligheten for
+lokal aktivitet høyere på grunn av veinett som gjør det lettere å ha
+lokal interaksjon.
 
-Denne spredningen kan også reflekteres av størrelsen på basemultiplikatoren, som bestemmes av det lokale aktivitetsnivået. En lav verdi på basemultiplikatoren indikerer at det er lite lokal aktivitet i området. Det gjør det grunn til å tro at mye av det som handles inn kommer fra andre steder enn lokalt i regionen. En høy verdi på basemultiplikatoren derimot indikerer at det er en sterk lokal klynge. Eksempler på slike områder er Haugesund og Karmøy. En slik mulig plassering her ville skapt mange lokale aktiviteter i området. Da ville mye av varer og tjenester blitt hentet lokalt. 
+Denne spredningen kan også reflekteres av størrelsen på
+basemultiplikatoren, som bestemmes av det lokale aktivitetsnivået. En
+lav verdi på basemultiplikatoren indikerer at det er lite lokal
+aktivitet i området. Det gjør det grunn til å tro at mye av det som
+handles inn kommer fra andre steder enn lokalt i regionen. En høy verdi
+på basemultiplikatoren derimot indikerer at det er en sterk lokal
+klynge. Eksempler på slike områder er Haugesund og Karmøy. En slik mulig
+plassering her ville skapt mange lokale aktiviteter i området. Da ville
+mye av varer og tjenester blitt hentet lokalt.
 
 ### Mangler ved basemodellen
 
-Modellen tar ikke hensyn om de interregionale forskjellene. Det blir heller ikke tatt
-hensyn til dynamikken i det lokale tilbudet og forskjellene i
-konkurranseevnen [@pfouts1958]. Modellen antar også at at det ikke er
-noe hindring for forsyningsutvidelse, noe som ikke stemmer, for det er
-ikke ubegrenset med arbeidskraft og produksjonskapasitet.
+Modellen tar ikke hensyn om de interregionale forskjellene. Det blir
+heller ikke tatt hensyn til dynamikken i det lokale tilbudet og
+forskjellene i konkurranseevnen [@pfouts1958]. Modellen antar også at at
+det ikke er noe hindring for forsyningsutvidelse, noe som ikke stemmer,
+for det er ikke ubegrenset med arbeidskraft og produksjonskapasitet.
 Langtidsprediksjonene er også begrenset og avhengig av at
 multiplikatoren er stabil over tid [@capello2015]. Modellen tar heller
 ikke hensyn til substitusjonseffekter og strukturelle endringer i
@@ -1489,7 +1817,21 @@ ideen om at en endring i produksjonen eller etterspørselen i en sektor
 vil påvirke produksjonen og etterspørselen i alle andre sektorer i
 økonomien.
 
-IOA bruker en matematisk modell for å analysere disse sammenhengene. Modellen består av en matrise som viser hvor mye hver sektor produserer og hvor mye den bruker av innsatsfaktorer fra andre sektorer. Dette gir grunnlag for å beregne hvor mye av produksjonen til hver sektor som går til ulike formål, for eksempel eksport, investeringer og husholdningsforbruk. IOA består typisk av et stort sett med forutsetninger om konstant forhold mellom produksjon i en næring og behovet for ulike innsatsvarer. På regionalt nivå må en i tillegg forutsette at innsatsvarene leveres i faste forhold fra ulike geografier. Det er selvsagt en tvil over om det er rimelig å betrakte at slike koeffisienter er faste, særlig etter som det går en del tid etter det eksogene sjokket. Derfor må resultatene tolkes forsiktig. På en annen side gir denne modellen i langt større grad enn basemodellen detaljerte prediksjoner for virkninger fordelt etter næring og arbeidskraftkategorier.  
+IOA bruker en matematisk modell for å analysere disse sammenhengene.
+Modellen består av en matrise som viser hvor mye hver sektor produserer
+og hvor mye den bruker av innsatsfaktorer fra andre sektorer. Dette gir
+grunnlag for å beregne hvor mye av produksjonen til hver sektor som går
+til ulike formål, for eksempel eksport, investeringer og
+husholdningsforbruk. IOA består typisk av et stort sett med
+forutsetninger om konstant forhold mellom produksjon i en næring og
+behovet for ulike innsatsvarer. På regionalt nivå må en i tillegg
+forutsette at innsatsvarene leveres i faste forhold fra ulike
+geografier. Det er selvsagt en tvil over om det er rimelig å betrakte at
+slike koeffisienter er faste, særlig etter som det går en del tid etter
+det eksogene sjokket. Derfor må resultatene tolkes forsiktig. På en
+annen side gir denne modellen i langt større grad enn basemodellen
+detaljerte prediksjoner for virkninger fordelt etter næring og
+arbeidskraftkategorier.
 
 En sentral del av IOA er å beregne såkalte multiplikatoreffekter. Disse
 viser hvor mye produksjonen i en sektor vil øke som følge av en økning i
@@ -1500,7 +1842,8 @@ bestemt sektor.
 
 IOA har også blitt utvidet til å inkludere geografisk informasjon, slik
 at man kan studere sammenhengene mellom ulike regioner eller byer i en
-økonomi. Dette kalles ofte regional input-output-analyse [@capello2015]. Den matematiske utregning er som følger: 
+økonomi. Dette kalles ofte regional input-output-analyse [@capello2015].
+Den matematiske utregning er som følger:
 
 $$
 \sum_j = A_{ij} + (C_i + G_i + I_i X_i) = R_i \hspace{1cm} \forall_i
@@ -1524,14 +1867,23 @@ $$ {#eq-IO5}
 
 $$
 R_i = \sum_{j} b_{ij}D_j \hspace{1cm} \forall_{i}
-$$ {#eq-IO5}
+$$
 
 IOA har blitt mye brukt i planlegging og politikkutforming, spesielt
 innen miljø- og energipolitikk. For eksempel kan IOA brukes til å
 vurdere hvordan ulike energitiltak vil påvirke ulike sektorer i
 økonomien og dermed bidra til å redusere klimautslippene [@miller2009].
 
-Input-output-analyse (IOA) og økonomisk baseteorien er to tilnærminger til økonomisk analyse som har forskjellige styrker og svakheter. Mens baseteorien kan forklare hvorfor visse næringsklynger utvikler seg i bestemte geografiske områder, kan den ofte gi begrenset innsikt i hvilken type arbeidskraft som kreves i disse klyngene. IOA kan på den annen side brukes til å identifisere de nødvendige produksjonsfaktorene og sektorer som kreves i forskjellige deler av økonomien. Et moment som må nevnes er forskjellen på databehovet til disse tilnærmingene. Det kreves en god del mer data i en IOA enn for en økonomisk basemodell. Dette utelukker i praksis en slik modell som tilnærming for vår oppgave. 
+Input-output-analyse (IOA) og økonomisk baseteorien er to tilnærminger
+til økonomisk analyse som har forskjellige styrker og svakheter. Mens
+baseteorien kan forklare hvorfor visse næringsklynger utvikler seg i
+bestemte geografiske områder, kan den ofte gi begrenset innsikt i
+hvilken type arbeidskraft som kreves i disse klyngene. IOA kan på den
+annen side brukes til å identifisere de nødvendige produksjonsfaktorene
+og sektorer som kreves i forskjellige deler av økonomien. Et moment som
+må nevnes er forskjellen på databehovet til disse tilnærmingene. Det
+kreves en god del mer data i en IOA enn for en økonomisk basemodell.
+Dette utelukker i praksis en slik modell som tilnærming for vår oppgave.
 
 Samlet sett gir IOA en viktig tilnærming til økonomisk analyse ved å
 bidra til en dypere forståelse av samspillet mellom ulike sektorer og
@@ -1554,9 +1906,29 @@ arbeidsmarkeds- og utdanningspolitikk for å støtte disse sektorene.
 
 # Pendleanalyse av sør-fylke
 
-Videre i oppgaven ønsker vi å analysere pendleavstander på Haugalandet og i Stavanger-regionen hvor Gismarvik er sentrumspunktet. Slik vil man få et visuelt bilde på hva som er akseptable pendleavstanden til Haugaland Næringspark. Vi vil også se på virkningene av et operativt Rogfast vegnett for å presentere hvilke betydninger det vil få med pendling fra Stavanger-regionen. En slik analyse vil kunne gi et bilde på rekrutteringsområdene for ulike typer arbeidskraft i regionen. Dette er en klar tiltrekningsfaktor for Beyonder ved en lokalisering på Gismarvik.  
+Videre i oppgaven ønsker vi å analysere pendleavstander på Haugalandet
+og i Stavanger-regionen hvor Gismarvik er sentrumspunktet. Slik vil man
+få et visuelt bilde på hva som er akseptable pendleavstanden til
+Haugaland Næringspark. Vi vil også se på virkningene av et operativt
+Rogfast vegnett for å presentere hvilke betydninger det vil få med
+pendling fra Stavanger-regionen. En slik analyse vil kunne gi et bilde
+på rekrutteringsområdene for ulike typer arbeidskraft i regionen. Dette
+er en klar tiltrekningsfaktor for Beyonder ved en lokalisering på
+Gismarvik.
 
-Anvendelsen av baseteorien tar utgangspunkt i den inndelingen av næringer som ble gjort på regionnivå. Videre kan man beregne lokale multiplikatorer som varierer mellom kommunene, som vist i @tbl-parameter1 og @tbl-parameter2. Det kan diskuteres at virkningene av et sjokk kan variere i stor grad etter hvor i regionen sjokket inntreffer. Spredningen avhenger blant annet av tilgjengeligheten til bedriften i regionen. Men, at forskjellene er så store som multiplikatorverdiene i @tbl-parameter1 tilsier kan bli møtt med skepsis. Det kan argumenteres at disse forskjellene vil til en viss grad utlignes gjennom pendlestrømmer til nye bedrifter. En ny bedrift har større potensiale for å opptre som en vekstpol når den lokaliseres sentralt i det lokale arbeidsmarkedsområdet, innenfor rimelig pendleavstand for en høy andel av lokale arbeidstakere. 
+Anvendelsen av baseteorien tar utgangspunkt i den inndelingen av
+næringer som ble gjort på regionnivå. Videre kan man beregne lokale
+multiplikatorer som varierer mellom kommunene, som vist i
+@tbl-parameter1 og @tbl-parameter2. Det kan diskuteres at virkningene av
+et sjokk kan variere i stor grad etter hvor i regionen sjokket
+inntreffer. Spredningen avhenger blant annet av tilgjengeligheten til
+bedriften i regionen. Men, at forskjellene er så store som
+multiplikatorverdiene i @tbl-parameter1 tilsier kan bli møtt med
+skepsis. Det kan argumenteres at disse forskjellene vil til en viss grad
+utlignes gjennom pendlestrømmer til nye bedrifter. En ny bedrift har
+større potensiale for å opptre som en vekstpol når den lokaliseres
+sentralt i det lokale arbeidsmarkedsområdet, innenfor rimelig
+pendleavstand for en høy andel av lokale arbeidstakere.
 
 ## Vekstpolteori
 
@@ -1625,51 +1997,103 @@ når en region eller en sektor tiltrekker seg store mengder kapital og
 arbeidskraft, som deretter trekker til seg ytterligere investeringer og
 økt etterspørsel.
 
-For eksempel kan det oppstå arbeidskraftmangel i andre deler av en region eller andre sektorer, da arbeidstakere trekkes til den voksende sektoren og til den voksende delen av regionen. Dette kan føre til en forverring av arbeidsforholdene og økt arbeidsledighet i andre deler av regionen, og i andre regioner. Negative effekter kan også skje gjennom den økte etterspørselen etter arbeidskraft og boliger i den voksende regionen. Dette fører til at priser og lønninger øker, som igjen fører til høyere kostnader for andre bedrifter og forbrukere i andre regioner, som igjen kan føre til redusert etterspørsel og redusert sysselsetting i andre sektorer og bedrifter. @hirschman1958 argumenterte for at backwash effekter var et
-viktig aspekt å vurdere når man vurderte økonomisk utvikling og vekst.
-Han mente at det var viktig å vurdere hvordan økonomisk vekst kunne
-påvirke andre regioner og sektorer, og for å ta hensyn til disse
-negative effektene i planleggingen av økonomisk utvikling.
+For eksempel kan det oppstå arbeidskraftmangel i andre deler av en
+region eller andre sektorer, da arbeidstakere trekkes til den voksende
+sektoren og til den voksende delen av regionen. Dette kan føre til en
+forverring av arbeidsforholdene og økt arbeidsledighet i andre deler av
+regionen, og i andre regioner. Negative effekter kan også skje gjennom
+den økte etterspørselen etter arbeidskraft og boliger i den voksende
+regionen. Dette fører til at priser og lønninger øker, som igjen fører
+til høyere kostnader for andre bedrifter og forbrukere i andre regioner,
+som igjen kan føre til redusert etterspørsel og redusert sysselsetting i
+andre sektorer og bedrifter. @hirschman1958 argumenterte for at backwash
+effekter var et viktig aspekt å vurdere når man vurderte økonomisk
+utvikling og vekst. Han mente at det var viktig å vurdere hvordan
+økonomisk vekst kunne påvirke andre regioner og sektorer, og for å ta
+hensyn til disse negative effektene i planleggingen av økonomisk
+utvikling.
 
 ## Beyonder som case (midlertidig navn)
 
-Det som er viktig for en så stor bedrift som planlegger å etablere seg i en litt mindre region er å vite hvilken arbeidskraft som er tilgjengelig for en slik etablering. Det vi mener er interessant er å se på hvor mye arbeidskraft som er tilgjengelig innenfor tidsområdene. Vi vil også se på dette når Rogfast er lagt inn som et fungerende vegnett i regionene. En ferdigstilling av Rogfast vil gjøre det lettere for arbeidskraft å pendle til og fra jobb, mellom Sør- og Nord-Rogaland, på grunn av redusert reisetid. I kartene under vil det bli illustrert hvor langt du får kjørt på 15-, 30-, 45-, 60- og 75 minutters kjøretid før og etter Rogfast. Dette vil gi en pekepinn på hvor Beyonder kan forvente arbeidskraften sin fra. i en situasjon med Rofast, fem år etter at Beyonder planlegger sin etablering på Gismarvik. 
+Det som er viktig for en så stor bedrift som planlegger å etablere seg i
+en litt mindre region er å vite hvilken arbeidskraft som er tilgjengelig
+for en slik etablering. Det vi mener er interessant er å se på hvor mye
+arbeidskraft som er tilgjengelig innenfor tidsområdene. Vi vil også se
+på dette når Rogfast er lagt inn som et fungerende vegnett i regionene.
+En ferdigstilling av Rogfast vil gjøre det lettere for arbeidskraft å
+pendle til og fra jobb, mellom Sør- og Nord-Rogaland, på grunn av
+redusert reisetid. I kartene under vil det bli illustrert hvor langt du
+får kjørt på 15-, 30-, 45-, 60- og 75 minutters kjøretid før og etter
+Rogfast. Dette vil gi en pekepinn på hvor Beyonder kan forvente
+arbeidskraften sin fra. i en situasjon med Rofast, fem år etter at
+Beyonder planlegger sin etablering på Gismarvik.
 
 ### mangler i datagrunnlag for pendling
 
-Modelleringene for denne seksjonen er gjort ved programmet QGIS. Dataene som benyttes av disse modelleringene er informasjon fra vegnettet og ferjeruter [@statensvegvesen]. Dette er for å kunne beregne de ulike avstandene i både kilometer og tid. Vi har også benyttet data fra SSB på pendletall for 4. kvartal 2015-2022, grunnkretsnivå. Disse dataene er brukt for å kunne kartlegge sysselsettingsmønsteret i regionen. 
+Modelleringene for denne seksjonen er gjort ved programmet QGIS. Dataene
+som benyttes av disse modelleringene er informasjon fra vegnettet og
+ferjeruter [@statensvegvesen]. Dette er for å kunne beregne de ulike
+avstandene i både kilometer og tid. Vi har også benyttet data fra SSB på
+pendletall for 4. kvartal 2015-2022, grunnkretsnivå. Disse dataene er
+brukt for å kunne kartlegge sysselsettingsmønsteret i regionen.
 
-Som ved all data innebærer det feil og mangler. På et så disaggregert nivå vil noe av dataene være utelatt grunnet personvern. Celler med verdi en eller to er fjernet fra tabellen. Celler med færre enn 3 virksomheter i arbeidsgrunnkrets er også fjernet. Dette innebærer at i tabeller med pendling etter grunnkrets blir om lag 75 prosent av cellene med verdi fjernet (Kilde? kopiert og limt inn fra SSB e-post). Vi har kontrollsjekket alle tallene vi har fått opp mot mer aggregerte data fra SSB som er offentlige. Ved å ta hensyn til mangler som SSB opplyser om, og korrigerer for dem, finner vi frem til at våre resultater er i overensstemmelse med SSBs. 
-
+Som ved all data innebærer det feil og mangler. På et så disaggregert
+nivå vil noe av dataene være utelatt grunnet personvern. Celler med
+verdi en eller to er fjernet fra tabellen. Celler med færre enn 3
+virksomheter i arbeidsgrunnkrets er også fjernet. Dette innebærer at i
+tabeller med pendling etter grunnkrets blir om lag 75 prosent av cellene
+med verdi fjernet (Kilde? kopiert og limt inn fra SSB e-post). Vi har
+kontrollsjekket alle tallene vi har fått opp mot mer aggregerte data fra
+SSB som er offentlige. Ved å ta hensyn til mangler som SSB opplyser om,
+og korrigerer for dem, finner vi frem til at våre resultater er i
+overensstemmelse med SSBs.
 
 I luftlinje får vi en fin illustrasjon på hvor langt vi kommer i
-geografien. Området som dekkes strekker seg fra Nærbø og Helland i sør og til Sandvikvåg i nord. Østover strekker det seg helt inn til Sauda. 
+geografien. Området som dekkes strekker seg fra Nærbø og Helland i sør
+og til Sandvikvåg i nord. Østover strekker det seg helt inn til Sauda.
 
-![Avstand luftlinje fra Gismarvik, målt i kilometer](bilder/Avstand_luftlinje.png){#fig-avst-luft}
+![Avstand luftlinje fra Gismarvik, målt i
+kilometer](bilder/Avstand_luftlinje.png){#fig-avst-luft}
 
-@fig-avst-veg illustrerer potensielle rekrutterinsgomåder spesifisert etter ulike reisetider, med avstander gitt ved reisetider på vegnettet heller enn i luftlinje. Vi ser at man når mindre ut i geografien fra Haugaland næringspark enn med avstand i luftlinje som illustrert i figuren ovenfor. Dette er forventet, og kan forklares av geografien i området. Kysten er relativt flat med mange øyer og fjorder. Mange veier langs kysten i området har derfor bro- og ferjeforbindelser. Skal man for eksempel fra Haugesund til Stavanger så inkluderer det en ferjeforbindelse over Boknafjorden i dagens vegnett. 
+@fig-avst-veg illustrerer potensielle rekrutterinsgomåder spesifisert
+etter ulike reisetider, med avstander gitt ved reisetider på vegnettet
+heller enn i luftlinje. Vi ser at man når mindre ut i geografien fra
+Haugaland næringspark enn med avstand i luftlinje som illustrert i
+figuren ovenfor. Dette er forventet, og kan forklares av geografien i
+området. Kysten er relativt flat med mange øyer og fjorder. Mange veier
+langs kysten i området har derfor bro- og ferjeforbindelser. Skal man
+for eksempel fra Haugesund til Stavanger så inkluderer det en
+ferjeforbindelse over Boknafjorden i dagens vegnett.
 
 Vegnettverket i området er ganske omfattende i sentrumspunktene rundt
 Haugesund og Stavanger. I en storby vil avstandsforskjellen i luftlinje
 og vegnett ikke være betydelig. Men, regionen har også rurale områder
 med mindre omfattende vegnettverk.
 
-![Avstandssoner fra Gismarvik, målt i kilometer, etter vegnett](bilder/Avstand_veg.png){#fig-avst-veg}
+![Avstandssoner fra Gismarvik, målt i kilometer, etter
+vegnett](bilder/Avstand_veg.png){#fig-avst-veg}
 
-@fig-rtid reisetid til Haugaland Næringspark fra geografiske tyngdepunkt til hver grunnkrets i området. Avstanden er målt fra nærmeste veg fra disse
-tyngdepunktene til grunnkretsene. Siden dette punktet er sentrum for
-grunnkretsen, og ikke sentrum for aktiviteten i grunnkretsen, kan
+@fig-rtid reisetid til Haugaland Næringspark fra geografiske tyngdepunkt
+til hver grunnkrets i området. Avstanden er målt fra nærmeste veg fra
+disse tyngdepunktene til grunnkretsene. Siden dette punktet er sentrum
+for grunnkretsen, og ikke sentrum for aktiviteten i grunnkretsen, kan
 reisetiden avvike noe. I modelleringen er gjennomsnittsfart 60 km/t.
 Innen 15 minutters-tidsintervallet når man store deler av Tysvær
 kommune. Man når også Nord-Karmøy og helt sør i Haugesund kommune
-innenfor 15 minutter.Dette skyldes vegprosjektet T-forbindelsen som har knyttet vegnettet mellom Tysvær, Karmøy og Haugesund kommune. Sørover fra næringsparken kommer man til Byfjordtunnelen rett før Randaberg, som ligger nord for Stavanger. Vi ser også at tidsintervallene er smale i området rundt Arsvågen og Mortavika. Dette
-skyldes ferjen over Boknafjorden som binder Haugalandet og Stavanger-regionen sammen. Reisetiden over fjorden er modellert til cirka 30
-minutter. Dette gjenspeiler selve fergetiden på cirka 24 minutt.
-Ventetiden er regnet ut fra avreise hvert 15 minutt delt på 2, dvs halvparten av frekvenstiden. Dette er
-også med på å forklare hvorfor man kommer lenger nord for Haugaland
-næringspark enn sør i reisetiden.
+innenfor 15 minutter.Dette skyldes vegprosjektet T-forbindelsen som har
+knyttet vegnettet mellom Tysvær, Karmøy og Haugesund kommune. Sørover
+fra næringsparken kommer man til Byfjordtunnelen rett før Randaberg, som
+ligger nord for Stavanger. Vi ser også at tidsintervallene er smale i
+området rundt Arsvågen og Mortavika. Dette skyldes ferjen over
+Boknafjorden som binder Haugalandet og Stavanger-regionen sammen.
+Reisetiden over fjorden er modellert til cirka 30 minutter. Dette
+gjenspeiler selve fergetiden på cirka 24 minutt. Ventetiden er regnet ut
+fra avreise hvert 15 minutt delt på 2, dvs halvparten av frekvenstiden.
+Dette er også med på å forklare hvorfor man kommer lenger nord for
+Haugaland næringspark enn sør i reisetiden.
 
-![Avstand fra Gismarvik, målt i reisetid](bilder/reisetid_ferje.png){#fig-rtid}
+![Avstand fra Gismarvik, målt i
+reisetid](bilder/reisetid_ferje.png){#fig-rtid}
 
 I @fig-prosj-rog har vi laget en illustrasjon på hvor Rogfast vil gå
 over Boknafjorden via Kvitsøy. Rogfast er et vegprosjekt som ble vedtatt
@@ -1681,13 +2105,32 @@ kartet vårt i QGIS da den ikke eksisterer i dagens vegnett. Her la vi
 inn den informasjonen vi har funnet angående fart og avstand for å få en
 antatt korrekt reisetid.
 
-![Illustrasjon av vegnett, med Rogfast](bilder/Illustrasjon_tunell.png){#fig-prosj-rog}
+![Illustrasjon av vegnett, med
+Rogfast](bilder/Illustrasjon_tunell.png){#fig-prosj-rog}
 
-Ved Rogfast vil man kunne komme helt sør til Bryne og Nærbø på 75 minutter. Reisetid fra Haugaland næringspark ved Rogfast er illustrert i @fig-tid-rf .60 minutters intervallet starter sør i Stavanger kommune. Reisetiden Gismarvik til Stavanger er estimert til cirka 50 minutter med Rogfast tunnelen. Reisetiden er modellert ut fra vegnettet i geografien. Mellom alle veiene i ytterpunktene på 75 minutter trekkes det rette linjer mellom dem. Dette gjør at det fargelagte området som avsluttes ved 75 minutters intervallet i øst på kartet er illustrert som en tilnærming med rette linjer. 
+Ved Rogfast vil man kunne komme helt sør til Bryne og Nærbø på 75
+minutter. Reisetid fra Haugaland næringspark ved Rogfast er illustrert i
+@fig-tid-rf .60 minutters intervallet starter sør i Stavanger kommune.
+Reisetiden Gismarvik til Stavanger er estimert til cirka 50 minutter med
+Rogfast tunnelen. Reisetiden er modellert ut fra vegnettet i geografien.
+Mellom alle veiene i ytterpunktene på 75 minutter trekkes det rette
+linjer mellom dem. Dette gjør at det fargelagte området som avsluttes
+ved 75 minutters intervallet i øst på kartet er illustrert som en
+tilnærming med rette linjer.
 
-![Avstand fra Gismarvik med Rogfast, målt i reisetid](bilder/reisetid_rogfast.png){#fig-tid-rf}
+![Avstand fra Gismarvik med Rogfast, målt i
+reisetid](bilder/reisetid_rogfast.png){#fig-tid-rf}
 
-@tbl-rogfast nedenfor viser summen de som kan gjøre arbeidsreisen innenfor gitte tidsintervaller, eller kortere. Akkumulerte tall, som fremstilt i @tbl-rogfast, fanger bedre opp omfanget av arbeidsmarkedet. Man ser at Rogfasttunnelen øker rekrutteringsområdet med hele 231% innenfor 75 minutter. Den største økningen etter Rogfast er innenfor intervallene 45 og 60 minutter. Samlet sett øker potensiell sysselsetting i disse intervallene med 759%. Dette skyldes at store deler av arbeidsmarkedsregionen i Stavanger blir fanget opp i disse tidsintervallene. Utvidelsen med Rogfast kommer frem med å sammenligne kartene i @fig-rtid og @fig-tid-rf 
+@tbl-rogfast nedenfor viser summen de som kan gjøre arbeidsreisen
+innenfor gitte tidsintervaller, eller kortere. Akkumulerte tall, som
+fremstilt i @tbl-rogfast, fanger bedre opp omfanget av arbeidsmarkedet.
+Man ser at Rogfasttunnelen øker rekrutteringsområdet med hele 231%
+innenfor 75 minutter. Den største økningen etter Rogfast er innenfor
+intervallene 45 og 60 minutter. Samlet sett øker potensiell
+sysselsetting i disse intervallene med 759%. Dette skyldes at store
+deler av arbeidsmarkedsregionen i Stavanger blir fanget opp i disse
+tidsintervallene. Utvidelsen med Rogfast kommer frem med å sammenligne
+kartene i @fig-rtid og @fig-tid-rf
 
 | Reisetid | Uten Rogfast | Med Rogfast |
 |----------|--------------|-------------|
@@ -1701,7 +2144,22 @@ Ved Rogfast vil man kunne komme helt sør til Bryne og Nærbø på 75 minutter. 
 : Antall sysselsatte i reisetid fra Haugaland næringspark som sentrum
 {#tbl-rogfast}
 
-Med en etablering på Gismarvik vil hovedtyngden av den geografiske spredningen skje på Haugalandet. Det som er interessant å diskutere er hvor mye av multiplikatorvirkningene for Haugalandet vil dempes av rekruttering fra sørsiden av Boknafjorden. Vi vet at arbeidsmarkedet der sør er større og flere å velge mellom. Det som gjelder her, er pendlevilligheten til arbeidstakerne. Dette vil variere fra person til person, men i all hovedsak er det rundt 45 minutter som er bristepunktet for å pendle eller søke jobb en annen plass. Vi ser i @fig-tid-rf at på 45 minutter kommer vi til Stavanger sentrum, noe som gjør at Beyonder har gode muligheter til å hente arbeidskraft sør for Boknafjorden. Vi kan gjøre utregninger på dette med hjelp av gravitasjonsmodeller, men på grunn av oppgavens tidsbegrensninger så er det ikke mulig å gjennomføre. Det som kommer frem, er at noe av multiplikatorvirkningene vil dempes på Haugalandet på grunn av tilgjengeligheten til Stavanger-regionen. Dette er en av backwash-effektene som kan oppstå med en slik etablering og ferdigstilling av Rogfast.  
+Med en etablering på Gismarvik vil hovedtyngden av den geografiske
+spredningen skje på Haugalandet. Det som er interessant å diskutere er
+hvor mye av multiplikatorvirkningene for Haugalandet vil dempes av
+rekruttering fra sørsiden av Boknafjorden. Vi vet at arbeidsmarkedet der
+sør er større og flere å velge mellom. Det som gjelder her, er
+pendlevilligheten til arbeidstakerne. Dette vil variere fra person til
+person, men i all hovedsak er det rundt 45 minutter som er bristepunktet
+for å pendle eller søke jobb en annen plass. Vi ser i @fig-tid-rf at på
+45 minutter kommer vi til Stavanger sentrum, noe som gjør at Beyonder
+har gode muligheter til å hente arbeidskraft sør for Boknafjorden. Vi
+kan gjøre utregninger på dette med hjelp av gravitasjonsmodeller, men på
+grunn av oppgavens tidsbegrensninger så er det ikke mulig å gjennomføre.
+Det som kommer frem, er at noe av multiplikatorvirkningene vil dempes på
+Haugalandet på grunn av tilgjengeligheten til Stavanger-regionen. Dette
+er en av backwash-effektene som kan oppstå med en slik etablering og
+ferdigstilling av Rogfast.
 
 # Teori / Litteraturgjennomgang
 
