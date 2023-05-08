@@ -9,9 +9,9 @@ format:
           text: |
             \usepackage{fancyhdr}
             \pagestyle{fancy}
-            \fancyhead[L]{Candidate 7}
-            \fancyhead[C]{Term Paper ECS530}
-            \fancyhead[R]{02-06 jan 2023}
+            \fancyhead[L]{Sindre Espedal & Morten Knutsen}
+            \fancyhead[C]{Master of Science in Business}
+            \fancyhead[R]{Våren 2023}
             \fancyfoot[CO,CE]{\thepage}
             \usepackage{sectsty}
             \definecolor{overskrift}{RGB}{0,175,186}
@@ -1413,7 +1413,7 @@ generelt i landet, og dermed vil en slik næring med få sysselsatte, men
 høy eksport av varer rundt om i landet få en høy LQ-verdi.
 
 | Næring                                 | LQ-verdi | Næring                            | LQ-verdi |
-|----------------------------------------|----------|-----------------------------------|----------|
+|-------------------------|-------------|---------------------|-------------|
 | 01 Jordbrk. og tilhørende tjnst., jakt | 1,48     | 26 Data- og elektronisk industri  | 0,73     |
 | 02 Skogbruk og tilhørende tjenester    | 0,35     | 27 Elektroteknisk industri        | 1,12     |
 | 03 Fiske, fangst og akvakultur         | 1,30     | 28 Maskinindustri                 | 0,81     |
