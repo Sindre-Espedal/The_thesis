@@ -193,6 +193,18 @@ regionen, for eksempel i relativt perifer beliggenhet til klyngen, kan
 tape både befolkning og arbeidsplasser. Sauda er et eksempel på et slikt
 område i regionen
 
+Vi kan også se på "learning regions" i @capello2015. Her får vi et
+innblikk i hva som blir sitt på viktige egenskaper i en region for at
+bedrifter skal lykkes. Den viktigste ressursen er kunnskap. For å få
+kunnskap kreves det læring og læring springer ut av samarbeid og
+interaksjon mellom bedriftene, kunder og bedrifter og interaksjon innad
+i bedriften. Med å etablere seg i en industriklynge som Haugalandet er,
+er det mange fordeler Beyonder kan dra med seg. Et eksempel er transport
+av varer på sjø og land, lære av andre store bedrifter hva som er mest
+hensiktsmessig. Men er det riktig og nok arbeidskraft til å drifte
+fabrikken? Er det muligheter å få hente industriarbeidere fra andre
+relevante jobber? Dette skal vi se på videre i oppgaven.
+
 Klyngeteori er en økonomisk teori som hevder at bedrifter som er
 lokalisert i nærheten av hverandre, eller i en klynge, kan ha økonomiske
 fordeler som ikke er tilgjengelige for bedrifter som er lokalisert
@@ -258,18 +270,6 @@ viktig perspektiv innen økonomisk geografi og regional utvikling.
 Forskning innenfor dette feltet vil sannsynligvis fortsette å gi innsikt
 i hvordan klynger fungerer, og hvordan de kan bidra til å fremme
 økonomisk vekst og utvikling på lokalt og regionalt nivå.
-
-Vi kan også se på "learning regions" i @capello2015. Her får vi et
-innblikk i hva som blir sitt på viktige egenskaper i en region for at
-bedrifter skal lykkes. Den viktigste ressursen er kunnskap. For å få
-kunnskap kreves det læring og læring springer ut av samarbeid og
-interaksjon mellom bedriftene, kunder og bedrifter og interaksjon innad
-i bedriften. Med å etablere seg i en industriklynge som Haugalandet er,
-er det mange fordeler Beyonder kan dra med seg. Et eksempel er transport
-av varer på sjø og land, lære av andre store bedrifter hva som er mest
-hensiktsmessig. Men er det riktig og nok arbeidskraft til å drifte
-fabrikken? Er det muligheter å få hente industriarbeidere fra andre
-relevante jobber? Dette skal vi se på videre i oppgaven.
 
 Tradisjonelt sett består regionen Haugalandet av kommunene Haugesund,
 Bokn, Tysvær, Karmøy, Utsira, Vindafjord [@thorsnaes2021]. Vi har også
@@ -2166,87 +2166,7 @@ ferdigstilling av Rogfast.
 Dette er teori vi har funnet frem og skrevet om, men ikke har noen klar
 plass i oppgaven enda:
 
-## Klyngeteori
-
-Klyngeteori er en økonomisk teori som hevder at bedrifter som er
-lokalisert i nærheten av hverandre, eller i en klynge, kan ha økonomiske
-fordeler som ikke er tilgjengelige for bedrifter som er lokalisert
-utenfor klyngen. Denne teorien ble først utviklet av den britiske
-økonomen Alfred Marshall i hans bok "Principles of Economics" fra 1920.
-
-@marshall2009 mente at nærhet mellom bedrifter i en klynge kan føre til
-økt produktivitet og innovasjon, fordi bedriftene kan dra nytte av
-eksternaliteter som kunnskapsoverføring og felles tilgang til
-infrastruktur og arbeidskraft. Marshall argumenterte også for at klynger
-kan gi bedrifter en økt konkurranseevne ved å tillate dem å dele på
-kostnader og risiko.
-
-Senere har forskere videreutviklet Marshalls teori og studert klynger i
-ulike sammenhenger. @hoover1948 undersøkte geografisk lokalisering av
-bedrifter og økonomisk aktivitet og argumenterte for at nærhet mellom
-bedrifter i en klynge kan føre til reduserte transaksjonskostnader og
-økt innovasjon.
-
-@cooke2001 har også studert klynger og pekt på at klynger kan ha både
-positive og negative konsekvenser for økonomisk utvikling. Han
-argumenterer for at klynger kan føre til økt innovasjon og
-produktivitet, men også til økt økonomisk ulikhet mellom regioner.
-
-@paci1999 studerte eksternaliteter og kunnskapsoverføringer i klynger og
-fant at kunnskapsspredning mellom bedrifter i en klynge kan føre til økt
-innovasjon og produktivitet, spesielt for små og mellomstore bedrifter.
-De påpeker imidlertid også at kunnskapsoverføringen ikke nødvendigvis
-skjer jevnt mellom alle bedrifter i klyngen, og at større bedrifter ofte
-kan dra større nytte av klyngens ressurser og nettverk.
-
-@henderson1997 har studert eksternaliteter og industriell utvikling og
-funnet at nærhet mellom bedrifter kan føre til økt innovasjon og
-produktivitet, men også til økte kostnader på grunn av miljøproblemer og
-konkurranse om ressurser.
-
-@glaeser1992 har studert vekst i byer og funnet at nærhet mellom
-bedrifter kan føre til økt innovasjon og produktivitet, men også til økt
-konkurranse og konflikt mellom bedrifter.
-
-Samlet sett kan klyngeteori være et nyttig rammeverk for å forstå
-økonomisk vekst og utvikling i regioner og byer. Det gir innsikt i
-hvordan lokale økonomiske faktorer kan samhandle og skape fordeler og
-ulemper for bedrifter i området. Klyngeteorien understreker også
-viktigheten av eksterne effekter og kunnskapsspredning, noe som kan
-bidra til å stimulere innovasjon og økonomisk vekst i klyngen.
-
-Selv om klyngeteorien har blitt anerkjent som en verdifull tilnærming
-til å forstå økonomisk utvikling, har den også møtt kritikk for en rekke
-begrensninger og utfordringer. @cooke2001 argumenterer for at
-klyngeteorien kan føre til en overdreven vektlegging av økonomisk
-konkurranse innenfor en klynge, og at den ikke tar hensyn til
-ikke-markedsmessige faktorer som politikk og kultur. @maskell1999 har
-også pekt på utfordringene med å definere og måle klynger og deres
-effekter nøyaktig. @storper1997 kritiserte klyngeteorien for å være for
-lite opptatt av sammenhengen mellom lokale og globale økonomier.
-@bathelt2004 hevder at klyngeteorien overser viktigheten av kunnskap som
-flyter gjennom globale nettverk, og at det er behov for en mer dynamisk
-og kompleks tilnærming til å forstå økonomisk utvikling.
-
-Til tross for disse begrensningene, fortsetter klyngeteorien å være et
-viktig perspektiv innen økonomisk geografi og regional utvikling.
-Forskning innenfor dette feltet vil sannsynligvis fortsette å gi innsikt
-i hvordan klynger fungerer, og hvordan de kan bidra til å fremme
-økonomisk vekst og utvikling på lokalt og regionalt nivå.
-
-## Potensialmål
-
-Potensialmål innenfor regional økonomi brukes til å estimere det
-maksimale nivået av økonomisk aktivitet som en region kan oppnå på lang
-sikt, gitt dens tilgjengelige ressurser og teknologi, samt
-tilstedeværelsen av næringsklynger. Den faktiske produksjonen er den
-mengden varer og tjenester som faktisk produseres i en region, mens den
-potensielle produksjonskapasiteten er den mengden av varer og tjenester
-som kan produseres med eksisterende ressurser og teknologi
-[@fujita1999]. Potensialmål brukes ofte til å evaluere økonomisk ytelse
-og muligheter for økonomisk vekst i en region. Likevel, et nøyaktig
-estimat av potensialmålet er veldig krevende, da det er avhengig av en
-rekke faktorer som kan endre seg over tid [@fujita1999].
+# Potensialmål
 
 \newpage
 
