@@ -56,9 +56,11 @@ Det er tatt i bruk en kvantitativ forskningsmetode. Dataene er hentet fra Statis
 Den deskriptive presentasjonen av næringsstrukturen på Haugaland viser til en industritung region. Anvendelse av baseteorien tilsier en økt utvikling i sysselsetting og befolkning for Haugalandet ved et eksogent sjokk i regionen. Det vil oppstå fraflytting fra perifere strøk til urbane strøk i regionen for å fylle den nye etterspørselen etter arbeidskraft. Når Rogfast blir ferdigstilt cirka 2031, så vil det oppstå mer pendling mellom nord- og sør-Rogaland, der flere jobber vil bli tatt med bruk av pendling, i stedet for flytting, som før tunnelen. Det vil ta rundt 45 minutter å pendle fra Stavanger til Gismarvik, noe som er innenfor akseptabel pendleavstand.  Oppgaven vil også gå gjennom hvilken plassering i regionen som har best potensial når det gjelder rekruttering av arbeidskraft og optimal plassering i regionen. Her får vi frem at potensialmålet har positiv korrelasjon med avstanden til Stavanger-regionen.
 Komponenter i den generelle likevektsmodellen indikerer at sørlige deler av Haugalandet vil få økt aktivitetsnivå i sysselsetting og befolkningsøkning som følge av rimelig tomte- og boligpriser og et voksende og spennende arbeidsmarkedsområde.
 
-*Nøkkelord:*
+**Nøkkelord:**
+
 Beyonder, Rogfast, den økonomiske basemodell, potensialmål
 
+\newpage
 
 # Abstract
 
@@ -70,9 +72,11 @@ The descriptive presentation of the economic structure of Haugaland shows that i
  
 Components of the spatial equilibrium model indicate that the southern parts of Haugaland will experience increased activity levels in employment and population growth due to affordable land and housing prices and a growing and exciting labor market area.
  
-*Keywords:*
+**Keywords:**
+
 Beyonder, Rogfast, Economic base model, Model of potential
 
+\newpage
 
 # Forord
 
@@ -82,9 +86,11 @@ Ideen om oppgaven kom allerede våren 2022 da vi var ute i praksis og leste om B
 
 Tilslutt vil vi rette en takk til vår eminente veileder, Prof. Inge Thorsen, for god veiledning og konstruktive tilbakemeldinger underveis i skriveprosessen. Vi har hatt gode faglige diskusjoner som også har hevet vår kompetanse innen fagemnene nevnt tidligere. Vi vil også rette en takk til Karl-Gunnar Severinsen og Arnstein Gjestland for god hjelp til tekniske utfordringer underveis i oppgaven. 
 
-**Morten Knutsen og Sindre Matland Espedal**
-**Haugesund, 22.05.2023**
+*Morten Knutsen og Sindre Matland Espedal*
 
+*Haugesund, 22.05.2023*
+
+\newpage
 
 # Innledning
 
@@ -112,8 +118,7 @@ Vi har valgt en kvantitativ tilnærming på oppgaven og benytter oss av metoden 
 
 Vi har benyttet verktøyene Excel, Rstudio og QGIS. I databehandlingen har majoriteten av arbeidet blitt utført i Excel, og noe av behandlingen med data har blitt gjort i Rstudio. Presentasjon av tabeller og figurer er gjort i Rstudio. QGIS er brukt til å behandle deler av pendlematriser og avstands-modelleringer. Presentasjon av kartene er også blitt gjort gjennom programmet QGIS. Oppgaven er skrevet i Rstudio gjennom quarto-pakken. Presentasjon av figurer og tabeller som ikke er fra disse programmene har henvisning til kilden.
 
-
-
+\newpage
 
 # Introduksjon Beyonder og Haugaland næringspark
 
@@ -210,6 +215,8 @@ virkninger kan for eksempel forklares med klyngegevinster, dette oppstår
 med en sterkere konsentrasjon av næringsvirksomhet i en geografi. Dette
 blir forklart gjennom en prosess med "learning, sharing and matching"
 [@duranton2003]. Dette vil vi utdype mer i neste kapittel.
+
+\newpage
 
 # En deskriptiv gjennomgang av næringsstruktur og arbeidsmarked på Haugalandet
 
@@ -571,7 +578,9 @@ enn én, betyr det at denne sektoren er overrepresentert i regionen, og
 omvendt, hvis kvotienten er mindre enn én, betyr det at sektoren er
 underrepresentert.\@mccann viser til følgende LQ formel:
 
-$LQ_{ir} = \frac{\frac{E_{ir}}{E_r}}{\frac{E_{in}}{E_n}}$ .
+$$
+LQ_{ir} = \frac{\frac{E_{ir}}{E_r}}{\frac{E_{in}}{E_n}}
+$$ {#eq-lqformel}
 
 Hvor $E_{ir}$ er sysselsetting i sektor $i$ for region $r$. $E_r$ er
 samlet sysselsetting i region $r$. Og $E_{in}$ er da nasjonal
@@ -1098,6 +1107,8 @@ yrkesarbeidere, som har fagfeltet naturvitenskapelige fag, håndverksfag
 og tekniske fag. Dette henger godt sammen med hvilke type næringer som
 dominerer markedet og etterspør arbeidskraft.
 
+\newpage
+
 # Baseteori
 
 Når vi skal vurdere betydningen av en så stor etablering på Haugalandet,
@@ -1448,6 +1459,8 @@ i @eq-5.0.1.1.5 . Her vil det også oppstå en multiplikatorprosess som
 også vil få lekkasje. Forskjellen her er at denne lekkasjen består nå i
 at lokale konsumenter også etterspør varer og tjenester som er produsert
 i andre land og regioner.
+
+\newpage
 
 # Anvendelse av baseteorien
 
@@ -1997,6 +2010,8 @@ og beslutningstakere om hvilke typer arbeidskraft som kreves i
 forskjellige sektorer, og bidra til å utvikle mer effektive
 arbeidsmarkeds- og utdanningspolitikk for å støtte disse sektorene.
 
+\newpage
+
 # Pendleanalyse av sør-fylke
 
 Videre i oppgaven ønsker vi å analysere pendleavstander på Haugalandet
@@ -2022,89 +2037,6 @@ utlignes gjennom pendlestrømmer til nye bedrifter. En ny bedrift har
 større potensiale for å opptre som en vekstpol når den lokaliseres
 sentralt i det lokale arbeidsmarkedsområdet, innenfor rimelig
 pendleavstand for en høy andel av lokale arbeidstakere.
-
-## Vekstpolteori
-
-@capello2015 presenterer to tilnærminger for teorien om vekstpoler.
-Teorien ble først utviklet av Francois Perroux som var en fransk økonom.
-Han la grunnlaget for teorien på 1950-tallet, da han mente at økonomisk
-vekst i en region kan oppstå på grunn av utviklingen av visse sentrale
-sektorer eller "vekstpoler" [@perroux1955]. Disse sentrale sektorene vil
-da trekke til seg investeringer og skape nye arbeidsplasser, som igjen
-vil føre til økonomisk vekst og utvikling i hele regionen. @perroux1955
-definerer vekstpoler som "geografiske konsentrasjoner av økonomisk
-aktivitet som gir en spesiell drivkraft for utvikling, og hvorav
-virkningene er utbredt i økonomien.". Dette betyr at vekstpolene
-fungerer som et senter for økonomisk aktivitet som driver vekst og
-utvikling i hele regionen.
-
-Perroux identifiserte tre viktige faktorer som bidrar til utviklingen av
-vekstpoler: (1) tilstedeværelse av en nøkkebedrift eller en
-nøkkelindustri som fungerer som en katalysator for vekst, (2)
-tilstedeværelse av effektive kommunikasjonsnettverk som muliggjør rask
-og effektiv transport av varer og tjenester, og (3) tilstedeværelse av
-et velfungerende arbeidsmarked som gir tilgang til kvalifisert
-arbeidskraft.
-
-Perroux mente at vekstpoler ville kunne bidra til å redusere ulikheter
-mellom regioner, ved å tiltrekke seg investeringer og skape nye
-arbeidsplasser i mindre utviklede regioner. Han argumenterte også for at
-vekstpoler kan bidra til å øke produktiviteten og innovasjonen i
-økonomien, og dermed øke den økonomiske veksten på lang sikt.
-
-Perroux sin tilnærming om vekstpoler ble så videreutviklet av
-@boudeville1964 på 1960-tallet, hvor han fremhevet betydningen av
-samarbeid mellom ulike sektorer og bedrifter innenfor en region.
-Boudeville argumenterte for at utviklingen av vekstpoler ikke bare
-skyldtes tilstedeværelsen av en nøkkelindustri- eller bedrift, men også
-på grunn av samarbeidet mellom ulike bedrifter og sektorer som var
-lokalisert i en region. Dette samarbeidet kunne føre til utveksling av
-ideer og teknologier som bidrar til økt produktivitet og innovasjon, og
-dermed økt økonomisk vekst.
-
-Boudeville introduserte også begrepet "sekundære vekstpoler", som var
-mindre vekstsentre som oppstod som et resultat av samarbeid mellom
-bedrifter og sektorer i en større vekstpol. Disse sekundære vekstpolene
-kan også bidra til økt økonomisk utvikling i regionen [@boudeville1964].
-Videre forklarer han at utviklingen av slike vekstpoler er avhengig av
-ulike faktorer som tilstedeværelsen av kvalifisert arbeidskraft, tilgang
-til finansiering og investeringer, og effektive kommunikasjonsnettverk.
-
-Perroux sin tilnærming fremhever betydningen av lokal etterspørsel og
-forbruk, og mente at utviklingen av vekstpoler kunne bidra til økt
-forbruk og velstand i regionen. Boudeville sin tilnærming la større vekt
-på samarbeid mellom ulike bedrifter og sektorer som kunne utveksle ideer
-og teknologier og dermed bidra til økt produktivitet og innovasjon.
-Boudeville mente også at utviklingen av vekstpoler kunne føre til
-opprettelsen av mindre vekstsentre, eller sekundære vekstpoler.
-
-### Backwash effekter
-
-Hvor vekstpol-teorien fokuserer på å indentifisere og stimulere til
-økonomisk vekst i en region, kan det også tenkes at en slik vekst kan ha
-negative effekter for andre regioner og/eller sektorer. Dette kan
-forklares gjennom «Backwash effekter» som er forklart av @hirschman1958.
-Begrepet "backwash effekter" beskriver de negative konsekvensene som kan
-oppstå når det skjer en økonomisk vekst i en region. Dette kan oppstå
-når en region eller en sektor tiltrekker seg store mengder kapital og
-arbeidskraft, som deretter trekker til seg ytterligere investeringer og
-økt etterspørsel.
-
-For eksempel kan det oppstå arbeidskraftmangel i andre deler av en
-region eller andre sektorer, da arbeidstakere trekkes til den voksende
-sektoren og til den voksende delen av regionen. Dette kan føre til en
-forverring av arbeidsforholdene og økt arbeidsledighet i andre deler av
-regionen, og i andre regioner. Negative effekter kan også skje gjennom
-den økte etterspørselen etter arbeidskraft og boliger i den voksende
-regionen. Dette fører til at priser og lønninger øker, som igjen fører
-til høyere kostnader for andre bedrifter og forbrukere i andre regioner,
-som igjen kan føre til redusert etterspørsel og redusert sysselsetting i
-andre sektorer og bedrifter. @hirschman1958 argumenterte for at backwash
-effekter var et viktig aspekt å vurdere når man vurderte økonomisk
-utvikling og vekst. Han mente at det var viktig å vurdere hvordan
-økonomisk vekst kunne påvirke andre regioner og sektorer, og for å ta
-hensyn til disse negative effektene i planleggingen av økonomisk
-utvikling.
 
 ## Beyonder som case (midlertidig navn)
 
@@ -2254,6 +2186,7 @@ Haugalandet på grunn av tilgjengeligheten til Stavanger-regionen. Dette
 er en av backwash-effektene som kan oppstå med en slik etablering og
 ferdigstilling av Rogfast.
 
+\newpage
 
 # Potensialmål
 
@@ -2267,14 +2200,14 @@ Potensialmål brukes til å måle attraktiviteten til en valgt lokasjon i region
 
 $$
 E_a = K \sum_j \frac{P_j}{d^\gamma_{aj}}
-$$ {eq-pw}
+$$ {#eq-pw}
 
 Hvor $E_a$ er den potensielle attraktiviteten produsert ved lokasjon $a$. $P_j$ er befolkning i destinasjon $j$, summert over alle destinasjonene i område, $\sum_j$. $d_{aj}$ representerer avstanden mellom lokasjon $a$ og destinasjon $j$, ved en parameter $\gamma$. $\gamma$parameteren kalles for **distance deterrence** i litteraturen, og sier noe om avstandsvegringen. En høy $\gamma$verdi indikerer at man er stedbunden, og har liten villighet til å reise. En lav $\gamma$verdi indikerer at man vegrer seg mindre for å reise lengre avstander til arbeid. I litteraturen er en slik avstandsvegringsfunksjon vel så ofte representert ved en eksponentialfunksjon. Siden vi kjenner til arbeider som estimerer en slik parameter ut fra en eksponentialfunksjon, velger vi å bruke den i fortsettelsen, uten at det kan forventes å spille noen rolle for beregningene.Ifølge @thorsen1998 har $\hat{\beta}$ en verdi på 0,07524 for regionen.
 Våre beregninger er altså basert på følgende formel: 
 
 $$
 E_a = K \sum_j P_j^{- \beta_{d_{aj}}}
-$$ {eq-eksp}
+$$ {#eq-eksp}
 
 ## Data & metode
 
@@ -2347,6 +2280,7 @@ Vi ser at resultatene ved den ikke-parametriske metoden samsvarer med de paramet
 
 Det må nevnes at potensialmål verdiene ved begge tilnærmingene er ikke kausale resultater. Likevel kan mange av verdiene før og etter rogfast virke logiske med plausible argumenter og intuitiv tenking. Det er grunn til å tro at det ikke er bare pendlemønstrer som vil endre seg med tiden, og at det på lang sikt vil bli endringer i bosettingsmønster. Dette vil vi ta mer opp i neste kapittel, hvor vi diskuterer den generelle likevektsmodellen. 
 
+\newpage
 
 # Likevektsledighet
 
@@ -2402,18 +2336,17 @@ Harris-Todaro modellen fra @harris1970, sier at folk flytter inn mot sentrale st
 
 En lignende likevektforståelse kan også argumenteres med hjelp av @roback1982. Hennes modell er med på å forklare forholdet mellom lønninger, lokale offentlige goder og boligpriser i byområder. Modellen tar også med at livskvalitet påvirker hvor attraktivt en lokasjon er for enkeltpersoner og bedrifter. Den tar også hensyn til at folk ønsker å bo i områder med stedsspesifikke fordeler som godt klima, fin natur og variert jobbtilbud. Disse punktene kan være med på å forklare på hvordan likevektforståelsen av forskjeller i ledighet i indre og ytre strøk. @glaeser2011 argumenterer at for en høy arbeidsledighet i byer og tettsteder kan tiltrekke seg bedrifter og arbeidstakere gjennom spesifikke goder. Eksempler på slike goder kan være et utdannelsesmessig tilbud, samt tilgang til spesialisert arbeidskraft. Slike stedspesifikke goder kan være en kompensasjon for høy ledighetsprosent, slik at forskjeller i ledighetsprosent kan representere en likevektstilstand.
 
+\newpage
 
 # Den generelle likevektsmodell
 
 Så langt i oppgaven har den økonomiske basemodellen gitt oss et innsiktsfull bidrag til å forstå ringvirkningene av en stor bedriftsetablering. Likevel er våre resultater og funn best egnet for et kortsiktig perspektiv. I en langsiktig planlegging for en slik regional analyse er det en del mekanismer som bør være med, men som vi ikke fanger opp på grunn av begrensninger i tid og databehandling. Basemodellen fanger for eksempel ikke opp virkninger gjennom lønnsendringer i arbeidsmarkedet, eller gjennom boligmarkedet. Slike prisvirkninger er komplekse, men likevel en sentral del av en analyse. Det kan tenkes at på lang sikt kan det være gunstig for bedrifter å lokalisere seg til bedre rekrutteringsmuligheter av nye arbeidstakere, som forklart i kapittelet om potensialmål, se @chp-pm. Bedriftene kan også lokalisere seg nærmere nye markeder, og husholdningene kan være tjent med bosted tettere opp til disse jobbmulighetene. Det finnes modellapparat som kombinerer sentrale mekanismer i baseteori, med aktørenes valg av pendling og/eller flytting, og med virkninger gjennom lønninger og boligpriser, i en mer helhetlig forståelse av en regional økonomi. Slike modellapparat sorterer gjerne under kategorien generelle romlige likevektsmodeller. Som et eksempel på en slik modell skal vi se litt nærmere på en som er presentert i @mcarthur2014, og som er spesielt formulert med tanke på anvendelser for en typisk norsk region, hvor basemekanismen ligger sentralt i modellen. 
 
- 
+## Presentasjon av den generelle likevektsmodellen 
 
-Presentasjon av den generelle likevektsmodellen 
+@mcarthur2014 presenterte en generell likevektsmodell som beskriver den romlige lokasjonen og fordelingen av arbeidsplasser og befolkning i en region. Modellen får frem at beslutningen om lokasjon for bedrifter og husholdninger er gjensidig avhengig av hverandre. Artikkelen diskuterer fenomenet med avfolkning på landsbygda og hvordan sentralisering kan påvirke sysselsettingen og befolkningen i ulike regioner [@mcarthur2014]. @thorsen2012 gir en illustrasjon av den generelle romlige likevektsmodellen som beskrives av @mcarthur2014. @fig-thorsen til @thorsen2012 er som nevnt foran utviklet for en typisk norsk region.
 
-@mcarthur2014 presenterte en generell likevektsmodell som beskriver den romlige lokasjonen og fordelingen av arbeidsplasser og befolkning i en region. Modellen får frem at beslutningen om lokasjon for bedrifter og husholdninger er gjensidig avhengig av hverandre. Artikkelen diskuterer fenomenet med avfolkning på landsbygda og hvordan sentralisering kan påvirke sysselsettingen og befolkningen i ulike regioner [@mcarthur2014]. 
-
-@thorsen2012 gir en illustrasjon av den generelle romlige likevektsmodellen som beskrives av @mcarthur2014. @fig-thorsen til @thorsen2012 er som nevnt foran utviklet for en typisk norsk region. 
+![«Skjematisk framstilling av den generelle spatiale likevektsmodellen». Kilde: Thorsen(2012)](bilder/dglm.png){#fig-thorsen}
 
 Modellen til McArthur et al. (2014) inkluderer kjerneelementene i økonomisk basemodell. Som de fleste romlige likevektsmodellene skiller også denne modellen mellom basenæringer (1) og lokalnæringer (2). Dette er tidligere forklart i kapittel 3 og 4. Som nevnt i kapittel 3 og 4 er det basenæringer som driver frem vekst i en region, og disse næringene har sine markeder utenfor regionen ettersom de har eksport av varer. Det som driver frem baseaktivitet i regionen avhenger av innovasjonsevnen lokalt og deres konkurranseevne (3) i sine respektive markeder [@thorsen2012]. Lokalnæringene sitt formål er å betjene befolkningen lokalt. Som presentert i seksjonen av økonomisk baseteori forutsettes det at lokalaktiviteten i område er proporsjonal med befolkningen. Økonomisk baseteori kan gi forklaring på den geografiske fordelingen av jobber.
 
@@ -2459,6 +2392,8 @@ En generell romlig likevektsmodell fanger opp den komplekse interaksjonen mellom
 
 En svakhet med modellen til @thorsen2012 og @mcarthur2014 er at en anvendelse av et slikt planleggingsverktøy for denne regionen krever langt mer tid og data enn en har tilgjengelig i arbeidet med en masteroppgave.
 
+\newpage
+
 # Konklusjon
 
 I oppgaven har hovedfokuset vært på hvordan Haugalandet sitt bo- og arbeidsmarkdet vil forandre seg ved en etablering av Beyonder på Haugaland næringspark. Ved bruk av den økonomiske baseteorien har vi estimert resultater som antyder en økning i 4692 arbeidsplasser på Haugalandet og en total befolkningsvekst på ca.10500. Gjennom en fremstilling av arbeidsmarkedsområdene med gitte reisetider i nord- og sør-Rolgaland vil disse arbeidsmarkedsområdene integreres med en ferdigstillelse av Rogfast, og med det gi en større mobilitet for arbeidstakere. 
@@ -2469,6 +2404,7 @@ Når et sjokk på 2000 arbeidsplasser kommer i den sentrale delen av regionen er
 
 Ved en ferdigstillelse av Rogfast-tunellen vil reisetiden mellom nord- og sør-fylket redusere til akseptable pendleavstander mellom de to arbeidsmarkedsområdene i dag. Det er god grunn til å tro at det vil bli betydelig økt pendling mellom regionene. Likevel må det presiseres at modellene og analysene er store og komplekse mekanismer som henger sammen, og dette medfører stor usikkerhet i estimeringer og prediksjoner.
 
+\newpage
 
 # Videre forskning
 
