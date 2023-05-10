@@ -45,9 +45,13 @@ library(DiagrammeR)
 knitr::opts_chunk$set(echo=FALSE)
 ```
 
-\newpage
+\includepdf{forside.pdf}
+\pagenumbering{gobble}
 
-# Sammendrag
+\newpage
+\pagenumbering{roman}
+
+# Sammendrag {-}
 
 Oppgaven ser på hvilke regionale konsekvenser som kan forekomme som følge av en etablering av Beyonder med 2 000 direkte arbeidsplasser som skaper på Haugaland næringspark i Gismarvik. Etablering er i startfasen, og usikker, men det er likevel et interessant case å studere virkningene av et så stort eksogent sjokk for Haugalandet.
 
@@ -62,7 +66,7 @@ Beyonder, Rogfast, den økonomiske basemodell, potensialmål
 
 \newpage
 
-# Abstract
+# Abstract {-}
 
 The thesis examines the potential regional consequences that may occur as a result of the establishment of Beyonder, which will create 2,000 direct jobs in the Haugaland Business Park in Gismarvik. Although the establishment is in its initial phase and uncertain, it is still an interesting case to study the effects of such a large exogenous shock on the Haugaland region.
  
@@ -78,7 +82,7 @@ Beyonder, Rogfast, Economic base model, Model of potential
 
 \newpage
 
-# Forord
+# Forord {-}
 
 For to år siden møttes vi i første forelesning og ikke langt inn i det semesteret ble det bestemt at vi skulle skrive masteroppgaven sammen. Nesten to år etter starten av Master of Science in Business på Høgskulen på Vestlandet så står vi her med en vel gjennomført utdanning og ferdig skrevet masteroppgave. 
 
@@ -91,6 +95,16 @@ Tilslutt vil vi rette en takk til vår eminente veileder, Prof. Inge Thorsen, fo
 *Haugesund, 22.05.2023*
 
 \newpage
+\tableofcontents
+
+\newpage
+\listoffigures
+
+\newpage
+\listoftables
+
+\newpage
+\pagenumbering{arabic}
 
 # Innledning
 
