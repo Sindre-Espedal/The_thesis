@@ -19,7 +19,6 @@ format:
             \usepackage[labelfont=bf]{caption}
             \usepackage{float}
             \floatplacement{table}{H}
-linestretch: 1.5
 number-sections: true
 editor: visual
 csl: apa-no-ampersand.csl
@@ -45,6 +44,33 @@ library(data.table)
 library(DiagrammeR)
 knitr::opts_chunk$set(echo=FALSE)
 ```
+
+# Sammendrag
+
+Oppgaven ser på hvilke regionale konsekvenser som kan forekomme som følge av en etablering av Beyonder med 2 000 direkte arbeidsplasser som skaper på Haugaland næringspark i Gismarvik. Etablering er i startfasen, og usikker, men det er likevel et interessant case å studere virkningene av et så stort eksogent sjokk for Haugalandet.
+
+Det er tatt i bruk en kvantitativ forskningsmetode. Dataene er hentet fra Statistisk sentralbyrå (SSB). Vi har utført en analyse av økonomisk baseteori, og tatt i bruk pendlematriser og avstandsdata for å utføre pendleanalyse i form av potensialmål. Presentasjonen av dataene er gjennom grafer, tabeller og kart, og dataene er anvendt gjennom modellberegninger
+
+Den deskriptive presentasjonen av næringsstrukturen på Haugaland viser til en industritung region. Anvendelse av baseteorien tilsier en økt utvikling i sysselsetting og befolkning for Haugalandet ved et eksogent sjokk i regionen. Det vil oppstå fraflytting fra perifere strøk til urbane strøk i regionen for å fylle den nye etterspørselen etter arbeidskraft. Når Rogfast blir ferdigstilt cirka 2031, så vil det oppstå mer pendling mellom nord- og sør-Rogaland, der flere jobber vil bli tatt med bruk av pendling, i stedet for flytting, som før tunnelen. Det vil ta rundt 45 minutter å pendle fra Stavanger til Gismarvik, noe som er innenfor akseptabel pendleavstand.  Oppgaven vil også gå gjennom hvilken plassering i regionen som har best potensial når det gjelder rekruttering av arbeidskraft og optimal plassering i regionen. Her får vi frem at potensialmålet har positiv korrelasjon med avstanden til Stavanger-regionen.
+Komponenter i den generelle likevektsmodellen indikerer at sørlige deler av Haugalandet vil få økt aktivitetsnivå i sysselsetting og befolkningsøkning som følge av rimelig tomte- og boligpriser og et voksende og spennende arbeidsmarkedsområde.
+
+*Nøkkelord:*
+Beyonder, Rogfast, den økonomiske basemodell, potensialmål
+
+
+# Abstract
+
+The thesis examines the potential regional consequences that may occur as a result of the establishment of Beyonder, which will create 2,000 direct jobs in the Haugaland Business Park in Gismarvik. Although the establishment is in its initial phase and uncertain, it is still an interesting case to study the effects of such a large exogenous shock on the Haugaland region.
+ 
+A quantitative research method has been employed, and data has been obtained from Statistics Norway (SSB). An analysis of economic base theory has been conducted, and OD-matrices and distance data have been utilized to perform potential-based commuting analysis. Data has been presented through graphs, tables, and maps, and model calculations have been applied.
+ 
+The descriptive presentation of the economic structure of Haugaland shows that it is an industrialized region. The application of the base theory implies increased development in employment and population for Haugaland in the event of an exogenous shock in the region. There will be out-migration from peripheral areas to urban areas in the region to fill the new demand for labor. With the completion of Rogfast around 2031, there will be more commuting between northern and southern Rogaland, and more jobs will be taken using commuting rather than relocation, as was the case before the tunnel. Commuting from Stavanger to Gismarvik will take around 45 minutes, which is within an acceptable commuting distance. The thesis will also examine the model of potential for recruiting labor and the optimal placement in the region. It is found that the potential measure has a positive correlation with the distance to the Stavanger region.
+ 
+Components of the spatial equilibrium model indicate that the southern parts of Haugaland will experience increased activity levels in employment and population growth due to affordable land and housing prices and a growing and exciting labor market area.
+ 
+*Keywords:*
+Beyonder, Rogfast, Economic base model, Model of potential
+
 
 # Introduksjon Beyonder og Haugaland næringspark
 
