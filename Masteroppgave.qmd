@@ -9,7 +9,7 @@ format:
           text: |
             \usepackage{fancyhdr}
             \pagestyle{fancy}
-            \fancyhead[L]{Sindre Espedal & Morten Knutsen}
+            \fancyhead[L]{xxx}
             \fancyhead[C]{Master of Science in Business}
             \fancyhead[R]{Våren 2023}
             \fancyfoot[CO,CE]{\thepage}
@@ -44,6 +44,8 @@ library(data.table)
 library(DiagrammeR)
 knitr::opts_chunk$set(echo=FALSE)
 ```
+
+\newpage
 
 # Sammendrag
 
@@ -82,6 +84,35 @@ Tilslutt vil vi rette en takk til vår eminente veileder, Prof. Inge Thorsen, fo
 
 **Morten Knutsen og Sindre Matland Espedal**
 **Haugesund, 22.05.2023**
+
+
+# Innledning
+
+Haugalandet har en variert næringsstruktur med mange forskjellige bransjer som bidrar til regionens økonomi. Det finnes sterke miljøer innenfor petromaritim sektor, energi- og prosessindustri, som også inkluderer små og store underleverandører. Blant de ledende industribedriftene i regionen er Aibel i Haugesund, Hydro Aluminium på Karmøy, Kårstø prosessanlegg med Gassco og Equinor som er fremtredende og smelteverket Eramet i Sauda [@haugalandvekst2023]. 
+
+Haugalandet har også en maritim klynge med store rederier som Solstad Shipping, Knutsen OAS Shipping og Østensjø rederi. I tillegg til disse rederiene har regionen tunge institusjoner som Sjøfartsdirektoratet og kystverket som er med på å bygge opp under den maritime næringen. Regionen har flere fagniljøer som som er med på å plassere regionen i øverste posisjon når det gjelder industriell nyskaping [@haugalandvekst2023]
+
+Haugaland vekst og Flow Maritime Accelerator har i samarbeid med Haugesundregionen gitt oss et innblikk i hva som gjør Haugalandet til en spennende og voksende region [@lauvas 2021]. Som det blir nevnt i videoen så vil bedriftene på Haugalandet hjelpe hverandre og løfte hverandre opp og frem. Dette er positivt for bedrifter som vil prøve å etablere seg i regionen. 
+Beyonder har planer om å bygge en batterifabrikk på Gismarvik som vil gi 2000 direkte arbeidsplasser i regionen. Selskapet skal produsere batterier til busser, maskiner og store fartøyer, og batteritypen kan også brukes som stabilisator i kraftnettet [@bigset2022]. Det spekuleres om dette bare er et luftslott [@kristensen2022], men det er uansett et interessant case. Lokasjonen på Gismarvik har en næringspark som er dimensjonert for store etableringer i regionen. Dersom denne type aktiviteter etableres der, som fyres opp av et Rogfast, så vil dette gi store konsekvenser for hvordan Haugalandet vil se ut med tiden.
+Det er viktig å dykke ned i dette temaet for å kunne danne seg et bilde på hva en stor etablering kan forvente av tilgjengelig arbeidskraft og hvor den kommer fra. Det er nyttig for  regionen generelt for å ha en pekepinn på hva som kan forventes av for eksempel befolkningsvekst og økning i lokale arbeidsplasser. Dette kan videre legge til rette for nyetableringer av underleverandører som kan støtte opp mot de store basisbedriftene. 
+
+Det er også viktig å ta hensyn til at Rogfast, som er et veiprosjekt som vil knytte Haugalandet sammen med Stavangerregionen, vil gi muligheter for et økt arbeidsmarked for bedrifter på Haugalandet. Men det samme vil gjelde motsatt vei. Her kan det oppstå konkurranse på arbeidskraft mellom regionene, noe som i første omgang kan øke lønnsnivået på Haugalandet.
+Problemstilling og del problemstillinger 
+Målet med oppgaven er å forsøke på å forklare hvordan arbeidsmarkedsregionen på Haugalandet vil påvirkes ved et signifikant positivt eksogent sjokk i form av en betydelig bedriftsetablering i regionen. Oppgaven legger vekt på å undersøke hvordan pendle- og bosettingsmønstre vil kunne bli påvirket i regionen. I tillegg introduserer vi en utvidet arbeidsmarkedsregion ved å inkludere Stavangerregionen i samspill med Haugalandet.
+For å kunne forklare dette har vi har utviklet følgende problemstilling:
+“Hvordan vil et eksogent sjokk på 2000 arbeidsplasser på Haugaland næringspark påvirke bo- og arbeidsregionen på Haugalandet?”
+For å kunne forklare problemstillingen har vi utviklet flere delproblemstillinger:
+Vil en etablering av Beyonder gi en befolkningsvekst i regionen?
+Skaper en etablering av Beyonder flyttestrømmer til sørlige områder på Haugalandet? 
+Vil en etablering av Beyonder skape fraflytting i perifere områder i regionen?
+Vil kortere avstander til arbeidsmarkedsregionen i Stavanger føre til økt pendling mellom arbeidsmarkedsregionene?
+Oppgavens struktur og metode
+Oppgavens struktur er bygget opp ved at teorien, analysen og diskusjonen er presentert for de forskjellige temaene som gjennomgås i oppgaven i hver sin seksjon. Dette er for å gi en bedre flyt i oppgaven, hvor seksjonene bygger videre fra tidligere seksjoner. For eksempel så handler kapittel 1 og 2 om en introduksjon av batterifabrikken Beyonder, Haugaland næringspark, og en deskriptiv gjennomgang av næringsstrukturen på Haugalandet. I kapittel 3 presenteres økonomisk baseteori, og anvender således teorien på Haugalandet i kapittel 4. 
+Vi har valgt en kvantitativ tilnærming på oppgaven og benytter oss av metoden deskriptiv statistikk. Vi presenterer funnene ved hjelp av tabeller, figurer og kart. For modelleringene og analysene i oppgaven er datagrunnlaget hentet fra Statistisk sentralbyrå (SSB). Hvilke tabeller vi har benyttet fra SSB er oppgitt i Appendix; se @link-med-tabell.
+
+Vi har benyttet verktøyene Excel, Rstudio og QGIS. I databehandlingen har majoriteten av arbeidet blitt utført i Excel, og noe av behandlingen med data har blitt gjort i Rstudio. Presentasjon av tabeller og figurer er gjort i Rstudio. QGIS er brukt til å behandle deler av pendlematriser og avstands-modelleringer. Presentasjon av kartene er også blitt gjort gjennom programmet QGIS. Oppgaven er skrevet i Rstudio gjennom quarto-pakken. Presentasjon av figurer og tabeller som ikke er fra disse programmene har henvisning til kilden.
+
+
 
 
 # Introduksjon Beyonder og Haugaland næringspark
@@ -2316,8 +2347,140 @@ Vi ser at resultatene ved den ikke-parametriske metoden samsvarer med de paramet
 
 Det må nevnes at potensialmål verdiene ved begge tilnærmingene er ikke kausale resultater. Likevel kan mange av verdiene før og etter rogfast virke logiske med plausible argumenter og intuitiv tenking. Det er grunn til å tro at det ikke er bare pendlemønstrer som vil endre seg med tiden, og at det på lang sikt vil bli endringer i bosettingsmønster. Dette vil vi ta mer opp i neste kapittel, hvor vi diskuterer den generelle likevektsmodellen. 
 
+
+# Likevektsledighet
+
+Som presentert tidligere i oppgaven i @fig-arbeidsledighet så har vi dannet oss et bilde av at prosentvis arbeidsledighet er høyest i sentrale ytre strøk, som er det mest befolkningstette området i regionen. Som en naturlig observasjon for et arbeidsmarkedsområde, viser @fig-arbeidsledighet at ledighetsprosentene er sterkt samvarierte, men med en systematisk forskjell mellom indre og ytre deler av regionen. Ledighetsprosenten synes å være systematisk høyere i sentrale, ytre, strøk. Det vi vil se nærmere på er hvorfor det er slik og hva som kan skje om det oppstår en økning på 2000 arbeidsplasser i den mer sentrale delen av regionen. I en slik situasjon er det nærliggende tanke at økt etterspørsel etter arbeidskraft vil dempe slike romlige forskjeller i ledighetsprosenter, siden sysselsettingen forventes å øke i de områdene som får den nye store bedriftsetableringen. Videre skal vi se på teorier som kan vise til at den intuitive tanken ikke stemmer; det er ikke sikkert at økt sysselsetting i det området der ledigheten er høyest vil utjevne slike forskjeller.
+
+
+Likevektsledighet refererer til den mengden arbeidsledighet som eksisterer når arbeidsmarkedet er i likevekt, og det likevel vil være noen arbeidsledige. Det er vel kjent fra makroøkonomi at dette kan reflekterer friksjons- og strukturproblemer i en økonomi.
+
+ 
+
+@roy1951 var en av de første som utviklet en modell som forklarte hvordan arbeidsmarkedet kunne være i likevekt til tross for at det alltid vil være noen arbeidsledige. Han argumenterte for at arbeidsledigheten kunne være påvirket av faktorer som friksjon i arbeidsmarkedet og endringer i økonomien. Han la også vekt på betydningen av utdanning og opplæring på arbeidsmarkedet.
+
+
+Læreboken til @mcCann2013 fokuserer på blant annet likevektsledighet ved å peke på betydningen av faktorer som geografisk mobilitet, offentlige tiltak og politikk for å redusere likevektsledighet. For å redusere likevektsledighet er det viktig å ta hensyn til både økonomiske og politiske faktorer, og utvikle en helhetlig politikk som fremmer vekst og sysselsetting i urbane og regionale områder [@roy1951, @mccann2013]. 
+
+
+
+I en likevektsmodell for arbeidsmarkedet vil etterspørselskurven ha en negativ helning, som betyr at arbeidsgivere vil etterspørre mindre arbeidskraft jo høyere lønnskostnadene er. Dette skyldes at når lønnskostnadene øker, vil det bli dyrere for arbeidsgiverne å ansette flere arbeidstakere. Verdien av grenseproduktet skal fortsatt være lik lønn. Siden grenseproduktet avtar med økt sysselsetting, må sysselsettingen settes ned når lønnssatsen øker. 
+
+
+
+Tilbudskurven for arbeidskraft vil ha en positiv helning. Det betyr at det vil bli tilbudt mer arbeidskraft jo høyere lønnsnivået er. Grunnen til dette er at når lønnsnivået øker, så er det flere som vil arbeide mer og få høyere inntekt. Dette svarer til en situasjon der substitusjonseffekten av økt lønn er større enn inntektseffekten, og regnes som en rimelig forutsetning innenfor normale intervaller for lønnsvariasjoner. 
+
+
+
+Disse kurvene kan bli påvirket av forskjellige faktorer, noen eksempler kan være følgende.
+
+Teknologisk endring kan påvirke produksjonsprosessen og øke produktiviteten, noe som vil øke etterspørselen etter arbeidskraft [@mccann2013] Dette vil føre til en høyere etterspørselskurve for arbeidskraft, og dermed en høyere likevektslønn og sysselsetting.
+
+
+
+På den annen side kan teknologisk utvikling også redusere etterspørselen etter visse typer arbeidskraft ved å erstatte menneskelige arbeidere med automatiserte systemer og maskiner [@mankiw2020]. Dette vil føre til et venstreskift i etterspørselskurven og lavere likevektslønn og sysselsetting for de arbeidstakerne.
+
+
+Demografiske endringer kan også påvirke arbeidsmarkedet. For eksempel kan en økning i antall eldre arbeidstakere føre til en lavere arbeidsstyrkeandel og dermed redusere tilbudet av arbeidskraft [@mccann2013]. Dette kan føre til en høyere likevektslønn og lavere sysselsetting. På den annen side kan en økning i antall unge arbeidstakere føre til en økning i tilbudet av arbeidskraft, noe som kan føre til en lavere likevektslønn og høyere sysselsetting [@mankiw2020].
+
+
+
+Videre har vi laget en modifisert fremstilling av en likevektsfremstilling for arbeidsmarkdet som er hentet fra @mccann2013. Denne får frem noe av det som forventes å skje når det etableres en ny bedrift som Beyonder i sentral strøk av regionen.
+
+
+Anta at regionen består av to områder, a (indre strøk) og b (ytre strøk). Her er avstandene så store at det ikke er aktuelt med dagpendling mellom regionene. Ytre strøk er det sentrale strøket i regionen, med et høyere antall sysselsatte og en høyre gjennomsnittlig lønnssats.  i og forklar litt om utgangssituasjonen, der lønnsnivået ikke er helt likt i de to regionene/områdene.) Det som skjer i figuren er at det kommer et sjokk i arbeidsmarkedet i ytre strøk, representert av Beyonder og 2000 arbeidsplasser. Tallene som er brukt i @fig-likevekt-ledighet er forsøksvis satt på et nivå tilsvarende dagens situasjon og er hentet fra tabell 12852 og tabell 13470 fra SSB (se appendiks). Med den aktuelle bedriftsetableringen vil det bli økt etterspørsel etter arbeidskraft i område b. Det vil da bli en konkurransesituasjon for den eksisterende arbeidskraften som vil være med på å øke lønnsnivået i område b. Med økte lønninger og økt etterspørsel etter arbeidskraft så er det rimelig å regne med at det vil oppstå en flyttestrøm fra region a inn til region b. Dette vil være med på å senke tilbudet av arbeidskraft i region a, og med det gi en økt lønn i region a for å beholde den gjenværende arbeidskraften. Det som da vil oppstå er et større tilbud av arbeidskraft i region b som igjen vil være med å presse lønnen litt ned igjen i region b. Det ser vi i skjæringspunktet mellom 343-linjen og Db1-kurven.
+
+Det som ofte kan oppstå er at de best kvalifiserte flytter til de mer urbane områdene for å få avkastning på sin utdanning. Disse er ofte mer effektive og kan produsere mer verdifulle varer og tjenester enn en mindre kvalifisert arbeidstaker ville ha gjort. Dette er en typisk backwash-effekt som kan oppstå i innad i regioner ved en slik etablering. Bedrifter som søker kvalifisert arbeidskraft, vil da plassere seg der denne arbeidskraften er tilgjengelig. Som nevnt tidligere i oppgaven så har Haugalandet en utdanningsprofil som passer godt til en bedrift som Beyonder. Det at de mest kvalifiserte som flytter fra indre til ytre strøk, så vil etterspørselskurven få et venstreskift i område a (Da1) og et nytt høyreskift i område b. Da vil det oppstå enda større lønnsforskjeller mellom områdene, og med det forsterke fraflyttingen fra indre strøk enda mer. Hvis dette fortsetter så vil det ende med en totalt fraflyttelse fra indre til ytre strøk. I dette tilfelle vil det nok ikke ende opp i en ny likevekt, men agglomerasjons ulemper som vil dempe tilflytting til ytre strøk. I følge @capello2015 så vil det i slike situasjoner oppstå ulemper som trafikkork og økt reisetid på grunn av høy arbeids- og befolkningstetthet. Det vil bli en økt konkurranse mellom boligene som er tilgjengelige, noe som vil gi økte boligpriser og lavere tilgjengelighet til rimelige boliger. Med en økt befolknings- og arbeidstetthet så vil forurensningsnivået øke, med økt luftforurensing og økt støy. En annen ulempe som kan oppstå er en sosial segregasjon, der det kan oppstå store forskjeller mellom rik og fattig, der det vil komme områder i ytre strøk som har en fattigere befolkning. Alle disse ulempene kan være med å dempe tilflytting til sentrale strøk, og gjerne gjøre at noen som bor i de sentrale strøkene før disse ulempene virkelig har en effekt, velger å flytte til mer perifere, indre strøk. 
+
+
+![Likevektsledighet](bilder/likevektsledighet.png){#fig-likevektslediget}
+
+
+
+
+Harris-Todaro modellen fra @harris1970, sier at folk flytter inn mot sentrale strøk så lenge forventet lønn der er høyere enn i rurale strøk. Høyere ledighet i sentrale områder bidrar til å redusere forventet lønn, og dermed dempe flyttestrømmen, og vi kan nå en likevektssituasjon med høyere lønn og høyere ledighet sentralt i regionen. Hvis det oppstår en økt etterspørsel i arbeidsmarkedet sentral, i dette tilfelle Beyonder, vil den umiddelbare virkningen være økt forventet lønn i sentrale strøk, og en økt tilflytting fra de mer rurale områdene. Dette vi gå sin gang helt til en ny likevekt inntreffer, med større sysselsetting og befolkning sentralt, større lønnsforskjeller, men også høyere ledighet i de sentrale områdene.
+
+En lignende likevektforståelse kan også argumenteres med hjelp av @roback1982. Hennes modell er med på å forklare forholdet mellom lønninger, lokale offentlige goder og boligpriser i byområder. Modellen tar også med at livskvalitet påvirker hvor attraktivt en lokasjon er for enkeltpersoner og bedrifter. Den tar også hensyn til at folk ønsker å bo i områder med stedsspesifikke fordeler som godt klima, fin natur og variert jobbtilbud. Disse punktene kan være med på å forklare på hvordan likevektforståelsen av forskjeller i ledighet i indre og ytre strøk. @glaeser2011 argumenterer at for en høy arbeidsledighet i byer og tettsteder kan tiltrekke seg bedrifter og arbeidstakere gjennom spesifikke goder. Eksempler på slike goder kan være et utdannelsesmessig tilbud, samt tilgang til spesialisert arbeidskraft. Slike stedspesifikke goder kan være en kompensasjon for høy ledighetsprosent, slik at forskjeller i ledighetsprosent kan representere en likevektstilstand.
+
+
 # Den generelle likevektsmodell
 
+Så langt i oppgaven har den økonomiske basemodellen gitt oss et innsiktsfull bidrag til å forstå ringvirkningene av en stor bedriftsetablering. Likevel er våre resultater og funn best egnet for et kortsiktig perspektiv. I en langsiktig planlegging for en slik regional analyse er det en del mekanismer som bør være med, men som vi ikke fanger opp på grunn av begrensninger i tid og databehandling. Basemodellen fanger for eksempel ikke opp virkninger gjennom lønnsendringer i arbeidsmarkedet, eller gjennom boligmarkedet. Slike prisvirkninger er komplekse, men likevel en sentral del av en analyse. Det kan tenkes at på lang sikt kan det være gunstig for bedrifter å lokalisere seg til bedre rekrutteringsmuligheter av nye arbeidstakere, som forklart i kapittelet om potensialmål, se @chp-pm. Bedriftene kan også lokalisere seg nærmere nye markeder, og husholdningene kan være tjent med bosted tettere opp til disse jobbmulighetene. Det finnes modellapparat som kombinerer sentrale mekanismer i baseteori, med aktørenes valg av pendling og/eller flytting, og med virkninger gjennom lønninger og boligpriser, i en mer helhetlig forståelse av en regional økonomi. Slike modellapparat sorterer gjerne under kategorien generelle romlige likevektsmodeller. Som et eksempel på en slik modell skal vi se litt nærmere på en som er presentert i @mcarthur2014, og som er spesielt formulert med tanke på anvendelser for en typisk norsk region, hvor basemekanismen ligger sentralt i modellen. 
+
+ 
+
+Presentasjon av den generelle likevektsmodellen 
+
+@mcarthur2014 presenterte en generell likevektsmodell som beskriver den romlige lokasjonen og fordelingen av arbeidsplasser og befolkning i en region. Modellen får frem at beslutningen om lokasjon for bedrifter og husholdninger er gjensidig avhengig av hverandre. Artikkelen diskuterer fenomenet med avfolkning på landsbygda og hvordan sentralisering kan påvirke sysselsettingen og befolkningen i ulike regioner [@mcarthur2014]. 
+
+@thorsen2012 gir en illustrasjon av den generelle romlige likevektsmodellen som beskrives av @mcarthur2014. @fig-thorsen til @thorsen2012 er som nevnt foran utviklet for en typisk norsk region. 
+
+Modellen til McArthur et al. (2014) inkluderer kjerneelementene i økonomisk basemodell. Som de fleste romlige likevektsmodellene skiller også denne modellen mellom basenæringer (1) og lokalnæringer (2). Dette er tidligere forklart i kapittel 3 og 4. Som nevnt i kapittel 3 og 4 er det basenæringer som driver frem vekst i en region, og disse næringene har sine markeder utenfor regionen ettersom de har eksport av varer. Det som driver frem baseaktivitet i regionen avhenger av innovasjonsevnen lokalt og deres konkurranseevne (3) i sine respektive markeder [@thorsen2012]. Lokalnæringene sitt formål er å betjene befolkningen lokalt. Som presentert i seksjonen av økonomisk baseteori forutsettes det at lokalaktiviteten i område er proporsjonal med befolkningen. Økonomisk baseteori kan gi forklaring på den geografiske fordelingen av jobber.
+
+ 
+
+Vi ikke har ikke gjennomført en analyse på punktene nede på “høyresiden” i @fig-thorsen. Her har vi punkt 5 og 6 som sier noe om beslutningen om å flytte eller bli boende (5) og flytterens valg av destinasjon (6). Beslutningen om å flytte eller bli boende påvirkes av tilgjengeligheten til arbeidsmarkedet [@mcarthur2014]. Her er det typisk at en mer perifer beliggenhet med lav tilgjengelighet til arbeidsmarked, ofte responderer med utflytting hvis det oppstår en høy arbeidsledighet. For en lokalisering med god tilgjengelighet til arbeidsmarked er pendling et verktøy som tas hyppigere i bruk for å komme seg til arbeidsmarkedet. Dette støttes også av arbeid til @eliasson2003 og @lundholm2010 med mikrodata for Sverige, og for Nederland [@vanham2009]. 
+
+Valg av nytt bosted for personer som velger å flytte, bestemmes gjennom en prosess der arbeidstakere vurderer og sammenligner forskjellige alternativer i et nettverk (8). Dette vil føre til en absorpsjonseffekt, som kan beskrive den gradvise økningen av befolkningen i et bo-område [@naevdal2006]. @naevdal2006 sier samtidig at flyttestrømmene er avhengig av avstand og boligpriser. Boligprisene påvirkes av arbeidsmarkedets tilgjengeligheten og avstand til regionsenteret [@osland2008], og flyttestrømmer (9) påvirker den geografiske fordelingen av folk. 
+
+ 
+
+Den geografiske fordeling av jobber (1-4) og folk (5-8) i @fig-thorsen binder sammen to sentrale mekanismer i fordelingen mellom pendle- og flyttestrømmer (10), og forholdet mellom sysselsetting og befolkning (12). @thorsen2012 sier at pendlestrømmene (10-11) bestemmes gjennom en dobbeltbeskranket gravitasjonsmodell. Forholdet mellom sysselsetting og befolkning (12) kan forklares ved bruk av den økonomiske basemultiplikatoren (se kapittel 3 og 4 for grundig gjennomgang). 
+
+ 
+
+Det er en iterativ prosess mellom mekanismene (10) og (12). Dette danner en konvergerende prosess mellom (9)-(12). Dette skyldes pendlestrømmer som påvirkes av den geografiske fordelingen av arbeidsplasser. Dette er igjen en tilknytning til fordeling av folk med at for eksempel en økning i basevirksomhet kan gi en økning i befolkningen. Dette etablerer et grunnlag for at den lokale sysselsettingen vil øke og dermed gi ytterligere tilflytting.
+
+ 
+
+ 
+
+Diskusjon av den generelle likevektsmodellen 
+
+Det er særlig komponentene (5-11) i @fig-thorsen vi ikke har tatt hensyn til i vår analyse. Vi vil diskutere hvordan virkningene slike komponenter kan tenkes å påvirke regionen. En plausibel hypotese er at lønnsnivået på Haugalandet vil øke med en etablering av Beyonder på Gismarvik. Dette har vi sett litt på i @fig-likevektsledighet. Det er også nærliggende å tro at en ferdigstillelse av Rogfast vil heve lønnsnivået på Haugalandet på grunn av økt konkurranse om arbeidskraft med sør-fylket. 
+
+Gjennom basemodellen har vi predikert sysselsettings- og befolkningsendringer for regionen samlet, og for ulike kommuner. Men, denne modellen er etterspørselsbestemt, og vi har ikke vurdert forhold som angår for eksempel boligpriser. Det er rimelig å anta at boligprisene vil være lite påvirket etter en eventuell lokalisering av Beyonder. Dette er fordi Gismarvik har en relativ sentral posisjon i regionen. Det er allerede godt etablerte, sentrale boligområder i regionen som ligger innenfor akseptable pendleavstander til Gismarvik. Eksempler på slike boområder er Haugesund sentrum, Kopervik, Norheim og Aksdal. En annen hypotese om at boligprisene ikke vil endre seg er at to-arbeider husholdninger kan foretrekke boliglokasjon med gunstig jobbmuligheter for begge parter. 
+
+Når det gjelder boligpriser etter en ferdigstillelse av Rogfast, så er det rimelig å anta at boligprisene for sør-Tysvær vil øke. Med å kjøpe seg bolig i sør-Tysvær eller Bokn vil tilgjengeligheten til arbeidsmarkedet i Stavanger-regionen øke betraktelig. Da vil det være akseptable pendleavstander for en to-arbeider husholdning til det sentrale arbeidsmarkedet på Haugalandet og sørover til Stavanger. 
+
+ 
+
+Forholdet mellom pendling og flytting er en annen sentral og spennende problemstilling i forhold til den lokale virkningen av Beyonder. I dagens situasjon med hensyn på rekruttering av arbeidskraft vil en kunne forvente flytting fra sør-fylket til nord-fylket. Dette støttes av billigere boligpriser og økende jobbmuligheter i området over Boknafjorden. Det er ikke mye pendling mellom regionene i dag, men med Rogfast vil pendling sees på som mer relevant. Reisetiden vil bli redusert til under timen, som presentert i @fig-tid-rf. Dette medfører en økt pendling mellom Haugalandet og Stavanger-regionen. Sørover for Stavanger så er det en god del pendling fra Egersund til Stavanger i dag, hvor reisen er omtrent en time.  
+
+Hva folk gjør er et veldig viktig punkt, men med dataene vi sitte på i dag har vi ikke grunnlag for å konkludere. Men, det er klart at forholdet mellom pendling og flytting gir en annen situasjon med Rogfast-tunellen. 
+
+ 
+
+En generell romlig likevektsmodell fanger opp den komplekse interaksjonen mellom ulike aktører i økonomien. Det er viktig å presisere at «alt henger i hop» i økonomien, og at alle disse mekanismene samvirker mot en ny likevektstilstand. I denne nye likevekten vil trolig aktivitetsnivå først og fremst øke i og mellom Haugalandet og Stavanger. Den regionen som sannsynligvis vil oppleve størst vekst er Haugalandet, da det er gode muligheter for etableringer av bedrifter i sør-Tysvær og Bokn. Det kan også komme flere bedrifter inn til Haugesund og Karmøy. Bedrifter får gunstigere lokasjoner med formål av rekrutering av arbeidskraft. I tillegg når de flere markeder. Leie- og tomtepriser er nok også billigere på nordsiden av Boknafjorden. Vi tror det først er bedriftene som flytter på seg, så vil befolkningen følge etter hvert (“people follow jobs”). Dette skjer naturligvis i en iterativ prosess, husholdningene vil etterfølge bedriftene som formål med at man har høy tilgjengelighet til flere sentrale sentrumspunkter i regionene samlet sett, og bedriften vil igjen lokalisere seg med formålene som nevnt ovenfor. Dette vil i et langsiktig perspektiv skape en økt samlet sysselsetting og bosetting i regionen. Det kan også på sikt dannes et eget sentrum med detaljhandel mellom sentrumspunktene Haugesund og Stavanger. 
+
+ 
+
+## kritikk av den generelle likevektsmodellen 
+
+En svakhet med modellen til @thorsen2012 og @mcarthur2014 er at en anvendelse av et slikt planleggingsverktøy for denne regionen krever langt mer tid og data enn en har tilgjengelig i arbeidet med en masteroppgave.
+
+# Konklusjon
+
+I oppgaven har hovedfokuset vært på hvordan Haugalandet sitt bo- og arbeidsmarkdet vil forandre seg ved en etablering av Beyonder på Haugaland næringspark. Ved bruk av den økonomiske baseteorien har vi estimert resultater som antyder en økning i 4692 arbeidsplasser på Haugalandet og en total befolkningsvekst på ca.10500. Gjennom en fremstilling av arbeidsmarkedsområdene med gitte reisetider i nord- og sør-Rolgaland vil disse arbeidsmarkedsområdene integreres med en ferdigstillelse av Rogfast, og med det gi en større mobilitet for arbeidstakere. 
+
+Langsiktige virkninger gjennom analyse av pendle- og sysselsettings dataene gir et bilde på at områdene nært knyttet til Rogfast-tunnelen vil gi økt attraktivitet som et bo- og arbeidsmarkedsområdet. Disse områdene får høyest lokalseringspotensial ved en ferdigstillelse av tunnelen. Dette er en gunstig lokalisering for bedrifter med formål om å nå flest mulig kunder til lavest mulige kostnader, og for å rekruttere arbeidstakere med lavest mulig pendlerkostnader. I en kombinasjon av sentralitetsmålene og rimelige tomte- og boligpriser i område, gis det plausibel grunn til å tro at det vil skape flyttestrømmer til områdene. Økt tilgjengelighet i arbeidsmarkedet vil også gi økt etterspørsel etter boliger i området.
+
+Når et sjokk på 2000 arbeidsplasser kommer i den sentrale delen av regionen er det naturlig at arbeidstakere fra de mer perifere strøkene søker seg mot arbeidsmarkedet i ytre strøk og dermed oppstår det en flyttestrøm. Det som kan være med på å forsterke flyttestrømmen er ferdigstillingen av Rogfast. Da vil avkastningen på utdanningen de har i indre strøk øke betraktelig med å flytte til de mer sentrale strøkene, på grunn av den reduserte reisetiden som vil oppstå ned til Stavanger-regionen og nærheten til den sentrale delen av arbeidsmarkedet på Haugalandet. 
+
+Ved en ferdigstillelse av Rogfast-tunellen vil reisetiden mellom nord- og sør-fylket redusere til akseptable pendleavstander mellom de to arbeidsmarkedsområdene i dag. Det er god grunn til å tro at det vil bli betydelig økt pendling mellom regionene. Likevel må det presiseres at modellene og analysene er store og komplekse mekanismer som henger sammen, og dette medfører stor usikkerhet i estimeringer og prediksjoner.
+
+
+# Videre forskning
+
+Analysen av bo- og arbeidsmarkedet på Haugalandet og dens konsekvenser som følge av en signifikant bedriftsetablering på Gismarvik og med en mer sammenslått region i lag Stavanger har gitt interessante resultater. Likevel har oppgavens begrensninger gjort det vanskelig å utføre mer fullstendige og grundige analyser, hvor vi kunne undersøkt flere områder som kan tenkes å bli påvirket, i et mer langsiktig perspektiv.
+
+Likevel gir oppgaven et fundament for å forske videre på følgende:
+
+En grundig utført analyse basert på modellrammene til @mcarthur2014. Her kunne man studert særlig punktene om lokal innovasjon og konkurranseevnen videre, som ble utelatt i @mcarthur 2014 sin presentasjon.
+
+En analyse av boligmarkedet sør på Haualandet og nærliggende områder som følge av Rogfast-tunellen.
+
+Modellering av pendlestrømmer ved hjelp av gravitasjonsmodeller
 
 
 
