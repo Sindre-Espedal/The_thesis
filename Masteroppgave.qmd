@@ -72,6 +72,18 @@ Components of the spatial equilibrium model indicate that the southern parts of 
 Beyonder, Rogfast, Economic base model, Model of potential
 
 
+# Forord
+
+For to år siden møttes vi i første forelesning og ikke langt inn i det semesteret ble det bestemt at vi skulle skrive masteroppgaven sammen. Nesten to år etter starten av Master of Science in Business på Høgskulen på Vestlandet så står vi her med en vel gjennomført utdanning og ferdig skrevet masteroppgave. 
+
+Ideen om oppgaven kom allerede våren 2022 da vi var ute i praksis og leste om Beydoner i avisen. Vi har begge hatt litt mer interesse for de kvantitative fagene i utdanningen, og valgte med det å se på hvordan Beyonder kunne påvirke Haugalandet sitt bo- og arbeidsmarked. Her fikk vi tatt i bruk fag som anvendt by- og regionaløkonomi, transportmodeller og regionalutvikling og Data science. Dette ga oss en fin mulighet til å ta i bruk verktøy vi har fått gjennom de to årene her i Haugesund. 
+
+Tilslutt vil vi rette en takk til vår eminente veileder, Prof. Inge Thorsen, for god veiledning og konstruktive tilbakemeldinger underveis i skriveprosessen. Vi har hatt gode faglige diskusjoner som også har hevet vår kompetanse innen fagemnene nevnt tidligere. Vi vil også rette en takk til Karl-Gunnar Severinsen og Arnstein Gjestland for god hjelp til tekniske utfordringer underveis i oppgaven. 
+
+**Morten Knutsen og Sindre Matland Espedal**
+**Haugesund, 22.05.2023**
+
+
 # Introduksjon Beyonder og Haugaland næringspark
 
 Beyonder er en batteribedrift som har planer om å etablere en
@@ -231,7 +243,31 @@ hensiktsmessig. Men er det riktig og nok arbeidskraft til å drifte
 fabrikken? Er det muligheter å få hente industriarbeidere fra andre
 relevante jobber? Dette skal vi se på videre i oppgaven.
 
-Klyngeteori er en økonomisk teori som hevder at bedrifter som er
+## Innovasjon og vekstpotensial på Haugalandet 
+
+Når det gjelder innovasjon på Haugalandet så er det allerede en industriklynge med vekstpoler som Aibel, Hydro og Kårstø-anlegget. Beyonder vil med sin etablering bli en del av denne industriklyngen og vil mest sannsynlig bli en ny vekstpol på Haugalandet. En slik innovativ og ny bedrift kan være med på å bidra til økt innovasjon og klyngefordeler på Haugalandet.  
+
+### Vekstpolteori 
+
+Capello (2015) presenterer to tilnærminger for teorien om vekstpoler. Teorien ble først utviklet av Francois Perroux som var en fransk økonom. Han la grunnlaget for teorien på 1950-tallet, da han mente at økonomisk vekst i en region kan oppstå på grunn av utviklingen av visse sentrale sektorer eller “vekstpoler” (Perroux, 1955). Disse sentrale sektorene vil da trekke til seg investeringer og skape nye arbeidsplasser, som igjen vil føre til økonomisk vekst og utvikling i hele regionen. Perroux (1955) definerer vekstpoler som “geografiske konsentrasjoner av økonomisk aktivitet som gir en spesiell drivkraft for utvikling, og hvorav virkningene er utbredt i økonomien.”. Dette betyr at vekstpolene fungerer som et senter for økonomisk aktivitet som driver vekst og utvikling i hele regionen. 
+
+Perroux identifiserte tre viktige faktorer som bidrar til utviklingen av vekstpoler: (1) tilstedeværelse av en nøkkebedrift eller en nøkkelindustri som fungerer som en katalysator for vekst, (2) tilstedeværelse av effektive kommunikasjonsnettverk som muliggjør rask og effektiv transport av varer og tjenester, og (3) tilstedeværelse av et velfungerende arbeidsmarked som gir tilgang til kvalifisert arbeidskraft. 
+
+Perroux mente at vekstpoler ville kunne bidra til å redusere ulikheter mellom regioner, ved å tiltrekke seg investeringer og skape nye arbeidsplasser i mindre utviklede regioner. Han argumenterte også for at vekstpoler kan bidra til å øke produktiviteten og innovasjonen i økonomien, og dermed øke den økonomiske veksten på lang sikt. 
+
+Perroux sin tilnærming om vekstpoler ble så videreutviklet av Boudeville (1964) på 1960-tallet, hvor han fremhevet betydningen av samarbeid mellom ulike sektorer og bedrifter innenfor en region. Boudeville argumenterte for at utviklingen av vekstpoler ikke bare skyldtes tilstedeværelsen av en nøkkelindustri- eller bedrift, men også på grunn av samarbeidet mellom ulike bedrifter og sektorer som var lokalisert i en region. Dette samarbeidet kunne føre til utveksling av ideer og teknologier som bidrar til økt produktivitet og innovasjon, og dermed økt økonomisk vekst. 
+
+Boudeville introduserte også begrepet “sekundære vekstpoler”, som var mindre vekstsentre som oppstod som et resultat av samarbeid mellom bedrifter og sektorer i en større vekstpol. Disse sekundære vekstpolene kan også bidra til økt økonomisk utvikling i regionen (Boudeville, 1964). Videre forklarer han at utviklingen av slike vekstpoler er avhengig av ulike faktorer som tilstedeværelsen av kvalifisert arbeidskraft, tilgang til finansiering og investeringer, og effektive kommunikasjonsnettverk. 
+
+Perroux sin tilnærming fremhever betydningen av lokal etterspørsel og forbruk, og mente at utviklingen av vekstpoler kunne bidra til økt forbruk og velstand i regionen. Boudeville sin tilnærming la større vekt på samarbeid mellom ulike bedrifter og sektorer som kunne utveksle ideer og teknologier og dermed bidra til økt produktivitet og innovasjon. Boudeville mente også at utviklingen av vekstpoler kunne føre til opprettelsen av mindre vekstsentre, eller sekundære vekstpoler. 
+
+Hvor vekstpol-teori fokuserer på å indentifisere og stimulere til økonomisk vekst i en region, kan det også tenkes at en slik vekst kan ha negative effekter for andre regioner og/eller sektorer. Dette kan forklares gjennom «Backwash effekter» som er forklart av Hirschman (1958). Begrepet “backwash effekter” beskriver de negative konsekvensene som kan oppstå når det skjer en økonomisk vekst i en region. Dette kan oppstå når en region eller en sektor tiltrekker seg store mengder kapital og arbeidskraft, som deretter trekker til seg ytterligere investeringer og økt etterspørsel. 
+
+For eksempel kan det oppstå arbeidskraftmangel i andre deler av en region eller andre sektorer, da arbeidstakere trekkes til den voksende sektoren og til den voksende delen av regionen. Dette kan føre til en forverring av arbeidsforholdene og økt arbeidsledighet i andre deler av regionen, og i andre regioner. Negative effekter kan også skje gjennom den økte etterspørselen etter arbeidskraft og boliger i den voksende regionen. Dette fører til at priser og lønninger øker, som igjen fører til høyere kostnader for andre bedrifter og forbrukere i andre regioner, som igjen kan føre til redusert etterspørsel og redusert sysselsetting i andre sektorer og bedrifter. Hirschman (1958) argumenterte for at backwash effekter var et viktig aspekt å vurdere når man vurderte økonomisk utvikling og vekst. Han mente at det var viktig å vurdere hvordan økonomisk vekst kunne påvirke andre regioner og sektorer, og for å ta hensyn til disse negative effektene i planleggingen av økonomisk utvikling 
+
+### Klyngeteori 
+
+Når bedrifter over tid samlokaliseres kan innovasjon drives videre i form av klyngefordeler. Klyngeteori er en økonomisk teori som hevder at bedrifter som er
 lokalisert i nærheten av hverandre, eller i en klynge, kan ha økonomiske
 fordeler som ikke er tilgjengelige for bedrifter som er lokalisert
 utenfor klyngen. Denne teorien ble først utviklet av den britiske
@@ -2187,12 +2223,103 @@ Haugalandet på grunn av tilgjengeligheten til Stavanger-regionen. Dette
 er en av backwash-effektene som kan oppstå med en slik etablering og
 ferdigstilling av Rogfast.
 
-# Teori / Litteraturgjennomgang
-
-Dette er teori vi har funnet frem og skrevet om, men ikke har noen klar
-plass i oppgaven enda:
 
 # Potensialmål
+
+I forbindelse med valg av lokasjon er potensialmål et nyttig verktøy. Vi kan se på potensialmålet ved to mulige forskjellige formål i vår oppgave. Den første er å finne den beste plasseringen med formål om å frakte produktet rimeligst mulig til flest mulig kunder. Det andre formålet er å rekruttere arbeidstakere med lavest mulig pendlekostnader, dvs å representere et tilgjengelig jobbalternativ for et stort antall arbeidstakere i regionen. Vi har tidligere presentert Beyonder sitt behov for arbeidskraft, og vi har sett på hva Beyonder trenger av ulike kategorier og hva som finnes av ulike yrkesgrupper og utdanningskategorier på Haugalandet. I en slik sammenheng er det relevant for en bedrift å være i en attraktiv lokalisering, i den forstand at mange arbeidstakere innenfor ulike grupper har relativt kort avstand til den aktuelle lokaliseringen. Pendlekostnadene/avstandene er en relevant størrelse i valg av arbeidssted, og noen lokaliseringer gir et større potensiale for rekruttering enn andre. Dette er et sentralt moment i vurderingen av Gismarvik sitt næringsområde som lokaliseringsvalg også for andre bedrifter enn Beyonder. 
+
+## Potensialmodellen
+
+Potensialmål brukes til å måle attraktiviteten til en valgt lokasjon i regionen [@capello2015]. Modellen tar hensyn til geografisk plassering, og vurderer attraktiviteten av et område for ulike typer aktiviteter eller investeringer. Avstanden for sentrale aktiviteter i området spiller en betydningsfull rolle. Dette kan også forklares gjennom bud-rente teorien fra @Alonso1964a. Ulike aktiviteter har ulik nytte av nærhet til sentrale områder, og prisen på land vil variere i henhold til avstand fra sentrum. Som nevnt kan potensialmål brukes i forskjellige sammenhenger, og avhenger av formål. I vårt formål gjelder lokaliseringen til Beyonder ut fra rekruttering arbeidskraft. Beyonder er en typisk basisbedrift, og vil være mindre opptatt av sin tilgjengelighet sett i forhold til lokale konsumenter.  Det er også andre forhold som påvirker lokaliseringen til Beyonder, som for eksempel transportforhold, som vegnett og havnefasiliteter. Likevel er ikke potensialmål-verdiene regnet ut fra dette, selv om dette er tatt med i betraktning av alternative lokaliseringer i regionen for bedriften. I de potensialmål-beregningene vi modellerer har vi hentet informasjon om hvor ulike arbeidstakere har bosted, etter grunnkrets, og informasjon om avstand fra og til ulike lokaliseringsalternativer.
+
+@Capello (s.68) definerer følgende potensial-modell:
+
+$$
+E_a = K \sum_j \frac{P_j}{d^\gamma_{aj}}
+$$ {eq-pw}
+
+Hvor $E_a$ er den potensielle attraktiviteten produsert ved lokasjon $a$. $P_j$ er befolkning i destinasjon $j$, summert over alle destinasjonene i område, $\sum_j$. $d_{aj}$ representerer avstanden mellom lokasjon $a$ og destinasjon $j$, ved en parameter $\gamma$. $\gamma$parameteren kalles for **distance deterrence** i litteraturen, og sier noe om avstandsvegringen. En høy $\gamma$verdi indikerer at man er stedbunden, og har liten villighet til å reise. En lav $\gamma$verdi indikerer at man vegrer seg mindre for å reise lengre avstander til arbeid. I litteraturen er en slik avstandsvegringsfunksjon vel så ofte representert ved en eksponentialfunksjon. Siden vi kjenner til arbeider som estimerer en slik parameter ut fra en eksponentialfunksjon, velger vi å bruke den i fortsettelsen, uten at det kan forventes å spille noen rolle for beregningene.Ifølge @thorsen1998 har $\hat{\beta}$ en verdi på 0,07524 for regionen.
+Våre beregninger er altså basert på følgende formel: 
+
+$$
+E_a = K \sum_j P_j^{- \beta_{d_{aj}}}
+$$ {eq-eksp}
+
+## Data & metode
+
+Vi har brukt data fra pendling på grunnkretsnivå for å finne befolkningstallene til å modellere @eq-eksp. Ved å summere radene i pendlematrisen finner vi antall sysselsatte etter bosted, på grunnkretsnivå. Vi ønsker å se på antall sysselsatte ettersom motivasjonen ved potensialmodellen er å finne ut hvor attraktivt lokasjon $a$ er i forhold til rekruttering av arbeidskraft.
+
+Avstanden mellom grunnkretsene er fra de samme dataene vi har benyttet i kapittel @kap-kartene. Her har vi tatt avstandene mellom punktene fra vegnettet. Siden vi allerede har dataene for både vegnettet med ferje i dag og med Rogfast-tunellen, er det naturlig å se på begge resultatene og sammenligne disse.   ønsker også å måle attraktiviteten ved forskjellige plasseringer ($E_a$ i regionen. Dette kan sees på som alternative plasseringer til Beyonder, og vi ønsker å se på hvordan potensialet ($a$) endrer seg ved de ulike lokasjonene gjennom etableringen av en fast vegforbindelse mellom nord- og sørfylket.
+
+## Mangler i datagrunnlaget for potensialmål
+
+Som nevnt i @chp-mangler1, vil pendledata på et så disaggregert nivå bestå av noe prikket data. En mulig måte å håndtere disse NA-verdiene på er å erstatte disse verdiene til null. Årsaken til at vi gjorde dette var for å finne et anslag på sysselsatte etter bosted, på grunnkretsnivå. Dette er nødvendig informasjon med formål om å beregne ut potensialmål-verdier basert på rekrutteringsmuligheter av arbeidskraft. Etter å ha koblet sysselsettingsdataene på avstandstallene oppstod andre problemer ved modelleringen av potensialmål. Dette skyldtes at null-verdier i @eq-eksp gir uleselige resultater. Således måtte disse null-verdiene endres til verdi én for å kunne få tolkbare resultater fra potensialmål verdiene.
+
+## Resultater fra potensialmodellen
+
+Som nevnt testet vi ut flere alternative plasseringer for Beyonder i regionen. De utvalgte plasseringene er basert på andre industriområder, med en matchende infrastruktur som Gismarvik tilbyr. Potensialmålet til ulike lokasjoner ($a$) i regionen er presentert i @tbl-pm.
+
+| Grunnkrets / området  | $E_a$ ferje  | $E_a$ tunnel | prosentvis endring  |
+|-----------------------|--------------|--------------|---------------------|
+| 11460204 Gismarvik    | 88573,7109   | 88927,0853   | 0,39$%$             |
+| 11600603 Ølensvåg     | 86164,3532   | 86391,6639   | 0,26$%$             |
+| 46110104 Etnesjøen    | 85211,2962   | 85407,1469   | 0,23$%$             |
+| 11060808 Killingøy    | 88422,9176   | 88707,9070   | 0,32$%$             |
+| 11490806 Husøy        | 88397,0862   | 88700,2032   | 0,34$%$             |
+| 11460207 Aksdal       | 88107,0242   | 88424,2660   | 0,36$%$             |
+| 11600706 Dommersnes   | 86187,5982   | 86425,1471   | 0,28$%$             |
+
+: Potensialmål verdi for utvalgte lokasjoner på Haugalandet
+{#tbl-pm}
+
+Som illustrert ovenfor har Gismarvik høyest verdi på potensialmålet både før og etter Rogfast. Gismarvik har også den største økningen på potensialmålet som følge av det nye vegnettet. En mulig forklaring på dette er at Gismarvik er den lokasjonen i tabellen med nærmest plassering i forhold til regionsentrene på både Haugalandet og for Stavanger-regionen. Ved Rogfast vil rekrutteringspotensialet kunne øke fordi Gismarvik vil nå lenger inn til Stavanger-regionen for arbeidskraft, med en gitt pendlevillighet ($\hat{\beta}$) lik 0,07. 
+
+Killingøy og Husøy er de to neste lokasjonene med høyest sentralitetsmål i dag. Dette kan tenkes å skylde deres nåværende sentralitet til Haugalandet sitt regionsenter. Vi ser også i @tbl-pm at Husøy får en sterkere “boozt” i potensialmålverdien med Rogfast enn det Killingøy får. Det er sannsynlig at dette kan forklares med at Husøy har en kortere avstand til Stavanger-regionen. 
+
+Vi har også valgt å se på en mulig plassering i Ølensvåg og Etne. Disse stedene ligger på utkanten av regionen, med egne, mindre, autonome arbeidsområder enn for resten av Haugalandet. Vi ser i @tbl-pm at både Ølensvåg og Etne har lavest potensialmål både før og etter Rogfast. Disse stedene har også en lenger veg ned til Stavanger-regionen enn senteret for Haugalandet.
+
+@eq-eksp ble også modellert for alle grunnkretsene på Haugalandet og i Stavanger-regionen. Selv om ikke alle grunnkretsene er like aktuelle som mulige lokasjoner for bedrifter, viser modelleringen et forventet mønster i verdiene. Endringene i potensialmål er naturlig nok størst i de områdene i nordfylket som ligger tettes opp til Rogfast. Endringer I den grad lokaliseringsbeslutningene til bedriftene kan forklares av slike potensialmål, forklarer dette en vekstimpuls for dette området. I en mer helhetlig framstilling må en selvsagt også ta hensyn til husholdningenes bostedsvalg, og en må vurdere muligheten for at både bedrifter og husholdninger i større eller mindre grad velger sørfylket. I tillegg kommer selvsagt også basemekanismer o.l. Dette er en stor diskusjon knyttet til virkninger av Rogfast. På grunn av oppgavens begrensninger kan vi ikke gå grundig inn i en slik diskusjon, men vi kan i alle fall ta inn betraktninger basert på potensialmål, som er relevante i et slikt resonnement. 
+
+## Ikke-parametriske potensialmål 
+
+Som et alternativt, veldig enkelt og lett tolkbart mål, kan en også operere med et ikke-parametrisk mål som kan gis en potensial-tolkning: 
+
+$$
+d_a = \sum_j d_{aj} \frac{P_j}{P}
+$$ {eq-ipp}
+
+Variablene er definert som i @eq-pw og @eq-eksp. Her er $P$ den totale befolkningen for regionen; $P = \sum^n_{j = 1} P_j$. Vi ser i @eq-ipp at tilnærmingen er å bruke den gjennomsnittlige avstanden ($d$) en sysselsatt i regionen bruker for å nå lokasjon $a$. Dette er dermed da en vektet gjennomsnittsavstand fra lokasjon $a$, til alle andre grunnkretser, der grunnkretsene er vektet med sysselsettingsandelen etter bosted. Ved å ekskludere parameteren for pendlevillighet vil verdiene ikke i samme grad kunne tolkes som potensialet for å rekruttere pendlere. @eq-ipp har som fordel å ha mer direkte tolkbare verdier, samtidig som det gir relevant potensial-informasjon. 
+
+Vi har tatt samme utgangspunkt beregningene som med @eq-eksp. Dette inkluderer alle grunnkretsene for kommunene i BA-regionene Stavanger, Sunnhordland og Haugalandet [@gundersen2019]. I tillegg er kommuner som Hjelmeland, Suldal, Sauda, Tysnes, Kvinnherad og Ullensvang tatt med i beregningene. @gundersen2019 har definert disse som selvstendige BA-områder, men er likevel inkludert i dataene på grunn av deres tilknytning til de sentrale regionene i anvendelsen. Geografien er også her anvendt på situasjonen med og uten Rogfast-tunellen. 
+
+## Resultater for ikke-parametrisk potensialmål
+
+I resultatene fra @eq-ipp er interne distanser ($d_{aa}$ satt til verdi 1 av åpenbare grunner. Vi har valgt å se på de samme grunnkretsene som i @tbl-pm og de ikke-parametriske potensialmål-verdiene er presentert nedenfor i @tbl-ippm:
+
+| Grunnkrets / området  | $d_a$ ferje  | $d_a$ tunnel | prosentvis endring  |
+|-----------------------|--------------|--------------|---------------------|
+| 11460204 Gismarvik    | 56,9422      | 53,5819      | 5,90$%$             |
+| 11600603 Ølensvåg     | 81,1414      | 77,5643      | 4,41$%$             |
+| 46110104 Etnesjøen    | 93,5685      | 89,9914      | 3,82$%$             |
+| 11060808 Killingøy    | 66,5622      | 63,0018      | 5,35$%$             |
+| 11490806 Husøy        | 63,1161      | 59,6927      | 5,42$%$             |
+| 11460207 Aksdal       | 61,7530      | 58,1847      | 5,78$%$             |
+| 11600706 Dommersnes   | 79,3900      | 75,7901      | 4,53$%$             |
+
+: Ikke-parametrisk mål for utvalgte lokasjoner på Haugalandet
+{#tbl-ippm}
+
+Vi ser at resultatene ved den ikke-parametriske metoden samsvarer med de parametriske potensialmål-verdiene. Gismarvik er ut fra de valgte lokasjonene i @tbl-ippm fortsatt den beliggenheten med best sentralitetsmål. Man ser også her at de som ligger tettest på Sør-fylke av Haugaland grunnkretsene har lavere sentralitetsmål. Lave verdier ut fra denne tilnærmingen er å anse som bedre resultater ettersom @eq-ipp avstandene er vektet med befolkningsandelen i grunnkretsene. 
+
+
+## Mangler ved potensialmål verdier
+
+Det må nevnes at potensialmål verdiene ved begge tilnærmingene er ikke kausale resultater. Likevel kan mange av verdiene før og etter rogfast virke logiske med plausible argumenter og intuitiv tenking. Det er grunn til å tro at det ikke er bare pendlemønstrer som vil endre seg med tiden, og at det på lang sikt vil bli endringer i bosettingsmønster. Dette vil vi ta mer opp i neste kapittel, hvor vi diskuterer den generelle likevektsmodellen. 
+
+# Den generelle likevektsmodell
+
+
+
 
 \newpage
 
