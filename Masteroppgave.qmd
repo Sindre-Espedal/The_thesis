@@ -1133,15 +1133,25 @@ si muligheten til å rekruttere kvalifisert arbeidskraft i et tykt
 arbeidsmarked.
 
 I @fig-fagfelt er fagfeltet definert med tallkoder. Fagkodene er definert på følgende vis [@ssb2023a]:
+
 - *00 = Allmenne fag*
+
 - *01 = Humanistiske og estetiske fag*
+
 - *02 = Lærerutdanninger og utdanninger i pedagogikk*
+
 - *03 = Samfunnsfag og juridiske fag*
+
 - *04 = Økonomiske og administrative fag*
+
 - *05 = Naturvitenskapelige fag, håndverksfag og tekniske fag*
+
 - *06 = Helse-, sosial- og idrettsfag*
+
 - *07 = Primærnæringsfag*
+
 - *08 = Samferdels- og sikkerhetsfag og andre servicefag*
+
 - *09 = Uoppgitt fagfelt*
 
 Industrisektoren på NACE-hovednivå er sterkt knyttet opp mot fagfeltet
