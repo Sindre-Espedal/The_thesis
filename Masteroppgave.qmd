@@ -813,8 +813,10 @@ regionen, og vil gi bedre grunnlag for å beskrive og forklare eventuelle
 klynger. Resultatene fra @fig-loq gir grunnlaget for de utvalgte
 næringene i seksjonene under.
 
-![LQ-verdier for Haugalandet, etter
-næring](bilder/LQ-hierarki.png){#fig-loq}
+\newpage
+
+![LQ-verdier for Haugalandet, etter næring](bilder/LQ-hierarki.png){#fig-loq}
+\newpage
 
 ```{r}
 Tab_13470_andeler_naering <- read_excel("Data_R_MSB_210/Tab_13470_andeler_naering.xlsx")
@@ -1738,7 +1740,7 @@ generelt i landet, og dermed vil en slik næring med få sysselsatte, men
 høy eksport av varer rundt om i landet få en høy LQ-verdi.
 
 | Næring                                 | LQ-verdi | Næring                            | LQ-verdi |
-|----------------------|----------------|-------------------|----------------|
+|---------------------|-----------------|------------------|-----------------|
 | 01 Jordbrk. og tilhørende tjnst., jakt | 1,48     | 26 Data- og elektronisk industri  | 0,73     |
 | 02 Skogbruk og tilhørende tjenester    | 0,35     | 27 Elektroteknisk industri        | 1,12     |
 | 03 Fiske, fangst og akvakultur         | 1,30     | 28 Maskinindustri                 | 0,81     |
@@ -3036,22 +3038,22 @@ Modellering av pendlestrømmer ved hjelp av gravitasjonsmodeller
 
 \newpage
 
-# References {-} 
+# References {.unnumbered}
 
 ::: {#refs}
 :::
 
 \newpage
 
-# Appendiks {-} 
+# Appendiks {.unnumbered}
 
-| Tabell | Beskrivelse                                                                                                |
-|--------------|----------------------------------------------------------|
-| 13470  | Næringsfordeling (5-siffernivå) blant sysselsatte. 4. kvartal (K) 2008-2022                                |
-| 11615  | Fagfelt og utdanningsnivå, kjønn og alder blant sysselsatte. 4. kvartal (K) 2000-2022                      |
-| 10539  | Registrerte arbeidsledige 15-74 år, etter alder (K) (avslutta serie) 1990M01-2020M11                       |
-| 03321  | Sysselsatte (15-74 år), etter arbeidssteds- og bostedskommune. Pendlingsstrømmer. 4. kvartal (K) 2000-2022 |
-| Bestilt  | Pendling grunnkrets 4. kvartal 2022                                                                        |
+| Tabell  | Beskrivelse                                                                                                |
+|-----------------|-------------------------------------------------------|
+| 13470   | Næringsfordeling (5-siffernivå) blant sysselsatte. 4. kvartal (K) 2008-2022                                |
+| 11615   | Fagfelt og utdanningsnivå, kjønn og alder blant sysselsatte. 4. kvartal (K) 2000-2022                      |
+| 10539   | Registrerte arbeidsledige 15-74 år, etter alder (K) (avslutta serie) 1990M01-2020M11                       |
+| 03321   | Sysselsatte (15-74 år), etter arbeidssteds- og bostedskommune. Pendlingsstrømmer. 4. kvartal (K) 2000-2022 |
+| Bestilt | Pendling grunnkrets 4. kvartal 2022                                                                        |
 
 : Tabeller benyttet fra SSB, med beskrivelse {#tbl-apendix-ssb}
 
@@ -3060,4 +3062,3 @@ Modellering av pendlestrømmer ved hjelp av gravitasjonsmodeller
 ![Gini-verdier](bilder/GINI_appendix.png){#fig-gini}
 
 ![RDI-verdier](bilder/RDI_appendix.png){#fig-rdi}
-
