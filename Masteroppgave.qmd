@@ -31,6 +31,7 @@ language:
   toc-title-document: "Innholdsfortegnelse"
   crossref-lof-title: "Figurer"
   crossref-lot-title: "Tabeller"
+  crossref-sec-title: "kapittel"
 bibliography: referanser_msb210/referanser_msb210.bib
 ---
 
@@ -199,9 +200,9 @@ En annen mulig skepsis som kan være i samfunnet er uroen for
 regionen øker, og presser opp lønninger, ved en etablering av
 batterifabrikken. Denne økte konkurransen kan føre til at andre
 bedrifter blir til slutt utkonkurrert. Backwash-effekter vil bli
-presentert og diskutert grundigere i @chp-FINN DETTE
+presentert og diskutert grundigere i @sec-vekstpol.
 
-## Tilrettelegging av etablering på Gismarvik
+## Tilrettelegging av etablering på Gismarvik 
 
 I oppgaven har vi valgt å se på Beyonder da det er den bedriften som er
 aktuell med etablering i Gismarvik. Med den tilrettelagte
@@ -301,7 +302,7 @@ relevante jobber? Dette skal vi se på videre i oppgaven.
 
 Når det gjelder innovasjon på Haugalandet så er det allerede en industriklynge med vekstpoler som Aibel, Hydro og Kårstø-anlegget. Beyonder vil med sin etablering bli en del av denne industriklyngen og vil mest sannsynlig bli en ny vekstpol på Haugalandet. En slik innovativ og ny bedrift kan være med på å bidra til økt innovasjon og klyngefordeler på Haugalandet.  
 
-### Vekstpolteori 
+### Vekstpolteori {#sec-vekstpol}
 
 Capello (2015) presenterer to tilnærminger for teorien om vekstpoler. Teorien ble først utviklet av Francois Perroux som var en fransk økonom. Han la grunnlaget for teorien på 1950-tallet, da han mente at økonomisk vekst i en region kan oppstå på grunn av utviklingen av visse sentrale sektorer eller “vekstpoler” (Perroux, 1955). Disse sentrale sektorene vil da trekke til seg investeringer og skape nye arbeidsplasser, som igjen vil føre til økonomisk vekst og utvikling i hele regionen. Perroux (1955) definerer vekstpoler som “geografiske konsentrasjoner av økonomisk aktivitet som gir en spesiell drivkraft for utvikling, og hvorav virkningene er utbredt i økonomien.”. Dette betyr at vekstpolene fungerer som et senter for økonomisk aktivitet som driver vekst og utvikling i hele regionen. 
 
@@ -1125,7 +1126,7 @@ dominerer markedet og etterspør arbeidskraft.
 
 \newpage
 
-# Baseteori
+# Baseteori {#sec-baseteori}
 
 Når vi skal vurdere betydningen av en så stor etablering på Haugalandet,
 og vurdere ringvirkningene, er en mulighet å ta utgangspunkt i økonomisk
@@ -1255,7 +1256,7 @@ og hvis $a = 0,8 \rightarrow \frac{1}{1-a} = 5$,
 Her er $a$ altså en viktig størrelse i en diskusjon av hvordan endret
 basisproduktivitet påvirker lokal økonomi.
 
-### Sum av mange ledd, basemultiplikatoren, eksempel
+### Sum av mange ledd, basemultiplikatoren, eksempel {#sec-sum-av-mange}
 
 Modellformuleringene tilsier at en økning i basesysselsetting vil gi en
 økning i samlet sysselsetting, som gir rom for en ny økning i lokal
@@ -1489,7 +1490,7 @@ lokalsektorer reflekterer behovet for flere hus og dermed må for
 eksempel snekkerbedrifter ansatte flere, det blir behov for ny
 matbutikk, osv. Det skapes også lokale arbeidsplasser i form av
 leverandører og underleverandører til Beyonder. Som diskutert i seksjon
-@chp-3.1.1, svarer dette til en Denne konvergerende prosess, som skaper
+@sec-sum-av-mange, svarer dette til en Denne konvergerende prosess, som skaper
 økt total sysselsetting utover det eksogene sjokket på 2000
 arbeidsplasser.
 
@@ -1876,7 +1877,7 @@ befolkningen.
 
 Begge tilnærmingene kan brukes til å diskutere ringvirkninger av
 etableringer som potensielt Beyonder på Gismarvik. Med de
-modellformuleringene som er presentert i @chp-baseteori vil disse to
+modellformuleringene som er presentert i @sec-baseteori vil disse to
 tilnærmingene gi identiske resultater, selv om de representerer noe
 ulike aktører og lokaletterspørsel i basemekanismen.
 
@@ -2028,7 +2029,7 @@ arbeidsmarkeds- og utdanningspolitikk for å støtte disse sektorene.
 
 \newpage
 
-# Pendleanalyse av sør-fylke
+# Pendleanalyse av sør-fylke {#sec-kart}
 
 Videre i oppgaven ønsker vi å analysere pendleavstander på Haugalandet
 og i Stavanger-regionen hvor Gismarvik er sentrumspunktet. Slik vil man
@@ -2069,7 +2070,7 @@ Rogfast. Dette vil gi en pekepinn på hvor Beyonder kan forvente
 arbeidskraften sin fra. i en situasjon med Rofast, fem år etter at
 Beyonder planlegger sin etablering på Gismarvik.
 
-### mangler i datagrunnlag for pendling
+### mangler i datagrunnlag for pendling {#sec-mangler-i-datagrunnlag}
 
 Modelleringene for denne seksjonen er gjort ved programmet QGIS. Dataene
 som benyttes av disse modelleringene er informasjon fra vegnettet og
@@ -2204,7 +2205,7 @@ ferdigstilling av Rogfast.
 
 \newpage
 
-# Potensialmål
+# Potensialmål {#sec-pm}
 
 I forbindelse med valg av lokasjon er potensialmål et nyttig verktøy. Vi kan se på potensialmålet ved to mulige forskjellige formål i vår oppgave. Den første er å finne den beste plasseringen med formål om å frakte produktet rimeligst mulig til flest mulig kunder. Det andre formålet er å rekruttere arbeidstakere med lavest mulig pendlekostnader, dvs å representere et tilgjengelig jobbalternativ for et stort antall arbeidstakere i regionen. Vi har tidligere presentert Beyonder sitt behov for arbeidskraft, og vi har sett på hva Beyonder trenger av ulike kategorier og hva som finnes av ulike yrkesgrupper og utdanningskategorier på Haugalandet. I en slik sammenheng er det relevant for en bedrift å være i en attraktiv lokalisering, i den forstand at mange arbeidstakere innenfor ulike grupper har relativt kort avstand til den aktuelle lokaliseringen. Pendlekostnadene/avstandene er en relevant størrelse i valg av arbeidssted, og noen lokaliseringer gir et større potensiale for rekruttering enn andre. Dette er et sentralt moment i vurderingen av Gismarvik sitt næringsområde som lokaliseringsvalg også for andre bedrifter enn Beyonder. 
 
@@ -2218,7 +2219,7 @@ $$
 E_a = K \sum_j \frac{P_j}{d^\gamma_{aj}}
 $$ {#eq-pw}
 
-Hvor $E_a$ er den potensielle attraktiviteten produsert ved lokasjon $a$. $P_j$ er befolkning i destinasjon $j$, summert over alle destinasjonene i område, $\sum_j$. $d_{aj}$ representerer avstanden mellom lokasjon $a$ og destinasjon $j$, ved en parameter $\gamma$. $\gamma$parameteren kalles for **distance deterrence** i litteraturen, og sier noe om avstandsvegringen. En høy $\gamma$verdi indikerer at man er stedbunden, og har liten villighet til å reise. En lav $\gamma$verdi indikerer at man vegrer seg mindre for å reise lengre avstander til arbeid. I litteraturen er en slik avstandsvegringsfunksjon vel så ofte representert ved en eksponentialfunksjon. Siden vi kjenner til arbeider som estimerer en slik parameter ut fra en eksponentialfunksjon, velger vi å bruke den i fortsettelsen, uten at det kan forventes å spille noen rolle for beregningene.Ifølge @thorsen1998 har $\hat{\beta}$ en verdi på 0,07524 for regionen.
+Hvor $E_a$ er den potensielle attraktiviteten produsert ved lokasjon $a$. $P_j$ er befolkning i destinasjon $j$, summert over alle destinasjonene i område, $\sum_j$. $d_{aj}$ representerer avstanden mellom lokasjon $a$ og destinasjon $j$, ved en parameter $\gamma$. $\gamma$-parameteren kalles for *distance deterrence* i litteraturen, og sier noe om avstandsvegringen. En høy $\gamma$verdi indikerer at man er stedbunden, og har liten villighet til å reise. En lav $\gamma$verdi indikerer at man vegrer seg mindre for å reise lengre avstander til arbeid. I litteraturen er en slik avstandsvegringsfunksjon vel så ofte representert ved en eksponentialfunksjon. Siden vi kjenner til arbeider som estimerer en slik parameter ut fra en eksponentialfunksjon, velger vi å bruke den i fortsettelsen, uten at det kan forventes å spille noen rolle for beregningene.Ifølge @thorsen1998 har $\hat{\beta}$ en verdi på 0,07524 for regionen.
 Våre beregninger er altså basert på følgende formel: 
 
 $$
@@ -2229,11 +2230,11 @@ $$ {#eq-eksp}
 
 Vi har brukt data fra pendling på grunnkretsnivå for å finne befolkningstallene til å modellere @eq-eksp. Ved å summere radene i pendlematrisen finner vi antall sysselsatte etter bosted, på grunnkretsnivå. Vi ønsker å se på antall sysselsatte ettersom motivasjonen ved potensialmodellen er å finne ut hvor attraktivt lokasjon $a$ er i forhold til rekruttering av arbeidskraft.
 
-Avstanden mellom grunnkretsene er fra de samme dataene vi har benyttet i kapittel @kap-kartene. Her har vi tatt avstandene mellom punktene fra vegnettet. Siden vi allerede har dataene for både vegnettet med ferje i dag og med Rogfast-tunellen, er det naturlig å se på begge resultatene og sammenligne disse.   ønsker også å måle attraktiviteten ved forskjellige plasseringer ($E_a$ i regionen. Dette kan sees på som alternative plasseringer til Beyonder, og vi ønsker å se på hvordan potensialet ($a$) endrer seg ved de ulike lokasjonene gjennom etableringen av en fast vegforbindelse mellom nord- og sørfylket.
+Avstanden mellom grunnkretsene er fra de samme dataene vi har benyttet i kapittel @sec-kart. Her har vi tatt avstandene mellom punktene fra vegnettet. Siden vi allerede har dataene for både vegnettet med ferje i dag og med Rogfast-tunellen, er det naturlig å se på begge resultatene og sammenligne disse.   ønsker også å måle attraktiviteten ved forskjellige plasseringer ($E_a$ i regionen. Dette kan sees på som alternative plasseringer til Beyonder, og vi ønsker å se på hvordan potensialet ($a$) endrer seg ved de ulike lokasjonene gjennom etableringen av en fast vegforbindelse mellom nord- og sørfylket.
 
-## Mangler i datagrunnlaget for potensialmål
+## Mangler i datagrunnlaget for potensialmål 
 
-Som nevnt i @chp-mangler1, vil pendledata på et så disaggregert nivå bestå av noe prikket data. En mulig måte å håndtere disse NA-verdiene på er å erstatte disse verdiene til null. Årsaken til at vi gjorde dette var for å finne et anslag på sysselsatte etter bosted, på grunnkretsnivå. Dette er nødvendig informasjon med formål om å beregne ut potensialmål-verdier basert på rekrutteringsmuligheter av arbeidskraft. Etter å ha koblet sysselsettingsdataene på avstandstallene oppstod andre problemer ved modelleringen av potensialmål. Dette skyldtes at null-verdier i @eq-eksp gir uleselige resultater. Således måtte disse null-verdiene endres til verdi én for å kunne få tolkbare resultater fra potensialmål verdiene.
+Som nevnt i @sec-mangler-i-datagrunnlag, vil pendledata på et så disaggregert nivå bestå av noe prikket data. En mulig måte å håndtere disse NA-verdiene på er å erstatte disse verdiene til null. Årsaken til at vi gjorde dette var for å finne et anslag på sysselsatte etter bosted, på grunnkretsnivå. Dette er nødvendig informasjon med formål om å beregne ut potensialmål-verdier basert på rekrutteringsmuligheter av arbeidskraft. Etter å ha koblet sysselsettingsdataene på avstandstallene oppstod andre problemer ved modelleringen av potensialmål. Dette skyldtes at null-verdier i @eq-eksp gir uleselige resultater. Således måtte disse null-verdiene endres til verdi én for å kunne få tolkbare resultater fra potensialmål verdiene.
 
 ## Resultater fra potensialmodellen
 
@@ -2356,7 +2357,7 @@ En lignende likevektforståelse kan også argumenteres med hjelp av @roback1982.
 
 # Den generelle likevektsmodell
 
-Så langt i oppgaven har den økonomiske basemodellen gitt oss et innsiktsfull bidrag til å forstå ringvirkningene av en stor bedriftsetablering. Likevel er våre resultater og funn best egnet for et kortsiktig perspektiv. I en langsiktig planlegging for en slik regional analyse er det en del mekanismer som bør være med, men som vi ikke fanger opp på grunn av begrensninger i tid og databehandling. Basemodellen fanger for eksempel ikke opp virkninger gjennom lønnsendringer i arbeidsmarkedet, eller gjennom boligmarkedet. Slike prisvirkninger er komplekse, men likevel en sentral del av en analyse. Det kan tenkes at på lang sikt kan det være gunstig for bedrifter å lokalisere seg til bedre rekrutteringsmuligheter av nye arbeidstakere, som forklart i kapittelet om potensialmål, se @chp-pm. Bedriftene kan også lokalisere seg nærmere nye markeder, og husholdningene kan være tjent med bosted tettere opp til disse jobbmulighetene. Det finnes modellapparat som kombinerer sentrale mekanismer i baseteori, med aktørenes valg av pendling og/eller flytting, og med virkninger gjennom lønninger og boligpriser, i en mer helhetlig forståelse av en regional økonomi. Slike modellapparat sorterer gjerne under kategorien generelle romlige likevektsmodeller. Som et eksempel på en slik modell skal vi se litt nærmere på en som er presentert i @mcarthur2014, og som er spesielt formulert med tanke på anvendelser for en typisk norsk region, hvor basemekanismen ligger sentralt i modellen. 
+Så langt i oppgaven har den økonomiske basemodellen gitt oss et innsiktsfull bidrag til å forstå ringvirkningene av en stor bedriftsetablering. Likevel er våre resultater og funn best egnet for et kortsiktig perspektiv. I en langsiktig planlegging for en slik regional analyse er det en del mekanismer som bør være med, men som vi ikke fanger opp på grunn av begrensninger i tid og databehandling. Basemodellen fanger for eksempel ikke opp virkninger gjennom lønnsendringer i arbeidsmarkedet, eller gjennom boligmarkedet. Slike prisvirkninger er komplekse, men likevel en sentral del av en analyse. Det kan tenkes at på lang sikt kan det være gunstig for bedrifter å lokalisere seg til bedre rekrutteringsmuligheter av nye arbeidstakere, som forklart i kapittelet om potensialmål, se @sec-pm. Bedriftene kan også lokalisere seg nærmere nye markeder, og husholdningene kan være tjent med bosted tettere opp til disse jobbmulighetene. Det finnes modellapparat som kombinerer sentrale mekanismer i baseteori, med aktørenes valg av pendling og/eller flytting, og med virkninger gjennom lønninger og boligpriser, i en mer helhetlig forståelse av en regional økonomi. Slike modellapparat sorterer gjerne under kategorien generelle romlige likevektsmodeller. Som et eksempel på en slik modell skal vi se litt nærmere på en som er presentert i @mcarthur2014, og som er spesielt formulert med tanke på anvendelser for en typisk norsk region, hvor basemekanismen ligger sentralt i modellen. 
 
 ## Presentasjon av den generelle likevektsmodellen 
 
