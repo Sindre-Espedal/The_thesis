@@ -131,14 +131,14 @@ Skaper en etablering av Beyonder flyttestrømmer til sørlige områder på Hauga
 Vil en etablering av Beyonder skape fraflytting i perifere områder i regionen?
 Vil kortere avstander til arbeidsmarkedsregionen i Stavanger føre til økt pendling mellom arbeidsmarkedsregionene?
 Oppgavens struktur og metode
-Oppgavens struktur er bygget opp ved at teorien, analysen og diskusjonen er presentert for de forskjellige temaene som gjennomgås i oppgaven i hver sin seksjon. Dette er for å gi en bedre flyt i oppgaven, hvor seksjonene bygger videre fra tidligere seksjoner. For eksempel så handler kapittel 1 og 2 om en introduksjon av batterifabrikken Beyonder, Haugaland næringspark, og en deskriptiv gjennomgang av næringsstrukturen på Haugalandet. I kapittel 3 presenteres økonomisk baseteori, og anvender således teorien på Haugalandet i kapittel 4. 
+Oppgavens struktur er bygget opp ved at teorien, analysen og diskusjonen er presentert for de forskjellige temaene som gjennomgås i oppgaven i hver sin seksjon. Dette er for å gi en bedre flyt i oppgaven, hvor seksjonene bygger videre fra tidligere seksjoner. For eksempel så handler @sec-introduksjon og @sec-deskriptiv om en introduksjon av batterifabrikken Beyonder, Haugaland næringspark, og en deskriptiv gjennomgang av næringsstrukturen på Haugalandet. I @sec-baseteori presenteres økonomisk baseteori, og anvender således teorien på Haugalandet i @sec-anvendelse. 
 Vi har valgt en kvantitativ tilnærming på oppgaven og benytter oss av metoden deskriptiv statistikk. Vi presenterer funnene ved hjelp av tabeller, figurer og kart. For modelleringene og analysene i oppgaven er datagrunnlaget hentet fra Statistisk sentralbyrå (SSB). Hvilke tabeller vi har benyttet fra SSB er oppgitt i Appendix; se @link-med-tabell.
 
 Vi har benyttet verktøyene Excel, Rstudio og QGIS. I databehandlingen har majoriteten av arbeidet blitt utført i Excel, og noe av behandlingen med data har blitt gjort i Rstudio. Presentasjon av tabeller og figurer er gjort i Rstudio. QGIS er brukt til å behandle deler av pendlematriser og avstands-modelleringer. Presentasjon av kartene er også blitt gjort gjennom programmet QGIS. Oppgaven er skrevet i Rstudio gjennom quarto-pakken. Presentasjon av figurer og tabeller som ikke er fra disse programmene har henvisning til kilden.
 
 \newpage
 
-# Introduksjon Beyonder og Haugaland næringspark
+# Introduksjon Beyonder og Haugaland næringspark {#sec-introduksjon}
 
 Beyonder er en batteribedrift som har planer om å etablere en
 gigafabrikk [@whiteaker2022] på Haugaland næringspark i Gismarvik. Den
@@ -236,7 +236,7 @@ blir forklart gjennom en prosess med "learning, sharing and matching"
 
 \newpage
 
-# En deskriptiv gjennomgang av næringsstruktur og arbeidsmarked på Haugalandet
+# En deskriptiv gjennomgang av næringsstruktur og arbeidsmarked på Haugalandet {#sec-deskriptiv}
 
 I dette kapittelet ønsker vi å få et grunnlag for å vurdere hvordan en
 batteribedrift kan tenkes å tilpasse seg næringslivet på Haugalandet.
@@ -533,8 +533,7 @@ industrinæringen. På et så aggregert nivå, geografisk og næringsmessig,
 er dette helt naturlig. Slike forskjeller er å forvente for typiske
 basenæringer. Basenæring er en næring som eksporterer varer og tjenester
 ut av regionen, mens bedrifter innenfor lokalnæringene i hovedsak
-betjener befolkningen internt i regionen. Dette vil bli mer forklart i
-kapittel 3 og 4 om baseteori og anvendelsen.
+betjener befolkningen internt i regionen. Dette vil bli mer forklart i @sec-baseteori og {@sec-anvendelse} om baseteori og anvendelsen.
 
 Videre i oppgaven vil vi se på næringer på 2-siffer nivå, der vi vil gå
 mer detaljert inn å se på hvilke næringer som er tyngre vektet på
@@ -751,8 +750,7 @@ av arbeidsplassene i 2021 innenfor utvinning av råolje og naturgass.
 Det skal komme en tunnel mellom Haugalandet og Nord-Jæren som heter
 Rogfast, når denne ferdigstilles kan det diskuteres om næringsstrukturen
 vil forandre seg og om økonomiene til Nord-Jæren og Haugalandet vil
-smelte enda mer sammen. Dette vil vi gå nærmere innpå i et senere
-kapittel i oppgaven.
+smelte enda mer sammen. Dette vil vi gå nærmere innpå i et senere i oppgaven.
 
 ```{r Råolje og naturgass}
 #| label: fig-utvinning_råolje_naturgass
@@ -1480,7 +1478,7 @@ i andre land og regioner.
 
 \newpage
 
-# Anvendelse av baseteorien
+# Anvendelse av baseteorien {#sec-anvendelse}
 
 Vi bruker baseteorien for å predikere ringvirkningene av etableringen av
 Beyonder. En viktig del av baseteorien er basemultiplikatoren, som
@@ -2231,7 +2229,7 @@ $$ {#eq-eksp}
 
 Vi har brukt data fra pendling på grunnkretsnivå for å finne befolkningstallene til å modellere @eq-eksp. Ved å summere radene i pendlematrisen finner vi antall sysselsatte etter bosted, på grunnkretsnivå. Vi ønsker å se på antall sysselsatte ettersom motivasjonen ved potensialmodellen er å finne ut hvor attraktivt lokasjon $a$ er i forhold til rekruttering av arbeidskraft.
 
-Avstanden mellom grunnkretsene er fra de samme dataene vi har benyttet i kapittel @sec-kart. Her har vi tatt avstandene mellom punktene fra vegnettet. Siden vi allerede har dataene for både vegnettet med ferje i dag og med Rogfast-tunellen, er det naturlig å se på begge resultatene og sammenligne disse.   ønsker også å måle attraktiviteten ved forskjellige plasseringer ($E_a$ i regionen. Dette kan sees på som alternative plasseringer til Beyonder, og vi ønsker å se på hvordan potensialet ($a$) endrer seg ved de ulike lokasjonene gjennom etableringen av en fast vegforbindelse mellom nord- og sørfylket.
+Avstanden mellom grunnkretsene er fra de samme dataene vi har benyttet i @sec-kart. Her har vi tatt avstandene mellom punktene fra vegnettet. Siden vi allerede har dataene for både vegnettet med ferje i dag og med Rogfast-tunellen, er det naturlig å se på begge resultatene og sammenligne disse.   ønsker også å måle attraktiviteten ved forskjellige plasseringer ($E_a$ i regionen. Dette kan sees på som alternative plasseringer til Beyonder, og vi ønsker å se på hvordan potensialet ($a$) endrer seg ved de ulike lokasjonene gjennom etableringen av en fast vegforbindelse mellom nord- og sørfylket.
 
 ## Mangler i datagrunnlaget for potensialmål 
 
@@ -2366,7 +2364,7 @@ Så langt i oppgaven har den økonomiske basemodellen gitt oss et innsiktsfull b
 
 ![«Skjematisk framstilling av den generelle spatiale likevektsmodellen». Kilde: Thorsen(2012)](bilder/dglm.png){#fig-thorsen}
 
-Modellen til McArthur et al. (2014) inkluderer kjerneelementene i økonomisk basemodell. Som de fleste romlige likevektsmodellene skiller også denne modellen mellom basenæringer (1) og lokalnæringer (2). Dette er tidligere forklart i kapittel 3 og 4. Som nevnt i kapittel 3 og 4 er det basenæringer som driver frem vekst i en region, og disse næringene har sine markeder utenfor regionen ettersom de har eksport av varer. Det som driver frem baseaktivitet i regionen avhenger av innovasjonsevnen lokalt og deres konkurranseevne (3) i sine respektive markeder [@thorsen2012]. Lokalnæringene sitt formål er å betjene befolkningen lokalt. Som presentert i seksjonen av økonomisk baseteori forutsettes det at lokalaktiviteten i område er proporsjonal med befolkningen. Økonomisk baseteori kan gi forklaring på den geografiske fordelingen av jobber.
+Modellen til McArthur et al. (2014) inkluderer kjerneelementene i økonomisk basemodell. Som de fleste romlige likevektsmodellene skiller også denne modellen mellom basenæringer (1) og lokalnæringer (2). Dette er tidligere forklart i @sec-baseteori og {@sec-anvendelse}. Som nevnt i @sec-baseteori og {@sec-anvendelse} er det basenæringer som driver frem vekst i en region, og disse næringene har sine markeder utenfor regionen ettersom de har eksport av varer. Det som driver frem baseaktivitet i regionen avhenger av innovasjonsevnen lokalt og deres konkurranseevne (3) i sine respektive markeder [@thorsen2012]. Lokalnæringene sitt formål er å betjene befolkningen lokalt. Som presentert i seksjonen av økonomisk baseteori forutsettes det at lokalaktiviteten i område er proporsjonal med befolkningen. Økonomisk baseteori kan gi forklaring på den geografiske fordelingen av jobber.
 
  
 
@@ -2376,7 +2374,7 @@ Valg av nytt bosted for personer som velger å flytte, bestemmes gjennom en pros
 
  
 
-Den geografiske fordeling av jobber (1-4) og folk (5-8) i @fig-thorsen binder sammen to sentrale mekanismer i fordelingen mellom pendle- og flyttestrømmer (10), og forholdet mellom sysselsetting og befolkning (12). @thorsen2012 sier at pendlestrømmene (10-11) bestemmes gjennom en dobbeltbeskranket gravitasjonsmodell. Forholdet mellom sysselsetting og befolkning (12) kan forklares ved bruk av den økonomiske basemultiplikatoren (se kapittel 3 og 4 for grundig gjennomgang). 
+Den geografiske fordeling av jobber (1-4) og folk (5-8) i @fig-thorsen binder sammen to sentrale mekanismer i fordelingen mellom pendle- og flyttestrømmer (10), og forholdet mellom sysselsetting og befolkning (12). @thorsen2012 sier at pendlestrømmene (10-11) bestemmes gjennom en dobbeltbeskranket gravitasjonsmodell. Forholdet mellom sysselsetting og befolkning (12) kan forklares ved bruk av den økonomiske basemultiplikatoren (se @sec-baseteori og {@sec-anvendelse} for grundig gjennomgang). 
 
  
 
