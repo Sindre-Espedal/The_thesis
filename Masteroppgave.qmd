@@ -114,7 +114,7 @@ Haugalandet har en variert næringsstruktur med mange forskjellige bransjer som 
 
 Haugalandet har også en maritim klynge med store rederier som Solstad Shipping, Knutsen OAS Shipping og Østensjø rederi. I tillegg til disse rederiene har regionen tunge institusjoner som Sjøfartsdirektoratet og kystverket som er med på å bygge opp under den maritime næringen. Regionen har flere fagniljøer som som er med på å plassere regionen i øverste posisjon når det gjelder industriell nyskaping [@haugalandvekst2023]
 
-Haugaland vekst og Flow Maritime Accelerator har i samarbeid med Haugesundregionen gitt oss et innblikk i hva som gjør Haugalandet til en spennende og voksende region [@lauvas 2021]. Som det blir nevnt i videoen så vil bedriftene på Haugalandet hjelpe hverandre og løfte hverandre opp og frem. Dette er positivt for bedrifter som vil prøve å etablere seg i regionen. 
+Haugaland vekst og Flow Maritime Accelerator har i samarbeid med Haugesundregionen gitt oss et innblikk i hva som gjør Haugalandet til en spennende og voksende region [@lauvas2021]. Som det blir nevnt i videoen så vil bedriftene på Haugalandet hjelpe hverandre og løfte hverandre opp og frem. Dette er positivt for bedrifter som vil prøve å etablere seg i regionen. 
 Beyonder har planer om å bygge en batterifabrikk på Gismarvik som vil gi 2000 direkte arbeidsplasser i regionen. Selskapet skal produsere batterier til busser, maskiner og store fartøyer, og batteritypen kan også brukes som stabilisator i kraftnettet [@bigset2022]. Det spekuleres om dette bare er et luftslott [@kristensen2022], men det er uansett et interessant case. Lokasjonen på Gismarvik har en næringspark som er dimensjonert for store etableringer i regionen. Dersom denne type aktiviteter etableres der, som fyres opp av et Rogfast, så vil dette gi store konsekvenser for hvordan Haugalandet vil se ut med tiden.
 Det er viktig å dykke ned i dette temaet for å kunne danne seg et bilde på hva en stor etablering kan forvente av tilgjengelig arbeidskraft og hvor den kommer fra. Det er nyttig for  regionen generelt for å ha en pekepinn på hva som kan forventes av for eksempel befolkningsvekst og økning i lokale arbeidsplasser. Dette kan videre legge til rette for nyetableringer av underleverandører som kan støtte opp mot de store basisbedriftene. 
 
@@ -592,7 +592,7 @@ en god indikator til å få fram kjennetegn ved den lokale
 næringsstrukturen. @capello2015 forklarer videre at dersom LQ er større
 enn én, betyr det at denne sektoren er overrepresentert i regionen, og
 omvendt, hvis kvotienten er mindre enn én, betyr det at sektoren er
-underrepresentert.\@mccann viser til følgende LQ formel:
+underrepresentert. @mccann2013 viser til følgende LQ formel:
 
 $$
 LQ_{ir} = \frac{\frac{E_{ir}}{E_r}}{\frac{E_{in}}{E_n}}
@@ -2210,9 +2210,9 @@ I forbindelse med valg av lokasjon er potensialmål et nyttig verktøy. Vi kan s
 
 ## Potensialmodellen
 
-Potensialmål brukes til å måle attraktiviteten til en valgt lokasjon i regionen [@capello2015]. Modellen tar hensyn til geografisk plassering, og vurderer attraktiviteten av et område for ulike typer aktiviteter eller investeringer. Avstanden for sentrale aktiviteter i området spiller en betydningsfull rolle. Dette kan også forklares gjennom bud-rente teorien fra @Alonso1964a. Ulike aktiviteter har ulik nytte av nærhet til sentrale områder, og prisen på land vil variere i henhold til avstand fra sentrum. Som nevnt kan potensialmål brukes i forskjellige sammenhenger, og avhenger av formål. I vårt formål gjelder lokaliseringen til Beyonder ut fra rekruttering arbeidskraft. Beyonder er en typisk basisbedrift, og vil være mindre opptatt av sin tilgjengelighet sett i forhold til lokale konsumenter.  Det er også andre forhold som påvirker lokaliseringen til Beyonder, som for eksempel transportforhold, som vegnett og havnefasiliteter. Likevel er ikke potensialmål-verdiene regnet ut fra dette, selv om dette er tatt med i betraktning av alternative lokaliseringer i regionen for bedriften. I de potensialmål-beregningene vi modellerer har vi hentet informasjon om hvor ulike arbeidstakere har bosted, etter grunnkrets, og informasjon om avstand fra og til ulike lokaliseringsalternativer.
+Potensialmål brukes til å måle attraktiviteten til en valgt lokasjon i regionen [@capello2015]. Modellen tar hensyn til geografisk plassering, og vurderer attraktiviteten av et område for ulike typer aktiviteter eller investeringer. Avstanden for sentrale aktiviteter i området spiller en betydningsfull rolle. Dette kan også forklares gjennom bud-rente teorien fra @alonso1964a. Ulike aktiviteter har ulik nytte av nærhet til sentrale områder, og prisen på land vil variere i henhold til avstand fra sentrum. Som nevnt kan potensialmål brukes i forskjellige sammenhenger, og avhenger av formål. I vårt formål gjelder lokaliseringen til Beyonder ut fra rekruttering arbeidskraft. Beyonder er en typisk basisbedrift, og vil være mindre opptatt av sin tilgjengelighet sett i forhold til lokale konsumenter.  Det er også andre forhold som påvirker lokaliseringen til Beyonder, som for eksempel transportforhold, som vegnett og havnefasiliteter. Likevel er ikke potensialmål-verdiene regnet ut fra dette, selv om dette er tatt med i betraktning av alternative lokaliseringer i regionen for bedriften. I de potensialmål-beregningene vi modellerer har vi hentet informasjon om hvor ulike arbeidstakere har bosted, etter grunnkrets, og informasjon om avstand fra og til ulike lokaliseringsalternativer.
 
-@Capello (s.68) definerer følgende potensial-modell:
+@capello2015 definerer følgende potensial-modell:
 
 $$
 E_a = K \sum_j \frac{P_j}{d^\gamma_{aj}}
@@ -2266,7 +2266,7 @@ Som et alternativt, veldig enkelt og lett tolkbart mål, kan en også operere me
 
 $$
 d_a = \sum_j d_{aj} \frac{P_j}{P}
-$$ {eq-ipp}
+$$ {#eq-ipp}
 
 Variablene er definert som i @eq-pw og @eq-eksp. Her er $P$ den totale befolkningen for regionen; $P = \sum^n_{j = 1} P_j$. Vi ser i @eq-ipp at tilnærmingen er å bruke den gjennomsnittlige avstanden ($d$) en sysselsatt i regionen bruker for å nå lokasjon $a$. Dette er dermed da en vektet gjennomsnittsavstand fra lokasjon $a$, til alle andre grunnkretser, der grunnkretsene er vektet med sysselsettingsandelen etter bosted. Ved å ekskludere parameteren for pendlevillighet vil verdiene ikke i samme grad kunne tolkes som potensialet for å rekruttere pendlere. @eq-ipp har som fordel å ha mer direkte tolkbare verdier, samtidig som det gir relevant potensial-informasjon. 
 
@@ -2310,7 +2310,7 @@ Likevektsledighet refererer til den mengden arbeidsledighet som eksisterer når 
 @roy1951 var en av de første som utviklet en modell som forklarte hvordan arbeidsmarkedet kunne være i likevekt til tross for at det alltid vil være noen arbeidsledige. Han argumenterte for at arbeidsledigheten kunne være påvirket av faktorer som friksjon i arbeidsmarkedet og endringer i økonomien. Han la også vekt på betydningen av utdanning og opplæring på arbeidsmarkedet.
 
 
-Læreboken til @mcCann2013 fokuserer på blant annet likevektsledighet ved å peke på betydningen av faktorer som geografisk mobilitet, offentlige tiltak og politikk for å redusere likevektsledighet. For å redusere likevektsledighet er det viktig å ta hensyn til både økonomiske og politiske faktorer, og utvikle en helhetlig politikk som fremmer vekst og sysselsetting i urbane og regionale områder [@roy1951, @mccann2013]. 
+Læreboken til @mccann2013 fokuserer på blant annet likevektsledighet ved å peke på betydningen av faktorer som geografisk mobilitet, offentlige tiltak og politikk for å redusere likevektsledighet. For å redusere likevektsledighet er det viktig å ta hensyn til både økonomiske og politiske faktorer, og utvikle en helhetlig politikk som fremmer vekst og sysselsetting i urbane og regionale områder [@roy1951, @mccann2013]. 
 
 
 
@@ -2343,7 +2343,7 @@ Anta at regionen består av to områder, a (indre strøk) og b (ytre strøk). He
 Det som ofte kan oppstå er at de best kvalifiserte flytter til de mer urbane områdene for å få avkastning på sin utdanning. Disse er ofte mer effektive og kan produsere mer verdifulle varer og tjenester enn en mindre kvalifisert arbeidstaker ville ha gjort. Dette er en typisk backwash-effekt som kan oppstå i innad i regioner ved en slik etablering. Bedrifter som søker kvalifisert arbeidskraft, vil da plassere seg der denne arbeidskraften er tilgjengelig. Som nevnt tidligere i oppgaven så har Haugalandet en utdanningsprofil som passer godt til en bedrift som Beyonder. Det at de mest kvalifiserte som flytter fra indre til ytre strøk, så vil etterspørselskurven få et venstreskift i område a (Da1) og et nytt høyreskift i område b. Da vil det oppstå enda større lønnsforskjeller mellom områdene, og med det forsterke fraflyttingen fra indre strøk enda mer. Hvis dette fortsetter så vil det ende med en totalt fraflyttelse fra indre til ytre strøk. I dette tilfelle vil det nok ikke ende opp i en ny likevekt, men agglomerasjons ulemper som vil dempe tilflytting til ytre strøk. I følge @capello2015 så vil det i slike situasjoner oppstå ulemper som trafikkork og økt reisetid på grunn av høy arbeids- og befolkningstetthet. Det vil bli en økt konkurranse mellom boligene som er tilgjengelige, noe som vil gi økte boligpriser og lavere tilgjengelighet til rimelige boliger. Med en økt befolknings- og arbeidstetthet så vil forurensningsnivået øke, med økt luftforurensing og økt støy. En annen ulempe som kan oppstå er en sosial segregasjon, der det kan oppstå store forskjeller mellom rik og fattig, der det vil komme områder i ytre strøk som har en fattigere befolkning. Alle disse ulempene kan være med å dempe tilflytting til sentrale strøk, og gjerne gjøre at noen som bor i de sentrale strøkene før disse ulempene virkelig har en effekt, velger å flytte til mer perifere, indre strøk. 
 
 
-![Likevektsledighet](bilder/likevektsledighet.png){#fig-likevektslediget}
+![Likevektsledighet](bilder/likevektsledighet.png){#fig-likevekt-ledighet}
 
 
 
@@ -2386,7 +2386,7 @@ Det er en iterativ prosess mellom mekanismene (10) og (12). Dette danner en konv
 
 Diskusjon av den generelle likevektsmodellen 
 
-Det er særlig komponentene (5-11) i @fig-thorsen vi ikke har tatt hensyn til i vår analyse. Vi vil diskutere hvordan virkningene slike komponenter kan tenkes å påvirke regionen. En plausibel hypotese er at lønnsnivået på Haugalandet vil øke med en etablering av Beyonder på Gismarvik. Dette har vi sett litt på i @fig-likevektsledighet. Det er også nærliggende å tro at en ferdigstillelse av Rogfast vil heve lønnsnivået på Haugalandet på grunn av økt konkurranse om arbeidskraft med sør-fylket. 
+Det er særlig komponentene (5-11) i @fig-thorsen vi ikke har tatt hensyn til i vår analyse. Vi vil diskutere hvordan virkningene slike komponenter kan tenkes å påvirke regionen. En plausibel hypotese er at lønnsnivået på Haugalandet vil øke med en etablering av Beyonder på Gismarvik. Dette har vi sett litt på i @fig-likevekt-ledighet. Det er også nærliggende å tro at en ferdigstillelse av Rogfast vil heve lønnsnivået på Haugalandet på grunn av økt konkurranse om arbeidskraft med sør-fylket. 
 
 Gjennom basemodellen har vi predikert sysselsettings- og befolkningsendringer for regionen samlet, og for ulike kommuner. Men, denne modellen er etterspørselsbestemt, og vi har ikke vurdert forhold som angår for eksempel boligpriser. Det er rimelig å anta at boligprisene vil være lite påvirket etter en eventuell lokalisering av Beyonder. Dette er fordi Gismarvik har en relativ sentral posisjon i regionen. Det er allerede godt etablerte, sentrale boligområder i regionen som ligger innenfor akseptable pendleavstander til Gismarvik. Eksempler på slike boområder er Haugesund sentrum, Kopervik, Norheim og Aksdal. En annen hypotese om at boligprisene ikke vil endre seg er at to-arbeider husholdninger kan foretrekke boliglokasjon med gunstig jobbmuligheter for begge parter. 
 
@@ -2428,7 +2428,7 @@ Analysen av bo- og arbeidsmarkedet på Haugalandet og dens konsekvenser som føl
 
 Likevel gir oppgaven et fundament for å forske videre på følgende:
 
-En grundig utført analyse basert på modellrammene til @mcarthur2014. Her kunne man studert særlig punktene om lokal innovasjon og konkurranseevnen videre, som ble utelatt i @mcarthur 2014 sin presentasjon.
+En grundig utført analyse basert på modellrammene til @mcarthur2014. Her kunne man studert særlig punktene om lokal innovasjon og konkurranseevnen videre, som ble utelatt i @mcarthur2014 sin presentasjon.
 
 En analyse av boligmarkedet sør på Haualandet og nærliggende områder som følge av Rogfast-tunellen.
 
