@@ -93,8 +93,10 @@ Tilslutt vil vi rette en takk til vår eminente veileder, Prof. Inge Thorsen, fo
 
 *Haugesund, 22.05.2023*
 
+
+
 \newpage
-\tableofcontents
+\tableofcontents{\contentsname}{Whatever}
 
 \newpage
 \listoffigures
