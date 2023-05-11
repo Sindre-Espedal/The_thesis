@@ -45,8 +45,6 @@ library(DiagrammeR)
 knitr::opts_chunk$set(echo=FALSE)
 ```
 
-\includepdf{forside.pdf}
-
 \pagenumbering{gobble}
 
 \newpage
