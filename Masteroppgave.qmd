@@ -1,6 +1,6 @@
 ---
 format:
-  pdf:
+  docx:
       documentclass: article
       fig-pos: 'H'
       include-in-header:
