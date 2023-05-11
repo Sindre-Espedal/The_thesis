@@ -226,18 +226,16 @@ vil knytte Haugalandet sammen med Stavangerregionen, vil gi muligheter
 for et økt arbeidsmarked for bedrifter på Haugalandet. Men det samme vil
 gjelde motsatt vei. Her kan det oppstå konkurranse på arbeidskraft
 mellom regionene, noe som i første omgang kan øke lønnsnivået på
-Haugalandet. Problemstilling og del problemstillinger Målet med oppgaven
-er å forsøke på å forklare hvordan arbeidsmarkedsregionen på Haugalandet
+Haugalandet. 
+
+## Problemstillinger 
+
+Målet med oppgaven er å forsøke på å forklare hvordan arbeidsmarkedsregionen på Haugalandet
 vil påvirkes ved et signifikant positivt eksogent sjokk i form av en
 betydelig bedriftsetablering i regionen. Oppgaven legger vekt på å
 undersøke hvordan pendle- og bosettingsmønstre vil kunne bli påvirket i
 regionen. I tillegg introduserer vi en utvidet arbeidsmarkedsregion ved
-å inkludere Stavangerregionen i samspill med Haugalandet.
-
-
-## problemstillinger
-
-For å kunne forklare dette har vi har utviklet følgende problemstilling: 
+å inkludere Stavangerregionen i samspill med Haugalandet. For å kunne forklare dette har vi har utviklet følgende problemstilling: 
 
 *"Hvordan vil et eksogent sjokk på 2000 arbeidsplasser på Haugaland næringspark påvirke bo- og arbeidsregionen på Haugalandet?"*
 
@@ -1133,6 +1131,18 @@ Beyonder sin posisjon som en del av en klynge, og deres mulighet til å
 høste klyngegevinster, for eksempel representert ved "matching", det vil
 si muligheten til å rekruttere kvalifisert arbeidskraft i et tykt
 arbeidsmarked.
+
+I @fig-fagfelt er fagfeltet definert med tallkoder. Fagkodene er definert på følgende vis [@ssb2023a]:
+- *00 = Allmenne fag*
+- *01 = Humanistiske og estetiske fag*
+- *02 = Lærerutdanninger og utdanninger i pedagogikk*
+- *03 = Samfunnsfag og juridiske fag*
+- *04 = Økonomiske og administrative fag*
+- *05 = Naturvitenskapelige fag, håndverksfag og tekniske fag*
+- *06 = Helse-, sosial- og idrettsfag*
+- *07 = Primærnæringsfag*
+- *08 = Samferdels- og sikkerhetsfag og andre servicefag*
+- *09 = Uoppgitt fagfelt*
 
 Industrisektoren på NACE-hovednivå er sterkt knyttet opp mot fagfeltet
 naturvitenskapelige fag, håndverksfag og tekniske fag. I @fig-fagfelt ser vi at Haugalandet har en relativt større andel av sysselsettingen
