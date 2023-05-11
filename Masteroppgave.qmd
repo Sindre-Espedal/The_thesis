@@ -813,10 +813,7 @@ regionen, og vil gi bedre grunnlag for å beskrive og forklare eventuelle
 klynger. Resultatene fra @fig-loq gir grunnlaget for de utvalgte
 næringene i seksjonene under.
 
-\newpage
-
 ![LQ-verdier for Haugalandet, etter næring](bilder/LQ-hierarki.png){#fig-loq}
-\newpage
 
 ```{r}
 Tab_13470_andeler_naering <- read_excel("Data_R_MSB_210/Tab_13470_andeler_naering.xlsx")
