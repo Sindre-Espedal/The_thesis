@@ -255,7 +255,7 @@ tilnærming på oppgaven og benytter oss av metoden deskriptiv statistikk.
 Vi presenterer funnene ved hjelp av tabeller, figurer og kart. For
 modelleringene og analysene i oppgaven er datagrunnlaget hentet fra
 Statistisk sentralbyrå (SSB). Hvilke tabeller vi har benyttet fra SSB er
-oppgitt i Appendix; se @link-med-tabell.
+oppgitt i Appendix; se @tbl-apendix-ssb.
 
 Vi har benyttet verktøyene Excel, Rstudio og QGIS. I databehandlingen
 har majoriteten av arbeidet blitt utført i Excel, og noe av behandlingen
