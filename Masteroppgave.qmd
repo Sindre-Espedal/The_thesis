@@ -2439,4 +2439,18 @@ Modellering av pendlestrømmer ved hjelp av gravitasjonsmodeller
 
 \newpage
 
-## References
+# References {-}
+
+# Appendiks {-}
+
+| Tabell  | Beskrivelse                                                                    |
+|---------|--------------------------------------------------------------------------------|
+| 13470   | Næringsfordeling (5-siffernivå) blant sysselsatte. 4. kvartal (K) 2008-2022    |
+| 11615   | Fagfelt og utdanningsnivå, kjønn og alder blant sysselsatte. 4. kvartal (K) 2000-2022    |
+| 10539   | Registrerte arbeidsledige 15-74 år, etter alder (K) (avslutta serie) 1990M01-2020M11     |
+| 03321   | Sysselsatte (15-74 år), etter arbeidssteds- og bostedskommune. Pendlingsstrømmer. 4. kvartal (K) 2000-2022    |
+| Best.   | Pendling grunnkrets 4. kvartal 2022    |
+
+
+: Tabeller benyttet fra SSB, med beskrivelse
+{#tbl-apendix-ssb}
