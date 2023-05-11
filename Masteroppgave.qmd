@@ -32,7 +32,7 @@ language:
   toc-title-document: "Innholdsfortegnelse"
   crossref-lof-title: "Figurer"
   crossref-lot-title: "Tabeller"
-  crossref-sec-title: "kapittel"
+  crossref-sec-prefix: "kapittel"
 bibliography: referanser_msb210/referanser_msb210.bib
 ---
 
@@ -1260,7 +1260,7 @@ basisproduktivitet påvirker lokal økonomi.
 Modellformuleringene tilsier at en økning i basesysselsetting vil gi en
 økning i samlet sysselsetting, som gir rom for en ny økning i lokal
 sysselsetting, osv. @eq-5.0.1.1.1 representerer en uendelig geometrisk
-rekke. De utregningene som er gitt ved @eq-5.0.1.1.2 - @eq-5.0.1.1.5
+rekke. De utregningene som er gitt ved @eq-5.0.1.1.2 - [@eq-5.0.1.1.5]
 under viser at løsningen for samlet sysselsetting i basemodellen er gitt
 ved summen av en slik uendelig geometrisk rekke. Dette innebærer at det
 resonnementet som ligger til grunn for overgangene @eq-5.0.1.1 -
