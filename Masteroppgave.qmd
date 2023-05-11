@@ -219,7 +219,7 @@ forvente av tilgjengelig arbeidskraft og hvor den kommer fra. Det er
 nyttig for regionen generelt for å ha en pekepinn på hva som kan
 forventes av for eksempel befolkningsvekst og økning i lokale
 arbeidsplasser. Dette kan videre legge til rette for nyetableringer av
-underleverandører som kan støtte opp mot de store basisbedriftene.
+underleverandører som kan støtte opp mot de store basebedriftene.
 
 Det er også viktig å ta hensyn til at Rogfast, som er et veiprosjekt som
 vil knytte Haugalandet sammen med Stavangerregionen, vil gi muligheter
@@ -232,16 +232,26 @@ vil påvirkes ved et signifikant positivt eksogent sjokk i form av en
 betydelig bedriftsetablering i regionen. Oppgaven legger vekt på å
 undersøke hvordan pendle- og bosettingsmønstre vil kunne bli påvirket i
 regionen. I tillegg introduserer vi en utvidet arbeidsmarkedsregion ved
-å inkludere Stavangerregionen i samspill med Haugalandet. For å kunne
-forklare dette har vi har utviklet følgende problemstilling: "Hvordan
-vil et eksogent sjokk på 2000 arbeidsplasser på Haugaland næringspark
-påvirke bo- og arbeidsregionen på Haugalandet?" For å kunne forklare
-problemstillingen har vi utviklet flere delproblemstillinger: Vil en
-etablering av Beyonder gi en befolkningsvekst i regionen? Skaper en
-etablering av Beyonder flyttestrømmer til sørlige områder på
-Haugalandet? Vil en etablering av Beyonder skape fraflytting i perifere
-områder i regionen? Vil kortere avstander til arbeidsmarkedsregionen i
-Stavanger føre til økt pendling mellom arbeidsmarkedsregionene?
+å inkludere Stavangerregionen i samspill med Haugalandet.
+
+
+## problemstillinger
+
+For å kunne forklare dette har vi har utviklet følgende problemstilling: 
+
+*"Hvordan vil et eksogent sjokk på 2000 arbeidsplasser på Haugaland næringspark påvirke bo- og arbeidsregionen på Haugalandet?"*
+
+For å kunne forklare problemstillingen har vi utviklet flere delproblemstillinger: 
+
+- *Vil en etablering av Beyonder gi en befolkningsvekst i regionen?* 
+
+- *Skaper en etablering av Beyonder flyttestrømmer til sørlige områder på Haugalandet?* 
+
+- *Vil en etablering av Beyonder skape fraflytting i perifere områder i regionen?* 
+
+- *Vil kortere avstander til arbeidsmarkedsregionen i Stavanger føre til økt pendling mellom arbeidsmarkedsregionene?*
+
+## Oppgavens struktur og metode
 Oppgavens struktur og metode Oppgavens struktur er bygget opp ved at
 teorien, analysen og diskusjonen er presentert for de forskjellige
 temaene som gjennomgås i oppgaven i hver sin seksjon. Dette er for å gi
@@ -1125,8 +1135,7 @@ si muligheten til å rekruttere kvalifisert arbeidskraft i et tykt
 arbeidsmarked.
 
 Industrisektoren på NACE-hovednivå er sterkt knyttet opp mot fagfeltet
-naturvitenskapelige fag, håndverksfag og tekniske fag. I @fig-fagfelt .
-ser vi at Haugalandet har en relativt større andel av sysselsettingen
+naturvitenskapelige fag, håndverksfag og tekniske fag. I @fig-fagfelt ser vi at Haugalandet har en relativt større andel av sysselsettingen
 knyttet til slike fagområder enn det som gjelder på nasjonal base. Dette
 fagfeltet innebærer utdanninger som kjemi og prosess, automasjon og
 aluminiumskonstruksjon som er sterkt knyttet opp til arbeidere på Hydro
