@@ -60,7 +60,7 @@ knitr::opts_chunk$set(echo=FALSE)
 # Sammendrag {.unnumbered}
 
 Oppgaven ser på hvilke regionale konsekvenser som kan forekomme som
-følge av en etablering av Beyonder med 2 000 direkte arbeidsplasser som
+følge av en etablering av Beyonder. Bedriften planlegger 2 000 direkte arbeidsplasser som
 skaper på Haugaland næringspark i Gismarvik. Etablering er i startfasen,
 og usikker, men det er likevel et interessant case å studere virkningene
 av et så stort eksogent sjokk for Haugalandet.
@@ -77,7 +77,7 @@ til en industritung region. Anvendelse av baseteorien tilsier en økt
 utvikling i sysselsetting og befolkning for Haugalandet ved et eksogent
 sjokk i regionen. Det vil oppstå fraflytting fra perifere strøk til
 urbane strøk i regionen for å fylle den nye etterspørselen etter
-arbeidskraft. Når Rogfast blir ferdigstilt cirka 2031, så vil det oppstå
+arbeidskraft. Når Rogfast blir ferdigstilt i cirka 2031, så vil det oppstå
 mer pendling mellom nord- og sør-Rogaland, der flere jobber vil bli tatt
 med bruk av pendling, i stedet for flytting, som før tunnelen. Det vil
 ta rundt 45 minutter å pendle fra Stavanger til Gismarvik, noe som er
@@ -87,7 +87,7 @@ rekruttering av arbeidskraft og optimal plassering i regionen. Her får
 vi frem at potensialmålet har positiv korrelasjon med avstanden til
 Stavanger-regionen. Komponenter i den generelle likevektsmodellen
 indikerer at sørlige deler av Haugalandet vil få økt aktivitetsnivå i
-sysselsetting og befolkningsøkning som følge av rimelig tomte- og
+sysselsetting og befolkning som følge av rimelige tomte- og
 boligpriser og et voksende og spennende arbeidsmarkedsområde.
 
 **Nøkkelord:**
@@ -129,7 +129,7 @@ distance to the Stavanger region.
 
 Components of the spatial equilibrium model indicate that the southern
 parts of Haugaland will experience increased activity levels in
-employment and population growth due to affordable land and housing
+employment and population due to affordable land and housing
 prices and a growing and exciting labor market area.
 
 **Keywords:**
@@ -188,16 +188,15 @@ bransjer som bidrar til regionens økonomi. Det finnes sterke miljøer
 innenfor petromaritim sektor, energi- og prosessindustri, som også
 inkluderer små og store underleverandører. Blant de ledende
 industribedriftene i regionen er Aibel i Haugesund, Hydro Aluminium på
-Karmøy, Kårstø prosessanlegg med Gassco og Equinor som er fremtredende
-og smelteverket Eramet i Sauda [@haugalandvekst2023].
+Karmøy, Kårstø prosessanlegg med Gassco og Equinor. Sauda har også en sentral bedrift Eramet smelteverk [@haugalandvekst2023].
 
 Haugalandet har også en maritim klynge med store rederier som Solstad
 Shipping, Knutsen OAS Shipping og Østensjø rederi. I tillegg til disse
 rederiene har regionen tunge institusjoner som Sjøfartsdirektoratet og
 kystverket som er med på å bygge opp under den maritime næringen.
-Regionen har flere fagniljøer som som er med på å plassere regionen i
+Regionen har flere fagmiljøer som som er med på å plassere regionen i
 øverste posisjon når det gjelder industriell nyskaping
-[@haugalandvekst2023]
+[@haugalandvekst2023].
 
 Haugaland vekst og Flow Maritime Accelerator har i samarbeid med
 Haugesundregionen gitt oss et innblikk i hva som gjør Haugalandet til en
@@ -223,7 +222,7 @@ underleverandører som kan støtte opp mot de store basebedriftene.
 
 Det er også viktig å ta hensyn til at Rogfast, som er et veiprosjekt som
 vil knytte Haugalandet sammen med Stavangerregionen, vil gi muligheter
-for et økt arbeidsmarked for bedrifter på Haugalandet. Men det samme vil
+for et økt arbeidsmarked for bedrifter på Haugalandet. Det samme vil
 gjelde motsatt vei. Her kan det oppstå konkurranse på arbeidskraft
 mellom regionene, noe som i første omgang kan øke lønnsnivået på
 Haugalandet. 
@@ -250,7 +249,7 @@ For å kunne forklare problemstillingen har vi utviklet flere delproblemstilling
 - *Vil kortere avstander til arbeidsmarkedsregionen i Stavanger føre til økt pendling mellom arbeidsmarkedsregionene?*
 
 ## Oppgavens struktur og metode
-Oppgavens struktur og metode Oppgavens struktur er bygget opp ved at
+Oppgavens struktur er bygget opp ved at
 teorien, analysen og diskusjonen er presentert for de forskjellige
 temaene som gjennomgås i oppgaven i hver sin seksjon. Dette er for å gi
 en bedre flyt i oppgaven, hvor seksjonene bygger videre fra tidligere
