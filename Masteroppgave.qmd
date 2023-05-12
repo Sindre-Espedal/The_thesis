@@ -1,6 +1,6 @@
 ---
 format:
-  docx:
+  pdf:
       documentclass: article
       fig-pos: 'H'
       include-in-header:
@@ -3069,7 +3069,10 @@ Modellering av pendlestrømmer ved hjelp av gravitasjonsmodeller
 ::: {#refs}
 :::
 
+```{=tex}
 \newpage
+\pagenumbering{Roman}
+```
 
 # Appendiks {.unnumbered}
 
