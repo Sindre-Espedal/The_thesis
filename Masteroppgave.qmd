@@ -212,7 +212,14 @@ For å kunne forklare problemstillingen har vi utviklet flere delproblemstilling
 
 - *Vil kortere avstander til arbeidsmarkedsregionen i Stavanger føre til økt pendling mellom arbeidsmarkedsregionene?*
 
+## Oppgavens begrensninger
+
+I arbeidet med en masteroppgave må en selvsagt gjøre noen begrensinger. Vi har i hovedsak valgt et arbeidsmarkedsperspektiv, med utgangspunkt i enkel etterspørselsteori, kombinert med analyse basert på arbeidskraftens geografiske mobilitet. I et slik perspektiv er boligmarkedet i liten grad ivaretatt.
+
+Vi har heller ikke gått grundig inn på flere andre mekanismer i en generell romlig likevektsramme. Som en etterspørselsinspirert analyse har vi også sett bort fra muligheten til å ta eksplisitt hensyn til vareleveranser mellom ulike aktører (bedrifter og konsumenter), for eksempel i form av en regional kryssløpsanalyse. En slik analyse kunne gitt mer presise anslag for lokale multiplikatorvirkninger, men databehovet er krevende, og gir et mer tidkrevende arbeid enn det som er mulig innenfor våres rammer.
+
 ## Oppgavens struktur og metode
+
 Oppgavens struktur er bygget opp ved at
 teorien, analysen og diskusjonen er presentert for de forskjellige
 temaene som gjennomgås i oppgaven i hver sin seksjon. Dette er for å gi
@@ -220,9 +227,7 @@ en bedre flyt i oppgaven, hvor seksjonene bygger videre fra tidligere
 seksjoner. For eksempel så handler @sec-introduksjon og @sec-deskriptiv
 om en introduksjon av batterifabrikken Beyonder, Haugaland næringspark,
 og en deskriptiv gjennomgang av næringsstrukturen på Haugalandet. I
-@sec-baseteori presenteres økonomisk baseteori, og anvender således
-teorien på Haugalandet i @sec-anvendelse. Vi har valgt en kvantitativ
-tilnærming på oppgaven og benytter oss av metoden deskriptiv statistikk.
+@sec-baseteori presenteres økonomisk baseteori, i hovedsak gjennom en anvendelse av økonomisk basemodell, ved bruk av data om næringsliv og arbeidsmarked på Haugalandet.
 Vi presenterer funnene ved hjelp av tabeller, figurer og kart. For
 modelleringene og analysene i oppgaven er datagrunnlaget hentet fra
 Statistisk sentralbyrå (SSB). Hvilke tabeller vi har benyttet fra SSB er
@@ -239,7 +244,7 @@ programmene har henvisning til kilden.
 
 \newpage
 
-# Introduksjon Beyonder og Haugaland næringspark {#sec-introduksjon}
+# Presentasjon av Beyonder og Haugaland næringspark {#sec-introduksjon}
 
 Beyonder er en batteribedrift som har planer om å etablere en
 gigafabrikk [@whiteaker2022] på Haugaland næringspark i Gismarvik. Den
