@@ -61,34 +61,25 @@ knitr::opts_chunk$set(echo=FALSE)
 
 Oppgaven ser på hvilke regionale konsekvenser som kan forekomme som
 følge av en etablering av Beyonder. Bedriften planlegger 2 000 direkte arbeidsplasser som
-skaper på Haugaland næringspark i Gismarvik. Etablering er i startfasen,
+skapes på Haugaland næringspark i Gismarvik. Etablering er i startfasen,
 og usikker, men det er likevel et interessant case å studere virkningene
 av et så stort eksogent sjokk for Haugalandet.
 
 Det er tatt i bruk en kvantitativ forskningsmetode. Dataene er hentet
-fra Statistisk sentralbyrå (SSB). Vi har utført en analyse av økonomisk
-baseteori, og tatt i bruk pendlematriser og avstandsdata for å utføre
-pendleanalyse i form av potensialmål. Presentasjonen av dataene er
+fra Statistisk sentralbyrå (SSB). Vi har utført en anvendelse av økonomisk eksport-baseteori, og tatt i bruk pendlematriser og avstandsdata blant annet for å anslå hvordan virkninger av etableringen spres i geografien. Presentasjonen av dataene er
 gjennom grafer, tabeller og kart, og dataene er anvendt gjennom
-modellberegninger
+modellberegninger.
 
 Den deskriptive presentasjonen av næringsstrukturen på Haugaland viser
 til en industritung region. Anvendelse av baseteorien tilsier en økt
 utvikling i sysselsetting og befolkning for Haugalandet ved et eksogent
-sjokk i regionen. Det vil oppstå fraflytting fra perifere strøk til
-urbane strøk i regionen for å fylle den nye etterspørselen etter
-arbeidskraft. Når Rogfast blir ferdigstilt i cirka 2031, så vil det oppstå
-mer pendling mellom nord- og sør-Rogaland, der flere jobber vil bli tatt
-med bruk av pendling, i stedet for flytting, som før tunnelen. Det vil
-ta rundt 45 minutter å pendle fra Stavanger til Gismarvik, noe som er
-innenfor akseptabel pendleavstand. Oppgaven vil også gå gjennom hvilken
-plassering i regionen som har best potensial når det gjelder
-rekruttering av arbeidskraft og optimal plassering i regionen. Her får
-vi frem at potensialmålet har positiv korrelasjon med avstanden til
-Stavanger-regionen. Komponenter i den generelle likevektsmodellen
-indikerer at sørlige deler av Haugalandet vil få økt aktivitetsnivå i
-sysselsetting og befolkning som følge av rimelige tomte- og
-boligpriser og et voksende og spennende arbeidsmarkedsområde.
+sjokk i regionen. Dette kan blant annet skje gjennom flyttestrømmer fra perifere strøk til urbane strøk i regionen for å fylle den nye etterspørselen etter arbeidskraft. Når Rogfast blir ferdigstilt i cirka 2031, så er det rimelig å regne med at det vil oppstå mer pendling mellom nord- og sør-Rogaland. Det vil ta rundt 45 minutter å pendle fra Stavanger til Gismarvik, noe som er innenfor akseptabel pendleavstand. 
+Oppgaven vil også gå gjennom hvilken plassering i regionen som har best potensial når det gjelder
+rekruttering av arbeidskraft og hvordan dette påvirker optimal lokalisering i regionen. 
+Vi får blant annet fram hvordan potensialet påvirkes av Rogfast og avstanden til Stavangerregionen. 
+Gjennom sentrale mekanismer i en generell romlig likevektsmodell argumenter vi for at sørlige deler av Haugalandet vil få økt aktivitetsnivå i sysselsetting og befolkning i en region med lave tomte- og boligpriser og et utvidet arbeidsmarkedsområde.
+
+Det vi i hovedsak gjør er å gi en ringvirkningsanalyse av et eksogent sjokk. I en slik analyse er det fort gjort å gripe til klassisk keynesiansk inspirert multiplikatoranlayse, men i en helhetlig kostnads-nytte vurdering er det viktig å ta hensyn til mulighetene for at virkningene i stor grad er distributive. 
 
 **Nøkkelord:**
 
@@ -98,39 +89,15 @@ Beyonder, Rogfast, den økonomiske basemodell, potensialmål
 
 # Abstract {.unnumbered}
 
-The thesis examines the potential regional consequences that may occur
-as a result of the establishment of Beyonder, which will create 2,000
-direct jobs in the Haugaland Business Park in Gismarvik. Although the
-establishment is in its initial phase and uncertain, it is still an
-interesting case to study the effects of such a large exogenous shock on
-the Haugaland region.
+The thesis examines the regional consequences that may occur as a result of the establishment of Beyonder. The company plans to create 2,000 direct jobs at the Haugaland industrial park in Gismarvik. The establishment is in the initial stage and uncertain, but it is still an interesting case to study the effects of such a large exogenous shock for Haugalandet.
 
-A quantitative research method has been employed, and data has been
-obtained from Statistics Norway (SSB). An analysis of economic base
-theory has been conducted, and OD-matrices and distance data have been
-utilized to perform potential-based commuting analysis. Data has been
-presented through graphs, tables, and maps, and model calculations have
-been applied.
+A quantitative research method has been used. The data is obtained from Statistics Norway (SSB). We have applied export-based economic theory and used OD-matrices and distance data, among other things, to estimate how the effects of the establishment spread geographically. The data is presented through graphs, tables, and maps, and is used through model calculations.
 
-The descriptive presentation of the economic structure of Haugaland
-shows that it is an industrialized region. The application of the base
-theory implies increased development in employment and population for
-Haugaland in the event of an exogenous shock in the region. There will
-be out-migration from peripheral areas to urban areas in the region to
-fill the new demand for labor. With the completion of Rogfast around
-2031, there will be more commuting between northern and southern
-Rogaland, and more jobs will be taken using commuting rather than
-relocation, as was the case before the tunnel. Commuting from Stavanger
-to Gismarvik will take around 45 minutes, which is within an acceptable
-commuting distance. The thesis will also examine the model of potential
-for recruiting labor and the optimal placement in the region. It is
-found that the potential measure has a positive correlation with the
-distance to the Stavanger region.
+The descriptive presentation of the industry structure in Haugalandet refers to an industrialized  region. The application of the base theory suggests increased development in employment and population for Haugaland through an exogenous shock in the region. This can, among other things, occur through migration from peripheral areas to urban areas in the region to fill the new demand for labor. When Rogfast is completed around 2031, it is reasonable to expect that there will be more commuting between northern and southern Rogaland. It will take about 45 minutes to commute from Stavanger to Gismarvik, which is within an acceptable commuting distance.
 
-Components of the spatial equilibrium model indicate that the southern
-parts of Haugaland will experience increased activity levels in
-employment and population due to affordable land and housing
-prices and a growing and exciting labor market area.
+The task will also go through which location in the region has the best potential in terms of recruiting labor and how this affects optimal location in the region. We also show how the potential is affected by Rogfast and the distance to the Stavanger region. Through central mechanisms in a general spatial equilibrium model, we argue that the southern parts of Haugalandet will experience increased activity levels in employment and population in a region with low land and housing prices and an extended labor market area.
+
+What we mainly do is provide a spillover effect analysis of an exogenous shock. In such an analysis, it is easy to resort to classic Keynesian-inspired multiplier analysis, but in a comprehensive cost-benefit assessment, it is important to consider the possibilities that the effects are largely distributive.
 
 **Keywords:**
 
@@ -222,10 +189,7 @@ underleverandører som kan støtte opp mot de store basebedriftene.
 
 Det er også viktig å ta hensyn til at Rogfast, som er et veiprosjekt som
 vil knytte Haugalandet sammen med Stavangerregionen, vil gi muligheter
-for et økt arbeidsmarked for bedrifter på Haugalandet. Det samme vil
-gjelde motsatt vei. Her kan det oppstå konkurranse på arbeidskraft
-mellom regionene, noe som i første omgang kan øke lønnsnivået på
-Haugalandet. 
+for et utvidet arbeidsmarked for bedrifter på Haugalandet. Det samme vil gjelde motsatt vei. Her kan det oppstå konkurranse om arbeidskraft mellom regionene, og dette kan resultere i et høyere lønnsnivå på Haugalandet.
 
 ## Problemstillinger 
 
