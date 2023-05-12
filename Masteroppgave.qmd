@@ -2258,18 +2258,17 @@ arbeidsmarkeds- og utdanningspolitikk for å støtte disse sektorene.
 
 \newpage
 
-# Pendleanalyse av sør-fylke {#sec-kart}
+# Pendleanalyse {#sec-kart}
 
 Videre i oppgaven ønsker vi å analysere pendleavstander på Haugalandet
-og i Stavanger-regionen hvor Gismarvik er sentrumspunktet. Slik vil man
-få et visuelt bilde på hva som er akseptable pendleavstanden til
+og i Stavangerregionen hvor Gismarvik er sentrumspunktet. Slik vil man
+få et visuelt bilde på hva som er akseptable pendleavstander til
 Haugaland Næringspark. Vi vil også se på virkningene av et operativt
-Rogfast vegnett for å presentere hvilke betydninger det vil få med
-pendling fra Stavanger-regionen. En slik analyse vil kunne gi et bilde
+Rogfast vegnett for å presentere hvilke betydninger det vil få for
+pendling mellom Stavangerregionen og Haugalandet. En slik analyse vil kunne gi et bilde
 på rekrutteringsområdene for ulike typer arbeidskraft i regionen. Dette
 er en klar tiltrekningsfaktor for Beyonder ved en lokalisering på
 Gismarvik.
-
 Anvendelsen av baseteorien tar utgangspunkt i den inndelingen av
 næringer som ble gjort på regionnivå. Videre kan man beregne lokale
 multiplikatorer som varierer mellom kommunene, som vist i
@@ -2284,20 +2283,20 @@ større potensiale for å opptre som en vekstpol når den lokaliseres
 sentralt i det lokale arbeidsmarkedsområdet, innenfor rimelig
 pendleavstand for en høy andel av lokale arbeidstakere.
 
-## Beyonder som case (midlertidig navn)
+## Rekrutteringsområder fra Haugaland næringspark
 
 Det som er viktig for en så stor bedrift som planlegger å etablere seg i
 en litt mindre region er å vite hvilken arbeidskraft som er tilgjengelig
 for en slik etablering. Det vi mener er interessant er å se på hvor mye
-arbeidskraft som er tilgjengelig innenfor tidsområdene. Vi vil også se
-på dette når Rogfast er lagt inn som et fungerende vegnett i regionene.
+arbeidskraft som er tilgjengelig innenfor ulike tidsintervaller. Vi vil også se
+på dette når Rogfast er lagt inn som et fungerende vegnett mellom regionene.
 En ferdigstilling av Rogfast vil gjøre det lettere for arbeidskraft å
-pendle til og fra jobb, mellom Sør- og Nord-Rogaland, på grunn av
-redusert reisetid. I kartene under vil det bli illustrert hvor langt du
+pendle til og fra jobb, mellom sør- og nord-fylke, på grunn av
+redusert reisetid. I kartene under illustreres det hvor langt du
 får kjørt på 15-, 30-, 45-, 60- og 75 minutters kjøretid før og etter
-Rogfast. Dette vil gi en pekepinn på hvor Beyonder kan forvente
-arbeidskraften sin fra. i en situasjon med Rofast, fem år etter at
-Beyonder planlegger sin etablering på Gismarvik.
+Rogfast. Dette vil gi en pekepinn på hvor Beyonder kan forvente å få
+arbeidskraften sin fra. Dette ses i en situasjon med og uten Rofast, som skal komme fem år etter at
+Beyonder planlegger sin etablering på Gismarvik i år 2026.
 
 ### mangler i datagrunnlag for pendling {#sec-mangler-i-datagrunnlag}
 
