@@ -2298,25 +2298,25 @@ Rogfast. Dette vil gi en pekepinn på hvor Beyonder kan forvente å få
 arbeidskraften sin fra. Dette ses i en situasjon med og uten Rofast, som skal komme fem år etter at
 Beyonder planlegger sin etablering på Gismarvik i år 2026.
 
-### mangler i datagrunnlag for pendling {#sec-mangler-i-datagrunnlag}
+### Mangler i datagrunnlag for pendling {#sec-mangler-i-datagrunnlag}
 
 Modelleringene for denne seksjonen er gjort ved programmet QGIS. Dataene
 som benyttes av disse modelleringene er informasjon fra vegnettet og
 ferjeruter [@statensvegvesen]. Dette er for å kunne beregne de ulike
 avstandene i både kilometer og tid. Vi har også benyttet data fra SSB på
 pendletall for 4. kvartal 2015-2022, grunnkretsnivå. Disse dataene er
-brukt for å kunne kartlegge sysselsettingsmønsteret i regionen.
+brukt for å kunne kartlegge sysselsettingsmønsteret i geografien.
 
 Som ved all data innebærer det feil og mangler. På et så disaggregert
 nivå vil noe av dataene være utelatt grunnet personvern. Celler med
 verdi en eller to er fjernet fra tabellen. Celler med færre enn 3
 virksomheter i arbeidsgrunnkrets er også fjernet. Dette innebærer at i
 tabeller med pendling etter grunnkrets blir om lag 75 prosent av cellene
-med verdi fjernet (Kilde? kopiert og limt inn fra SSB e-post). Vi har
+med verdi fjernet. Vi har
 kontrollsjekket alle tallene vi har fått opp mot mer aggregerte data fra
 SSB som er offentlige. Ved å ta hensyn til mangler som SSB opplyser om,
 og korrigerer for dem, finner vi frem til at våre resultater er i
-overensstemmelse med SSBs.
+overensstemmelse med SSBs kommentarer på grunnkretsdata.
 
 I luftlinje får vi en fin illustrasjon på hvor langt vi kommer i
 geografien. Området som dekkes strekker seg fra Nærbø og Helland i sør
@@ -2325,11 +2325,11 @@ og til Sandvikvåg i nord. Østover strekker det seg helt inn til Sauda.
 ![Avstand luftlinje fra Gismarvik, målt i
 kilometer](bilder/Avstand_luftlinje.png){#fig-avst-luft}
 
-@fig-avst-veg illustrerer potensielle rekrutterinsgomåder spesifisert
+I @fig-avst-veg illustreres de potensielle rekrutterinsgomådene spesifisert
 etter ulike reisetider, med avstander gitt ved reisetider på vegnettet
 heller enn i luftlinje. Vi ser at man når mindre ut i geografien fra
 Haugaland næringspark enn med avstand i luftlinje som illustrert i
-figuren ovenfor. Dette er forventet, og kan forklares av geografien i
+figuren ovenfor. Dette er forventet, og kan forklares av geografiske kjennetegn i
 området. Kysten er relativt flat med mange øyer og fjorder. Mange veier
 langs kysten i området har derfor bro- og ferjeforbindelser. Skal man
 for eksempel fra Haugesund til Stavanger så inkluderer det en
@@ -2343,37 +2343,35 @@ med mindre omfattende vegnettverk.
 ![Avstandssoner fra Gismarvik, målt i kilometer, etter
 vegnett](bilder/Avstand_veg.png){#fig-avst-veg}
 
-@fig-rtid reisetid til Haugaland Næringspark fra geografiske tyngdepunkt
-til hver grunnkrets i området. Avstanden er målt fra nærmeste veg fra
+I @fig-rtid vises ulike reisetider til Haugaland Næringspark fra geografiske tyngdepunkter i alle grunnkretsene i området. Avstanden er målt fra nærmeste veg fra
 disse tyngdepunktene til grunnkretsene. Siden dette punktet er sentrum
 for grunnkretsen, og ikke sentrum for aktiviteten i grunnkretsen, kan
-reisetiden avvike noe. I modelleringen er gjennomsnittsfart 60 km/t.
-Innen 15 minutters-tidsintervallet når man store deler av Tysvær
+reisetiden avvike noe. I modelleringene er gjennomsnittsfarten satt til 60 km/t. Innenfor 15 minutters-tidsintervallet når man store deler av Tysvær
 kommune. Man når også Nord-Karmøy og helt sør i Haugesund kommune
-innenfor 15 minutter.Dette skyldes vegprosjektet T-forbindelsen som har
+innenfor 15 minutter. Dette skyldes vegprosjektet T-forbindelsen som har
 knyttet vegnettet mellom Tysvær, Karmøy og Haugesund kommune. Sørover
-fra næringsparken kommer man til Byfjordtunnelen rett før Randaberg, som
+fra næringsparken kommer man til Byfjordtunnelen innenfor 75 minutter. Tunnelen er lokalisert rett før Randaberg, som
 ligger nord for Stavanger. Vi ser også at tidsintervallene er smale i
 området rundt Arsvågen og Mortavika. Dette skyldes ferjen over
 Boknafjorden som binder Haugalandet og Stavanger-regionen sammen.
 Reisetiden over fjorden er modellert til cirka 30 minutter. Dette
 gjenspeiler selve fergetiden på cirka 24 minutt. Ventetiden er regnet ut
 fra avreise hvert 15 minutt delt på 2, dvs halvparten av frekvenstiden.
-Dette er også med på å forklare hvorfor man kommer lenger nord for
-Haugaland næringspark enn sør i reisetiden.
+Dette er også med på å forklare hvorfor man kommer lenger nord fra
+Haugaland næringspark enn det man gjør sør i reisetid.
 
-![Avstand fra Gismarvik, målt i
+![Avstander fra Gismarvik på dagens vegnett, målt i
 reisetid](bilder/reisetid_ferje.png){#fig-rtid}
 
 I @fig-prosj-rog har vi laget en illustrasjon på hvor Rogfast vil gå
 over Boknafjorden via Kvitsøy. Rogfast er et vegprosjekt som ble vedtatt
-for utbygging mellom kommunene Bokn, Kvitsøy og Randaberg 23.Mai 2017
-[@statensvegvesen2023]. Ifølge @cowi2012 så vil Rogfast være 27km og ha
-en fart på 90 km/t og med det vil reisetiden fra Haugesund til Stavanger
+for utbygging mellom kommunene Bokn, Kvitsøy og Randaberg den 23. mai i 2017
+[@statensvegvesen2023]. Ifølge @cowi2012 så vil Rogfast være 27 km lang og ha
+en fart på 90 km/t. Dette frører til at reisetiden fra Haugesund til Stavanger vil
 gå fra 1 ½ time til 1 time [@bayer2015]. Vi har lagt Rogfast inn i
-kartet vårt i QGIS da den ikke eksisterer i dagens vegnett. Her la vi
+kartet vårt gjennom QGIS programmet da den ikke eksisterer i dagens vegnett. Her la vi
 inn den informasjonen vi har funnet angående fart og avstand for å få en
-antatt korrekt reisetid.
+antatt korrekt reisetid. 
 
 ![Illustrasjon av vegnett, med
 Rogfast](bilder/Illustrasjon_tunell.png){#fig-prosj-rog}
