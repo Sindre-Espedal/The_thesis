@@ -2118,11 +2118,9 @@ forholdet mellom de base og ikke-basse komponentene i den regionale
 økonomien [@thomas1964].
 
 Mangler ved lokaliseringkvotient-metoden er godt forklart av
-@mattila1955. Å kunne skille mellom rene basis- og lokalnæringer har
+@mattila1955. Å kunne skille mellom rene base- og lokalnæringer har
 også vist seg i praksis å ikke være mulig [@ha2012]. I en regional
-økonomi vil det alltid være en blanding av disse to typer næringer.
-Basissektoren er også undervurdert som følge av at økonomien er et
-lukket system gjennom antagelsen om at nasjonen ikke driver med eksport.
+økonomi vil det alltid være en blanding av disse to typer næringer. 
 
 ### Input- outputanalyse:
 
