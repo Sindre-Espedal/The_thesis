@@ -2745,8 +2745,7 @@ forskjeller i ledighetsprosent kan representere en likevektstilstand.
 
 # Den generelle likevektsmodell
 
-Så langt i oppgaven har den økonomiske basemodellen gitt oss et
-innsiktsfull bidrag til å forstå ringvirkningene av en stor
+Så langt i oppgaven har den økonomiske basemodellen bidratt til å forstå ringvirkningene av en stor
 bedriftsetablering. Likevel er våre resultater og funn best egnet for et
 kortsiktig perspektiv. I en langsiktig planlegging for en slik regional
 analyse er det en del mekanismer som bør være med, men som vi ikke
@@ -2813,7 +2812,7 @@ Valg av nytt bosted for personer som velger å flytte, bestemmes gjennom
 en prosess der arbeidstakere vurderer og sammenligner forskjellige
 alternativer i et nettverk (8). Dette vil føre til en absorpsjonseffekt,
 som kan beskrive den gradvise økningen av befolkningen i et bo-område
-[@naevdal2006]. @naevdal2006 sier samtidig at flyttestrømmene er
+[@naevdal1996]. @naevdal1996 sier samtidig at flyttestrømmene er
 avhengig av avstand og boligpriser. Boligprisene påvirkes av
 arbeidsmarkedets tilgjengeligheten og avstand til regionsenteret
 [@osland2008], og flyttestrømmer (9) påvirker den geografiske
