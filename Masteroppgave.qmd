@@ -496,6 +496,10 @@ hvordan økonomisk vekst kunne påvirke andre regioner og sektorer, og for
 å ta hensyn til disse negative effektene i planleggingen av økonomisk
 utvikling
 
+Slike diskusjoner er viktige innspill til en generell diskusjon av ringvirkningsanalyse, og er knyttet til begreper som distributive og generative virkninger. Dette er to begreper som blir brukt til å skille mellom to typer virkninger av økonomisk aktivitet. Distributive virkninger handler om at ressurser blir omplassert fra en gruppe eller område til en annen, uten at det skjer en økning i de totale ressursene [@fujita1999]. Distributive virkninger kan føre til at en region mister aktivitet og arbeidsplasser til en annen region. Dette kan skje når en bedrift flytter produksjonen sin til en annen region med lavere lønnskostnader eller mer gunstige produksjonsforhold.  
+
+Generative virkninger derimot viser til at en økning i aktivitet og verdiskaping skjer som et resultat av at nye ressurser blir tilført en region [@fujita1999]. Denne type virkninger kan føre til at en region vokser og utvikler seg økonomisk som et resultat av en bedriftsetablering i en region. En velkjent teori innenfor by- og regional økonomi som tar for seg generative virkninger er klyngeteori. 
+
 ### Klyngeteori
 
 Når bedrifter over tid samlokaliseres kan innovasjon drives videre i
