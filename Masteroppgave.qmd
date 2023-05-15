@@ -1332,7 +1332,7 @@ og aggregerte analyser. I stedet for å analysere virkninger av
 industriell endring på mikroøkonomisk nivå, fokuserer denne modellen på
 koblingene mellom aggregerte sektorer ved å karakterisere en region som
 består av næringer som spesifiseres i to ulike kategorier. Disse to er
-lokalnæringer og basenæringer[@mccann2013].
+lokalnæringer og basenæringer [@mccann2013].
 
 @mccann2013 sier at lokalsektoren består av bedrifter som betjener lokal
 etterspørsel. Lokalnæringer blir nesten utelukkende brukt av
@@ -1351,7 +1351,7 @@ utenfor regionen. Videre vil vi presentere Hoyts basemodell, og
 diskutere eksportelementet i basenæringer, som er grunnen til at Hoyts
 basemodell blir ansett som en eksport-basemodell.
 
-## Økonomisk eksport baseteori
+## Økonomisk eksport-baseteori
 
 Økonomiske eksport-baseteori er utviklet for å bestemme rollen til
 etterspørselen når det gjelder vekst og utvikling til en region
@@ -1459,8 +1459,7 @@ under viser at løsningen for samlet sysselsetting i basemodellen er gitt
 ved summen av en slik uendelig geometrisk rekke. Dette innebærer at det
 resonnementet som ligger til grunn for overgangene @eq-5.0.1.1 -
 @eq-5.0.1.8 gir en forklaring på den økonomiske basemekanismen. I
-utregningene under er det brukt et eksempel med $\Delta \bar{E}_b = 100$
-så vil:
+utregningene under er det brukt et eksempel med $\Delta \bar{E}_b = 100$:
 
 $$
 \rightarrow \Delta E_T = 100
@@ -1524,7 +1523,7 @@ $$
 \Delta E_T = \frac{1}{1-a} \cdot \bar{E_b}
 $$ {#eq-5.0.1.1.5}
 
-**Konvergerende effekt**
+**Konvergerende prosess**
 
 Med $a<1$ så har vi derfor en konvergerende prosess. @fig-con-pro viser
 en forenkling av den konvergerende prosessen. Denne modellen viser at en
@@ -1665,7 +1664,7 @@ Etterspørselen må med andre ord forventes å reflektere inntekt,
 demografisk sammensetning av befolkningen o.l.
 
 Multiplikatoren i @eq-6 kan forklares på samme måte som multiplikatoren
-i @eq-5.0.1.1.5 . Her vil det også oppstå en multiplikatorprosess som
+i @eq-5.0.1.1.5. Her vil det også oppstå en multiplikatorprosess som
 også vil få lekkasje. Forskjellen her er at denne lekkasjen består nå i
 at lokale konsumenter også etterspør varer og tjenester som er produsert
 i andre land og regioner.
