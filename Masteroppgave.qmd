@@ -595,7 +595,7 @@ arbeidssted i regionen. Dataene presentert i
 [@fig-sysselsettingsfordeling] viser tydelig at Haugesund kommune har
 den høyeste andelen sysselsatte etter arbeidssted i regionen. I tabell
 03321 finner vi at de som har arbeidsstedsadresse i Haugesund kommune,
-har 55,8% av disse Haugesund kommune som bosted. 23,6% av de som jobber
+har 55,8% Haugesund kommune som bosted. 23,6% av de som jobber
 i Haugesund har bosted i Karmøy kommune. 7,5% av disse har bosted i
 Tysvær kommune, og 4% har bostedsadresse i Sveio kommune. De resterende
 9% er jevnt spredt mellom kommune i regionen og resten av landet. Karmøy
@@ -703,7 +703,7 @@ er dette helt naturlig. Slike forskjeller er å forvente for typiske
 basenæringer. Basenæring er en næring som eksporterer varer og tjenester
 ut av regionen, mens bedrifter innenfor lokalnæringene i hovedsak
 betjener befolkningen internt i regionen. Dette vil bli mer forklart i
-@sec-baseteori og {@sec-anvendelse} om baseteori og anvendelsen.
+@sec-baseteori og @sec-anvendelse om baseteori og anvendelsen.
 
 Videre i oppgaven vil vi se på næringer på 2-siffer nivå, der vi vil gå
 mer detaljert inn å se på hvilke næringer som er tyngre vektet på
@@ -711,7 +711,7 @@ Haugalandet enn Norge. Dette er for å få en bedre innsikt i hvilken
 arbeidskraft som er på Haugalandet og hvordan utviklingen har vært de
 siste årene. Appendix 1 gir oversikt og forklaring på næringsfordelingen
 etter ulike siffernivåer av NACE-koder. NACE er en EU-standard for
-næringsgrupperinger som brukes til statiske formål. Ifølge Statistisk
+næringsgrupperinger som brukes til statistiske formål. Ifølge Statistisk
 sentralbyrå (2023) er NACE-hovednivå det samme som NACE-seksjon, som er
 det øverste nivået i NACE-systemet. Dette nivået består av 21 seksjoner
 som hver representerer en bred kategori av økonomisk aktivitet, for
@@ -817,7 +817,7 @@ hovedsak Vest-Norge [@ntb2016]. Det er derfor vi ser en stor nedgang i
 andel ansatte på Haugalandet innen sjøfart fra 2014 til 2016. Vi ser at
 det er tendenser til vekst i sjøfart næringen fra og med 2020 og videre.
 Dette kan ha noe med optimismen og etableringen av havvindparker
-[@fornybarnorge2022. Til etableringen av havvindparker så krever det
+[@fornybarnorge2022]. Til etableringen av havvindparker så krever det
 sysselsatte i sjøfartsnæringen for å gjennomføre prosjektene. Solstad
 offshore, Deepocean og Aker Solutions etablerte i 2021 selskapet
 Offshore Renewables Alliance. Denne etableringen er med på å gi et
