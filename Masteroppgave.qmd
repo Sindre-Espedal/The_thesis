@@ -2237,25 +2237,21 @@ avstandene i både kilometer og tid. Vi har også benyttet data fra SSB på
 pendletall for 4. kvartal 2015-2022, grunnkretsnivå. Disse dataene er
 brukt for å kunne kartlegge sysselsettingsmønsteret i geografien.
 
-Som ved all data innebærer det feil og mangler. På et så disaggregert
-nivå vil noe av dataene være utelatt grunnet personvern. Celler med
+På et så disaggregert nivå vil noe av dataene være utelatt grunnet personvern. Celler med
 verdi en eller to er fjernet fra tabellen. Celler med færre enn 3
 virksomheter i arbeidsgrunnkrets er også fjernet. Dette innebærer at i
 tabeller med pendling etter grunnkrets blir om lag 75 prosent av cellene
-med verdi fjernet. Vi har
-kontrollsjekket alle tallene vi har fått opp mot mer aggregerte data fra
+med verdi fjernet. Disse dataene med denne informasjonen ble bestilt fra SSB. Vi har kontrollsjekket alle tallene vi har fått opp mot mer aggregerte data fra
 SSB som er offentlige. Ved å ta hensyn til mangler som SSB opplyser om,
 og korrigerer for dem, finner vi frem til at våre resultater er i
 overensstemmelse med SSBs kommentarer på grunnkretsdata.
 
-I luftlinje får vi en fin illustrasjon på hvor langt vi kommer i
-geografien. Området som dekkes strekker seg fra Nærbø og Helland i sør
-og til Sandvikvåg i nord. Østover strekker det seg helt inn til Sauda.
+I @fig-avst-luft får vi en fin illustrasjon på hvor langt vi kommer i geografien i luftlinje. Området som dekkes, strekker seg fra Nærbø og Helland i sør og til Sandvikvåg i nord. Østover strekker det seg helt inn til Sauda. Med bruk av luftlinjer vil ikke reisetiden bli ivaretatt, og gjør det irrelevant om Rogfast blir tatt med eller ikke. 
 
 ![Avstand luftlinje fra Gismarvik, målt i
 kilometer](bilder/Avstand_luftlinje.png){#fig-avst-luft}
 
-I @fig-avst-veg illustreres de potensielle rekrutterinsgomådene spesifisert
+I @fig-avst-veg illustreres de potensielle rekrutteringsomådene spesifisert
 etter ulike reisetider, med avstander gitt ved reisetider på vegnettet
 heller enn i luftlinje. Vi ser at man når mindre ut i geografien fra
 Haugaland næringspark enn med avstand i luftlinje som illustrert i
@@ -2270,8 +2266,7 @@ Haugesund og Stavanger. I en storby vil avstandsforskjellen i luftlinje
 og vegnett ikke være betydelig. Men, regionen har også rurale områder
 med mindre omfattende vegnettverk.
 
-![Avstandssoner fra Gismarvik, målt i kilometer, etter
-vegnett](bilder/Avstand_veg.png){#fig-avst-veg}
+![Avstandssoner fra Gismarvik, målt i kilometer, dagens vegnett](bilder/Avstand_veg.png){#fig-avst-veg}
 
 I @fig-rtid vises ulike reisetider til Haugaland Næringspark fra geografiske tyngdepunkter i alle grunnkretsene i området. Avstanden er målt fra nærmeste veg fra
 disse tyngdepunktene til grunnkretsene. Siden dette punktet er sentrum
@@ -2290,8 +2285,8 @@ fra avreise hvert 15 minutt delt på 2, dvs halvparten av frekvenstiden.
 Dette er også med på å forklare hvorfor man kommer lenger nord fra
 Haugaland næringspark enn det man gjør sør i reisetid.
 
-![Avstander fra Gismarvik på dagens vegnett, målt i
-reisetid](bilder/reisetid_ferje.png){#fig-rtid}
+![Avstander fra Gismarvik, målt i
+reisetid, dagens vegnett](bilder/reisetid_ferje.png){#fig-rtid}
 
 I @fig-prosj-rog har vi laget en illustrasjon på hvor Rogfast vil gå
 over Boknafjorden via Kvitsøy. Rogfast er et vegprosjekt som ble vedtatt
