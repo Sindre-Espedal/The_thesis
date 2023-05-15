@@ -2324,6 +2324,8 @@ deler av arbeidsmarkedsregionen i Stavanger blir fanget opp i disse
 tidsintervallene. Utvidelsen med Rogfast kommer frem med å sammenligne
 kartene i @fig-rtid og @fig-tid-rf
 
+\newpage
+
 | Reisetid | Uten Rogfast | Med Rogfast |
 |----------|--------------|-------------|
 | 15 min   | 11 273       | 11 273      |
@@ -2339,19 +2341,15 @@ kartene i @fig-rtid og @fig-tid-rf
 Med en etablering på Gismarvik vil hovedtyngden av den geografiske
 spredningen skje på Haugalandet. Det som er interessant å diskutere er
 hvor mye av multiplikatorvirkningene for Haugalandet vil dempes av
-rekruttering fra sørsiden av Boknafjorden. Vi vet at arbeidsmarkedet der
-sør er større og flere å velge mellom. Det som gjelder her, er
-pendlevilligheten til arbeidstakerne. Dette vil variere fra person til
-person, men i all hovedsak er det rundt 45 minutter som er bristepunktet
-for å pendle eller søke jobb en annen plass. Vi ser i @fig-tid-rf at på
+rekruttering fra sørsiden av Boknafjorden. Vi vet at arbeidsmarkedet sør for Boknafjorden er større, med et mer variert jobbtilbud. Det som gjelder her, er
+pendlevilligheten til arbeidstakerne. Vi ser i @fig-tid-rf at på
 45 minutter kommer vi til Stavanger sentrum, noe som gjør at Beyonder
 har gode muligheter til å hente arbeidskraft sør for Boknafjorden. Vi
 kan gjøre utregninger på dette med hjelp av gravitasjonsmodeller, men på
 grunn av oppgavens tidsbegrensninger så er det ikke mulig å gjennomføre.
 Det som kommer frem, er at noe av multiplikatorvirkningene vil dempes på
-Haugalandet på grunn av tilgjengeligheten til Stavanger-regionen. Dette
-er en av backwash-effektene som kan oppstå med en slik etablering og
-ferdigstilling av Rogfast.
+Haugalandet på grunn av tilgjengeligheten til Stavanger-regionen.
+Dette kan forklares som et resultat av større spredning av sjokkvirkninger i et utvidet arbeidsmarked. Slike spredningseffekter går også den andre vegen som følge av Rogfast; hvor jobbmuligheter i sørfylket blir lettere tilgjengelig for arbeidstakere i nordfylket. Et utvidet nedslagsfelt for rekruttering av arbeidskraft kan også gjøre Gismarvik til en mer attraktiv næringspark for etablering av basebedrifter; hvor man får økt rekrutteringsmuligheter mellom to regioner.
 
 \newpage
 
