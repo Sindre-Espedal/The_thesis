@@ -2583,7 +2583,7 @@ generelle likevektsmodellen.
 # Likevektsledighet
 
 Som presentert tidligere i oppgaven i @fig-arbeidsledighet så har vi
-dannet oss et bilde av at prosentvis arbeidsledighet er høyest i
+dokumentert et mønster av at prosentvis arbeidsledighet er høyest i
 sentrale ytre strøk, som er det mest befolkningstette området i
 regionen. Som en naturlig observasjon for et arbeidsmarkedsområde, viser
 @fig-arbeidsledighet at ledighetsprosentene er sterkt samvarierte, men
@@ -2657,7 +2657,7 @@ arbeidstakere føre til en økning i tilbudet av arbeidskraft, noe som kan
 føre til en lavere likevektslønn og høyere sysselsetting [@mankiw2020].
 
 Videre har vi laget en modifisert fremstilling av en
-likevektsfremstilling for arbeidsmarkdet som er hentet fra @mccann2013.
+likevektsfremstilling for arbeidsmarkedet som er hentet fra @mccann2013.
 Denne får frem noe av det som forventes å skje når det etableres en ny
 bedrift som Beyonder i sentral strøk av regionen.
 
@@ -2681,10 +2681,10 @@ på å senke tilbudet av arbeidskraft i region a, og med det gi en økt
 lønn i region a for å beholde den gjenværende arbeidskraften. Det som da
 vil oppstå er et større tilbud av arbeidskraft i region b som igjen vil
 være med å presse lønnen litt ned igjen i region b. Det ser vi i
-skjæringspunktet mellom 343-linjen og Db1-kurven.
+skjæringspunktet mellom 343-linjen og $D_{b1}$-kurven.
 
 Det som ofte kan oppstå er at de best kvalifiserte flytter til de mer
-urbane områdene for å få avkastning på sin utdanning. Disse er ofte mer
+urbane områdene for å få avkastning på sin utdanning [@moretti2012]. Disse er ofte mer
 effektive og kan produsere mer verdifulle varer og tjenester enn en
 mindre kvalifisert arbeidstaker ville ha gjort. Dette er en typisk
 backwash-effekt som kan oppstå i innad i regioner ved en slik
@@ -2693,10 +2693,10 @@ plassere seg der denne arbeidskraften er tilgjengelig. Som nevnt
 tidligere i oppgaven så har Haugalandet en utdanningsprofil som passer
 godt til en bedrift som Beyonder. Det at de mest kvalifiserte som
 flytter fra indre til ytre strøk, så vil etterspørselskurven få et
-venstreskift i område a (Da1) og et nytt høyreskift i område b. Da vil
+venstreskift i område a $(D_{a1})$ og et nytt høyreskift i område b. Da vil
 det oppstå enda større lønnsforskjeller mellom områdene, og med det
 forsterke fraflyttingen fra indre strøk enda mer. Hvis dette fortsetter
-så vil det ende med en totalt fraflyttelse fra indre til ytre strøk. I
+så vil det ende med en totalt fraflytting fra indre til ytre strøk. I
 dette tilfelle vil det nok ikke ende opp i en ny likevekt, men
 agglomerasjons ulemper som vil dempe tilflytting til ytre strøk. I følge
 @capello2015 så vil det i slike situasjoner oppstå ulemper som
@@ -2719,7 +2719,7 @@ sentrale strøk så lenge forventet lønn der er høyere enn i rurale strøk.
 Høyere ledighet i sentrale områder bidrar til å redusere forventet lønn,
 og dermed dempe flyttestrømmen, og vi kan nå en likevektssituasjon med
 høyere lønn og høyere ledighet sentralt i regionen. Hvis det oppstår en
-økt etterspørsel i arbeidsmarkedet sentral, i dette tilfelle Beyonder,
+økt etterspørsel i arbeidsmarkedet sentralt, i dette tilfelle Beyonder,
 vil den umiddelbare virkningen være økt forventet lønn i sentrale strøk,
 og en økt tilflytting fra de mer rurale områdene. Dette vi gå sin gang
 helt til en ny likevekt inntreffer, med større sysselsetting og
