@@ -569,22 +569,11 @@ Forskning innenfor dette feltet vil sannsynligvis fortsette å gi innsikt
 i hvordan klynger fungerer, og hvordan de kan bidra til å fremme
 økonomisk vekst og utvikling på lokalt og regionalt nivå.
 
-Tradisjonelt sett består regionen Haugalandet av kommunene Haugesund,
-Bokn, Tysvær, Karmøy, Utsira, Vindafjord [@thorsnaes2021]. Vi har også
-valgt å se på Etne og Sveio kommune på grunn av deres nærhet til
-regionen i geografien. Bømlo og Stord kommune ligger nesten like tett på
-Gismarvik som Etne, men etter en vurdering ut fra pendledataene så
-utelates Stord og Bømlo. Oppgavens begrensninger i form av tid er også
-en faktor for denne avgjørelsen, selv om det kan diskuteres om dette er
-en god beslutning. Sauda kommune ligger enda lengre fra Gismarvik, men
-kan tenkes å tjene som et eksempel på en lokal kommune som er mer
-perifert knyttet til anlegget på Gismarvik. Vi ender derfor opp med å se
-på kommunene på Haugalandet, i tillegg til Etne-, Sveio- og Sauda
-kommune.
-
 ## Den geografiske fordelingen av arbeidsplasser på Haugalandet
 
-Vi starter med en illustrasjon av en helhetlig beskrivelse knyttet til
+Tradisjonelt sett består regionen Haugalandet av kommunene Haugesund, Bokn, Tysvær, Karmøy, Utsira, Vindafjord (Thorsnæs, 2021). Vi har også valgt å se på Etne og Sveio kommune på grunn av deres nærhet til regionen i geografien. Bømlo og Stord kommune ligger nesten like tett på Gismarvik som Etne, men etter en vurdering ut fra pendledataene så utelates Stord og Bømlo. Oppgavens begrensninger i form av tid er også en faktor for denne avgjørelsen, selv om det kan diskuteres om dette er en god beslutning. Sauda kommune ligger enda lengre fra Gismarvik, men kan tenkes å tjene som et eksempel på en lokal kommune som er mer perifert knyttet til anlegget på Gismarvik. Vi ender derfor opp med å se på kommunene på Haugalandet, i tillegg til Etne-, Sveio- og Sauda kommune. 
+
+Videre presenterer vi en helhetlig beskrivelse knyttet til
 fordelingen av arbeidsplasser mellom de lokale kommunene. Det aller
 meste av regionen kan oppfattes som et felles bo- og
 arbeidsmarkedsområde (BA-region), hvor mye av pendlestrømmen til
