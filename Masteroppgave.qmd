@@ -2406,19 +2406,19 @@ $a$. $P_j$ er befolkning i destinasjon $j$, summert over alle
 destinasjonene i område, $\sum_j$. $d_{aj}$ representerer avstanden
 mellom lokasjon $a$ og destinasjon $j$, ved en parameter $\gamma$.
 $\gamma$-parameteren kalles for *distance deterrence* i litteraturen, og
-sier noe om avstandsvegringen. En høy $\gamma$verdi indikerer at man er
-stedbunden, og har liten villighet til å reise. En lav $\gamma$verdi
+sier noe om avstandsvegringen. En høy $\gamma$-verdi indikerer at man er
+stedbunden, og har liten villighet til å reise. En lav $\gamma$-verdi
 indikerer at man vegrer seg mindre for å reise lengre avstander til
 arbeid. I litteraturen er en slik avstandsvegringsfunksjon vel så ofte
 representert ved en eksponentialfunksjon. Siden vi kjenner til arbeider
 som estimerer en slik parameter ut fra en eksponentialfunksjon, velger
 vi å bruke den i fortsettelsen, uten at det kan forventes å spille noen
-rolle for beregningene.Ifølge @thorsen1998 har $\hat{\beta}$ en verdi på
-0,07524 for regionen. Våre beregninger er altså basert på følgende
+rolle for beregningene. Ifølge @thorsen1998 har $\hat{\beta}$ en verdi på
+0,07524 for regionen. Parameterne $\gamma$ og $\beta$ har tilsvarende tolkning, men satt i ulike funksjonsutrykk. Våre beregninger er altså basert på følgende
 formel:
 
 $$
-E_a = K \sum_j P_j^{- \beta_{d_{aj}}}
+E_a = K \sum_j P_j e^{-\beta d_{aj}}
 $$ {#eq-eksp}
 
 ## Data & metode
