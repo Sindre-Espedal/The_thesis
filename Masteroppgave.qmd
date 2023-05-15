@@ -971,7 +971,7 @@ Tab_13470_andeler_naering %>%
 
 ### Detaljhandel, unntatt med motorvogner
 
-Som illustrert i [@fig-kake-haugalandet], er varehandel er den næringen
+Som illustrert i [@fig-kake-haugalandet], er varehandel den næringen
 på hoved-siffernivå med tredje mest antall ansatte på Haugalandet, og
 ligger over den nasjonale andelen med litt under ett prosentpoeng. På
 2-siffernivå så ser vi at Detaljhandelen ligger over det nasjonale
@@ -1116,7 +1116,7 @@ I @fig-fagfelt er fagfeltet definert med tallkoder. Fagkodene er definert på f�
 
 Industrisektoren på NACE-hovednivå er sterkt knyttet opp mot fagfeltet
 naturvitenskapelige fag, håndverksfag og tekniske fag. I @fig-fagfelt ser vi at Haugalandet har en relativt større andel av sysselsettingen
-knyttet til slike fagområder enn det som gjelder på nasjonal base. Dette
+knyttet til slike fagområder enn det som gjelder for nasjonen samlet. Dette
 fagfeltet innebærer utdanninger som kjemi og prosess, automasjon og
 aluminiumskonstruksjon som er sterkt knyttet opp til arbeidere på Hydro
 Karmøy og Kårstø i Tysvær kommune (SSB, 2023a). Hvert år pleier Aibel
@@ -1140,7 +1140,7 @@ opp mot 15 prosentpoeng på det nasjonale. En mulig forklaring til dette
 er at de som tar høyere utdanning flytter til de større byene som Oslo
 og Bergen, og gjerne blir igjen for å starte sin arbeidskarriere.
 
-Kompetansen Beyonder etterspørr er i hovedsak innenfor fagfeltet
+Kompetansen Beyonder etterspør er i hovedsak innenfor fagfeltet
 naturvitenskapelige fag, håndverksfag og tekniske fag. Rundt 75% av de
 ansatte vil jobbe med produksjon. I produksjonen antar Beyonder at cirka
 25% vil kreve ingeniørutdanning. Beyonder antar at administrasjons- og
