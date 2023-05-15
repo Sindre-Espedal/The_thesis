@@ -2199,20 +2199,13 @@ arbeidsmarkeds- og utdanningspolitikk for å støtte disse sektorene.
 
 \newpage
 
-# Pendleanalyse {#sec-kart}
+# Rekrutteringsmuligheter for arbeidskraft {#sec-kart}
 
-Videre i oppgaven ønsker vi å analysere pendleavstander på Haugalandet
-og i Stavangerregionen hvor Gismarvik er sentrumspunktet. Slik vil man
-få et visuelt bilde på hva som er akseptable pendleavstander til
-Haugaland Næringspark. Vi vil også se på virkningene av et operativt
-Rogfast vegnett for å presentere hvilke betydninger det vil få for
-pendling mellom Stavangerregionen og Haugalandet. En slik analyse vil kunne gi et bilde
-på rekrutteringsområdene for ulike typer arbeidskraft i regionen. Dette
-er en klar tiltrekningsfaktor for Beyonder ved en lokalisering på
-Gismarvik.
-Anvendelsen av baseteorien tar utgangspunkt i den inndelingen av
-næringer som ble gjort på regionnivå. Videre kan man beregne lokale
-multiplikatorer som varierer mellom kommunene, som vist i
+Videre ønsker vi å si noe om rekrutteringsmuligheter for arbeidskraft, med utgangspunkt i en lokalisering på Gismarvik. Dette er interessant i en vurdering av Gismarvik som lokaliseringsalternativ. For bedrifter som skal ta lokaliseringsvalg er rekrutteringsmulighetene for arbeidskraft en viktig faktor. Tidligere har vi gjort nytte av at informasjon om pendlestrømmer som er relevant når en skal si noe om hvordan eksogene sjokk spres i en region. Her ser vi nærmere på dette, gjennom kart for pendlemuligheter innenfor gitte tider og avstander. Vi tar også hensyn til at Rogfast vil være en realitet i relativt kort tid etter at Beyonder eventuelt er etablert i næringsparken. Også uten Beyonder vil betraktninger knyttet til pendlemuligheter o.l. være relevante i en vurdering av sjansene for andre etableringer i næringsparken.
+
+I anvendelsen av baseteorien som tar utgangspunkt i den inndelingen av
+næringer som ble gjort på regionnivå, kan man beregne lokale
+multiplikatorer som varierer mellom kommunene. Dette har blitt vist i
 @tbl-parameter1 og @tbl-parameter2. Det kan diskuteres at virkningene av
 et sjokk kan variere i stor grad etter hvor i regionen sjokket
 inntreffer. Spredningen avhenger blant annet av tilgjengeligheten til
@@ -2226,24 +2219,20 @@ pendleavstand for en høy andel av lokale arbeidstakere.
 
 ## Rekrutteringsområder fra Haugaland næringspark
 
-Det som er viktig for en så stor bedrift som planlegger å etablere seg i
-en litt mindre region er å vite hvilken arbeidskraft som er tilgjengelig
-for en slik etablering. Det vi mener er interessant er å se på hvor mye
-arbeidskraft som er tilgjengelig innenfor ulike tidsintervaller. Vi vil også se
+Det er mange faktorer som er viktig å tenke på under en slik etablering som Beyonder planlegger. En av disse faktorene er hvilken arbeidskraft som er tilgjengelig. Vi vil også se
 på dette når Rogfast er lagt inn som et fungerende vegnett mellom regionene.
 En ferdigstilling av Rogfast vil gjøre det lettere for arbeidskraft å
 pendle til og fra jobb, mellom sør- og nord-fylke, på grunn av
 redusert reisetid. I kartene under illustreres det hvor langt du
 får kjørt på 15-, 30-, 45-, 60- og 75 minutters kjøretid før og etter
-Rogfast. Dette vil gi en pekepinn på hvor Beyonder kan forvente å få
-arbeidskraften sin fra. Dette ses i en situasjon med og uten Rofast, som skal komme fem år etter at
-Beyonder planlegger sin etablering på Gismarvik i år 2026.
+Rogfast. Dette vil gi et grunnlag for rekrutteringsmulighetene ved en 
+etablering for Beyonder på Haugaland næringspark for situasjonen i dag, og med tiden fremover.
 
-### Mangler i datagrunnlag for pendling {#sec-mangler-i-datagrunnlag}
+### Mangler i datagrunnlaget {#sec-mangler-i-datagrunnlag}
 
 Modelleringene for denne seksjonen er gjort ved programmet QGIS. Dataene
 som benyttes av disse modelleringene er informasjon fra vegnettet og
-ferjeruter [@statensvegvesen]. Dette er for å kunne beregne de ulike
+ferjeruter [@statensvegvesen2023a]. Dette er for å kunne beregne de ulike
 avstandene i både kilometer og tid. Vi har også benyttet data fra SSB på
 pendletall for 4. kvartal 2015-2022, grunnkretsnivå. Disse dataene er
 brukt for å kunne kartlegge sysselsettingsmønsteret i geografien.
