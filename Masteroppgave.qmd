@@ -1939,6 +1939,11 @@ Når disse pendledataene anvendes på Beyonder får vi frem at de 2000
 direkte arbeidsplassene som skapes, vil bli fordelt som vist i
 @tbl-direkte.
 
+Videre bruker tallene fra @tbl-direkte og ganger disse med
+basemultiplikatoren til kommunene. Vi vil da få et anslag på økt antall
+lokale arbeidsplasser som vil oppstå i de forskjellige kommunene som
+sjokket har spredd seg på. Disse er vist i @tbl-indirekte.
+
 \newpage
 
 | Kommune     | Basis arbeidsplasser |
@@ -1955,11 +1960,6 @@ direkte arbeidsplassene som skapes, vil bli fordelt som vist i
 | Haugalandet | 2 000                |
 
 : Arbeidstakere hos Beyonder, fordelt etter bostedskommune, gjennom informasjon om pendlestrømmer {#tbl-direkte}
-
-Vi bruker tallene fra @tbl-direkte og ganger disse med
-basemultiplikatoren til kommunene. Vi vil da få et anslag på økt antall
-lokale arbeidsplasser som vil oppstå i de forskjellige kommunene som
-sjokket har spredd seg på.
 
 | Kommune     | Lokale arbeidsplasser |
 |-------------|-----------------------|
@@ -2002,7 +2002,7 @@ Befolkningsveksten for regionen som er presentert i @tbl-fysisk er
 regnet ut ved to forskjellige tilnærminger. Del a) er basert på en
 summering av virkningene når modellen er anvendt for hver enkelt på
 kommune, før vi summerer opp for regionen. Del b) representerer en
-direkte anvendelse av modellen på regionalt nivå. Begge tilnærmingene ga
+direkte anvendelse av modellen på regionalt nivå. Tilnærmingene ga
 nokså like resultater, med et avvik på kun 161 beboere på Haugalandet
 samlet sett. Se @tbl-fysisk.
 
