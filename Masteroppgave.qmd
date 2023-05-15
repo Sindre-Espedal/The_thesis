@@ -1160,9 +1160,7 @@ utdanningsnivå. Lokalt tilbys det Ingeniørprogrammer på HVL, og med et
 potensielt samarbeid kan Beyonder kunne fremme ønskelig spesialisering
 innenfor disse utdanningsprogrammene. Det er allerede en god etablering
 av ingeniører i maritim- og industrisektor på Haugalandet. Dersom dette
-er den ønskene typen av spesialisering av ingeniører som Beyonder har
-behov for, kan bedriften oppnå gode klyngeeffekter ut fra eksisterende
-arbeidsmarked.
+er den ønskede typen av spesialisering av ingeniører, kan bedriften oppnå gode klyngeeffekter ut fra eksisterende arbeidsmarked.
 
 ```{r}
 Tab_11615_fagfelt_sysselsatte_0_9 <- Tab_11615_fagfelt_sysselsatte
@@ -1191,12 +1189,17 @@ Tab_11615_fagfelt_sysselsatte_0_9$fagfelt <- replace(Tab_11615_fagfelt_sysselsat
 ```
 
 ```{r}
+Tab_11615_fagfelt_sysselsatte_0_9 <- Tab_11615_fagfelt_sysselsatte_0_9 %>% 
+  rename(Fagfelt = fagfelt)
+```
+
+```{r}
 #| label: fig-fagfelt
-#| fig-cap: "Andelen av fagfelt, 2021"
+#| fig-cap: "Andeler av arbeidsstyrken, etter fagfelt, 2021"
 Tab_11615_fagfelt_sysselsatte_0_9 %>% 
   group_by(Andel, Region) %>% 
   filter(Region %in% c("Haugalandet", "Norge")) %>% 
-  ggplot(aes(x = fagfelt, y = Andel, fill = Region)) + 
+  ggplot(aes(x = Fagfelt, y = Andel, fill = Region)) + 
   geom_bar(stat = 'identity', position = 'dodge')
 ```
 
@@ -1251,7 +1254,7 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel <- Tab_11615_utdanningsnivaa_syssels
 
 ```{r Utdanningsnivå hgld & nrg}
 #| label: fig-utdanning
-#| fig-cap: "Andel utdanningsnivå på Haugalandet, 2021"
+#| fig-cap: "Andeler av arbeidsstyrken, etter utdanningsnivå, 2021"
 Tab_11615_utdanningsnivaa_sysselsatte_andel %>%
   filter(Region %in% c("Haugalandet", "Norge")) %>%
   group_by(Andel, Region) %>% 
@@ -1263,7 +1266,7 @@ Tab_11615_utdanningsnivaa_sysselsatte_andel %>%
   geom_bar(stat = 'identity', position = 'dodge')
 ```
 
-## Gini og RDI
+## Spredning og spesialisering av næringer
 
 GINI indeks og RDI er to forskjellige mål som kan forklare spredningen i
 regionen og hvor spesialisert regionen er i ulike næringer. I
