@@ -2292,8 +2292,7 @@ I @fig-prosj-rog har vi laget en illustrasjon på hvor Rogfast vil gå
 over Boknafjorden via Kvitsøy. Rogfast er et vegprosjekt som ble vedtatt
 for utbygging mellom kommunene Bokn, Kvitsøy og Randaberg den 23. mai i 2017
 [@statensvegvesen2023]. Ifølge @cowi2012 så vil Rogfast være 27 km lang og ha
-en fart på 90 km/t. Dette frører til at reisetiden fra Haugesund til Stavanger vil
-gå fra 1 ½ time til 1 time [@bayer2015]. Vi har lagt Rogfast inn i
+en fart på 90 km/t. Dette fører til at reisetiden fra Haugaland næringspark til Stavanger vil gå fra 1 ½ time til 1 time. Vi har lagt Rogfast inn i
 kartet vårt gjennom QGIS programmet da den ikke eksisterer i dagens vegnett. Her la vi
 inn den informasjonen vi har funnet angående fart og avstand for å få en
 antatt korrekt reisetid. 
