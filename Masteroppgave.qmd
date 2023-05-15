@@ -342,7 +342,7 @@ blir forklart gjennom en prosess med "learning, sharing and matching"
 
 \newpage
 
-# En deskriptiv gjennomgang av næringsstruktur og arbeidsmarked på Haugalandet {#sec-deskriptiv}
+# Innovasjonsmuligheter og en deskriptiv gjennomgang av næringsstruktur og arbeidsmarked på Haugalandet {#sec-deskriptiv}
 
 I dette kapittelet ønsker vi å få et grunnlag for å vurdere hvordan en
 batteribedrift kan tenkes å tilpasse seg næringslivet på Haugalandet.
