@@ -519,7 +519,7 @@ kostnader og risiko.
 
 Senere har forskere videreutviklet Marshalls teori og studert klynger i
 ulike sammenhenger. @hoover1948 undersøkte geografisk lokalisering av
-bedrifter og økonomisk aktivitet og argumenterte for at nærhet mellom
+bedrifter og økonomisk aktivitet. Han argumenterte for at nærhet mellom
 bedrifter i en klynge kan føre til reduserte transaksjonskostnader og
 økt innovasjon.
 
