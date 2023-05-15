@@ -1725,33 +1725,33 @@ til en maritim hovedstad som nevnt tidligere i oppgaven. Vi har også en
 næring med høy LQ, dette er næring 15 - lær- og lærvareindustri. Grunnen
 til en så høy LQ kan være at denne type industri ikke er så utbredt
 generelt i landet, og dermed vil en slik næring med få sysselsatte, men
-høy eksport av varer rundt om i landet få en høy LQ-verdi.
+høy eksport av varer rundt om i landet få en høy LQ-verdi. For mer utfyllende informasjon om @tbl-LQ, se @fig-forklaring-næringer i appendiks.
 
-| Næring                                 | LQ-verdi | Næring                            | LQ-verdi |
-|---------------------|-----------------|------------------|-----------------|
-| 01 Jordbrk. og tilhørende tjnst., jakt | 1,48     | 26 Data- og elektronisk industri  | 0,73     |
-| 02 Skogbruk og tilhørende tjenester    | 0,35     | 27 Elektroteknisk industri        | 1,12     |
-| 03 Fiske, fangst og akvakultur         | 1,30     | 28 Maskinindustri                 | 0,81     |
-| 06 Utvinning av råolje og naturgass    | 1,71     | 29 Motorkjøretøyindustri          | 0,83     |
-| 08 Bryting og bergverksdrift ellers    | 1,49     | 30 Transportmiddelindustri ellers | 6,39     |
-| 09 Tjenester til bergverk og utvinning | 1,41     | 31 Møbelindustri                  | 0,18     |
-| 10 Næringsmiddelindustri               | 0,97     | 32 Annen industri                 | 0,29     |
-| 11 Drikkevareindustri                  | 0,07     | 33 Maskinrep. og -installasjon    | 1,96     |
-| 13 Tekstilindustri                     | 1,01     | 35 Kraftforsyning                 | 1,54     |
-| 14 Bekledningsindustri                 | 0,49     | 36 Vannforsyning                  | 1,92     |
-| 15 Lær- og lærvareindustri             | 18,10    | 37 Håndtering av avløpsvann       | 1,67     |
-| 16 Trelast- og trevareindustri         | 0,33     | 42 Anleggsvirksomhet              | 0,42     |
-| 18 Trykking, grafisk industri          | 0,25     | 43 Speslrt.bygg.- og anleggsvirk. | 1,26     |
-| 20 Kjemisk industri                    | 0,67     | 49 Landtransport og rørtransport  | 0,94     |
-| 22 Gummivare- og plastindustri         | 0,60     | 50 Sjøfart                        | 3,51     |
-| 23 Mineralproduktindustri              | 2,11     | 52 Transporttjenester og lagring  | 1,01     |
-| 24 Metallindustri                      | 5,99     | 55 Overnattingsvirksomhet         | 0,69     |
-| 25 Metallvareindustri                  | 1,97     | 86 Helsetjenester                 | 1,01     |
+| Næring               | LQ-verdi  | Næring           | LQ-verdi |
+|----------------------|-----------|------------------|----------|
+| 01                   | 1,48      | 26               | 0,73     |
+| 02                   | 0,35      | 27               | 1,12     |
+| 03                   | 1,30      | 28               | 0,81     |
+| 06                   | 1,71      | 29               | 0,83     |
+| 08                   | 1,49      | 30               | 6,39     |
+| 09                   | 1,41      | 31               | 0,18     |
+| 10                   | 0,97      | 32               | 0,29     |
+| 11                   | 0,07      | 33               | 1,96     |
+| 13                   | 1,01      | 35               | 1,54     |
+| 14                   | 0,49      | 36               | 1,92     |
+| 15                   | 18,10     | 37               | 1,67     |
+| 16                   | 0,33      | 42               | 0,42     |
+| 18                   | 0,25      | 43               | 1,26     |
+| 20                   | 0,67      | 49               | 0,94     |
+| 22                   | 0,60      | 50               | 3,51     |
+| 23                   | 2,11      | 52               | 1,01     |
+| 24                   | 5,99      | 55               | 0,69     |
+| 25                   | 1,97      | 86               | 1,01     |
 
 : LQ-verdier for næringer på Haugalandet, 2021 {#tbl-LQ}
 
-Hvis vi ser på @tbl-basis-lokal for base- og lokalsysselsetting i
-regionen så ser vi at total sysselsatte i basenæring er 22093 og total
+@tbl-basis-lokal for base- og lokalsysselsetting i
+regionen viser at total sysselsatte i basenæring er 22093 og total
 sysselsatte i lokalnæring er på 30948. Går vi mer innpå disse tallene så
 ser vi at det er Haugesund og Karmøy som er de kommunene med flest
 sysselsatte i både lokal- og basenæring. Det er kun Bokn som har flere
@@ -1789,7 +1789,7 @@ til den relativt høye andelen skyldes at Haugesund er senter for
 regionen. Som regionsenter foregår mye av handelsaktiviteten i området
 og for en lokalnæringsbedrift kan dette være en gunstig lokalisering.
 Lokalnæringer får konsentrasjoner av aktivitet, for eksempel på grunn av
-skala og bredde fordeler i shopping. Varehandelen er en slik næring, og
+skala- og breddefordeler i shopping. Varehandelen er en slik næring, og
 er tungt representert i Haugesund.
 
 | Region      | Basenæringer | Lokalnæringer | a    |
@@ -1808,7 +1808,7 @@ er tungt representert i Haugesund.
 : Fordelingen mellom base- og lokalnæring på Haugalandet, 2021
 {#tbl-basis-lokal}
 
-## Aggreegeringsnivå
+## Aggregeringsnivå
 
 De basemodellene som er skissert foran er formulert for regionen
 Haugalandet som helhet, og gir ikke muligheten til å fordele virkningene
@@ -1819,9 +1819,9 @@ regionen. Dette gjør vi fordi det romlige aggregeringsnivået vil påvirke
 analysen. I @tbl-parameter1 og @tbl-parameter2 nedenfor er base- og
 lokalnæringer vurdert for regionen samlet sett (a), og for hver enkelt
 kommune i regionen (b). Beregningene i (a) er gjort ut fra hvilke
-næringer i regionen som eksporterer varer og tjenester. I (b) er
+næringer i *regionen* som eksporterer varer og tjenester. I (b) er
 beregningene ut fra hvilke næringer som eksporter varer og tjenester ut
-av kommunen. Det kan finnes næringer som er lokalnæringer i et regionalt
+av *kommunen*. Det kan finnes næringer som er lokalnæringer i et regionalt
 perspektiv, og basenæring i et kommuneperspektiv. Et eksempel på dette
 er næringen "86 - Helsetjenester". På kommunenivå kan dette være
 basenæring for kommunen som har et sykehus, mens det er lokalt for
@@ -1837,8 +1837,8 @@ se at Bokn har en den lavere multiplikator, dette skyldes at det er lite
 lokal handel og arbeidsplasser generelt i denne kommunen. Sveio kommune
 har den nest høyeste basemultiplikator på Haugalandet. Denne er også
 høyere enn for regionen. Dette kan skyldes at det er en "utependler"
-kommune. Hvor de arbeidsplassene som er i området er tildelt for å
-betjene den lokale befolkningen. I tabellen er Utsira kommune utelatt.
+kommune. De arbeidsplassene en finner i området betjener typisk den lokale befolkningen.
+I tabellen er Utsira kommune utelatt.
 Dette er en beslutning vi har tatt grunnet Utsira sin spesielle
 lokalisering, at den er veldig liten, og den tilfører ikke vår analyse
 mye av verdi.
@@ -1939,6 +1939,8 @@ Når disse pendledataene anvendes på Beyonder får vi frem at de 2000
 direkte arbeidsplassene som skapes, vil bli fordelt som vist i
 @tbl-direkte.
 
+\newpage
+
 | Kommune     | Basis arbeidsplasser |
 |-------------|----------------------|
 | Haugesund   | 633                  |
@@ -1952,7 +1954,7 @@ direkte arbeidsplassene som skapes, vil bli fordelt som vist i
 | Sveio       | 87                   |
 | Haugalandet | 2 000                |
 
-: Økt antall basis arbeidsplasser {#tbl-direkte}
+: Arbeidstakere hos Beyonder, fordelt etter bostedskommune, gjennom informasjon om pendlestrømmer {#tbl-direkte}
 
 Vi bruker tallene fra @tbl-direkte og ganger disse med
 basemultiplikatoren til kommunene. Vi vil da få et anslag på økt antall
@@ -1991,6 +1993,7 @@ er presentert i [@tbl-befolkning]
 | Vindafjord | 222              |
 | Etne       | 81               |
 | Sveio      | 826              |
+| Haugalandet| 10 574           |
 
 : Befolkningsvekst som følge av etableringen av en batteribedrift med
 2000 ansatte på Gismarvik. {#tbl-befolkning}
@@ -2006,17 +2009,17 @@ samlet sett. Se @tbl-fysisk.
 ::: {#tbl-fysisk layout-ncol="2"}
 | Region      | Befolkningsvekst |
 |-------------|------------------|
-| Haugalandet | 10 573           |
+| Haugalandet | 10 574           |
 
-: (a) Sum av kommunene i regionen {#tbl-first}
+: Sum av kommunene i regionen {#tbl-first}
 
 | Region      | Befolkningsvekst |
 |-------------|------------------|
 | Haugalandet | 10 412           |
 
-: (b) Region paramterne {#tbl-second}
+: Region paramterne {#tbl-second}
 
-Befolkningsvekst på Haugalandet
+Predikert befolkningsvekst på Haugalandet, beregnet ut fra to forskjellige geografiske aggregeringsnivåer 
 :::
 
 Den geografiske spredningen på kommuner vil påvirkes av situasjonen med
@@ -2043,21 +2046,21 @@ innenfor regionen. Ved å fordele arbeidsplassene som lokale sjokk etter
 hvor arbeidstakerne har bosted, vil det kunne forventes at
 ringvirkningene er forklart av en gjensidig avhengighet mellom
 lokalnæringer og befolkning. Dette er forklart i den andre varianten av
-baseteorien på befolkningen, se @eq-1-\[-@eq-6\]. En lokal
+baseteorien på befolkningen, se @eq-1 - @eq-6. En lokal
 multiplikatorprosess oppstår når flere lokale får arbeidsplasser som
 stimulerer til økt konsum, som er med på å trekke nye folk til område og
 slik går prosessen videre.
 
 Ved denne metoden oppnådde vi identiske resultater lik den første
 tilnærmingen på befolkningen. og samsvarer med forlengelsen av teorien,
-se @eq-6.2-\[-@eq-6.3\] . Likevel har de to ulike tilnærmingene litt
+se @eq-6.2 - @eq-6.3. Likevel har de to ulike tilnærmingene litt
 ulike forklaringer til basemekanismen.
 
 Den første tilnærmingen forklares gjennom vareleveransen fra lokal til
 basisbedrifter. Dette er lokale bedrifter som leverer varer og tjenester
 som sørger for at basisbedriften kan opprettholde sin produksjon. Dette
 kan være allerede eksisterende bedrifter som utvider sin portefølje,
-eller nyetablerte bedrifter som satser på å serve Beyonder med varer og
+eller nyetablerte bedrifter som satser på å betjene Beyonder med varer og
 tjenester de trenger.
 
 Den andre tilnærmingen forklares gjennom vareleveranser til forbruk.
@@ -2074,7 +2077,7 @@ tilnærmingene gi identiske resultater, selv om de representerer noe
 ulike aktører og lokaletterspørsel i basemekanismen.
 
 Når det gjelder plasseringen av Beyonder så kan det tenkes at
-basemultiplikatorverdiene endres etter hvor etablering oppstår i
+basemultiplikator-verdiene endres etter hvor etablering oppstår i
 geografien. Vi tok utgangspunktet i Gismarvik og predikerte spredningen
 ut ifra hvordan pendledataene er til Kårstø-anlegget. Denne spredningen
 mellom kommunene avhenger av hvor bedriften ligger. Hvis for eksempel
@@ -2090,7 +2093,7 @@ lokal interaksjon.
 Denne spredningen kan også reflekteres av størrelsen på
 basemultiplikatoren, som bestemmes av det lokale aktivitetsnivået. En
 lav verdi på basemultiplikatoren indikerer at det er lite lokal
-aktivitet i området. Det gjør det grunn til å tro at mye av det som
+aktivitet i området. Det er grunn til å tro at mye av det som
 handles inn kommer fra andre steder enn lokalt i regionen. En høy verdi
 på basemultiplikatoren derimot indikerer at det er en sterk lokal
 klynge. Eksempler på slike områder er Haugesund og Karmøy. En slik mulig
