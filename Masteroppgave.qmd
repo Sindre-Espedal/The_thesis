@@ -2471,7 +2471,7 @@ ulike lokasjoner ($a$) i regionen er presentert i @tbl-pm.
 | 11460207 Aksdal      | 88107,0242  | 88424,2660   | 0,36$%$            |
 | 11600706 Dommersnes  | 86187,5982  | 86425,1471   | 0,28$%$            |
 
-: Potensialmål verdi for utvalgte lokasjoner på Haugalandet {#tbl-pm}
+: Potensialmål for utvalgte lokasjoner på Haugalandet {#tbl-pm}
 
 Som illustrert ovenfor har Gismarvik høyest verdi på potensialmålet både
 før og etter Rogfast. Gismarvik har også den største økningen på
@@ -2486,14 +2486,13 @@ Killingøy og Husøy er de to neste lokasjonene med høyest sentralitetsmål
 i dag. Dette kan tenkes å skylde deres nåværende sentralitet til
 Haugalandet sitt regionsenter. Vi ser også i @tbl-pm at Husøy får en
 sterkere "boozt" i potensialmålverdien med Rogfast enn det Killingøy
-får. Det er sannsynlig at dette kan forklares med at Husøy har en
-kortere avstand til Stavanger-regionen.
+får. Det er rimelig, siden Husøy har en kortere avstand til Stavanger-regionen.
 
 Vi har også valgt å se på en mulig plassering i Ølensvåg og Etne. Disse
 stedene ligger på utkanten av regionen, med egne, mindre, autonome
 arbeidsområder enn for resten av Haugalandet. Vi ser i @tbl-pm at både
 Ølensvåg og Etne har lavest potensialmål både før og etter Rogfast.
-Disse stedene har også en lenger veg ned til Stavanger-regionen enn
+Disse stedene har også en lenger veg til Stavanger-regionen enn
 senteret for Haugalandet.
 
 @eq-eksp ble også modellert for alle grunnkretsene på Haugalandet og i
