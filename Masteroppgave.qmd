@@ -2743,7 +2743,7 @@ forskjeller i ledighetsprosent kan representere en likevektstilstand.
 
 \newpage
 
-# Den generelle likevektsmodell
+# Den generelle likevektsmodell {#sec-gen-like}
 
 Så langt i oppgaven har den økonomiske basemodellen bidratt til å forstå ringvirkningene av en stor
 bedriftsetablering. Likevel er våre resultater og funn best egnet for et
