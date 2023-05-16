@@ -2835,7 +2835,7 @@ i basevirksomhet kan gi en økning i befolkningen. Dette etablerer et
 grunnlag for at den lokale sysselsettingen vil øke og dermed gi
 ytterligere tilflytting.
 
-Diskusjon av den generelle likevektsmodellen
+## Diskusjon av den generelle likevektsmodellen
 
 Det er særlig komponentene (5-11) i @fig-thorsen vi ikke har tatt hensyn
 til i vår analyse. Vi vil diskutere hvordan virkningene slike
