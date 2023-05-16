@@ -2849,15 +2849,12 @@ med sør-fylket.
 Gjennom basemodellen har vi predikert sysselsettings- og
 befolkningsendringer for regionen samlet, og for ulike kommuner. Men,
 denne modellen er etterspørselsbestemt, og vi har ikke vurdert forhold
-som angår for eksempel boligpriser. Det er rimelig å anta at
-boligprisene vil være lite påvirket etter en eventuell lokalisering av
-Beyonder. Dette er fordi Gismarvik har en relativ sentral posisjon i
-regionen. Det er allerede godt etablerte, sentrale boligområder i
+som angår for eksempel boligpriser. Det kan tenkes, med dagens vegnett, at det vil oppstå markerte endringer i boligpriser mellom ulike områder i regionen. Gismarvik har en relativ sentral posisjon i regionen med nærhet til Karmøy og Haugesund; men ligger samtidig i et mer perifert område i regionen. For de som kommer gjennom flyttestrømmer til regionen kan beliggenheten i og rundt Gismarvik område ses på som en attraktiv boligdestinasjon. Dette vil gi en økt etterspørsel etter boliger i dette område, og være med på å øke boligprisene med tiden.   Det er allerede godt etablerte, sentrale boligområder i
 regionen som ligger innenfor akseptable pendleavstander til Gismarvik.
 Eksempler på slike boområder er Haugesund sentrum, Kopervik, Norheim og
-Aksdal. En annen hypotese om at boligprisene ikke vil endre seg er at
-to-arbeider husholdninger kan foretrekke boliglokasjon med gunstig
-jobbmuligheter for begge parter.
+Aksdal. En annen hypotese om at boligprisene på dagens vegnett vil endre seg er at to-arbeider husholdninger kan foretrekke boliglokasjon med gunstig jobbmuligheter for begge parter. For eksempel at en jobber i og rundt Gismarvik og den andre i Haugesund eller på Karmøy. Da vil en attraktiv lokasjon være sør i Haugesund eller fastlands-Karmøy, og med en økt etterspørsel i disse områdene, så kan det tenkes at boligprisene øker.  
+
+
 
 Når det gjelder boligpriser etter en ferdigstillelse av Rogfast, så er
 det rimelig å anta at boligprisene for sør-Tysvær vil øke. Med å kjøpe
@@ -2888,7 +2885,7 @@ interaksjonen mellom ulike aktører i økonomien. Det er viktig å
 presisere at «alt henger i hop» i økonomien, og at alle disse
 mekanismene samvirker mot en ny likevektstilstand. I denne nye
 likevekten vil trolig aktivitetsnivå først og fremst øke i og mellom
-Haugalandet og Stavanger. Den regionen som sannsynligvis vil oppleve
+Haugalandet og Stavanger. Den regionen som kan tenkes å oppleve
 størst vekst er Haugalandet, da det er gode muligheter for etableringer
 av bedrifter i sør-Tysvær og Bokn. Det kan også komme flere bedrifter
 inn til Haugesund og Karmøy. Bedrifter får gunstigere lokasjoner med
@@ -2904,7 +2901,6 @@ en økt samlet sysselsetting og bosetting i regionen. Det kan også på
 sikt dannes et eget sentrum med detaljhandel mellom sentrumspunktene
 Haugesund og Stavanger.
 
-## kritikk av den generelle likevektsmodellen
 
 En svakhet med modellen til @thorsen2012 og @mcarthur2014 er at en
 anvendelse av et slikt planleggingsverktøy for denne regionen krever
@@ -2916,14 +2912,14 @@ masteroppgave.
 # Konklusjon
 
 I oppgaven har hovedfokuset vært på hvordan Haugalandet sitt bo- og
-arbeidsmarkdet vil forandre seg ved en etablering av Beyonder på
+arbeidsmarked vil forandre seg ved en etablering av Beyonder på
 Haugaland næringspark. Ved bruk av den økonomiske baseteorien har vi
 estimert resultater som antyder en økning i 4692 arbeidsplasser på
 Haugalandet og en total befolkningsvekst på ca.10500. Gjennom en
 fremstilling av arbeidsmarkedsområdene med gitte reisetider i nord- og
-sør-Rolgaland vil disse arbeidsmarkedsområdene integreres med en
+sør-Rogaland vil disse arbeidsmarkedsområdene integreres med en
 ferdigstillelse av Rogfast, og med det gi en større mobilitet for
-arbeidstakere.
+arbeidstakere.Vår analyse indikerer at det virkelig blir en sterk veksteffekt dersom en så stor etablering virkelig skulle finne sted. Som nevnt tidligere i @sec-gen-like er det en rekke forhold som er blitt utelatt av vår analyse, som kan ha en påvirkning på veksteffekten av en slik etablering.  
 
 Langsiktige virkninger gjennom analyse av pendle- og sysselsettings
 dataene gir et bilde på at områdene nært knyttet til Rogfast-tunnelen
@@ -2937,7 +2933,8 @@ plausibel grunn til å tro at det vil skape flyttestrømmer til områdene.
 Økt tilgjengelighet i arbeidsmarkedet vil også gi økt etterspørsel etter
 boliger i området.
 
-Når et sjokk på 2000 arbeidsplasser kommer i den sentrale delen av
+
+Effektene av en slik etablering er ikke i sin helhet at det skapes en netto vekst. Til en viss grad er også virkningene distributive, altså at vekst i et område motsvares med nedgang andre steder i regionen. Dette er lett å glemme i en ringvirkningsanalyse, men når et sjokk på 2000 arbeidsplasser kommer i den sentrale delen av
 regionen er det naturlig at arbeidstakere fra de mer perifere strøkene
 søker seg mot arbeidsmarkedet i ytre strøk og dermed oppstår det en
 flyttestrøm. Det som kan være med på å forsterke flyttestrømmen er
@@ -2953,7 +2950,7 @@ arbeidsmarkedsområdene i dag. Det er god grunn til å tro at det vil bli
 betydelig økt pendling mellom regionene. Likevel må det presiseres at
 modellene og analysene er store og komplekse mekanismer som henger
 sammen, og dette medfører stor usikkerhet i estimeringer og
-prediksjoner.
+prediksjoner.Dette gjelder både for vår analyse, og andre analyser av slike prosjekter. I et planleggingsperspektiv er det uansett viktig med en kartlegging av ulike virkninger av slike investeringer.  
 
 \newpage
 
