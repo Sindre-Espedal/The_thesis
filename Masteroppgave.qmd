@@ -187,9 +187,9 @@ forventes av for eksempel befolkningsvekst og økning i lokale
 arbeidsplasser. Dette kan videre legge til rette for nyetableringer av
 underleverandører som kan støtte opp mot de store basebedriftene.
 
-Det er også viktig å ta hensyn til at Rogfast, som er et veiprosjekt som
+Det er også viktig å ta hensyn til at Rogfast, som er et vegprosjekt som
 vil knytte Haugalandet sammen med Stavanger-regionen, vil gi muligheter
-for et utvidet arbeidsmarked for bedrifter på Haugalandet. Det samme vil gjelde motsatt vei. Her kan det oppstå konkurranse om arbeidskraft mellom regionene, og dette kan resultere i et høyere lønnsnivå på Haugalandet.
+for et utvidet arbeidsmarked for bedrifter på Haugalandet. Det samme vil gjelde motsatt veg. Her kan det oppstå konkurranse om arbeidskraft mellom regionene, og dette kan resultere i et høyere lønnsnivå på Haugalandet.
 
 ## Problemstillinger 
 
@@ -277,7 +277,7 @@ bedrifter gode muligheter til å utforme tomt etter
 ønske[@haugalandnaeringspark2023a]. Området er spesielt lagt til rette
 for areal- og energikrevende industri, noe Beyonder er. Det er også god
 tilgang til kraft i form av el-kraft, naturgasser og fornybar kraft.
-Næringsparken har også lett tilkomst med bilvei og sjøveien
+Næringsparken har også lett tilkomst med bilveg og sjøveg
 [@haugalandnaeringspark2023a]. I tillegg er det ikke langt fra Haugesund
 flyplass, Karmøy, noe som gjør beliggenheten veldig tilgjengelig.
 Gismarvik Havn som er en del av Haugesund næringspark har en kai på 110
@@ -324,15 +324,14 @@ område har en positiv utvikling og motsvares av en tilsvarende negativ
 utvikling i et annet område. Et godt eksempel på en slik virkning er
 flyttestrømmer. Flyttestrømmer kan også være en naturlig del av en
 generativ prosess, med flytting mellom ulike geografiske områder.
-Generativ virkning kan for eksempel være utvikling av veinett som vil
+Generativ virkning kan for eksempel være utvikling av vegnett som vil
 gjøre arbeidsmarkedet mer effektivt, hvis det oppstår en generativ
-effekt vil dette gi en forbedring i geografien som helhet (Bråthen et
-al., 2003). Over tid har det blitt investert i forbedring av veinett på
-Haugalandet gjennom Haugalandspakken. Det er fine veier inn til
+effekt vil dette gi en forbedring i geografien som helhet [@brathen2003]. Over tid har det blitt investert i forbedring av vegnett på
+Haugalandet gjennom Haugalandspakken. Det er fine veger inn til
 Haugaland næringspark, noe som gjør det lett tilgjengelig. Dette er med
 på å skape kortere reisetid for varer som blir produsert, noe som igjen 
 gjør varene mer attraktive. Nå som arbeidet av Rogfast er i gang
-(Statens vegvesen, 2023) vil ferdigstillingen av dette være med på å øke
+[@statensvegvesen2023] vil ferdigstillingen av dette være med på å øke
 tilgjengeligheten mellom Haugalandet og Stavanger-regionen og det kan
 skape enda større generative effekter for regionen. Generative
 virkninger kan for eksempel forklares med klyngegevinster, dette oppstår
@@ -2081,7 +2080,7 @@ et slikt perifert område kan det godt tenkes at det ikke vil gjøres
 handel lokalt i regionen, men at det søkes ut til andre regioner som
 Bergen og Stavanger. Dette vil sørge for enn lavere lokal aktivitet.
 Hvis vi får en mer sentral plassering som Gismarvik er muligheten for
-lokal aktivitet høyere på grunn av veinett som gjør det lettere å ha
+lokal aktivitet høyere på grunn av vegnett som gjør det lettere å ha
 lokal interaksjon.
 
 Denne spredningen kan også reflekteres av størrelsen på
@@ -2250,7 +2249,7 @@ etter ulike reisetider, med avstander gitt ved reisetider på vegnettet
 heller enn i luftlinje. Vi ser at man når mindre ut i geografien fra
 Haugaland næringspark enn med avstand i luftlinje som illustrert i
 figuren ovenfor. Dette er forventet, og kan forklares av geografiske kjennetegn i
-området. Kysten er relativt flat med mange øyer og fjorder. Mange veier
+området. Kysten er relativt flat med mange øyer og fjorder. Mange veger
 langs kysten i området har derfor bro- og ferjeforbindelser. Skal man
 for eksempel fra Haugesund til Stavanger så inkluderer det en
 ferjeforbindelse over Boknafjorden i dagens vegnett.
@@ -2299,7 +2298,7 @@ minutter. Reisetid fra Haugaland næringspark ved Rogfast er illustrert i
 @fig-tid-rf. 60 minutters intervallet starter sør i Stavanger kommune.
 Reisetiden Gismarvik til Stavanger er estimert til cirka 50 minutter med
 Rogfast tunnelen. Reisetiden er modellert ut fra vegnettet i geografien.
-Mellom alle veiene i ytterpunktene på 75 minutter trekkes det rette
+Mellom alle vegene i ytterpunktene på 75 minutter trekkes det rette
 linjer mellom dem. Dette gjør at det fargelagte området som avsluttes
 ved 75 minutters intervallet i øst på kartet er illustrert som en
 tilnærming med rette linjer.
